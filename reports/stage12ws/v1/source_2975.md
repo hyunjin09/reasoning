@@ -1,0 +1,487 @@
+# Family 2975: frozen source blocks
+
+In the figure, point $O$ is the center of the circle, the measure of angle $RTB$ is 28 degrees, and the measure of angle $ROB$ is three times the measure of angle $SOT$. What is the measure of minor arc $RS$, in degrees?
+
+## B1 · steps 1–36 · RAW_EVIDENCE_AND_BINDING · 1308 tokens
+
+This is a complex or challenging question, and it is difficult to provide a direct and correct answer. I need to think about it.
+Well, let's tackle this geometry problem step by step. First, let's make sure I understand the figure correctly. There's a circle with center O. Points B, O, and T are colinear on a horizontal line; B is on the circle (so BO is a radius), O is the center, and T is outside the circle on the extension of BO beyond O. Then there's point R on the circle, connected to T, and another point S on the circle where the line TR intersects the circle again? Wait, no, the problem says angle RTB is 28 degrees. Let's label the points again to be clear.
+
+Given: O is center, so OB is a radius, so OB = OR = OS = OT? Wait, no, OT is not a radius, T is outside. Angle at T is angle RTB = 28°. So vertex at T, sides TR and TB. So TR is a line from T through the circle, intersecting it at S and R? Wait, the diagram shows points R and S on the circle, with R closer to the top-left, S closer to the right, and the line from T goes through S first then R? Wait, no, the line from T is TS and TR? Wait, the problem says "angle RTB", so points R, T, B, so the angle is between TR and TB, so yes, T is the vertex, with segments TR and TB forming the angle, so TB is the line from T to B, which is along the horizontal line BO extended to T, so TB is the entire line from T through O to B, with O between T and B? Wait, wait, in the diagram, the horizontal line has B on the left, O in the middle, T on the right, so yes, order is B---O---T on the horizontal line, so BT is a straight line with O between B and T. Then R is another point on the circle, and S is another point on the circle, and line TR is a secant line that intersects the circle at S and R? Wait, no, the problem says "angle RTB", so RT is a segment from R to T, so the angle at T between RT and TB is 28°, so yes, TB is the line to B (which is left along the horizontal), and TR is the line from T up to R, intersecting the circle at some point, but in the diagram, it's labeled S? Wait, the diagram has R and S both on the circle, and the line from T goes through S then to R? Wait, no, maybe S is the intersection point between TR and the circle closer to T, and R is the other intersection? Wait, the problem says "angle RTB", so vertices R, T, B, so R is a point on the circle, T is outside, B is on the circle, so TB is a secant? Wait, TB is from T through B, which is a point on the circle, so TB is a secant that passes through the circle at B (and maybe another point, but in the diagram, it's just going through B, but since O is the center, and B is on the circle, TB is the tangent? No, wait, OB is radius, so if TB were tangent, it would be perpendicular, but no, angle RTB is 28°, so probably TB is a secant? Wait, no, TB is a straight line from T through O to B, so it's a secant that intersects the circle at B (and maybe another point, but in the diagram, it's only showing B on that line, so maybe the other intersection is... wait, no, the line BO extended is the horizontal line, B is on the circle, so the other end of the diameter? Wait, no, the center is O, so if you go from B through O, the other end is a point on the circle, but in the diagram, they didn't label it, but maybe we don't need it.
+
+Wait, let's clarify all points with the diagram description:
+
+- Circle with center O.
+
+- Horizontal line: left end is B (on the circle), center O, right end is T (outside the circle), so B-O-T colinear, O between B and T.
+
+- Point R is on the circle, above the horizontal line, connected to T, so TR is a line from T to R, which is a secant line? Wait, but does TR intersect the circle at only one point? No, secant intersects at two points, so TR must intersect the circle at two points: let's say the closer one to T is S, and the farther one is R, so order on line TR is T---S---R, both S and R on the circle. Wait, that makes sense! Because the problem mentions angle RTB, which is at T, between R and B, so R is a point on the circle, and S is another point on the circle along the same line from T to R, closer to T. So TR is a secant line with intersection points S (closer to T) and R (farther from T), and TB is the line from T to B, which is the horizontal line, intersecting the circle at B (and maybe the other side, but since B is on the horizontal line, that's one point).
+
+Yes, that must be it. So secant TB: wait, TB is the line from T through B, so does TB intersect the circle at two points? B is one, and since it's a straight line through center O, it must intersect the circle at B and the point opposite to B, let's call that A for now, but maybe we don't need A. But in the problem, the angle is RTB, so vertex at T, so sides TR and TB. So TR is another secant line from T: starting at T, going through S (on circle) then through R (on circle), so two intersection points with the circle: S and R, with S closer to T, R farther.
+
+
+
+## B2 · steps 37–84 · REPRESENTATION_SETUP · 1977 tokens
+
+Okay, now, let's recall some circle theorems for secants. When you have two secants intersecting outside a circle, the measure of the angle formed is half the difference of the measures of the intercepted arcs. Wait, yes! That's a key theorem here. Angle at the exterior point T, formed by two secants: one secant is TB, which intersects the circle at B and, say, A (the other point on the horizontal line), and the other secant is TR, which intersects the circle at S and R. Then the measure of angle T (which is angle RTB) should be half the difference of the measures of the intercepted arcs.
+
+Wait, let's make sure about the intercepted arcs. For an angle formed outside the circle by two secants, the measure is 1/2 (measure of the larger intercepted arc minus measure of the smaller intercepted arc). So which arcs are intercepted? The secant TB goes from T through B, so the two points on the circle for this secant are, say, B and A (A being the other intersection point, so A is diametrically opposite B since O is center), and secant TR goes from T through S to R, so points S and R on the circle. Then the angle at T, between the two secants, intercepts the arc that's between the two outer points? Wait, no, let's think carefully.
+
+Actually, the angle formed outside the circle is equal to half the difference of the measures of the intercepted arcs. The intercepted arcs are the arcs that lie on the "inside" of the angle, i.e., the arcs that are between the two points where the secants intersect the circle. Wait, maybe better to define: if you have two secants from T intersecting the circle at P, Q (with P closer to T) and R, S (with R closer to T), then the angle at T is 1/2 (arc PR - arc QS)? Wait, no, maybe let's look up the exact statement mentally.
+
+Yes, standard theorem: If two secant segments are drawn from an external point to a circle, then the measure of the angle formed is equal to half the difference of the measures of the intercepted arcs. The intercepted arcs are the arc that is "cut off" by the two secants (the larger arc) and the arc that is "between" the two secants (the smaller arc). Wait, actually, for two secants intersecting at T outside the circle, with one secant intersecting the circle at X and Y (X closer to T, Y farther), and the other secant intersecting at Z and W (Z closer to T, W farther), then the angle at T is 1/2 (arcYW - arcXZ). Yes, that's the correct formula: difference of the measures of the intercepted arcs, larger minus smaller, divided by two.
+
+In our problem, let's assign the secants properly. First secant: TB. From point T, going through the circle, intersects the circle at B (which is one point), and since it's a straight line through center O, the other intersection point must be the point opposite B, let's call that A, so A is diametrically opposite B, so arc AB is a semicircle? Wait, but maybe we don't need A. Wait, but in the angle RTB, the angle is between TR and TB, so the two secants are TB and TR. So secant TB: when you go from T through the circle, the two intersection points are... wait, T is outside, so secant TB must intersect the circle at two points: one closer to T, one farther. Since TB is the line from T through O to B, and B is on the circle, the other intersection point must be on the opposite side of O from B, so let's say the point is C, so T---O---C---B? Wait, no, O is center, so distance from O to B is radius, so distance from O to C must also be radius, so if B is on the left, C must be on the right, so order on line TB (which is the horizontal line) is T---O---C---B? Wait, no, O is the center, so if you go from T (right of O) through O, you reach B? Wait, no, if B is on the circle, and O is center, then OB is radius, so if B is left of O, then the opposite point is right of O, so distance from O to right point is radius, same as OB. Therefore, on line BT (which is the horizontal line), the points are: starting at T (rightmost), then moving left through O (center), then to the other end of the diameter, which is point A (right side), then to B (left side). Wait, no, center O, so two diametrically opposite points: let's say left endpoint is B, so right endpoint is, say, D, so BD is a diameter, with O as midpoint. Therefore, on line BD (the horizontal line), from left to right: B---O---D. Then T is outside the circle, so to the right of D, so order on the horizontal line is B---O---D---T. Wait, that makes more sense! Because if B is a point on the circle, then the diameter through B is B to D, with O in the middle, so B---O---D on the horizontal line, all colinear, O center, B and D on circle, so BD diameter, length 2r. Then T is a point outside the circle on the extension of BD beyond D, so order: B---O---D---T on the line.
+
+Ah, that clarifies the horizontal line order! The problem says "point O is the center", "B is on the circle" (since it's on the circle, as it's a point on the circle in the diagram), so BO is radius, so BD must be diameter, with D opposite B, so B---O---D, each of BO and OD is radius. Then T is outside, so D---T beyond D, so B---O---D---T on the horizontal line. That's important for the secants.
+
+Now, the other points: R is another point on the circle, above the horizontal line; S is another point on the circle, where? The line TR is drawn: T is at the end, R is on the circle, but the problem mentions angle RTB is 28°, so angle at T between R and B, so T---R is a line from T to R (R on circle), and T---B is the horizontal line to B (B on circle). Wait, but in the diagram, there's also a point S on the circle, and line TS is drawn, so probably the line TR passes through the circle at two points: let's say S and R, with S closer to T, R farther from T, so order on line TR: T---S---R, both S and R on the circle.
+
+Yes, that must be, because otherwise, if TR only intersects the circle at R, then TR would be tangent, but angle RTB is 28°, not 90°, so it's a secant intersecting at two points, so S is the first intersection point when going from T to R, so T---S---R on the secant line, both S and R on the circle.
+
+Okay, now let's list all key elements with this clarified order:
+
+- Circle, center O.
+
+- Horizontal line (diameter line): B---O---D---T, where B and D are endpoints of diameter, O center, T outside beyond D (so BD = 2r, OT = OD + DT = r + DT).
+
+- Secant line TR: T---S---R, with S and R on the circle (S closer to T, R farther from T).
+
+- Angle at T: angle RTB = 28°. Let's confirm: vertex at T, sides TR and TB, so yes, angle between TR (which is the line to R, passing through S first) and TB (which is the horizontal line to B). So this angle is formed by two secants intersecting at T outside the circle: one secant is TB, which intersects the circle at two points: let's find both intersection points of TB with the circle. The line TB is the horizontal line we just described: B is on the circle (left endpoint), and D is the other endpoint (right endpoint), so TB intersects the circle at B and D. Since T is to the right of D, the order on line TB is T---D---O---B? Wait, wait! Hold on, if O is center, B is on circle, then BO = radius, so the distance from O to B is r, so if B is on the left, then the rightmost point on the circle along the horizontal is B + 2r? No, no: center O, radius r, so any point on circle is at distance r from O. So if B is on the circle, then OB = r. Therefore, the horizontal line through O intersects the circle at two points: one at (-r, 0) if O is at (0,0), and one at (r, 0). 
+
+## B3 · steps 85–160 · INTERMEDIATE_COMPUTATION · 3387 tokens
+
+Let's assign coordinates to make this concrete! Maybe coordinate geometry will help here.
+
+Let's set up a coordinate system to model the problem:
+
+- Let center O be at (0, 0).
+
+- Horizontal line (the diameter line) is the x-axis.
+
+- Point B is on the circle, on the x-axis, to the left of O, so since it's on the circle (radius r), let's set radius r = 1 for simplicity (since we're dealing with angles, radius won't matter). So B is at (-1, 0), O at (0, 0), so the other intersection point of x-axis with the circle is D at (1, 0) (since radius 1, center at 0).
+
+- Point T is outside the circle on the x-axis to the right of D, so let's say T is at (t, 0) where t > 1.
+
+- Point R is on the circle (so satisfies x² + y² = 1), not on x-axis (since it's above the horizontal line in the diagram), so let's say R is at (x1, y1), y1 > 0.
+
+- Point S is on the circle (x² + y² = 1), on the line TR, between T and R, so closer to T, so coordinates of S should be between T and R on the line TR.
+
+- Angle RTB is 28°: this is the angle at point T between points R, T, B. So vectors TR and TB. Let's get the coordinates straight for angles.
+
+Coordinates:
+
+- T: (t, 0), t > 1
+
+- B: (-1, 0)
+
+- R: (x1, y1), x1² + y1² = 1, y1 > 0
+
+- S: (x2, y2), x2² + y2² = 1, and S lies on segment TR, so there's some s between 0 and 1 such that S = T + s(R - T) = (t + s(x1 - t), 0 + s(y1 - 0)) = (t + s(x1 - t), s y1). Also, S is on the circle, so [t + s(x1 - t)]² + (s y1)² = 1.
+
+But maybe we don't need coordinates for the angle formula, but let's recall the secant-secant angle theorem properly.
+
+Theorem: If two secant segments are drawn from an external point T to a circle, intersecting the circle at points X, Y (with X closer to T) and Z, W (with Z closer to T), then the measure of the angle formed at T is equal to half the difference of the measures of the intercepted arcs.
+
+Wait, the intercepted arcs: the angle at T "sees" two arcs on the circle. The angle formed outside the circle is equal to half the difference of the measures of the arcs intercepted by the two secants. Specifically, the larger arc minus the smaller arc, divided by two.
+
+So let's define the two secants from T:
+
+1. Secant 1: from T through B. This secant intersects the circle at two points. Since T is on the x-axis at (t,0), t > 1, and the circle is x² + y² = 1, the intersection points of line TB (which is the x-axis) with the circle are at (-1, 0) and (1, 0). Now, which one is closer to T? T is at (t, 0), t > 1, so distance from T to (1, 0) is t - 1, distance from T to (-1, 0) is t + 1, so (1, 0) is closer to T, and (-1, 0) is farther. Wait! Hold on, this is critical. I had the direction wrong earlier. If T is to the right of D (which is at (1,0) in my coordinate system), then the two intersection points of TB with the circle are D (1,0) and B (-1,0). Distance from T to D is |t - 1|, which is positive, and distance from T to B is |t - (-1)| = t + 1, so yes, D is closer to T, B is farther from T along the secant TB.
+
+2. Secant 2: from T through R. This secant intersects the circle at two points: let's say S and R, with S closer to T, R farther from T (as per the diagram, where S is labeled between T and R on the line). So on secant TR, order T---S---R, both S and R on circle, so S is closer to T, R is farther.
+
+Therefore, for the two secants from T:
+
+- Secant TB (first secant) intersects circle at D (closer to T) and B (farther from T)
+
+- Secant TR (second secant) intersects circle at S (closer to T) and R (farther from T)
+
+Therefore, the angle at T (angle RTB) is formed by these two secants, so the intercepted arcs are the arcs that are "between" the two closer points and the two farther points? Wait, the theorem says: measure of angle = 1/2 (measure of major arc - measure of minor arc), where the major and minor arcs are the two arcs intercepted by the two secants, i.e., the arcs that are opposite the angle.
+
+Wait, let's think of the standard example: if you have a point outside the circle, two secants going out, making an angle, then the angle is half the difference of the arcs cut off by the two secants. The two secants cut off two arcs: one arc is the one that's "inside" the angle, and the other is the one that's "outside", but actually, it's the arc that's not containing the angle, wait no.
+
+Wait, let's use the coordinate system to compute the angle and see.
+
+In coordinates: T(t, 0), B(-1, 0), R(x1, y1), y1 > 0, on circle x² + y² = 1.
+
+Vector TB = B - T = (-1 - t, 0)
+
+Vector TR = R - T = (x1 - t, y1)
+
+The angle at T between TB and TR is angle RTB = 28°, so the angle between vectors TB and TR is 28°.
+
+The formula for the angle φ between two vectors u and v is cosφ = (u • v)/(|u||v|).
+
+Compute u = TB = (-1 - t, 0), so |u| = |t + 1| = t + 1 (since t > 1)
+
+v = TR = (x1 - t, y1), so |v| = sqrt((x1 - t)² + y1²) = sqrt(x1² - 2 t x1 + t² + y1²) = sqrt( (x1² + y1²) + t² - 2 t x1 ) = sqrt(1 + t² - 2 t x1 ) since R is on circle.
+
+Dot product u • v = (-1 - t)(x1 - t) + 0*y1 = (-1)(x1 - t) - t(x1 - t) = -x1 + t - t x1 + t² = t² + t - x1(1 + t) = (t + 1)(t - x1). Let's check that algebra: (-1 - t)(x1 - t) = (-(t + 1))(x1 - t) = -(t + 1)x1 + t(t + 1) = t² + t - (t + 1)x1, yes, correct.
+
+Therefore, cos(angle RTB) = [ (t + 1)(t - x1) ] / [ (t + 1) |v| ] = (t - x1)/|v|, since t + 1 ≠ 0.
+
+But maybe instead of going to cosines, let's use the tangent of the angle, since we have the horizontal line, which is the x-axis, so the angle between TR and the x-axis (which is TB) is exactly angle RTB = 28°! Wait, TB is along the x-axis from T to B, which is to the left along the x-axis, so the direction of TB is towards the left (negative x-direction), and TR is going from T to R, which is up and to the left (since R is on the circle above the x-axis, and T is to the right, so from T, R is to the left and up), so the angle between TR and TB is indeed the angle between the line TR and the x-axis, measured at T.
+
+In coordinate terms, the slope of TR is (y1 - 0)/(x1 - t) = y1/(x1 - t), and since x1 - t is negative (R is on circle at x1 ≤ 1 < t, so x1 - t < 0), the slope is negative, so the angle above the negative x-axis (which is the direction of TB) is 28°, so the angle between TR and the positive x-axis is 180° - 28° = 152°, but maybe we don't need that.
+
+Wait, but how does this relate to the circle arcs? Let's recall that for a point on the circle, the measure of an inscribed angle is half the measure of its intercepted arc. But here, we have an angle at an external point.
+
+Wait, another way to remember the secant-secant angle theorem: if you have an external point T, and two secants intersecting the circle at X, Y (X closer to T) and Z, W (Z closer to T), then angle T = 1/2 (arc YZ - arc XW). Wait, no, maybe better to derive it quickly.
+
+Consider the two secants: T-X-Y and T-Z-W, with X, Y on first secant (X closer to T), Z, W on second secant (Z closer to T). Then in triangle TXW, but maybe use the inscribed angles.
+
+Consider the inscribed angles for the arcs. The angle at T can be related to the arcs by looking at the angles subtended by the arcs at the center.
+
+Wait, let's consider the arcs intercepted by the two secants. The two secants intersect the circle at four points: let's name them as follows for clarity:
+
+- Secant 1 (TB): intersects circle at D (closer to T) and B (farther from T), so D = (1,0) in our coordinate system, B = (-1,0)
+
+- Secant 2 (TR): intersects circle at S (closer to T) and R (farther from T), so S and R are the two points on the circle along TR, with S between T and R.
+
+Therefore, the four points on the circle involved are D, B, S, R. Now, the angle at T is formed by the two secants, so the intercepted arcs should be the arcs that are "across" from the angle. For external angle, the intercepted arcs are the arcs that are not containing the angle's vertex, but actually, the standard formula is:
+
+measure of angle T = 1/2 (measure of arc DR - measure of arc BS)
+
+Wait, let's check with the coordinates. Let's say in our coordinate system, the circle is unit circle, O at (0,0), B at (-1,0), D at (1,0), T at (t,0), t > 1.
+
+Let R be a point on the circle at angle θ from the positive x-axis, so R = (cos θ, sin θ), θ > 0 (since above x-axis).
+
+Then the line TR goes from (t,0) to (cos θ, sin θ), and intersects the circle again at S, which is between T and R.
+
+To find point S, we can parametrize the line TR: x = t + s(cos θ - t), y = 0 + s sin θ, for s ∈ [0,1] (s=0 at T, s=1 at R).
+
+Plug into circle equation: (t + s(cos θ - t))² + (s sin θ)² = 1
+
+Expand: t² + 2 s t (cos θ - t) + s² (cos θ - t)² + s² sin² θ = 1
+
+Simplify the s² terms: s² [ (cos θ - t)² + sin² θ ] = s² [ cos² θ - 2 t cos θ + t² + sin² θ ] = s² [ 1 - 2 t cos θ + t² ]
+
+The linear term in s: 2 s t (cos θ - t) = -2 s t (t - cos θ)
+
+Constant term: t²
+
+So overall equation: s² (t² - 2 t cos θ + 1) - 2 s t (t - cos θ) + (t² - 1) = 0
+
+We know that s = 1 is a solution (since R is on the circle and on TR), so let's factor (s - 1) out.
+
+Let’s denote A = t² - 2 t cos θ + 1, B = -2 t (t - cos θ), C = t² - 1
+
+Then equation is A s² + B s + C = 0, with s=1 root, so sum of roots is -B/A = 2 t (t - cos θ)/A
+
+Sum of roots: s1 + s2 = 2 t (t - cos θ)/A, where s1 = 1 (for R), so s2 = [2 t (t - cos θ)/A] - 1
+
+Compute A = t² - 2 t cos θ + 1, so 2 t (t - cos θ) = 2 t² - 2 t cos θ
+
+Thus s2 = (2 t² - 2 t cos θ - A)/A = (2 t² - 2 t cos θ - t² + 2 t cos θ - 1)/A = (t² - 1)/A
+
+Since A = t² - 2 t cos θ + 1, and t > 1, t² - 1 > 0, so s2 = (t² - 1)/(t² - 2 t cos θ + 1) > 0
+
+Now, s=1 is for R (farther from T), so s2 is the parameter for the other intersection point S, which should be between 0 and 1 (closer to T), so s2 < 1, which is true because numerator t² - 1 < denominator t² - 2 t cos θ + 1? Let's check: t² - 1 < t² - 2 t cos θ + 1 ⇒ -1 < -2 t cos θ + 1 ⇒ 0 < -2 t cos θ + 2 ⇒ 2 t cos θ < 2 ⇒ cos θ < 1/t, which is true since θ > 0 (R is above x-axis), so cos θ < 1 (but 1/t < 1 since t > 1), so yes, s2 < 1, good.
+
+
+
+## B4 · steps 161–193 · DERIVED_RELATIONS · 1343 tokens
+
+But maybe instead of coordinates, let's use the angle at T. Angle RTB = 28° is the angle between TB (along the x-axis towards negative direction) and TR (towards R). In terms of the circle, the angle between two secants from T can be related to the arcs between the intersection points.
+
+Here's a better way: consider the center O, and the points involved. Let's denote some angles at the center for the arcs.
+
+First, let's define the arcs in terms of central angles, since arc measure is equal to its central angle measure (in degrees, for minor arcs, which we'll assume here).
+
+Let’s denote:
+
+- Let arc BD be a semicircle? Wait, BD is a diameter, so arc BD is 180°, but in our case, the horizontal diameter is B to D, so arc BD (the lower semicircle) is 180°, and the upper semicircle (B to D through R and S) is also 180°, but R and S are on the upper semicircle probably.
+
+Wait, point R is above the horizontal line (as per diagram), so it's on the upper semicircle, and S is also on the circle; let's assume S is also on the upper semicircle (since angle RTB is 28°, which is acute, so probably S is not too far around).
+
+Let's define the central angles for the arcs:
+
+- Let arc BR be some measure, say α degrees.
+
+- Let arc RS be the arc we need to find, let's call that β degrees (that's what the problem asks for).
+
+- Let arc SD be some measure, say γ degrees.
+
+But wait, the upper semicircle (from B through R to D) should be 180°, right? Because BD is a diameter, so the arc from B to D going the short way is 180° (semicircle), so if we're on the upper semicircle, arc B to D is 180°, so arc BR + arc RS + arc SD = 180°.
+
+Yes, that's a good partition. Let's confirm: center O, B and D are endpoints of diameter, so arc BD (upper) is 180°, lower arc BD is 180°, but we're dealing with upper arc since R and S are above the horizontal.
+
+So let's fix:
+
+- Points on circle in order (going counterclockwise from B along upper semicircle): B, R, S, D (since R is above horizontal, then maybe S is between R and D, or D is first? Wait, in the diagram, R is labeled on the top left, S is on the right side of the circle, so starting at B (left end), going up and around, we hit R first (top left), then S (top right), then D (right end), so yes, order on upper semicircle: B --- R --- S --- D, so the arcs are:
+
+arc BR + arc RS + arc SD = 180°, where arc BR is the central angle for BR (let's call that x), arc RS is what we need (β), arc SD is central angle for SD (call that y), so x + β + y = 180°.
+
+Now, let's recall the secant-secant angle theorem. Let's get the correct formula again because this is crucial.
+
+The theorem states: If two secants are drawn from an external point to a circle, then the measure of the angle formed is equal to half the difference of the measures of the intercepted arcs.
+
+The intercepted arcs are the arcs that are cut off by the two secants, and the angle is equal to half the difference of the measure of the larger arc and the measure of the smaller arc.
+
+In our case, the two secants are:
+
+- Secant 1: TB, which intersects the circle at B and D (D is the right end, which is closer to T, as T is to the right of D)
+
+- Secant 2: TR, which intersects the circle at S and R (S is between T and R, so S is closer to T, R is farther)
+
+Therefore, the four points on the circle where the secants intersect are: D (from secant 1, closer), B (from secant 1, farther); S (from secant 2, closer), R (from secant 2, farther).
+
+For the angle at T, the intercepted arcs are the arc that is between the two "farther" points and the arc that is between the two "closer" points.
+
+Wait, yes! For an external angle, the intercepted arcs are the arc that is opposite the angle (the one not containing the angle) and the arc that is adjacent (containing the angle)? Wait, let's look at a reference case: if the angle is very small, the intercepted arcs should be almost equal, so the difference is small, which makes sense.
+
+Wait, here's a reliable way: consider the inscribed angles.
+
+Let's draw lines from T to the points on the circle, but maybe consider the triangle formed.
+
+Alternatively, use the fact that the angle between two secants from an external point T is equal to half the difference of the measures of the intercepted arcs.
+
+Let’s denote:
+
+- Arc 1: the arc that is "between" the two farther points (B and R), so arc BR
+
+- Arc 2: the arc that is "between" the two closer points (D and S), so arc DS
+
+Wait, no, the two secants intersect the circle at two points each, so the angle at T intercepts two arcs: one arc is the arc that's "cut off" by the two secants on the side of the angle, and the other arc is the one on the opposite side.
+
+Wait, let's take the standard example from a textbook: External point T, secant TAC and secant TDB, with A and D closer to T, C and B farther. Then angle ATB = 1/2 (arc AB - arc CD).
+
+Yes, that's the formula I think: angle = 1/2 (measure of the arc that is "farther" minus measure of the arc that is "closer" for the two secants).
+
+
+
+## B5 · steps 194–232 · REPAIR_OR_RESOLUTION · 1340 tokens
+
+Wait, let's verify with coordinates. Suppose we have a circle of radius 1, center O(0,0). Let T be at (2,0), so outside the circle. Let's take secant 1: TB, where B is (-1,0) (left endpoint), so secant TB is x-axis from T(2,0) to B(-1,0), intersects circle at D(1,0) (closer to T) and B(-1,0) (farther).
+
+Secant 2: TR, let's take R at (0,1) (top of circle), so secant TR is line from (2,0) to (0,1), intersects circle at S (the other intersection point besides R).
+
+Equation of TR: y = (-1/2)(x - 2) = (-x/2) + 1.
+
+Intersect with unit circle x² + y² = 1:
+
+x² + ( (-x/2 + 1) )² = 1 ⇒ x² + x²/4 - x + 1 = 1 ⇒ (5/4)x² - x = 0 ⇒ x(5x/4 - 1) = 0 ⇒ x=0 or x=4/5.
+
+x=0: y=1, which is R(0,1)
+
+x=4/5: y= (-4/10) + 1 = 6/10 = 3/5, so S(4/5, 3/5)
+
+Now, angle at T between TR and TB: TB is along x-axis to B(-1,0), so direction towards left, TR is to R(0,1), so let's compute angle between vectors TB and TR.
+
+Vector TB = B - T = (-3, 0), vector TR = R - T = (-2, 1)
+
+Dot product: (-3)(-2) + (0)(1) = 6
+
+|TB| = 3, |TR| = sqrt(4 + 1) = sqrt(5)
+
+cos(angle RTB) = 6 / (3 sqrt(5)) = 2 / sqrt(5) ⇒ angle ≈ 26.565°
+
+Now, what are the intercepted arcs?
+
+Points on circle: D(1,0), B(-1,0), S(4/5, 3/5), R(0,1). Let's find central angles for arcs between them.
+
+Arc DR: D(1,0) to R(0,1): central angle 90° (since from positive x-axis to positive y-axis is 90°)
+
+Arc BS: B(-1,0) to S(4/5, 3/5): central angle from 180° (B) to angle of S: cosθ=4/5, sinθ=3/5, so θ=arctan(3/4)≈36.87°, so central angle from B to S is 180° - 36.87°≈143.13°
+
+Wait, but the angle we measured was ~26.565°, and if we take 1/2 (arc DR - arc BS) = 1/2 (90° - 143.13°) = negative, not good.
+
+Wait, maybe the other way: arc BR and arc DS.
+
+Arc BR: B(-1,0) to R(0,1): central angle 90°
+
+Arc DS: D(1,0) to S(4/5, 3/5): central angle from 0° to 36.87°=36.87°
+
+Then 1/2 (arc BR - arc DS) = 1/2 (90° - 36.87°)=26.565°, which matches the angle we calculated!
+
+Yes! Perfect. In this example:
+
+- Secant TB intersects circle at D (closer to T) and B (farther from T)
+
+- Secant TR intersects circle at S (closer to T) and R (farther from T)
+
+- Angle at T is 1/2 (measure of arc between the two farther points - measure of arc between the two closer points) = 1/2 (arc BR - arc DS)
+
+Where arc BR is the arc between B (farther on secant 1) and R (farther on secant 2), and arc DS is the arc between D (closer on secant 1) and S (closer on secant 2).
+
+Yes! That makes sense. So in the example:
+
+- Farther points on secants: B (from secant 1, TB) and R (from secant 2, TR), so arc BR is the arc between them.
+
+- Closer points on secants: D (from secant 1, TB) and S (from secant 2, TR), so arc DS is the arc between them.
+
+Then angle at T = 1/2 (arc BR - arc DS)
+
+In our example, arc BR = 90°, arc DS = 36.87°, difference 53.13°, half is 26.565°, which matches the angle we calculated. Great, so now we have the correct formula!
+
+Therefore, generalizing to our problem:
+
+- Secant TB intersects circle at D (closer to T) and B (farther from T) [since T is right of D, D is closer to T]
+
+- Secant TR intersects circle at S (closer to T) and R (farther from T) [by diagram, S between T and R]
+
+- Therefore, angle at T (angle RTB) = 1/2 (measure of arc BR - measure of arc DS)
+
+Perfect, so let's write that down as equation (1):
+
+∠RTB = 1/2 (m arc BR - m arc DS)
+
+Given ∠RTB = 28°, so:
+
+28° = (1/2)(m arc BR - m arc DS) ⇒ m arc BR - m arc DS = 56° ...(1)
+
+
+
+## B6 · steps 233–274 · DERIVED_RELATIONS · 1508 tokens
+
+Now, let's recall another piece of information: the measure of angle ROB is three times the measure of angle SOT.
+
+First, need to figure out where points O, R, B, S, T are in terms of angles at center O.
+
+Point O is center, so let's consider central angles:
+
+- angle ROB: this is the angle at O between points R, O, B. So vertex at O, sides OR and OB.
+
+- angle SOT: angle at O between points S, O, T. Vertex at O, sides OS and OT.
+
+Wait, T is a point outside the circle, so OT is a straight line from O through D to T (since we established B---O---D---T on horizontal line), so OT is along the horizontal line, same line as OB and OD.
+
+Ah, this is key! T is on the line BO extended beyond O, so the line OT is the same as line BO, which is the horizontal diameter line we set up earlier.
+
+Therefore, angle SOT is the angle at O between S and T, but T is on the line BO (extended), so angle SOT is just the angle between OS and the line OT (which is the same as the line OB extended beyond O).
+
+Similarly, angle ROB is the angle at O between R and B, so that's the angle between OR and OB.
+
+Let's formalize the angles at center O with the horizontal line as the reference.
+
+Let's define the horizontal line (diameter line) as the x-axis, with O at origin, B at (-r, 0), D at (r, 0), T at (t, 0), t > r > 0.
+
+Points R and S are on the upper semicircle (since angle RTB is acute, and R is labeled above horizontal), so their coordinates have y > 0, and angles from positive x-axis (say) are between 0° and 180° for upper semicircle.
+
+- Point B is at (-r, 0), which is 180° from positive x-axis (if we measure counterclockwise from positive x-axis).
+
+- Point D is at (r, 0), 0° from positive x-axis.
+
+- Point T is at (t, 0), along positive x-axis, so angle of T from O is 0° (but T is not on circle).
+
+- Angle ROB: this is the angle at O between R and B. Since B is at 180° (if we use counterclockwise angles from positive x-axis), and R is at some angle, say θ, where 0° < θ < 180° (upper semicircle), then the angle between OR and OB is |θ - 180°|. Since R is above horizontal and B is left, R is between B and D in the upper semicircle, so θ should be less than 180°, so angle ROB = 180° - θ (since from OB (180°) to OR (θ) is 180° - θ degrees).
+
+Wait, let's use a better coordinate system for angles at O:
+
+- Let’s define angle measure at O, starting from the positive x-axis (point D) going counterclockwise, so:
+
+  - Point D: 0°
+
+  - Point B: 180° (since it's the left end of the diameter, opposite D)
+
+  - Point R: let's say the angle from positive x-axis is α, so 0° < α < 180° (upper semicircle), so arc from D to R is α degrees.
+
+  - Point S: let's say the angle from positive x-axis is β, so 0° < β < 180° (also upper semicircle), and since in the diagram S is to the right of R (closer to D), we can assume β < α (so from D at 0° to S at β to R at α to B at 180°).
+
+Yes, that makes sense: if we go counterclockwise from D (0°) up, we hit S first (smaller angle β), then R (larger angle α), then B (180°). So order on upper semicircle (counterclockwise): D --- S --- R --- B.
+
+Therefore, central angles:
+
+- arc DS: from D(0°) to S(β°), so measure β degrees
+
+- arc SR: from S(β°) to R(α°), so measure α - β degrees
+
+- arc RB: from R(α°) to B(180°), so measure 180° - α degrees
+
+Check: arc DS + arc SR + arc RB = β + (α - β) + (180° - α) = 180°, which is the measure of the upper semicircle (since BD is diameter, upper semicircle is 180°), perfect.
+
+Now, let's translate the angle conditions into these central angles.
+
+First condition: angle ROB is three times angle SOT.
+
+Angle ROB: angle at O between R, O, B. Points R and B, so vertex O, sides OR and OB.
+
+- OB is the line from O to B, which is at 180° (in our counterclockwise angle system)
+
+- OR is the line from O to R, which is at α° (since R is at angle α from positive x-axis)
+
+Therefore, the angle between OR and OB is the absolute difference between their angles: |180° - α°|. Since R is between S and B on the upper semicircle, α < 180°, so angle ROB = 180° - α.
+
+Angle SOT: angle at O between S, O, T.
+
+- OS is the line from O to S, which is at β° (angle from positive x-axis)
+
+- OT is the line from O to T, which is along the positive x-axis (since T is on the extension of BD beyond D, and D is at 0°), so OT is the same as OD, which is the positive x-axis direction, so angle for OT is 0°.
+
+Therefore, the angle between OS and OT is |β° - 0°| = β°, since β > 0° and S is above x-axis.
+
+Wait, is that right? T is on the positive x-axis (same line as D), so OT is the ray from O through T, which is the same direction as OD, so yes, angle SOT is the angle between OS and OT, which is the angle between OS (at β°) and the positive x-axis (0°), so yes, β°.
+
+Given that angle ROB = 3 * angle SOT, so:
+
+180° - α = 3 * β ⇒ 180° - α = 3β ...(2)
+
+Great, that's a simple equation relating α and β.
+
+
+
+## B7 · steps 275–305 · INTERMEDIATE_COMPUTATION · 1273 tokens
+
+Now, let's go back to the secant-secant angle theorem result, which we verified with the coordinate example, and make sure it's correctly applied to our angle conditions.
+
+Earlier, we had angle RTB = 1/2 (m arc BR - m arc DS)
+
+Let's confirm arc measures in our current angle system (counterclockwise from D=0°):
+
+- arc BR: from B to R. B is at 180°, R is at α°, going counterclockwise, so arc BR = 180° - α° (since α < 180°, going from B(180°) to R(α°) clockwise is 180° - α, but counterclockwise would be 360° - (180° - α) = 180° + α, but we want the minor arc BR). Wait, in the example earlier, arc BR was the minor arc, which in the example was 90°, which was correct.
+
+In our current setup, since R is on the upper semicircle between S and B (with S between R and D), then the minor arc BR is the arc from B to R not going through D, which is indeed 180° - α° (since from B(180°) to R(α°) along upper semicircle is 180° - α, which is less than 180° because α > 0°).
+
+Similarly, arc DS: from D to S. D is at 0°, S at β°, minor arc DS is just β°, which is less than 180°, so that's correct.
+
+In the example we did earlier with coordinates, arc BR was 90° (B at 180°, R at 90°? Wait, no, in the example, R was at (0,1), which is 90° from positive x-axis, so α=90°, B at 180°, so arc BR=180°-90°=90°, correct. Arc DS: S at 36.87°, D at 0°, so arc DS=36.87°, correct. Then angle RTB=1/2(90°-36.87°)=26.565°, which matched the calculation.
+
+Yes! So in general, with our angle system:
+
+- arc BR (minor arc) = 180° - α (since from B(180°) to R(α°) along upper semicircle is 180° - α)
+
+- arc DS (minor arc) = β (from D(0°) to S(β°))
+
+Therefore, angle RTB = 1/2 (arc BR - arc DS) = 1/2 [(180° - α) - β] = 1/2 (180° - α - β)
+
+But wait, in the example, this was 1/2 (180° - 90° - 36.87°) = 1/2 (53.13°) ≈ 26.565°, which matches, yes! So we can write this as:
+
+∠RTB = 1/2 (180° - α - β) ...(3)
+
+And we know ∠RTB = 28°, so:
+
+28° = 1/2 (180° - α - β) ⇒ Multiply both sides by 2: 56° = 180° - α - β ⇒ α + β = 180° - 56° = 124° ...(3a)
+
+Now, let's recap all equations we have so far:
+
+From the angle condition (angle ROB = 3 * angle SOT):
+
+180° - α = 3β ⇒ α = 180° - 3β ...(2)
+
+From the secant-secant angle theorem (verified with example):
+
+α + β = 124° ...(3a)
+
+Now we have two equations with two variables (α and β), so we can solve for β, which is exactly the measure we need for minor arc RS!
+
+Wait, hold on: what's arc RS? Arc RS is the minor arc between R and S. In our angle system, R is at angle α, S is at angle β, and since we assumed the order D---S---R---B counterclockwise (so D=0° < S=β < R=α < B=180°), then the minor arc RS is the counterclockwise arc from S to R, which is α - β degrees.
+
+Wait, yes! Because the central angle for arc RS is the absolute difference of their angles from positive x-axis, and since S is to the left of R on the upper semicircle (closer to D), β < α, so arc RS = α - β.
+
+Therefore, if we can find α - β, that's our answer.
+
+Perfect, so let's solve the equations to find α - β.
+
+We have:
+
+(2): α = 180° - 3β
+
+(3a): α + β = 124°
+
+Let's substitute (2) into (3a):
+
+(180° - 3β) + β = 124° ⇒ 180° - 2β = 124° ⇒ -2β = 124° - 180° ⇒ -2β = -56° ⇒ β = 28°
+
+Wait, β = 28°, then from (2): α = 180° - 3*28° = 180° - 84° = 96°
+

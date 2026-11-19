@@ -14,14 +14,19 @@ after Stage14E2; cloning or moving servers does not authorize new experiments.
 |---|---|
 | `code/`, `scripts/`, `tests/`, shared infrastructure | `.venv/`, uv/pip caches, downloaded third-party repositories |
 | `plan/`, phase memories and compact research state | Models, datasets, images, tensor captures, large tables |
-| Selected consolidated reports and research histories | Raw `outputs/`, `runs/`, live `state/`, logs, job queues |
+| All Markdown under `reports/`, plus selected consolidated `outputs/` reports | Raw artifact files under `outputs/`, `runs/`, live `state/`, logs, job queues |
 | Environment specifications and server setup templates | `AGENTS.md`, `ACCESS_POLICY.md`, `infra/gpu_policy.md`, `infra/gpu_scheduler.py`, `workspace/env_state.md`, `workspace/dataset_inventory.md` |
 
 Outdated `piqd_agent_specs_v4/` (and the misspelled variant), `fix_AGENTS.md`,
 credentials and temporary files are ignored. Historical PIQD source code remains
 for provenance; the outdated standalone specification bundle is excluded.
-`.gitignore` uses a root allowlist and exact output-document paths. Scientific
-records retain exact bytes through `.gitattributes`; do not reformat sealed files.
+`.gitignore` uses a root allowlist, recursive Markdown inclusion under `reports/`,
+and exact output-document paths under `outputs/`. Per-case Markdown reviews and
+model-response comparisons are shared alongside summaries. Figures, binary
+tables and raw machine-readable generation artifacts remain outside Git, so
+some report links still require the separately transferred artifact archive.
+Scientific records retain exact bytes through `.gitattributes`; do not reformat
+sealed files. Server-specific filename exclusions apply inside `reports/` too.
 
 ## Server-specific files are never shared through Git
 
@@ -158,7 +163,8 @@ large artifacts or machine-local configuration.
 - `infra/`: shared orchestration helpers, payload guard and local setup templates.
 - `plan/`: approved plans, protocols, amendments and execution checklists.
 - `workspace/phase_memory/`: stage findings, constraints, decisions and status.
-- `reports/`: research-history entry points; some historical index targets are local.
+- `reports/`: all Markdown summaries, research histories, per-case reviews and
+  response comparisons; linked non-Markdown artifacts may require local restoration.
 - `outputs/`: only selected consolidated documents; see `outputs/README.md`.
 
 No license is inferred for the project or for third-party benchmark/model data.

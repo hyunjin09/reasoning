@@ -64,9 +64,11 @@ node_modules/
 *.zip
 *.so
 
-# Keep report entry points; per-case generated reports stay in artifact storage.
+# Share all Markdown reports, including nested per-case reviews.
+# Figures, binary artifacts and other report formats remain local.
 /reports/**
-!/reports/*.md
+!/reports/**/
+!/reports/**/*.md
 
 # Compact shared research state only. No vendor trees, caches or temp files.
 /workspace/**
