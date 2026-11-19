@@ -1,0 +1,27 @@
+# Machine-local GPU policy
+
+Save as `infra/gpu_policy.md` after configuring the current server.
+
+- Scheduler/cluster: `<SLURM_CLUSTER_OR_OTHER_APPROVED_BACKEND>`.
+- Authorized partitions/nodes: `<LOCAL_ALLOWLIST>`.
+- Concurrent GPU limit: `<EXPLICIT_AUTHORIZED_LIMIT>`.
+- Remaining experiment budget: read the active plan and preserved accounting;
+  a server move does not reset the budget.
+- Per-node CPU, host-memory and walltime limits: `<LOCAL_LIMITS>`.
+- Dataset/model/cache locations: use this server's `ACCESS_POLICY.md`.
+- GPU work must use the approved scheduler, never the login node.
+- Bounded CPU-only work follows local server guidance.
+
+Initialize `infra/gpu_scheduler.py` from the tracked example only if Slurm and
+its supported GPU types match this server. Fill its topology and memory tables;
+review its type-specific scheduling behavior. For another backend, supply an
+appropriate local adapter. Never submit with another server's node names.
+
+Use project-local uv environments. Validate package/model revisions, image
+processing, scheduling and reproducibility before resuming scientific inference.
+Existing run configurations may contain old paths/node settings; resolve them
+under a documented execution amendment without changing frozen science.
+
+Use suitable job walltimes (typically 24–48 hours for long runs where allowed),
+but enforce the experiment's actual cumulative GPU-hour ceiling separately.
+A longer walltime is not permission to spend more GPU-hours. No keeper/idle job.

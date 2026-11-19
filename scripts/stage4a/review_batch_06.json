@@ -1,0 +1,382 @@
+[
+  {
+    "base_problem_id": "225",
+    "facts": {
+      "A": {
+        "original_value": "5",
+        "counterfactual_value": "6",
+        "roi_xyxy": [
+          282,
+          121,
+          306,
+          160
+        ],
+        "identity": "coefficient5 of ZX=5y-6"
+      },
+      "B": {
+        "original_value": "18",
+        "counterfactual_value": "20",
+        "roi_xyxy": [
+          200,
+          314,
+          245,
+          354
+        ],
+        "identity": "constant18 of YX=18+2y"
+      }
+    },
+    "positions": [
+      21,
+      356,
+      996
+    ],
+    "reasons": [
+      "Identifies ZX expression5y-6.",
+      "Identifies YX expression18+2y.",
+      "Reuses ZX5y-6 after establishing ZX=YX."
+    ],
+    "note": "Both coefficient and constant independently variable with equality solved by positive y and equal positive side lengths."
+  },
+  {
+    "base_problem_id": "227",
+    "facts": {
+      "A": {
+        "original_value": "9",
+        "counterfactual_value": "10",
+        "roi_xyxy": [
+          304,
+          78,
+          323,
+          107
+        ],
+        "identity": "rectangle shortside9"
+      },
+      "B": {
+        "original_value": "16",
+        "counterfactual_value": "18",
+        "roi_xyxy": [
+          123,
+          179,
+          157,
+          208
+        ],
+        "identity": "rectangle longside16"
+      }
+    },
+    "positions": [
+      47,
+      86,
+      119
+    ],
+    "reasons": [
+      "Reads shortside9.",
+      "Uses longside16 for area.",
+      "Reuses width9 in the multiplication."
+    ],
+    "note": "Independent positive rectangle sides. No numeric dimension supplied by actual prompt."
+  },
+  {
+    "base_problem_id": "229",
+    "facts": {
+      "A": {
+        "original_value": "54",
+        "counterfactual_value": "58",
+        "roi_xyxy": [
+          143,
+          19,
+          171,
+          42
+        ],
+        "identity": "trapezoid RS54"
+      },
+      "B": {
+        "original_value": "86",
+        "counterfactual_value": "90",
+        "roi_xyxy": [
+          154,
+          110,
+          182,
+          134
+        ],
+        "identity": "trapezoid QT86"
+      }
+    },
+    "positions": [
+      150,
+      300,
+      325
+    ],
+    "reasons": [
+      "Reads RS54.",
+      "Uses QT86 in the midsegment formula.",
+      "Reuses RS54 in the mean of the parallel sides."
+    ],
+    "note": "Both base lengths independently variable; upperbase remains shorter in allfour conditions."
+  },
+  {
+    "base_problem_id": "232",
+    "facts": {
+      "A": {
+        "original_value": "8",
+        "counterfactual_value": "9",
+        "roi_xyxy": [
+          218,
+          115,
+          245,
+          155
+        ],
+        "identity": "side WS8"
+      },
+      "B": {
+        "original_value": "10",
+        "counterfactual_value": "11",
+        "roi_xyxy": [
+          628,
+          257,
+          673,
+          297
+        ],
+        "identity": "side TV10"
+      }
+    },
+    "positions": [
+      640,
+      669,
+      1330
+    ],
+    "reasons": [
+      "Identifies WS8.",
+      "Identifies corresponding sideTV10.",
+      "Reuses WS8 in the similarity ratio."
+    ],
+    "note": "Ratios0.5<WS/TV<1 in allfour conditions yield positive x for (x+6)/(2x+6); similarity is maintained."
+  },
+  {
+    "base_problem_id": "237",
+    "facts": {
+      "A": {
+        "original_value": "51",
+        "counterfactual_value": "56",
+        "roi_xyxy": [
+          87,
+          145,
+          129,
+          185
+        ],
+        "identity": "angle PQS51"
+      },
+      "B": {
+        "original_value": "33",
+        "counterfactual_value": "38",
+        "roi_xyxy": [
+          436,
+          91,
+          480,
+          131
+        ],
+        "identity": "angle QRP33"
+      }
+    },
+    "positions": [
+      412,
+      905,
+      1019
+    ],
+    "reasons": [
+      "Identifies the marked51-degree angle atQ.",
+      "Identifies angleR33.",
+      "Returns to angleQ51, with explicit PQS interpretation."
+    ],
+    "note": "Both acute angles vary independently; Q rightangle remains fixed and S stays on PR. Bare33 inventory at502 rejected."
+  },
+  {
+    "base_problem_id": "238",
+    "facts": {
+      "A": {
+        "original_value": "8",
+        "counterfactual_value": "9",
+        "roi_xyxy": [
+          30,
+          109,
+          51,
+          139
+        ],
+        "identity": "leftside length8"
+      },
+      "B": {
+        "original_value": "45",
+        "counterfactual_value": "50",
+        "roi_xyxy": [
+          48,
+          62,
+          80,
+          91
+        ],
+        "identity": "upperleft angle45"
+      }
+    },
+    "positions": [
+      129,
+      226,
+      454
+    ],
+    "reasons": [
+      "Identifies the leftside8.",
+      "Uses the upperleft45-degree angle in angle analysis.",
+      "Reuses the side8 adjacent to45; native subsequently confuses leg/hypotenuse role."
+    ],
+    "note": "Fact labels refer to the correct physical side and angle; downstream geometric correctness is secondary. Both freely vary with fixed otherangle30."
+  },
+  {
+    "base_problem_id": "248",
+    "facts": {
+      "A": {
+        "original_value": "24",
+        "counterfactual_value": "28",
+        "roi_xyxy": [
+          171,
+          13,
+          205,
+          42
+        ],
+        "identity": "righttriangle shortleg24"
+      },
+      "B": {
+        "original_value": "74",
+        "counterfactual_value": "78",
+        "roi_xyxy": [
+          129,
+          139,
+          162,
+          168
+        ],
+        "identity": "righttriangle hypotenuse74"
+      }
+    },
+    "positions": [
+      30,
+      92,
+      135
+    ],
+    "reasons": [
+      "Identifies leg24.",
+      "Identifies hypotenuse74.",
+      "Reuses leg24 when checking it is shorter than the hypotenuse."
+    ],
+    "note": "Allfour leg/hypotenuse pairs valid and distinct."
+  },
+  {
+    "base_problem_id": "253",
+    "facts": {
+      "A": {
+        "original_value": "8",
+        "counterfactual_value": "9",
+        "roi_xyxy": [
+          434,
+          825,
+          478,
+          892
+        ],
+        "identity": "chord AC8"
+      },
+      "B": {
+        "original_value": "15",
+        "counterfactual_value": "16",
+        "roi_xyxy": [
+          927,
+          922,
+          1012,
+          988
+        ],
+        "identity": "chord BC15"
+      }
+    },
+    "positions": [
+      158,
+      266,
+      441
+    ],
+    "reasons": [
+      "Identifies AC8.",
+      "Uses BC15 for the diameter calculation.",
+      "Reuses AC8 in the Pythagorean expression for diameter."
+    ],
+    "note": "Two freely varying perpendicular chords with AB as diameter; allpositive pairs valid."
+  },
+  {
+    "base_problem_id": "264",
+    "facts": {
+      "A": {
+        "original_value": "10",
+        "counterfactual_value": "12",
+        "roi_xyxy": [
+          126,
+          144,
+          165,
+          175
+        ],
+        "identity": "coefficient10 in angleM10x"
+      },
+      "B": {
+        "original_value": "20",
+        "counterfactual_value": "22",
+        "roi_xyxy": [
+          437,
+          172,
+          477,
+          203
+        ],
+        "identity": "coefficient20 in angleN20x"
+      }
+    },
+    "positions": [
+      77,
+      296,
+      333
+    ],
+    "reasons": [
+      "Identifies angleM10x.",
+      "Uses angleN20x in supplementarity.",
+      "Reuses angleM10x while checking the angle equation."
+    ],
+    "note": "Positive coefficients independently variable; x=180/(a+b) keeps adjacentangles valid."
+  },
+  {
+    "base_problem_id": "272",
+    "facts": {
+      "A": {
+        "original_value": "45",
+        "counterfactual_value": "50",
+        "roi_xyxy": [
+          40,
+          29,
+          72,
+          59
+        ],
+        "identity": "upperleft angle45"
+      },
+      "B": {
+        "original_value": "4",
+        "counterfactual_value": "5",
+        "roi_xyxy": [
+          170,
+          77,
+          190,
+          106
+        ],
+        "identity": "righttriangle verticalleg4"
+      }
+    },
+    "positions": [
+      28,
+      206,
+      232
+    ],
+    "reasons": [
+      "Identifies the45-degree acute angle.",
+      "Identifies4 as a triangle leg.",
+      "Returns to the marked45-degree angle while locating the leg."
+    ],
+    "note": "An acute angle and a single fixedleg independently vary. Different numeric leg from3754sqrt3; structural rightangle preserved."
+  }
+]

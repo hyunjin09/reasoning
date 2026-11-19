@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd /data/projects/hyunjin/MLLM/reasoning_steps
+export PYTHONPATH=code:. PYTHONDONTWRITEBYTECODE=1
+export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1
+export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 TOKENIZERS_PARALLELISM=false
+export MPLCONFIGDIR=workspace/matplotlib_cache
+test "${SLURM_JOB_ID:-}" = 108548
+.venv/bin/torchrun --standalone --nproc_per_node=4 scripts/stage3c10/run_scores.py --phase "$1" --resume

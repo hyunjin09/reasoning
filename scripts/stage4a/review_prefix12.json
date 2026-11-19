@@ -1,0 +1,230 @@
+[
+  {
+    "base_problem_id": "81",
+    "facts": {
+      "A": {
+        "original_value": "90",
+        "counterfactual_value": "85",
+        "roi_xyxy": [
+          43,
+          66,
+          80,
+          94
+        ],
+        "identity": "angle BAC90 via arrow"
+      },
+      "B": {
+        "original_value": "50",
+        "counterfactual_value": "55",
+        "roi_xyxy": [
+          45,
+          142,
+          82,
+          169
+        ],
+        "identity": "angle ABC50"
+      }
+    },
+    "positions": [
+      1048,
+      1201,
+      2130
+    ],
+    "reasons": [
+      "First identifies printed90 as BAC; earlier90 refers to fixed ADB and is excluded.",
+      "Uses given B50 in triangle ABD.",
+      "Returns to possible BAC90 to solve the angle-bisector task."
+    ],
+    "note": "BAC numeric label independent of base B angle; fixed right marker at D retained. Tentative but correctly grounded local fact identifications allowed."
+  },
+  {
+    "base_problem_id": "145",
+    "facts": {
+      "A": {
+        "original_value": "30",
+        "counterfactual_value": "35",
+        "roi_xyxy": [
+          52,
+          87,
+          83,
+          109
+        ],
+        "identity": "angle OBA30"
+      },
+      "B": {
+        "original_value": "40",
+        "counterfactual_value": "45",
+        "roi_xyxy": [
+          115,
+          88,
+          146,
+          110
+        ],
+        "identity": "angle OCA40"
+      }
+    },
+    "positions": [
+      111,
+      214,
+      402
+    ],
+    "reasons": [
+      "Identifies OBA30; earlier mixed center/vertex description excluded.",
+      "Identifies OCA40.",
+      "Returns to OBA30 while reparsing diagram."
+    ],
+    "note": "Two independently variable circle base angles; intervening wrong central-angle identities excluded."
+  },
+  {
+    "base_problem_id": "194",
+    "facts": {
+      "A": {
+        "original_value": "6",
+        "counterfactual_value": "7",
+        "roi_xyxy": [
+          176,
+          719,
+          205,
+          762
+        ],
+        "identity": "distance AD6"
+      },
+      "B": {
+        "original_value": "60",
+        "counterfactual_value": "65",
+        "roi_xyxy": [
+          454,
+          492,
+          509,
+          536
+        ],
+        "identity": "angle BAC60"
+      }
+    },
+    "positions": [
+      97,
+      182,
+      301
+    ],
+    "reasons": [
+      "Identifies line A-to-D measurement6.",
+      "Uses angle at A60.",
+      "Reconsiders distance from A to nut contact with base as6."
+    ],
+    "note": "Tangent segment length and angle independent; round nut does not imply a fixed60-degree angle."
+  },
+  {
+    "base_problem_id": "269",
+    "facts": {
+      "A": {
+        "original_value": "18",
+        "counterfactual_value": "20",
+        "roi_xyxy": [
+          135,
+          215,
+          176,
+          251
+        ],
+        "identity": "large-polygon ST18"
+      },
+      "B": {
+        "original_value": "4",
+        "counterfactual_value": "5",
+        "roi_xyxy": [
+          520,
+          341,
+          546,
+          379
+        ],
+        "identity": "small-polygon BC4"
+      }
+    },
+    "positions": [
+      221,
+      971,
+      1067
+    ],
+    "reasons": [
+      "Identifies ST18 as corresponding side.",
+      "Identifies BC4 while listing correspondence.",
+      "Returns to ST18."
+    ],
+    "note": "Independent size and scale across similar polygons; native misidentifies another side3 but selected ST/BC are correct."
+  },
+  {
+    "base_problem_id": "316",
+    "facts": {
+      "A": {
+        "original_value": "4",
+        "counterfactual_value": "3",
+        "roi_xyxy": [
+          108,
+          299,
+          141,
+          341
+        ],
+        "identity": "DE4"
+      },
+      "B": {
+        "original_value": "5",
+        "counterfactual_value": "6",
+        "roi_xyxy": [
+          467,
+          299,
+          502,
+          342
+        ],
+        "identity": "BC5"
+      }
+    },
+    "positions": [
+      297,
+      482,
+      608
+    ],
+    "reasons": [
+      "Identifies D-to-E4.",
+      "Uses BC5 to form AC.",
+      "Uses DE4 in AD decomposition."
+    ],
+    "note": "Independent DE and BC, with fixed AD10. Native incorrectly reads AD10 as AE10; chosen DE and BC identities remain correct."
+  },
+  {
+    "base_problem_id": "317",
+    "facts": {
+      "A": {
+        "original_value": "2",
+        "counterfactual_value": "3",
+        "roi_xyxy": [
+          57,
+          280,
+          79,
+          310
+        ],
+        "identity": "coefficient2 in DFA=2a-5"
+      },
+      "B": {
+        "original_value": "4",
+        "counterfactual_value": "5",
+        "roi_xyxy": [
+          174,
+          145,
+          197,
+          178
+        ],
+        "identity": "coefficient4 in CFD=4a-1"
+      }
+    },
+    "positions": [
+      178,
+      313,
+      395
+    ],
+    "reasons": [
+      "Identifies DFA coefficient2.",
+      "Identifies CFD coefficient4.",
+      "Uses DFA coefficient2 in angle sum."
+    ],
+    "note": "Adjacent central-angle expressions remain consistent with the diameter for each independently changed coefficient."
+  }
+]

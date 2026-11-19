@@ -1,0 +1,40 @@
+[
+  {
+    "base_problem_id": "344",
+    "facts": {
+      "A": {
+        "original_value": "42",
+        "counterfactual_value": "46",
+        "roi_xyxy": [
+          126,
+          159,
+          150,
+          179
+        ],
+        "identity": "vertical southward distance42km"
+      },
+      "B": {
+        "original_value": "57",
+        "counterfactual_value": "61",
+        "roi_xyxy": [
+          59,
+          227,
+          86,
+          245
+        ],
+        "identity": "horizontal westward distance57km"
+      }
+    },
+    "positions": [
+      783,
+      1071,
+      1098
+    ],
+    "reasons": [
+      "Identifies vertical distance from plane to O as42.",
+      "Identifies horizontal distance from plane to y-axis as57.",
+      "Returns to vertical distance42."
+    ],
+    "note": "Independent orthogonal displacements. Earlier hypotenuse42 misreadings excluded; native wrong right-angle location is preserved as secondary."
+  }
+]

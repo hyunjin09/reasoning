@@ -1,0 +1,230 @@
+[
+  {
+    "base_problem_id": "680",
+    "facts": {
+      "A": {
+        "original_value": "10",
+        "counterfactual_value": "12",
+        "roi_xyxy": [
+          151,
+          5,
+          176,
+          23
+        ],
+        "identity": "AB length10"
+      },
+      "B": {
+        "original_value": "3",
+        "counterfactual_value": "4",
+        "roi_xyxy": [
+          260,
+          65,
+          276,
+          84
+        ],
+        "identity": "vertical BC length3"
+      }
+    },
+    "positions": [
+      49,
+      83,
+      127
+    ],
+    "reasons": [
+      "Reads AB10.",
+      "Identifies BC3.",
+      "Reuses AB10 while reconstructing rectangle ABCD."
+    ],
+    "note": "Two independently variable positive dimensions; fixed prism depth15. Same diagram template as746 but distinct height3 and question; retain template relation for heterogeneity audit."
+  },
+  {
+    "base_problem_id": "692",
+    "facts": {
+      "A": {
+        "original_value": "4",
+        "counterfactual_value": "3",
+        "roi_xyxy": [
+          210,
+          327,
+          225,
+          346
+        ],
+        "identity": "inner radius4"
+      },
+      "B": {
+        "original_value": "6",
+        "counterfactual_value": "7",
+        "roi_xyxy": [
+          150,
+          371,
+          168,
+          393
+        ],
+        "identity": "outer radius6"
+      }
+    },
+    "positions": [
+      172,
+      228,
+      272
+    ],
+    "reasons": [
+      "Identifies center-to-inner-edge radius4; earlier154 was numeric inventory.",
+      "Identifies center-to-outer-edge radius6.",
+      "Rechecks center-to-inner-edge radius4 after the outer-radius demand."
+    ],
+    "note": "All four inner/outer radius pairs remain positive with inner<outer; length13 fixed."
+  },
+  {
+    "base_problem_id": "746",
+    "facts": {
+      "A": {
+        "original_value": "10",
+        "counterfactual_value": "12",
+        "roi_xyxy": [
+          150,
+          0,
+          170,
+          18
+        ],
+        "identity": "AB length10"
+      },
+      "B": {
+        "original_value": "4",
+        "counterfactual_value": "5",
+        "roi_xyxy": [
+          252,
+          56,
+          266,
+          76
+        ],
+        "identity": "vertical BC length4"
+      }
+    },
+    "positions": [
+      76,
+      407,
+      450
+    ],
+    "reasons": [
+      "Reads AB10.",
+      "Reidentifies vertical height4.",
+      "Reuses AB10 to reconstruct rectangle dimensions."
+    ],
+    "note": "Independent positive dimensions with fixed depth15. Same diagram template as680; height differs and question asks length rather than angle. First B99 is only23 tokens afterA1; preferred24 gives407."
+  },
+  {
+    "base_problem_id": "749",
+    "facts": {
+      "A": {
+        "original_value": "5",
+        "counterfactual_value": "6",
+        "roi_xyxy": [
+          201,
+          31,
+          216,
+          52
+        ],
+        "identity": "box vertical height5"
+      },
+      "B": {
+        "original_value": "4",
+        "counterfactual_value": "3",
+        "roi_xyxy": [
+          178,
+          81,
+          194,
+          101
+        ],
+        "identity": "box depth4"
+      }
+    },
+    "positions": [
+      111,
+      371,
+      477
+    ],
+    "reasons": [
+      "Reads vertical dimension5.",
+      "Identifies separate front-to-back edge magnitude4.",
+      "Reuses vertical dimension5 while reconstructing the box."
+    ],
+    "note": "Box orientation naming is uncertain, but selected values refer to two physical dimensions. Numeric inventory at399 is not a fact-identified A2. All positive dimension pairs valid."
+  },
+  {
+    "base_problem_id": "1",
+    "facts": {
+      "A": {
+        "original_value": "80",
+        "counterfactual_value": "85",
+        "roi_xyxy": [
+          151,
+          72,
+          185,
+          99
+        ],
+        "identity": "angle BAC80"
+      },
+      "B": {
+        "original_value": "60",
+        "counterfactual_value": "65",
+        "roi_xyxy": [
+          84,
+          209,
+          118,
+          234
+        ],
+        "identity": "angle ABC60"
+      }
+    },
+    "positions": [
+      91,
+      119,
+      162
+    ],
+    "reasons": [
+      "Identifies angleA80.",
+      "Identifies angleABC60.",
+      "Uses angleA80 in the triangle angle-sum inference."
+    ],
+    "note": "Allfour A/B angle pairs sum below180; DE remains parallelBC. Choices are held fixed secondary final correctness; local numeric readout remains valid."
+  },
+  {
+    "base_problem_id": "35",
+    "facts": {
+      "A": {
+        "original_value": "30",
+        "counterfactual_value": "35",
+        "roi_xyxy": [
+          119,
+          43,
+          142,
+          64
+        ],
+        "identity": "angle ABC30"
+      },
+      "B": {
+        "original_value": "110",
+        "counterfactual_value": "115",
+        "roi_xyxy": [
+          96,
+          102,
+          132,
+          123
+        ],
+        "identity": "angle BCD110"
+      }
+    },
+    "positions": [
+      91,
+      254,
+      332
+    ],
+    "reasons": [
+      "Identifies angle between AB and BC as30.",
+      "Identifies angle between BC and CD as110.",
+      "Reuses angleABC30 to transfer direction across the parallel lines."
+    ],
+    "note": "Independent bend angles; allfour changes retain a nondegenerate zigzag with positive angleD."
+  }
+]

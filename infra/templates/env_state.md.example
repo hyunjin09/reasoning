@@ -1,0 +1,17 @@
+# Local environment state
+
+- Server / checkout path:
+- Date verified:
+- Python and uv versions:
+- Analysis environment:
+- Inference environment and pinned package versions:
+- Driver/CUDA/GPU details (verify only through authorized compute facilities):
+- Model snapshot IDs and authorized paths:
+- Dataset revisions and authorized paths:
+- Local scheduler/policy configuration:
+- Artifact archive restored, including verification record:
+- Active branch / commit:
+- Scientific execution state and remaining budget:
+
+Do not copy live Slurm IDs, GPU ownership or queue files from another server.
+Shared conclusions and decisions belong in phase memory; this file stays local.

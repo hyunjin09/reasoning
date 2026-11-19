@@ -1,0 +1,2 @@
+# CPU analysis/test tools. Inference uses a separate, pinned environment.
+-r infra/requirements-analysis.txt

@@ -1,0 +1,30 @@
+# Machine-local access policy
+
+Configure and save this file as `ACCESS_POLICY.md` on each server before using
+an agent. Replace every placeholder; do not inherit another server's paths.
+
+## Allowed reads
+
+- This repository checkout: `<ABSOLUTE_PROJECT_ROOT>`.
+- Dataset roots explicitly authorized on this server: `<DATASET_ROOTS>`.
+- Model/cache roots explicitly authorized here: `<MODEL_CACHE_ROOTS>`.
+
+## Allowed writes
+
+- This repository checkout, including `.git`, shared source/documentation,
+  `.venv`, and local `outputs`, `runs`, `state` and `workspace` artifacts.
+- Only explicitly authorized external dataset/cache destinations:
+  `<WRITABLE_EXTERNAL_ROOTS_OR_NONE>`.
+
+Everything else is denied by default. Do not inspect other users' files,
+credentials, SSH keys, shell history or unrelated repositories. Normal Git
+transport may use the user's configured authentication; never copy credentials
+into this project. Follow the server's compute and dataset-download policy.
+
+## Dataset lookup
+
+Before downloading, inspect the active plan, any project dataset link whose
+resolved target is allowed, then the authorized dataset roots. Record findings
+in `workspace/dataset_inventory.md`. Download one missing dataset at a time to
+an explicitly writable dataset-specific destination. Do not upload datasets,
+model weights or caches to Git.

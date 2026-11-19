@@ -1,0 +1,9 @@
+# Observed Stage14 inference environment: Python 3.12.7.
+# Install separately in .venv/official_eval, with a compatible driver/platform.
+# Do not substitute the analysis environment's newer Transformers version.
+vllm==0.11.0
+torch==2.8.0
+transformers==4.57.1
+qwen-vl-utils==0.0.14
+Pillow==12.3.0
+pyarrow==24.0.0

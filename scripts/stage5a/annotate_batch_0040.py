@@ -1,0 +1,28 @@
+"""Human score-blind review for screen positions40–49."""
+from scripts.stage5a.annotate_batch_0010 import fact,event,record
+from scripts.stage5a.prepare import OUT,write_json
+rows=[
+record(89,'circle_inscribed_radius_base_angle',{'A':fact('angle ACB','25','35',[163,106,202,137])},[
+event('A','The angle at C is given as 25 degrees','25'),event('A','the angle given is 25°, which is angle ACB','25',use_last=True)]),
+record(90,'circle_inscribed_central',{'A':fact('angle AOB','50','60',[218,24,254,52])},[
+event('A',"There's a central angle given as 50°, which is angle AOB",'50'),event('A','the angle labeled 50° is angle AOB','50',use_last=True)]),
+record(91,'circle_diameter_equal_arcs',{'A':fact('angle BAC','30','40',[85,91,124,122])},[
+event('A','the problem says angle DAC is 30°?','DAC','BAC',readout_kind='entity_binding',correctness='UNDECIDABLE'),event('A','the figure shows angle at A between AB and AC is 30°','30')], 'The first30 hypothesis says DAC but is immediately retracted. Later explicit image BAC30 is correct. Computed finalDAC30 is mathematically true from equal arcs, so it is not a hallucination.',event_priority_exception='Earliest tentative visual-value binding retained as undecidable, then last explicit image-binding repair; later derivedDAC30 is not an additional seen label.'),
+record(92,'circle_diameter_inscribed_angle',{'A':fact('angle ADC','34','44',[98,151,137,181])},[
+event('A',"There's an angle at point D, angle ADO, which is 34 degrees",'ADO','ADC',readout_kind='entity_binding'),event('A','angles at A and D are 34° each','34',correctness='UNDECIDABLE',use_last=True,claim_note='Late pair refers to constructed isoscelesADO, not an independent single image source.')], 'Drawn second chord at D is DC, not DO. Wrong premise ADO34 drives later unsupported symmetry; final112 happens to match the benchmark.'),
+record(94,'circle_diameter_perpendicular_chord',{'A':fact('angle CAO','22.5','32.5',[66,87,117,114]),'B':fact('radius OC','6','8',[186,77,214,107])},[
+event('A','angle OAC, is given as 22.5 degrees','22.5'),event('B','and CE is 6 units','CE','OC',readout_kind='entity_binding'),event('B',"CE = 6 (since it's labeled as 6)",'CE','OC',readout_kind='entity_binding',use_last=True)], 'Angled brace6 follows OC, not verticalCE. Wrong CE6 yields chord12; local radius misbinding is separate from the correct22.5 angle.',evidence_type='angle_and_radius_labels'),
+record(99,'circle_diameter_inscribed_angle',{'A':fact('angle ADC','26','36',[73,140,111,167])},[
+event('A',"Then there's angle CAD which is 26 degrees",'CAD','ADC',readout_kind='entity_binding'),event('A','So angle CAD = 1/2 arc CD','CAD','ADC',readout_kind='entity_binding')], '26 is atD, notA. The native later arithmetic explores answer candidates; last unambiguous reuse of the incorrectly bound observed angle is this explicit arc rule.',event_priority_exception='Late numeric26 occurrences are speculative answer-fitting arithmetic; retain the last early definite bound-label reuse rather than invent a late visual observation.'),
+record(104,'circle_supplementary_central_chords',{'A':fact('radius OA','5','6',[48,88,68,111]),'B':fact('chord CD','8','9',[102,41,124,67])},[
+event('A','From the figure, OA is labeled as 5','5'),event('B','Then chord CD has a length of 8, as labeled in the figure','8'),event('B','Chord CD = 2r sin( angle COD / 2 ) = 8','8',use_last=True)], 'Visual5/8 are correct. Text calls central angles complementary although radius5/chord8 is incompatible with that; native explicitly identifies likely supplementary translation error. Preserve textual ambiguity separately.',evidence_type='radius_and_length_labels',dataset_discrepancy='Text complementary contradicts radius5/chord8; native assumes supplementary.'),
+record(105,'circle_external_secant_diameter',{'A':fact('angle DEB','16','26',[190,78,224,101])},[
+event('A','Also, angle EDB is 16°, but wait','EDB','DEB',readout_kind='entity_binding',correctness='UNDECIDABLE'),event('A','Angle EDB = 16°, so angle ODB','EDB','DEB',readout_kind='entity_binding',use_last=True)], 'Visible16 is at externalE. First EDB assignment is tentative and retracted; late EDB16 is an asserted wrong binding.'),
+record(108,'circular_arch_chord',{'A':fact('arch top-to-water CD','8','5',[371,111,398,143]),'B':fact('radius OC','5','8',[429,86,455,115])},[
+event('A','The length from C to D is 5 meters','5','8'),event('B','Wait, maybe the radius is 8?','8','5',correctness='UNDECIDABLE'),event('A','If radius is 5, CD = 5, then d = 0','5','8',readout_occurrence=1,correctness='UNDECIDABLE',claim_note='Late conditional scenario reuses the wrong CD5 but is not an asserted true visual observation.')], 'CD8 and OC5 braces are separate. Initial CD5 is a definite numeric extraction/binding error; radius8 and final hypothetical CD5 retain uncertainty.',evidence_type='radius_and_length_labels'),
+record(114,'sector_overlapping_semicircles',{'A':fact('central angle AOB','90','100',[158,66,207,99]),'B':fact('radius OA','1','2',[75,184,101,214])},[
+event('A','The problem mentions a 90-degree angle at point O','90'),event('B','and OA is labeled as 1','1'),event('A','the problem mentions a 90° angle, OA = 1','90',use_last=True)], 'Direct90/1 are correct; native speculates on wrong shaded shapes but those are not selected direct numeric claims. Shaded lenses are image-local relational evidence with ambiguous atomic candidate, noted for census scope.',evidence_type='angle_and_radius_labels')
+]
+# Read the second5 in the late CD=5 fragment, not the preceding radius5.
+rows[8]['events'][2]['quote']='CD = 5, then d = 0';rows[8]['events'][2].pop('readout_occurrence',None)
+write_json(OUT/'cohort/review/manual_0040.json',rows)

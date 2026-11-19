@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+export PYTHONPATH="$PWD/code:$PWD:$PWD/infra"
+export PYTHONDONTWRITEBYTECODE=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1
+export TOKENIZERS_PARALLELISM=false HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
+export TMPDIR="$PWD/runs/s13dtmp"
+export XDG_CACHE_HOME="$PWD/runs/stage13d/v1/cache"
+export HF_HOME="$PWD/runs/stage13d/v1/hf_offline"
+export VLLM_CACHE_ROOT="$XDG_CACHE_HOME/vllm" VLLM_CONFIG_ROOT="$XDG_CACHE_HOME/vllm_config"
+export TORCHINDUCTOR_CACHE_DIR="$XDG_CACHE_HOME/torchinductor" TRITON_CACHE_DIR="$XDG_CACHE_HOME/triton"
+export CUDA_CACHE_PATH="$XDG_CACHE_HOME/cuda" NUMBA_CACHE_DIR="$XDG_CACHE_HOME/numba"
+export VLLM_WORKER_MULTIPROC_METHOD=spawn VLLM_NO_USAGE_STATS=1 DO_NOT_TRACK=1
+mkdir -p "$TMPDIR" "$XDG_CACHE_HOME" "$HF_HOME" "$VLLM_CONFIG_ROOT"
+exec .venv/official_eval/bin/python "$@"

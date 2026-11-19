@@ -1,0 +1,5 @@
+# Add to the existing project .venv with uv pip --no-deps; retain the existing
+# NumPy/SciPy/Torch/Transformers versions. CPU-only bounded probe dependency.
+scikit-learn==1.7.2
+joblib==1.5.2
+threadpoolctl==3.6.0

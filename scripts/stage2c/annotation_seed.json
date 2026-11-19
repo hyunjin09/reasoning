@@ -1,0 +1,192 @@
+{
+  "frozen_before_attention_analysis": true,
+  "event_window_radius_tokens": 64,
+  "selection_rule": "completed-correct Stage 1B trajectory with a localizable fact not fully stated in the prompt, explicit or clearly used in reasoning, and reliable visual-token mapping; no ROI-attention pattern inspected",
+  "new_examples": [
+    {
+      "example_id": "2748", "semantic_fact": "the plotted length decreases toward zero as width increases",
+      "e0_span_ids": [3], "fact_span_ids": [11], "use_span_ids": [12], "roi_boxes": [[20, 20, 320, 325]],
+      "confidence": "high", "possible_text_shortcut": "the fixed-area equation independently implies the trend", "counterfactual_ready": true,
+      "plausible_edit": "change the curve to approach a nonzero asymptote or increase", "notes": "whole-curve regime is the localized evidence item"
+    },
+    {
+      "example_id": "2798", "semantic_fact": "the mosquito graph has a maximum at approximately (2, 4)",
+      "e0_span_ids": [2], "fact_span_ids": [10], "use_span_ids": [11], "roi_boxes": [[90, 55, 205, 125]],
+      "confidence": "high", "possible_text_shortcut": "none", "counterfactual_ready": true,
+      "plausible_edit": "move the vertex or change its height", "notes": "vertex neighborhood only"
+    },
+    {
+      "example_id": "2823", "semantic_fact": "g(x) crosses the x-axis near -2 and 2",
+      "e0_span_ids": [2], "fact_span_ids": [20], "use_span_ids": [69], "roi_boxes": [[70, 105, 210, 185]],
+      "confidence": "medium", "possible_text_shortcut": "f(x) is textual but g(x) roots are not", "counterfactual_ready": true,
+      "plausible_edit": "move one x-intercept", "notes": "long verification loop separates first expression from stable downstream comparison"
+    },
+    {
+      "example_id": "2833", "semantic_fact": "g(x) is concave down with a visible maximum",
+      "e0_span_ids": [13], "fact_span_ids": [19], "use_span_ids": [30], "roi_boxes": [[20, 20, 135, 255]],
+      "confidence": "high", "possible_text_shortcut": "none", "counterfactual_ready": true,
+      "plausible_edit": "flip the plotted concavity", "notes": "entire plotted branch is the fact"
+    },
+    {
+      "example_id": "2868", "semantic_fact": "the area graph passes through (0, 0)",
+      "e0_span_ids": [2], "fact_span_ids": [12], "use_span_ids": [30], "roi_boxes": [[20, 250, 90, 320]],
+      "confidence": "high", "possible_text_shortcut": "none", "counterfactual_ready": true,
+      "plausible_edit": "shift the left intercept above zero", "notes": "left intercept supports the selected statement"
+    },
+    {
+      "example_id": "2968", "semantic_fact": "the total-cost line begins at a positive y-intercept",
+      "e0_span_ids": [5], "fact_span_ids": [9], "use_span_ids": [18], "roi_boxes": [[25, 95, 90, 190]],
+      "confidence": "medium", "possible_text_shortcut": "the purchase context suggests an upfront cost", "counterfactual_ready": false,
+      "plausible_edit": "not retained: changing the intercept value does not change its semantic role", "notes": "useful timing case but weak future counterfactual"
+    },
+    {
+      "example_id": "3043", "semantic_fact": "the marked points are approximately (5, 17) and (15, 22)",
+      "e0_span_ids": [6], "fact_span_ids": [27], "use_span_ids": [33], "roi_boxes": [[180, 65, 455, 225]],
+      "confidence": "high", "possible_text_shortcut": "none", "counterfactual_ready": true,
+      "plausible_edit": "move one marked point to alter the slope", "notes": "joint two-point ROI"
+    },
+    {
+      "example_id": "3068", "semantic_fact": "the first speed segment is shallow and the second is steeper",
+      "e0_span_ids": [2], "fact_span_ids": [7], "use_span_ids": [8], "roi_boxes": [[85, 40, 490, 435]],
+      "confidence": "high", "possible_text_shortcut": "none", "counterfactual_ready": true,
+      "plausible_edit": "make the two slopes equal or reverse their order", "notes": "two connected line segments"
+    },
+    {
+      "example_id": "3073", "semantic_fact": "speed rises, sharply drops to the baseline, then rises again",
+      "e0_span_ids": [3], "fact_span_ids": [4], "use_span_ids": [17], "roi_boxes": [[90, 115, 485, 440]],
+      "confidence": "medium", "possible_text_shortcut": "none", "counterfactual_ready": true,
+      "plausible_edit": "remove the drop or keep it above baseline", "notes": "later reasoning repeatedly disputes whether the drop reaches zero"
+    },
+    {
+      "example_id": "3078", "semantic_fact": "speed increases to a peak and then decreases",
+      "e0_span_ids": [1], "fact_span_ids": [2], "use_span_ids": [26], "roi_boxes": [[80, 115, 470, 430]],
+      "confidence": "high", "possible_text_shortcut": "none", "counterfactual_ready": true,
+      "plausible_edit": "replace the falling segment with a plateau or continued rise", "notes": "whole polyline"
+    },
+    {
+      "example_id": "2738", "semantic_fact": "the highlighted horizontal midline is at 35 meters",
+      "e0_span_ids": [7], "fact_span_ids": [8], "use_span_ids": [15], "roi_boxes": [[20, 75, 275, 110]],
+      "confidence": "high", "possible_text_shortcut": "none", "counterfactual_ready": true,
+      "plausible_edit": "move the highlighted midline", "notes": "dashed highlighted line"
+    },
+    {
+      "example_id": "3063", "semantic_fact": "the speed-time graph is one straight rising line",
+      "e0_span_ids": [1], "fact_span_ids": [2], "use_span_ids": [5], "roi_boxes": [[85, 55, 485, 435]],
+      "confidence": "high", "possible_text_shortcut": "none", "counterfactual_ready": true,
+      "plausible_edit": "introduce a plateau, dip, or slope change", "notes": "Vision Intensive variant"
+    },
+    {
+      "example_id": "3064", "semantic_fact": "the speed-time graph is one straight rising line",
+      "e0_span_ids": [1], "fact_span_ids": [2], "use_span_ids": [5], "roi_boxes": [[85, 55, 485, 435]],
+      "confidence": "high", "possible_text_shortcut": "none", "counterfactual_ready": true,
+      "plausible_edit": "introduce a plateau, dip, or slope change", "notes": "Vision Dominant variant"
+    },
+    {
+      "example_id": "3103", "semantic_fact": "the graph passes near (0,1), (1,2), (2,4), and (3,8)",
+      "e0_span_ids": [2], "fact_span_ids": [3, 4, 5, 6, 7], "use_span_ids": [8], "roi_boxes": [[55, 35, 275, 305]],
+      "confidence": "high", "possible_text_shortcut": "answer choices suggest candidate functional families", "counterfactual_ready": true,
+      "plausible_edit": "replace exponential growth with a linear or quadratic curve", "notes": "Vision Intensive variant"
+    },
+    {
+      "example_id": "3104", "semantic_fact": "the graph passes near (0,1), (1,2), (2,4), and (3,8)",
+      "e0_span_ids": [2], "fact_span_ids": [3, 4, 5, 6, 7], "use_span_ids": [8], "roi_boxes": [[55, 35, 275, 305]],
+      "confidence": "high", "possible_text_shortcut": "answer choices suggest candidate functional families", "counterfactual_ready": true,
+      "plausible_edit": "replace exponential growth with a linear or quadratic curve", "notes": "Vision Dominant variant"
+    },
+    {
+      "example_id": "3088", "semantic_fact": "the graph is concave up and increases progressively faster",
+      "e0_span_ids": [2], "fact_span_ids": [3, 4, 5, 6], "use_span_ids": [22], "roi_boxes": [[110, 25, 380, 415]],
+      "confidence": "high", "possible_text_shortcut": "answer choices suggest candidate functional families", "counterfactual_ready": true,
+      "plausible_edit": "replace the curve with linear or quadratic growth", "notes": "Vision Intensive variant"
+    },
+    {
+      "example_id": "3089", "semantic_fact": "the graph is concave up and increases progressively faster",
+      "e0_span_ids": [2], "fact_span_ids": [3, 4, 5, 6], "use_span_ids": [22], "roi_boxes": [[110, 25, 380, 415]],
+      "confidence": "high", "possible_text_shortcut": "answer choices suggest candidate functional families", "counterfactual_ready": true,
+      "plausible_edit": "replace the curve with linear or quadratic growth", "notes": "Vision Dominant variant"
+    },
+    {
+      "example_id": "3053", "semantic_fact": "all plotted earthquake counts lie on the horizontal line y=6",
+      "e0_span_ids": [4], "fact_span_ids": [6], "use_span_ids": [10], "roi_boxes": [[65, 170, 505, 230]],
+      "confidence": "high", "possible_text_shortcut": "none", "counterfactual_ready": true,
+      "plausible_edit": "change one or more points to create a nonzero slope", "notes": "Vision Intensive variant"
+    },
+    {
+      "example_id": "3054", "semantic_fact": "all plotted earthquake counts lie on the horizontal line y=6",
+      "e0_span_ids": [4], "fact_span_ids": [6], "use_span_ids": [10], "roi_boxes": [[65, 170, 505, 230]],
+      "confidence": "high", "possible_text_shortcut": "none", "counterfactual_ready": true,
+      "plausible_edit": "change one or more points to create a nonzero slope", "notes": "Vision Dominant variant"
+    },
+    {
+      "example_id": "2873", "semantic_fact": "g(x) crosses the x-axis near -3 and 3",
+      "e0_span_ids": [13], "fact_span_ids": [20], "use_span_ids": [29], "roi_boxes": [[35, 105, 240, 175]],
+      "confidence": "medium", "possible_text_shortcut": "f(x) is textual but g(x) roots are not", "counterfactual_ready": true,
+      "plausible_edit": "move one x-intercept", "notes": "later trace rechecks the same roots"
+    },
+    {
+      "example_id": "3758", "semantic_fact": "the visible triangular base has all three relevant edges labeled x",
+      "e0_span_ids": [4], "fact_span_ids": [19, 20, 21], "use_span_ids": [22], "roi_boxes": [[45, 45, 235, 220]],
+      "confidence": "medium", "possible_text_shortcut": "the prompt states the solid height but not all base edges", "counterfactual_ready": true,
+      "plausible_edit": "change one base-edge label", "notes": "trace spends substantial time resolving the solid type"
+    },
+    {
+      "example_id": "3759", "semantic_fact": "the triangular base has sides x, x, and sqrt(3)x",
+      "e0_span_ids": [4], "fact_span_ids": [7], "use_span_ids": [17], "roi_boxes": [[45, 25, 300, 170]],
+      "confidence": "high", "possible_text_shortcut": "none", "counterfactual_ready": true,
+      "plausible_edit": "change the sqrt(3)x base label", "notes": "Vision Dominant triangular prism"
+    },
+    {
+      "example_id": "3753", "semantic_fact": "the tube length AB is 30",
+      "e0_span_ids": [3], "fact_span_ids": [3], "use_span_ids": [13], "roi_boxes": [[55, 15, 410, 80]],
+      "confidence": "medium", "possible_text_shortcut": "the prompt states circumference 32 but not tube length 30", "counterfactual_ready": true,
+      "plausible_edit": "change the 30 label", "notes": "long trace repeatedly reparses the cut geometry"
+    },
+    {
+      "example_id": "3754", "semantic_fact": "the tube length AB is 30",
+      "e0_span_ids": [14], "fact_span_ids": [24, 25], "use_span_ids": [63], "roi_boxes": [[55, 15, 410, 80]],
+      "confidence": "medium", "possible_text_shortcut": "the prompt states circumference 32 but not tube length 30", "counterfactual_ready": true,
+      "plausible_edit": "change the 30 label", "notes": "first stable quantitative downstream use is much later than E1"
+    },
+    {
+      "example_id": "804", "semantic_fact": "the triangle ruler has a corresponding edge labeled 8",
+      "e0_span_ids": [5], "fact_span_ids": [30], "use_span_ids": [37], "roi_boxes": [[65, 45, 195, 135]],
+      "confidence": "high", "possible_text_shortcut": "none", "counterfactual_ready": true,
+      "plausible_edit": "change the ruler edge label", "notes": "small central ruler ROI"
+    },
+    {
+      "example_id": "3108", "semantic_fact": "the plotted intersection is near x=24.53 and y=4",
+      "e0_span_ids": [3], "fact_span_ids": [64, 65, 66, 67], "use_span_ids": [69], "roi_boxes": [[90, 95, 170, 150]],
+      "confidence": "medium", "possible_text_shortcut": "the coordinate is exactly derivable from the fully stated formula", "counterfactual_ready": false,
+      "plausible_edit": "not retained: an image-only edit would contradict the stated equation", "notes": "included as a text-derivable visual-reference control"
+    },
+    {
+      "example_id": "3763", "semantic_fact": "the rectangular water block has dimensions 6 by 5 by 4",
+      "e0_span_ids": [1], "fact_span_ids": [7], "use_span_ids": [23], "roi_boxes": [[295, 50, 570, 280]],
+      "confidence": "high", "possible_text_shortcut": "the prompt gives only the cylinder radius", "counterfactual_ready": true,
+      "plausible_edit": "change one box dimension", "notes": "right-container ROI"
+    },
+    {
+      "example_id": "408", "semantic_fact": "the three dashed lines l, m, and n are parallel",
+      "e0_span_ids": [4], "fact_span_ids": [20], "use_span_ids": [48], "roi_boxes": [[0, 0, 103, 147]],
+      "confidence": "medium", "possible_text_shortcut": "the prompt gives numeric angles but not the parallel-line layout", "counterfactual_ready": false,
+      "plausible_edit": "not retained: changing parallelism would require broader geometric redesign", "notes": "tiny image requires whole-diagram ROI"
+    },
+    {
+      "example_id": "3798", "semantic_fact": "P is the circle center and PB/PC are perpendicular to the tangents at B/C",
+      "e0_span_ids": [3], "fact_span_ids": [4, 5], "use_span_ids": [15], "roi_boxes": [[220, 45, 405, 320]],
+      "confidence": "medium", "possible_text_shortcut": "the prompt states only the radius; the tangent layout is visual", "counterfactual_ready": false,
+      "plausible_edit": "not retained: a valid tangent-configuration edit is not simple", "notes": "joint B-P-C geometry ROI"
+    },
+    {
+      "example_id": "3838", "semantic_fact": "the ellipse is inscribed in the rectangle, so its full axes are l and w",
+      "e0_span_ids": [5], "fact_span_ids": [12], "use_span_ids": [14], "roi_boxes": [[75, 85, 680, 465]],
+      "confidence": "high", "possible_text_shortcut": "the stated area formula already encodes the same relationship", "counterfactual_ready": false,
+      "plausible_edit": "not retained: a shape edit would conflict with the stated formula", "notes": "included as a semantic-alignment control"
+    }
+  ],
+  "screened_exclusions": [
+    {"example_id": "3109", "reason": "the relevant intersection semantics are fully supported by the prompt and formula; visual-coordinate use was not necessary"},
+    {"example_id": "694", "reason": "the completed trace repeatedly misassigned the 15 and 4 labels, so a reliable E1/E2 evidence event could not be annotated"},
+    {"example_id": "339", "reason": "the trace explicitly stated that it could not see the figure and guessed the internal geometry despite a correct final answer"}
+  ]
+}

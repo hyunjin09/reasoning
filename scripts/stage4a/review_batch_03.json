@@ -1,0 +1,382 @@
+[
+  {
+    "base_problem_id": "289",
+    "facts": {
+      "A": {
+        "original_value": "12.5",
+        "counterfactual_value": "14.5",
+        "roi_xyxy": [
+          138,
+          224,
+          205,
+          255
+        ],
+        "identity": "PS12.5"
+      },
+      "B": {
+        "original_value": "5",
+        "counterfactual_value": "6",
+        "roi_xyxy": [
+          112,
+          420,
+          137,
+          453
+        ],
+        "identity": "SR5"
+      }
+    },
+    "positions": [
+      107,
+      141,
+      282
+    ],
+    "reasons": [
+      "Identifies PS as12.5.",
+      "Identifies the separate segmentSR as5.",
+      "Reuses PS=12.5 while confirming the similarity correspondence."
+    ],
+    "note": "Two positive adjacent segments are independently variable; PT15 is fixed and the unknown outer side adapts."
+  },
+  {
+    "base_problem_id": "301",
+    "facts": {
+      "A": {
+        "original_value": "16",
+        "counterfactual_value": "18",
+        "roi_xyxy": [
+          208,
+          192,
+          242,
+          224
+        ],
+        "identity": "BC16 oppositeangleA"
+      },
+      "B": {
+        "original_value": "97",
+        "counterfactual_value": "107",
+        "roi_xyxy": [
+          63,
+          146,
+          95,
+          178
+        ],
+        "identity": "angleBAC97"
+      }
+    },
+    "positions": [
+      49,
+      97,
+      125
+    ],
+    "reasons": [
+      "Reads the side opposite angleA as16.",
+      "Identifies angle at vertexA as97.",
+      "Returns to the16 label and checks that its side isBC."
+    ],
+    "note": "The trace questions side identity but gives the correct identity at both selected A mentions. FixedangleC21 leaves positive remaining angle under97/107. A side and an angle are independently variable."
+  },
+  {
+    "base_problem_id": "352",
+    "facts": {
+      "A": {
+        "original_value": "3000",
+        "counterfactual_value": "3200",
+        "roi_xyxy": [
+          302,
+          151,
+          341,
+          174
+        ],
+        "identity": "sharedflightaltitude3000"
+      },
+      "B": {
+        "original_value": "57",
+        "counterfactual_value": "60",
+        "roi_xyxy": [
+          117,
+          77,
+          138,
+          96
+        ],
+        "identity": "firstdepressionangle57"
+      }
+    },
+    "positions": [
+      81,
+      180,
+      338
+    ],
+    "reasons": [
+      "Reads the shared vertical3000m side.",
+      "Reads57 degrees for the first sighting triangle.",
+      "Reuses3000 as the shared altitude when reconstructing both sightings."
+    ],
+    "note": "Changedfirstangle60 remains below the second67-degree sighting; positive altitude varies independently."
+  },
+  {
+    "base_problem_id": "356",
+    "facts": {
+      "A": {
+        "original_value": "60",
+        "counterfactual_value": "65",
+        "roi_xyxy": [
+          274,
+          142,
+          295,
+          163
+        ],
+        "identity": "angleA60"
+      },
+      "B": {
+        "original_value": "35",
+        "counterfactual_value": "40",
+        "roi_xyxy": [
+          64,
+          148,
+          85,
+          168
+        ],
+        "identity": "angleB35"
+      }
+    },
+    "positions": [
+      86,
+      150,
+      184
+    ],
+    "reasons": [
+      "Reads angleA as60.",
+      "Uses angleB35 in righttriangleBCD.",
+      "Returns to angleA60 in the other righttriangleACD."
+    ],
+    "note": "Each acute angle can change independently with fixed altitude9; allfour triangles remain nondegenerate."
+  },
+  {
+    "base_problem_id": "358",
+    "facts": {
+      "A": {
+        "original_value": "68",
+        "counterfactual_value": "72",
+        "roi_xyxy": [
+          3,
+          108,
+          25,
+          131
+        ],
+        "identity": "verticalheight68"
+      },
+      "B": {
+        "original_value": "46",
+        "counterfactual_value": "51",
+        "roi_xyxy": [
+          145,
+          173,
+          167,
+          194
+        ],
+        "identity": "upperrayinclination46"
+      }
+    },
+    "positions": [
+      38,
+      118,
+      158
+    ],
+    "reasons": [
+      "Reads the shared verticalheight68.",
+      "Identifies the46-degree angular label.",
+      "Reuses68 as the height while constructing the righttriangle geometry."
+    ],
+    "note": "CFangle51 remains greater than fixed37 and less than90; changing height and angle independently preserves the ordering of ray intersections."
+  },
+  {
+    "base_problem_id": "359",
+    "facts": {
+      "A": {
+        "original_value": "63",
+        "counterfactual_value": "69",
+        "roi_xyxy": [
+          4,
+          141,
+          26,
+          163
+        ],
+        "identity": "verticalheight63"
+      },
+      "B": {
+        "original_value": "67",
+        "counterfactual_value": "72",
+        "roi_xyxy": [
+          61,
+          77,
+          83,
+          97
+        ],
+        "identity": "67degreeangularlabel"
+      }
+    },
+    "positions": [
+      38,
+      76,
+      150
+    ],
+    "reasons": [
+      "Reads the verticalside63.",
+      "Identifies the separate67-degree angular label.",
+      "Reuses63 as the shared verticalside of the triangles."
+    ],
+    "note": "Height63->69 andangle67->72 remain numerically distinct and independently valid; the other angle39 remainsfixed."
+  },
+  {
+    "base_problem_id": "360",
+    "facts": {
+      "A": {
+        "original_value": "61",
+        "counterfactual_value": "66",
+        "roi_xyxy": [
+          36,
+          154,
+          59,
+          175
+        ],
+        "identity": "angleCAE61"
+      },
+      "B": {
+        "original_value": "73",
+        "counterfactual_value": "78",
+        "roi_xyxy": [
+          136,
+          158,
+          159,
+          180
+        ],
+        "identity": "angleCBE73"
+      }
+    },
+    "positions": [
+      480,
+      538,
+      665
+    ],
+    "reasons": [
+      "Identifies angleA61.",
+      "Uses angleB73 in the triangle-angle sum.",
+      "Returns to angleA61 during triangle reconstruction."
+    ],
+    "note": "The selected angles are correct despite native confusion about the altitude endpoints. Allfour angle pairs sum to less than180."
+  },
+  {
+    "base_problem_id": "372",
+    "facts": {
+      "A": {
+        "original_value": "12",
+        "counterfactual_value": "10",
+        "roi_xyxy": [
+          192,
+          97,
+          220,
+          124
+        ],
+        "identity": "righttriangleleg12"
+      },
+      "B": {
+        "original_value": "8",
+        "counterfactual_value": "9",
+        "roi_xyxy": [
+          113,
+          16,
+          128,
+          38
+        ],
+        "identity": "coefficientofhypotenuse8sqrt3"
+      }
+    },
+    "positions": [
+      45,
+      119,
+      157
+    ],
+    "reasons": [
+      "Reads the12 side label.",
+      "Reidentifies the8sqrt3 label while distinguishing triangle sides.",
+      "Returns to the12 side while locating the leg."
+    ],
+    "note": "The initial generic side-identification demands are retained, not interpreted as successful geometric parsing. Allfour hypotenuse/leg pairs satisfy hypotenusegreaterthanleg."
+  },
+  {
+    "base_problem_id": "375",
+    "facts": {
+      "A": {
+        "original_value": "45",
+        "counterfactual_value": "50",
+        "roi_xyxy": [
+          43,
+          37,
+          68,
+          62
+        ],
+        "identity": "upperacuteangle45"
+      },
+      "B": {
+        "original_value": "4",
+        "counterfactual_value": "5",
+        "roi_xyxy": [
+          2,
+          100,
+          15,
+          121
+        ],
+        "identity": "coefficientofverticalleg4sqrt3"
+      }
+    },
+    "positions": [
+      41,
+      88,
+      116
+    ],
+    "reasons": [
+      "Reads the45-degree angle.",
+      "Identifies the verticalleg as4sqrt3.",
+      "Returns to the upper45-degree angle to infer the other triangle angle."
+    ],
+    "note": "Angle and sole fixedleg vary independently. Duplicate stimuli375/376/386 will contribute at most one base, prospectively selected by screenorder."
+  },
+  {
+    "base_problem_id": "378",
+    "facts": {
+      "A": {
+        "original_value": "60",
+        "counterfactual_value": "65",
+        "roi_xyxy": [
+          19,
+          21,
+          37,
+          42
+        ],
+        "identity": "upperleftangle60"
+      },
+      "B": {
+        "original_value": "8",
+        "counterfactual_value": "9",
+        "roi_xyxy": [
+          89,
+          16,
+          103,
+          37
+        ],
+        "identity": "coefficientofhypotenuse8sqrt5"
+      }
+    },
+    "positions": [
+      47,
+      315,
+      359
+    ],
+    "reasons": [
+      "Reads the60-degree angle.",
+      "Returns to the8sqrt5 label while identifying the sides.",
+      "Reuses the upperleft60-degree angle to determine adjacent and opposite legs."
+    ],
+    "note": "A singleacuteangle and hypotenuse length are independently variable; allfour combinations leave positive legs."
+  }
+]

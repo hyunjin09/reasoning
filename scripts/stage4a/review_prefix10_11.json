@@ -1,0 +1,503 @@
+[
+  {
+    "base_problem_id": "235",
+    "facts": {
+      "A": {
+        "original_value": "110",
+        "counterfactual_value": "115",
+        "roi_xyxy": [
+          895,
+          240,
+          1029,
+          311
+        ],
+        "identity": "angle3 on upper transversal"
+      },
+      "B": {
+        "original_value": "55",
+        "counterfactual_value": "60",
+        "roi_xyxy": [
+          1164,
+          612,
+          1253,
+          684
+        ],
+        "identity": "angle12 on lower transversal"
+      }
+    },
+    "positions": [
+      219,
+      1040,
+      1376
+    ],
+    "reasons": [
+      "Grounds110 at upper transversal/right ray.",
+      "Identifies angle12 as55 in parallel-transversal reasoning.",
+      "Returns to given angle3=110."
+    ],
+    "note": "Independent angles on distinct transversals. Other angle indices remain unchanged. Ambiguous inventory and choices excluded."
+  },
+  {
+    "base_problem_id": "320",
+    "facts": {
+      "A": {
+        "original_value": "4",
+        "counterfactual_value": "5",
+        "roi_xyxy": [
+          235,
+          82,
+          267,
+          105
+        ],
+        "identity": "constant4 in AB=x+4",
+        "render_prefix": "+",
+        "render_box_xyxy": [
+          237,
+          84,
+          265,
+          103
+        ]
+      },
+      "B": {
+        "original_value": "9",
+        "counterfactual_value": "10",
+        "roi_xyxy": [
+          234,
+          199,
+          254,
+          223
+        ],
+        "identity": "midsegment ST=9"
+      }
+    },
+    "positions": [
+      276,
+      626,
+      1051
+    ],
+    "reasons": [
+      "Uses AB=x+4 in midsegment equation.",
+      "Reidentifies ST=9.",
+      "Returns to AB=x+4 while checking the midline assumption."
+    ],
+    "note": "AB constant and ST length can vary independently; preserve constant plus sign attached to4. Derived9 at416 is not the ST fact readout."
+  },
+  {
+    "base_problem_id": "213",
+    "facts": {
+      "A": {
+        "original_value": "130",
+        "counterfactual_value": "140",
+        "roi_xyxy": [
+          910,
+          759,
+          1120,
+          880
+        ],
+        "identity": "central angle RPS"
+      },
+      "B": {
+        "original_value": "2",
+        "counterfactual_value": "3",
+        "roi_xyxy": [
+          793,
+          1140,
+          851,
+          1230
+        ],
+        "identity": "radius PT"
+      }
+    },
+    "positions": [
+      228,
+      1094,
+      1129
+    ],
+    "reasons": [
+      "Identifies130 between PR and PS.",
+      "Uses radius2 as the second factor in2pi*2 for arc length.",
+      "Returns to central angle for arc RS."
+    ],
+    "note": "Radius and angle independent;2 at1091 is formula constant and excluded."
+  },
+  {
+    "base_problem_id": "298",
+    "facts": {
+      "A": {
+        "original_value": "10",
+        "counterfactual_value": "12",
+        "roi_xyxy": [
+          226,
+          241,
+          275,
+          279
+        ],
+        "identity": "left radius AJ"
+      },
+      "B": {
+        "original_value": "8",
+        "counterfactual_value": "9",
+        "roi_xyxy": [
+          666,
+          420,
+          696,
+          458
+        ],
+        "identity": "right radius KD"
+      }
+    },
+    "positions": [
+      137,
+      277,
+      465
+    ],
+    "reasons": [
+      "Identifies AJ=10.",
+      "Identifies KD=8.",
+      "Reidentifies AJ=10."
+    ],
+    "note": "Independent circle radii with fixed overlap5.4; native later overlap interpretation errors preserved as secondary outcome."
+  },
+  {
+    "base_problem_id": "302",
+    "facts": {
+      "A": {
+        "original_value": "12",
+        "counterfactual_value": "14",
+        "roi_xyxy": [
+          281,
+          165,
+          329,
+          203
+        ],
+        "identity": "GH=12"
+      },
+      "B": {
+        "original_value": "4",
+        "counterfactual_value": "5",
+        "roi_xyxy": [
+          408,
+          327,
+          437,
+          363
+        ],
+        "identity": "HI=4"
+      }
+    },
+    "positions": [
+      331,
+      568,
+      601
+    ],
+    "reasons": [
+      "Identifies GH=12.",
+      "Uses HI=4 to form GI.",
+      "Returns to G-to-H length12."
+    ],
+    "note": "Independent adjacent segments GH and HI. Native8 mislocated as GK; selected two right-side facts remain correctly identified."
+  },
+  {
+    "base_problem_id": "308",
+    "facts": {
+      "A": {
+        "original_value": "3.15",
+        "counterfactual_value": "3.65",
+        "roi_xyxy": [
+          502,
+          136,
+          582,
+          179
+        ],
+        "identity": "altitude GH=3.15"
+      },
+      "B": {
+        "original_value": "6.3",
+        "counterfactual_value": "6.8",
+        "roi_xyxy": [
+          600,
+          101,
+          660,
+          144
+        ],
+        "identity": "hypotenuse GE=6.3"
+      }
+    },
+    "positions": [
+      1102,
+      1236,
+      1264
+    ],
+    "reasons": [
+      "Identifies GH as altitude3.15.",
+      "Identifies GE=6.3.",
+      "Returns to GH=3.15 in comparison of triangles."
+    ],
+    "note": "Both right-triangle altitude and hypotenuse stay feasible under all edits. Native4.4 misidentified on other triangle is secondary."
+  },
+  {
+    "base_problem_id": "310",
+    "facts": {
+      "A": {
+        "original_value": "2",
+        "counterfactual_value": "4",
+        "roi_xyxy": [
+          508,
+          296,
+          536,
+          334
+        ],
+        "identity": "AB=2"
+      },
+      "B": {
+        "original_value": "6",
+        "counterfactual_value": "7",
+        "roi_xyxy": [
+          389,
+          352,
+          418,
+          390
+        ],
+        "identity": "BC=6"
+      }
+    },
+    "positions": [
+      241,
+      359,
+      651
+    ],
+    "reasons": [
+      "Identifies AB=2.",
+      "Reidentifies BC=6.",
+      "Returns to AB=2."
+    ],
+    "note": "Independent adjacent lengths. Earlier2 in polynomial is different physical fact; native3 elsewhere mislocated, kept secondary."
+  },
+  {
+    "base_problem_id": "639",
+    "facts": {
+      "A": {
+        "original_value": "7",
+        "counterfactual_value": "8",
+        "roi_xyxy": [
+          187,
+          354,
+          209,
+          382
+        ],
+        "identity": "outer radius7m"
+      },
+      "B": {
+        "original_value": "3",
+        "counterfactual_value": "4",
+        "roi_xyxy": [
+          244,
+          311,
+          268,
+          338
+        ],
+        "identity": "inner radius3m"
+      }
+    },
+    "positions": [
+      143,
+      214,
+      279
+    ],
+    "reasons": [
+      "Identifies outer radius7.",
+      "Identifies inner radius3.",
+      "Returns to outer radius7."
+    ],
+    "note": "Independent nested radii remain inner<outer; later bare numeric inventory excluded."
+  },
+  {
+    "base_problem_id": "695",
+    "facts": {
+      "A": {
+        "original_value": "42",
+        "counterfactual_value": "47",
+        "roi_xyxy": [
+          162,
+          244,
+          197,
+          270
+        ],
+        "identity": "sector central angle42"
+      },
+      "B": {
+        "original_value": "9",
+        "counterfactual_value": "10",
+        "roi_xyxy": [
+          289,
+          260,
+          312,
+          286
+        ],
+        "identity": "sector radius9"
+      }
+    },
+    "positions": [
+      27,
+      480,
+      623
+    ],
+    "reasons": [
+      "Identifies sector42-degree angle.",
+      "Identifies sector radius9.",
+      "Returns to central angle42."
+    ],
+    "note": "Sector angle and radius independent; native interpretation as a frustum is wrong globally but selected physical labels are correct."
+  },
+  {
+    "base_problem_id": "58",
+    "facts": {
+      "A": {
+        "original_value": "35",
+        "counterfactual_value": "40",
+        "roi_xyxy": [
+          120,
+          54,
+          153,
+          76
+        ],
+        "identity": "angle AEC35"
+      },
+      "B": {
+        "original_value": "90",
+        "counterfactual_value": "85",
+        "roi_xyxy": [
+          157,
+          68,
+          183,
+          90
+        ],
+        "identity": "angle CED90"
+      }
+    },
+    "positions": [
+      85,
+      169,
+      204
+    ],
+    "reasons": [
+      "Identifies angle between AB and EC.",
+      "Identifies angle between EC and ED.",
+      "Returns to AEC35 in parallel-line reasoning."
+    ],
+    "note": "Numeric90 label with arc, not a fixed right-angle square; independent of35."
+  },
+  {
+    "base_problem_id": "66",
+    "facts": {
+      "A": {
+        "original_value": "20",
+        "counterfactual_value": "25",
+        "roi_xyxy": [
+          168,
+          40,
+          195,
+          61
+        ],
+        "identity": "angle ABE20"
+      },
+      "B": {
+        "original_value": "60",
+        "counterfactual_value": "65",
+        "roi_xyxy": [
+          184,
+          128,
+          212,
+          150
+        ],
+        "identity": "angle EDC60"
+      }
+    },
+    "positions": [
+      89,
+      393,
+      513
+    ],
+    "reasons": [
+      "Identifies angle at B20.",
+      "Uses EDC60 under a parallel auxiliary line.",
+      "Returns to20 in the parallel-line angle computation."
+    ],
+    "note": "Independent bend angles on two parallel lines; minimum separation enforced."
+  },
+  {
+    "base_problem_id": "200",
+    "facts": {
+      "A": {
+        "original_value": "32",
+        "counterfactual_value": "34",
+        "roi_xyxy": [
+          20,
+          52,
+          53,
+          82
+        ],
+        "identity": "isosceles equal leg32"
+      },
+      "B": {
+        "original_value": "54",
+        "counterfactual_value": "59",
+        "roi_xyxy": [
+          151,
+          126,
+          184,
+          155
+        ],
+        "identity": "right base angle54"
+      }
+    },
+    "positions": [
+      75,
+      267,
+      298
+    ],
+    "reasons": [
+      "Identifies labeled equal leg32.",
+      "Identifies base angle54.",
+      "Returns to labeled left side32."
+    ],
+    "note": "Changing one printed leg value preserves implied equality of both legs; independent angle remains acute."
+  },
+  {
+    "base_problem_id": "221",
+    "facts": {
+      "A": {
+        "original_value": "60",
+        "counterfactual_value": "65",
+        "roi_xyxy": [
+          26,
+          57,
+          62,
+          90
+        ],
+        "identity": "upper-left angle60"
+      },
+      "B": {
+        "original_value": "55",
+        "counterfactual_value": "50",
+        "roi_xyxy": [
+          153,
+          81,
+          188,
+          114
+        ],
+        "identity": "upper-right angle55"
+      }
+    },
+    "positions": [
+      27,
+      88,
+      117
+    ],
+    "reasons": [
+      "Identifies given triangle angle60 for angle-sum task.",
+      "Uses second given angle55 in sum.",
+      "Uses first given60 again while calculating third angle."
+    ],
+    "note": "Two acute angles independently variable with positive third angle; later side73 misidentification does not change chosen angle-sum references."
+  }
+]

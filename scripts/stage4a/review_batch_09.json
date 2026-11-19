@@ -1,0 +1,389 @@
+[
+  {
+    "base_problem_id": "384",
+    "facts": {
+      "A": {
+        "original_value": "8.5",
+        "counterfactual_value": "9.5",
+        "roi_xyxy": [
+          10,
+          71,
+          38,
+          90
+        ],
+        "identity": "righttriangle leg8.5"
+      },
+      "B": {
+        "original_value": "30",
+        "counterfactual_value": "35",
+        "roi_xyxy": [
+          142,
+          28,
+          164,
+          47
+        ],
+        "identity": "upper-right angle30"
+      }
+    },
+    "positions": [
+      64,
+      127,
+      186
+    ],
+    "reasons": [
+      "Identifies leg8.5.",
+      "Identifies the given30-degree acute angle.",
+      "Returns to the labeled leg8.5."
+    ],
+    "note": "A positive leg and acute angle independently variable; labels unique."
+  },
+  {
+    "base_problem_id": "416",
+    "facts": {
+      "A": {
+        "original_value": "6",
+        "counterfactual_value": "7",
+        "roi_xyxy": [
+          347,
+          406,
+          432,
+          444
+        ],
+        "identity": "sector radius6cm",
+        "render_suffix": "cm"
+      },
+      "B": {
+        "original_value": "2",
+        "counterfactual_value": "3",
+        "roi_xyxy": [
+          275,
+          60,
+          305,
+          102
+        ],
+        "identity": "coefficient2 in arcJK2pi",
+        "render_box_xyxy": [
+          278,
+          63,
+          303,
+          100
+        ]
+      }
+    },
+    "positions": [
+      136,
+      165,
+      241
+    ],
+    "reasons": [
+      "Identifies radius6.",
+      "Identifies arcJK2pi, excluding denominator2 formula references.",
+      "Reuses radius6 to obtain the sector angle from arc length."
+    ],
+    "note": "Allfour arc/radius pairs form valid sectors. Radius6cm is one detached component including constant unit; entire label redrawn with unit preserved."
+  },
+  {
+    "base_problem_id": "426",
+    "facts": {
+      "A": {
+        "original_value": "550",
+        "counterfactual_value": "570",
+        "roi_xyxy": [
+          104,
+          92,
+          137,
+          111
+        ],
+        "identity": "northward AB550"
+      },
+      "B": {
+        "original_value": "41",
+        "counterfactual_value": "46",
+        "roi_xyxy": [
+          154,
+          119,
+          185,
+          137
+        ],
+        "identity": "bearing BAC041"
+      }
+    },
+    "positions": [
+      74,
+      220,
+      291
+    ],
+    "reasons": [
+      "Identifies northwardAB550.",
+      "Identifies041 as the angle from north to AC.",
+      "Reuses AB550 as the northward distance."
+    ],
+    "note": "Independent positive distance and acute bearing. Earlier horizontal-reference readings are invalid; leadingzero can be normalized by both semantic and sham rendering."
+  },
+  {
+    "base_problem_id": "431",
+    "facts": {
+      "A": {
+        "original_value": "12",
+        "counterfactual_value": "14",
+        "roi_xyxy": [
+          229,
+          30,
+          258,
+          55
+        ],
+        "identity": "horizontal leg12"
+      },
+      "B": {
+        "original_value": "9",
+        "counterfactual_value": "10",
+        "roi_xyxy": [
+          66,
+          144,
+          85,
+          170
+        ],
+        "identity": "vertical leg9"
+      }
+    },
+    "positions": [
+      40,
+      113,
+      156
+    ],
+    "reasons": [
+      "Reads leg12.",
+      "Identifies verticalside9.",
+      "Reuses12 in the righttriangle leg pair before Pythagoras."
+    ],
+    "note": "Two independent positive perpendicular displacements."
+  },
+  {
+    "base_problem_id": "641",
+    "facts": {
+      "A": {
+        "original_value": "6",
+        "counterfactual_value": "7",
+        "roi_xyxy": [
+          277,
+          71,
+          296,
+          97
+        ],
+        "identity": "cylinder radius6"
+      },
+      "B": {
+        "original_value": "8",
+        "counterfactual_value": "9",
+        "roi_xyxy": [
+          395,
+          178,
+          414,
+          203
+        ],
+        "identity": "cylinder height8"
+      }
+    },
+    "positions": [
+      63,
+      116,
+      154
+    ],
+    "reasons": [
+      "Reads radius6.",
+      "Identifies verticalheight8.",
+      "Reuses radius6 in the square-radius calculation."
+    ],
+    "note": "Independent positive radius and height."
+  },
+  {
+    "base_problem_id": "644",
+    "facts": {
+      "A": {
+        "original_value": "8",
+        "counterfactual_value": "9",
+        "roi_xyxy": [
+          370,
+          131,
+          390,
+          156
+        ],
+        "identity": "cone slantheight8"
+      },
+      "B": {
+        "original_value": "2",
+        "counterfactual_value": "3",
+        "roi_xyxy": [
+          292,
+          358,
+          312,
+          382
+        ],
+        "identity": "cone radius2"
+      }
+    },
+    "positions": [
+      77,
+      209,
+      236
+    ],
+    "reasons": [
+      "Identifies slantheight8.",
+      "Uses radius2 to derive perpendicularheight.",
+      "Reuses slantheight8 in the squared-length difference."
+    ],
+    "note": "Allfour positive slantheight/radius pairs satisfy slantheight>radius."
+  },
+  {
+    "base_problem_id": "661",
+    "facts": {
+      "A": {
+        "original_value": "6",
+        "counterfactual_value": "7",
+        "roi_xyxy": [
+          180,
+          92,
+          200,
+          117
+        ],
+        "identity": "cylinder radius6"
+      },
+      "B": {
+        "original_value": "10",
+        "counterfactual_value": "12",
+        "roi_xyxy": [
+          289,
+          196,
+          321,
+          220
+        ],
+        "identity": "cylinder height10"
+      }
+    },
+    "positions": [
+      176,
+      219,
+      263
+    ],
+    "reasons": [
+      "Reads radius6.",
+      "Identifies cylinderheight10.",
+      "Reuses radius6 in the base-area calculation."
+    ],
+    "note": "Independent positive cylinder radius and height."
+  },
+  {
+    "base_problem_id": "673",
+    "facts": {
+      "A": {
+        "original_value": "33.1",
+        "counterfactual_value": "35.1",
+        "roi_xyxy": [
+          369,
+          244,
+          427,
+          274
+        ],
+        "identity": "cylinderheight33.1"
+      },
+      "B": {
+        "original_value": "10.5",
+        "counterfactual_value": "12.5",
+        "roi_xyxy": [
+          230,
+          446,
+          288,
+          476
+        ],
+        "identity": "common radius10.5"
+      }
+    },
+    "positions": [
+      80,
+      118,
+      205
+    ],
+    "reasons": [
+      "Identifies cylinderheight33.1.",
+      "Reconsiders the bottom measurement as radius10.5, its actual physical identity.",
+      "Reuses cylinderheight33.1 while reconstructing the composite shape."
+    ],
+    "note": "Native reasoning later misreads radius as diameter; selected radius statement is correct. Both positive commonradius and cylinderheight independently variable."
+  },
+  {
+    "base_problem_id": "691",
+    "facts": {
+      "A": {
+        "original_value": "7",
+        "counterfactual_value": "8",
+        "roi_xyxy": [
+          130,
+          245,
+          149,
+          271
+        ],
+        "identity": "cross-section radius7"
+      },
+      "B": {
+        "original_value": "15",
+        "counterfactual_value": "17",
+        "roi_xyxy": [
+          272,
+          171,
+          302,
+          196
+        ],
+        "identity": "prism length15"
+      }
+    },
+    "positions": [
+      79,
+      107,
+      142
+    ],
+    "reasons": [
+      "Identifies the bottom radius7.",
+      "Identifies longitudinal length15.",
+      "Reuses cross-section radius7 in the volume setup."
+    ],
+    "note": "Native calls the quartercircle a semicircle; selected physical radius and length remain correctly identified. Fraction of cylinder is held fixed across edits."
+  },
+  {
+    "base_problem_id": "715",
+    "facts": {
+      "A": {
+        "original_value": "5",
+        "counterfactual_value": "6",
+        "roi_xyxy": [
+          117,
+          218,
+          133,
+          239
+        ],
+        "identity": "circular cross-section radius5"
+      },
+      "B": {
+        "original_value": "12",
+        "counterfactual_value": "14",
+        "roi_xyxy": [
+          272,
+          231,
+          297,
+          251
+        ],
+        "identity": "longitudinal length12"
+      }
+    },
+    "positions": [
+      41,
+      128,
+      248
+    ],
+    "reasons": [
+      "Reads radius5.",
+      "Identifies length12.",
+      "Reuses radius5 in a surface-area setup, excluding bare inventory217."
+    ],
+    "note": "Native debates the removed sector shape, but selected radius and length refer to actual source dimensions. Both positive parameters independently variable."
+  }
+]

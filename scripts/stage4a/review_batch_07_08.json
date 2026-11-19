@@ -1,0 +1,572 @@
+[
+  {
+    "base_problem_id": "274",
+    "facts": {
+      "A": {
+        "original_value": "42",
+        "counterfactual_value": "46",
+        "roi_xyxy": [
+          43,
+          129,
+          78,
+          158
+        ],
+        "identity": "hypotenuse42"
+      },
+      "B": {
+        "original_value": "38",
+        "counterfactual_value": "34",
+        "roi_xyxy": [
+          180,
+          113,
+          215,
+          143
+        ],
+        "identity": "verticalleg38"
+      }
+    },
+    "positions": [
+      53,
+      88,
+      122
+    ],
+    "reasons": [
+      "Reads hypotenuse42.",
+      "Reads leg38.",
+      "Reuses42 to compare hypotenuse and leg."
+    ],
+    "note": "Allfour hypotenuse>leg combinations valid."
+  },
+  {
+    "base_problem_id": "287",
+    "facts": {
+      "A": {
+        "original_value": "27",
+        "counterfactual_value": "32",
+        "roi_xyxy": [
+          127,
+          143,
+          171,
+          182
+        ],
+        "identity": "lowerleft angle27"
+      },
+      "B": {
+        "original_value": "52",
+        "counterfactual_value": "57",
+        "roi_xyxy": [
+          278,
+          65,
+          322,
+          105
+        ],
+        "identity": "upper angle52"
+      }
+    },
+    "positions": [
+      33,
+      85,
+      202
+    ],
+    "reasons": [
+      "Reads the27-degree angle.",
+      "Identifies the upper52-degree angle.",
+      "Returns to the lowerleft27-degree angle to compute the exterior angle."
+    ],
+    "note": "Both acute angles independently variable; sums remain below180."
+  },
+  {
+    "base_problem_id": "327",
+    "facts": {
+      "A": {
+        "original_value": "10.7",
+        "counterfactual_value": "12.7",
+        "roi_xyxy": [
+          0,
+          92,
+          34,
+          110
+        ],
+        "identity": "northward leg YZ10.7"
+      },
+      "B": {
+        "original_value": "335",
+        "counterfactual_value": "325",
+        "roi_xyxy": [
+          177,
+          181,
+          209,
+          199
+        ],
+        "identity": "clockwise bearing XZ335"
+      }
+    },
+    "positions": [
+      465,
+      497,
+      574
+    ],
+    "reasons": [
+      "Identifies YZ10.7.",
+      "Identifies335 as the angle between north and XZ.",
+      "Reuses YZ10.7 while reconstructing the helicopter path."
+    ],
+    "note": "Allfour height/bearing combinations preserve northwest destination and positive westward firstleg."
+  },
+  {
+    "base_problem_id": "328",
+    "facts": {
+      "A": {
+        "original_value": "17.6",
+        "counterfactual_value": "19.6",
+        "roi_xyxy": [
+          79,
+          205,
+          114,
+          223
+        ],
+        "identity": "vertical AB17.6"
+      },
+      "B": {
+        "original_value": "38",
+        "counterfactual_value": "43",
+        "roi_xyxy": [
+          140,
+          188,
+          163,
+          206
+        ],
+        "identity": "angle BAC38"
+      }
+    },
+    "positions": [
+      151,
+      183,
+      248
+    ],
+    "reasons": [
+      "Reads AB17.6.",
+      "Identifies angleBAC38.",
+      "Reuses AB17.6 as the adjacent leg."
+    ],
+    "note": "Positive side and acute angle independently variable."
+  },
+  {
+    "base_problem_id": "343",
+    "facts": {
+      "A": {
+        "original_value": "3.2",
+        "counterfactual_value": "4.2",
+        "roi_xyxy": [
+          49,
+          71,
+          75,
+          89
+        ],
+        "identity": "northward leg3.2"
+      },
+      "B": {
+        "original_value": "5.9",
+        "counterfactual_value": "6.9",
+        "roi_xyxy": [
+          126,
+          22,
+          152,
+          41
+        ],
+        "identity": "eastward leg5.9"
+      }
+    },
+    "positions": [
+      200,
+      357,
+      541
+    ],
+    "reasons": [
+      "Identifies the northward distance3.2.",
+      "Identifies the separate eastward distance5.9.",
+      "Reuses3.2 as the vertical distance from town to the north point."
+    ],
+    "note": "Two independently variable positive perpendicular displacement components; the trace mislocates the rightangle elsewhere but selected fact identities are correct."
+  },
+  {
+    "base_problem_id": "345",
+    "facts": {
+      "A": {
+        "original_value": "116",
+        "counterfactual_value": "126",
+        "roi_xyxy": [
+          89,
+          222,
+          121,
+          240
+        ],
+        "identity": "slantdistance116"
+      },
+      "B": {
+        "original_value": "231",
+        "counterfactual_value": "241",
+        "roi_xyxy": [
+          160,
+          188,
+          192,
+          206
+        ],
+        "identity": "clockwise bearing231"
+      }
+    },
+    "positions": [
+      80,
+      196,
+      379
+    ],
+    "reasons": [
+      "Reads the sole slantdistance116.",
+      "Identifies231 as a clockwise bearing from north.",
+      "Returns to the116-km line while reconstructing the displacement."
+    ],
+    "note": "Positive distance and southwest bearing independently variable; wrong east-referenced bearing interpretations are not selected."
+  },
+  {
+    "base_problem_id": "346",
+    "facts": {
+      "A": {
+        "original_value": "19",
+        "counterfactual_value": "21",
+        "roi_xyxy": [
+          264,
+          109,
+          292,
+          131
+        ],
+        "identity": "vertical leg19"
+      },
+      "B": {
+        "original_value": "25",
+        "counterfactual_value": "27",
+        "roi_xyxy": [
+          123,
+          200,
+          152,
+          223
+        ],
+        "identity": "horizontal leg25"
+      }
+    },
+    "positions": [
+      147,
+      178,
+      353
+    ],
+    "reasons": [
+      "Identifies the verticalside19.",
+      "Identifies horizontalBC25.",
+      "Reuses the vertical distance19 while reconstructing the triangle."
+    ],
+    "note": "Two positive perpendicular legs freely variable."
+  },
+  {
+    "base_problem_id": "347",
+    "facts": {
+      "A": {
+        "original_value": "20",
+        "counterfactual_value": "22",
+        "roi_xyxy": [
+          183,
+          235,
+          209,
+          256
+        ],
+        "identity": "horizontal base20"
+      },
+      "B": {
+        "original_value": "43",
+        "counterfactual_value": "48",
+        "roi_xyxy": [
+          263,
+          201,
+          292,
+          223
+        ],
+        "identity": "lower-right angle43"
+      }
+    },
+    "positions": [
+      45,
+      167,
+      299
+    ],
+    "reasons": [
+      "Reads triangle base20.",
+      "Uses the43-degree angle when identifying the triangle.",
+      "Reuses base20 as the adjacent side in the tangent relation."
+    ],
+    "note": "Independent base and acute angle; unknownheight adapts."
+  },
+  {
+    "base_problem_id": "348",
+    "facts": {
+      "A": {
+        "original_value": "198",
+        "counterfactual_value": "218",
+        "roi_xyxy": [
+          414,
+          208,
+          452,
+          230
+        ],
+        "identity": "vertical height198"
+      },
+      "B": {
+        "original_value": "44",
+        "counterfactual_value": "49",
+        "roi_xyxy": [
+          155,
+          137,
+          185,
+          159
+        ],
+        "identity": "upper-left depressionangle44"
+      }
+    },
+    "positions": [
+      73,
+      134,
+      219
+    ],
+    "reasons": [
+      "Reads opposite verticalside198.",
+      "Identifies upperleft44-degree angle.",
+      "Reuses vertical distance198 to identify the hypotenuse calculation."
+    ],
+    "note": "Independent positive height and acute depression angle."
+  },
+  {
+    "base_problem_id": "349",
+    "facts": {
+      "A": {
+        "original_value": "5",
+        "counterfactual_value": "6",
+        "roi_xyxy": [
+          69,
+          94,
+          84,
+          113
+        ],
+        "identity": "diagonal BC5"
+      },
+      "B": {
+        "original_value": "3",
+        "counterfactual_value": "4",
+        "roi_xyxy": [
+          61,
+          222,
+          76,
+          240
+        ],
+        "identity": "horizontal AC3"
+      }
+    },
+    "positions": [
+      195,
+      294,
+      384
+    ],
+    "reasons": [
+      "Identifies diagonalBC5.",
+      "Identifies baseAC3.",
+      "Reuses diagonal5 in the Pythagorean equation."
+    ],
+    "note": "Allfour diagonal>base pairs valid; rectangleheight adjusts."
+  },
+  {
+    "base_problem_id": "357",
+    "facts": {
+      "A": {
+        "original_value": "13",
+        "counterfactual_value": "15",
+        "roi_xyxy": [
+          108,
+          74,
+          132,
+          92
+        ],
+        "identity": "hypotenuse BC13"
+      },
+      "B": {
+        "original_value": "35",
+        "counterfactual_value": "40",
+        "roi_xyxy": [
+          55,
+          169,
+          78,
+          188
+        ],
+        "identity": "angle ABC35"
+      }
+    },
+    "positions": [
+      1126,
+      1171,
+      1220
+    ],
+    "reasons": [
+      "Identifies BC13; previous1111 is bare value inventory.",
+      "Uses angleB35 in triangleABC.",
+      "Reuses BC13 in sin35=AC/13."
+    ],
+    "note": "Both facts genuinely used in the native AC-length inference; finalangle can be solved without length, recorded for heterogeneity. Independent length and angle."
+  },
+  {
+    "base_problem_id": "364",
+    "facts": {
+      "A": {
+        "original_value": "35.5",
+        "counterfactual_value": "37.5",
+        "roi_xyxy": [
+          236,
+          140,
+          272,
+          159
+        ],
+        "identity": "vertical towerheight35.5"
+      },
+      "B": {
+        "original_value": "65.9",
+        "counterfactual_value": "67.9",
+        "roi_xyxy": [
+          285,
+          272,
+          321,
+          290
+        ],
+        "identity": "horizontal bridgeleg65.9"
+      }
+    },
+    "positions": [
+      74,
+      225,
+      297
+    ],
+    "reasons": [
+      "Identifies towerheight35.5.",
+      "Identifies horizontal bridge distance65.9.",
+      "Reuses towerheight35.5 as one leg of the cable triangle."
+    ],
+    "note": "Two independently variable positive perpendicular lengths."
+  },
+  {
+    "base_problem_id": "377",
+    "facts": {
+      "A": {
+        "original_value": "9",
+        "counterfactual_value": "10",
+        "roi_xyxy": [
+          98,
+          106,
+          114,
+          124
+        ],
+        "identity": "horizontal hypotenuse9"
+      },
+      "B": {
+        "original_value": "60",
+        "counterfactual_value": "65",
+        "roi_xyxy": [
+          182,
+          80,
+          203,
+          99
+        ],
+        "identity": "lower-right angle60"
+      }
+    },
+    "positions": [
+      110,
+      141,
+      374
+    ],
+    "reasons": [
+      "Identifies horizontal base9.",
+      "Uses the60-degree triangle angle.",
+      "Returns to horizontal base9 after rejecting previous side-role assignments."
+    ],
+    "note": "FactA is the physical horizontal side. Incorrect opposite30 or leg9 mentions are excluded; all positivehypotenuse/acuteangle combinations valid."
+  },
+  {
+    "base_problem_id": "381",
+    "facts": {
+      "A": {
+        "original_value": "11",
+        "counterfactual_value": "13",
+        "roi_xyxy": [
+          0,
+          48,
+          22,
+          66
+        ],
+        "identity": "verticalleg11"
+      },
+      "B": {
+        "original_value": "60",
+        "counterfactual_value": "65",
+        "roi_xyxy": [
+          31,
+          80,
+          54,
+          98
+        ],
+        "identity": "lowerleft angle60"
+      }
+    },
+    "positions": [
+      56,
+      98,
+      340
+    ],
+    "reasons": [
+      "Identifies leg11.",
+      "Identifies lowerleft60-degree angle.",
+      "Reuses leg11 while identifying the adjacent side."
+    ],
+    "note": "Single positiveleg and anacuteangle independently variable."
+  },
+  {
+    "base_problem_id": "374",
+    "facts": {
+      "A": {
+        "original_value": "10",
+        "counterfactual_value": "12",
+        "roi_xyxy": [
+          132,
+          63,
+          155,
+          81
+        ],
+        "identity": "radicand10 of hypotenuse sqrt10"
+      },
+      "B": {
+        "original_value": "30",
+        "counterfactual_value": "35",
+        "roi_xyxy": [
+          196,
+          133,
+          218,
+          152
+        ],
+        "identity": "lower-right angle30"
+      }
+    },
+    "positions": [
+      81,
+      542,
+      588
+    ],
+    "reasons": [
+      "Identifies the hypotenuse sqrt10.",
+      "Identifies the bottom-right30-degree angle; generic special-triangle mnemonic references excluded.",
+      "Reuses hypotenuse sqrt10 in the trigonometric reinspection."
+    ],
+    "note": "Independent positive hypotenuse and acuteangle; earlier mnemonic30s are not local visualfact demands."
+  }
+]

@@ -1,0 +1,241 @@
+{
+  "screening": {
+    "screened_count": 30,
+    "selection_was_attention_blind": true,
+    "accepted_ids": ["594", "699", "739", "764", "774", "2719", "2749", "2799", "2824", "2834", "2869", "2969", "3044", "3069", "3074", "3079", "3764", "3799", "3839", "3939"],
+    "rejected": [
+      {"example_id": "679", "reason": "only one independent quantitative visual fact"},
+      {"example_id": "704", "reason": "very long self-correction trace makes evidence stages unreliable"},
+      {"example_id": "734", "reason": "unsupported geometric assumptions and repeated correction loops"},
+      {"example_id": "769", "reason": "22334-token pathological reasoning loop"},
+      {"example_id": "2729", "reason": "12319-token repetitive peak/segment interpretation loop"},
+      {"example_id": "2739", "reason": "question text states the key amplitude, period, and shift; strong text shortcut"},
+      {"example_id": "2754", "reason": "9584-token repeated graph/equation disagreement loop"},
+      {"example_id": "2874", "reason": "5365-token repeated and contradictory root localization"},
+      {"example_id": "2894", "reason": "black and gray curves are closer than retained visual-token resolution"},
+      {"example_id": "3084", "reason": "10350-token repeated and contradictory segment-description loop"}
+    ]
+  },
+  "examples": [
+    {
+      "example_id": "594", "confidence": "high", "evidence_type": "geometry_numeric",
+      "evidence_A": {"semantic_fact": "sector radius/slant height is 24 cm", "boxes": [[0, 35, 125, 130]], "expected_reasoning_stage": "identify sector radius and convert it to cone slant height"},
+      "evidence_B": {"semantic_fact": "cone base radius is 10 cm", "boxes": [[165, 20, 280, 145]], "expected_reasoning_stage": "derive the base circumference/sector arc length"},
+      "reasoning_stages": [
+        {"span_ids": [2, 5, 6], "semantic_subgoal": "read sector radius and establish slant height", "required_evidence": "A"},
+        {"span_ids": [7, 14, 15, 16, 17], "semantic_subgoal": "read cone radius and compute circumference", "required_evidence": "B"},
+        {"span_ids": [21, 22, 23, 31, 32], "semantic_subgoal": "combine radius and arc length to compute sector area", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "sector outline is broad, but the two objects are clearly separated", "possible_text_shortcut": "none in the Vision Dominant question", "annotation_confidence": "high"}
+    },
+    {
+      "example_id": "699", "confidence": "high", "evidence_type": "geometry_numeric",
+      "evidence_A": {"semantic_fact": "interior vertical segment AO is 1.52 m", "boxes": [[125, 45, 180, 105]], "expected_reasoning_stage": "read the smaller triangle height"},
+      "evidence_B": {"semantic_fact": "ground segments MO=5 and OB=4", "boxes": [[45, 95, 245, 148]], "expected_reasoning_stage": "form MB=9 and the similarity scale"},
+      "reasoning_stages": [
+        {"span_ids": [8, 9, 17, 18, 32, 33], "semantic_subgoal": "identify AO", "required_evidence": "A"},
+        {"span_ids": [7, 16, 30, 31, 37], "semantic_subgoal": "read ground lengths and form the large base", "required_evidence": "B"},
+        {"span_ids": [35, 36, 38, 39, 40, 41, 42, 43], "semantic_subgoal": "solve the similar-triangle proportion", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "numeric label 1.52 is close to the slanted line", "possible_text_shortcut": "none", "annotation_confidence": "high"}
+    },
+    {
+      "example_id": "739", "confidence": "high", "evidence_type": "geometry_numeric",
+      "evidence_A": {"semantic_fact": "reference pole height is 3.2 m", "boxes": [[135, 65, 220, 125]], "expected_reasoning_stage": "read the small-triangle height"},
+      "evidence_B": {"semantic_fact": "ground distances are 8 m and 22 m", "boxes": [[15, 125, 305, 182]], "expected_reasoning_stage": "form the 30 m large-triangle base"},
+      "reasoning_stages": [
+        {"span_ids": [4, 5, 12, 13, 17, 18], "semantic_subgoal": "identify reference height", "required_evidence": "A"},
+        {"span_ids": [6, 14, 15, 22], "semantic_subgoal": "read and add horizontal distances", "required_evidence": "B"},
+        {"span_ids": [16, 23, 24, 25, 26, 35, 36, 42, 43], "semantic_subgoal": "apply similar-triangle proportion", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "the reference pole is diagrammatic but distinct", "possible_text_shortcut": "none", "annotation_confidence": "high"}
+    },
+    {
+      "example_id": "764", "confidence": "medium", "evidence_type": "geometry_numeric",
+      "evidence_A": {"semantic_fact": "left base segment DE is 1.8", "boxes": [[25, 120, 190, 208]], "expected_reasoning_stage": "read the outer-triangle base increment"},
+      "evidence_B": {"semantic_fact": "inner base EC is 1.2 and lower height BC is 1", "boxes": [[170, 75, 285, 205]], "expected_reasoning_stage": "read the inner triangle dimensions"},
+      "reasoning_stages": [
+        {"span_ids": [4, 5, 6, 18, 19, 25, 26], "semantic_subgoal": "identify DE", "required_evidence": "A"},
+        {"span_ids": [7, 20, 21, 61], "semantic_subgoal": "identify EC and BC", "required_evidence": "B"},
+        {"span_ids": [28, 29, 30, 33, 34, 43, 44, 46, 74], "semantic_subgoal": "construct and solve similar triangles", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "the trace spends time resolving which triangles correspond", "possible_text_shortcut": "none", "annotation_confidence": "medium"}
+    },
+    {
+      "example_id": "774", "confidence": "medium", "evidence_type": "geometry_numeric",
+      "evidence_A": {"semantic_fact": "person/reference height is 1.6 m", "boxes": [[90, 95, 175, 155]], "expected_reasoning_stage": "read the small-triangle height"},
+      "evidence_B": {"semantic_fact": "ground segments are 2 m and 8 m", "boxes": [[35, 130, 255, 182]], "expected_reasoning_stage": "read the horizontal similarity scale"},
+      "reasoning_stages": [
+        {"span_ids": [3, 4, 12, 13, 19, 20, 30, 31], "semantic_subgoal": "identify the reference height", "required_evidence": "A"},
+        {"span_ids": [9, 10, 11, 21, 28, 29, 42, 43], "semantic_subgoal": "identify and combine ground distances", "required_evidence": "B"},
+        {"span_ids": [35, 39, 40, 41, 68, 69, 71, 72], "semantic_subgoal": "apply the similar-triangle relationship", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "reasoning repeatedly re-parses point A", "possible_text_shortcut": "none", "annotation_confidence": "medium"}
+    },
+    {
+      "example_id": "2719", "confidence": "high", "evidence_type": "graph_period_endpoints",
+      "evidence_A": {"semantic_fact": "first highlighted peak is at t=5", "boxes": [[70, 35, 105, 90]], "expected_reasoning_stage": "locate the first cycle boundary"},
+      "evidence_B": {"semantic_fact": "next highlighted peak is at t=15", "boxes": [[140, 35, 175, 90]], "expected_reasoning_stage": "locate the next cycle boundary"},
+      "reasoning_stages": [
+        {"span_ids": [14, 15, 20], "semantic_subgoal": "read first highlighted endpoint", "required_evidence": "A"},
+        {"span_ids": [21, 22, 23], "semantic_subgoal": "read second highlighted endpoint", "required_evidence": "B"},
+        {"span_ids": [43, 44, 45, 46, 47, 49, 50, 51], "semantic_subgoal": "compute and interpret the period", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "both ROIs depict repeated instances of the same event type", "possible_text_shortcut": "the question names a highlighted segment but not its endpoints", "annotation_confidence": "high"}
+    },
+    {
+      "example_id": "2749", "confidence": "medium", "evidence_type": "graph_regime",
+      "evidence_A": {"semantic_fact": "length is large when width is near 1", "boxes": [[20, 20, 95, 195]], "expected_reasoning_stage": "inspect the small-width regime"},
+      "evidence_B": {"semantic_fact": "length approaches zero at large width", "boxes": [[145, 255, 320, 325]], "expected_reasoning_stage": "inspect the large-width asymptote"},
+      "reasoning_stages": [
+        {"span_ids": [20, 21, 24, 27], "semantic_subgoal": "read the left/high part of the graph", "required_evidence": "A"},
+        {"span_ids": [43, 45, 63, 65, 66], "semantic_subgoal": "read the right-tail approach to zero", "required_evidence": "B"},
+        {"span_ids": [5, 6, 7, 8, 16, 17], "semantic_subgoal": "connect both regimes to inverse proportionality", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "ROIs are broad curve regimes rather than labels", "possible_text_shortcut": "the fixed area is stated in text, but the requested limiting behavior is visually confirmed", "annotation_confidence": "medium"}
+    },
+    {
+      "example_id": "2799", "confidence": "high", "evidence_type": "graph_feature",
+      "evidence_A": {"semantic_fact": "vertex is (2,4), the maximum", "boxes": [[95, 70, 190, 130]], "expected_reasoning_stage": "read the maximum mosquito count"},
+      "evidence_B": {"semantic_fact": "right branch decreases from rainfall 2 to 4", "boxes": [[185, 120, 290, 305]], "expected_reasoning_stage": "evaluate the rainfall/response direction after the vertex"},
+      "reasoning_stages": [
+        {"span_ids": [6, 9, 10, 11], "semantic_subgoal": "identify vertex and maximum", "required_evidence": "A"},
+        {"span_ids": [19, 20, 21, 30, 31, 32], "semantic_subgoal": "compare increasing and decreasing regimes", "required_evidence": "B"},
+        {"span_ids": [23, 25, 26, 39, 40], "semantic_subgoal": "evaluate the answer statements", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "the right-branch ROI also includes its x-intercept", "possible_text_shortcut": "none", "annotation_confidence": "high"}
+    },
+    {
+      "example_id": "2824", "confidence": "medium", "evidence_type": "graph_roots",
+      "evidence_A": {"semantic_fact": "left root of g is approximately -2", "boxes": [[70, 100, 130, 180]], "expected_reasoning_stage": "locate the nonshared left root"},
+      "evidence_B": {"semantic_fact": "right root of g is approximately 2", "boxes": [[135, 100, 195, 180]], "expected_reasoning_stage": "locate the shared right root"},
+      "reasoning_stages": [
+        {"span_ids": [14, 17, 32, 34, 40, 59, 60], "semantic_subgoal": "localize the left x-intercept", "required_evidence": "A"},
+        {"span_ids": [20, 38, 40, 61, 74, 75], "semantic_subgoal": "localize the right x-intercept", "required_evidence": "B"},
+        {"span_ids": [67, 68, 69, 77, 78, 79, 80], "semantic_subgoal": "compare graph roots with algebraic roots", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "both intercepts are read during one visual subgoal", "possible_text_shortcut": "f is given in text; g roots require the graph", "annotation_confidence": "medium"}
+    },
+    {
+      "example_id": "2834", "confidence": "medium", "evidence_type": "graph_shape",
+      "evidence_A": {"semantic_fact": "left branch rises toward a maximum", "boxes": [[15, 35, 90, 180]], "expected_reasoning_stage": "inspect left curvature"},
+      "evidence_B": {"semantic_fact": "right branch falls from the maximum", "boxes": [[75, 35, 145, 190]], "expected_reasoning_stage": "inspect right curvature"},
+      "reasoning_stages": [
+        {"span_ids": [13, 14, 16], "semantic_subgoal": "identify the plotted function and left branch", "required_evidence": "A"},
+        {"span_ids": [17, 19, 20, 24, 26, 27], "semantic_subgoal": "identify the maximum and downward curvature", "required_evidence": "B"},
+        {"span_ids": [30, 31, 36, 37, 38], "semantic_subgoal": "compare g concavity with f", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "two curve branches jointly encode one concavity fact", "possible_text_shortcut": "f is textual; g concavity is visual", "annotation_confidence": "medium"}
+    },
+    {
+      "example_id": "2869", "confidence": "high", "evidence_type": "graph_feature",
+      "evidence_A": {"semantic_fact": "maximum area is 100 at width 10", "boxes": [[110, 40, 210, 110]], "expected_reasoning_stage": "identify the vertex and monotonicity boundary"},
+      "evidence_B": {"semantic_fact": "area returns to zero at width 20", "boxes": [[225, 215, 310, 315]], "expected_reasoning_stage": "identify the right zero/end behavior"},
+      "reasoning_stages": [
+        {"span_ids": [4, 10, 16, 19, 20, 21], "semantic_subgoal": "read the maximum and left regime", "required_evidence": "A"},
+        {"span_ids": [43, 74, 76], "semantic_subgoal": "read the width-20 intercept", "required_evidence": "B"},
+        {"span_ids": [29, 30, 35, 36, 73, 75, 77], "semantic_subgoal": "evaluate boundary-value statements", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "answer mainly depends on the left intercept, while the second ROI verifies global shape", "possible_text_shortcut": "none", "annotation_confidence": "high"}
+    },
+    {
+      "example_id": "2969", "confidence": "medium", "evidence_type": "graph_intercept_slope",
+      "evidence_A": {"semantic_fact": "positive y-intercept is the initial tablet cost", "boxes": [[30, 110, 100, 180]], "expected_reasoning_stage": "interpret the starting value"},
+      "evidence_B": {"semantic_fact": "positive line slope represents monthly internet cost", "boxes": [[115, 55, 215, 135]], "expected_reasoning_stage": "contrast intercept with rate"},
+      "reasoning_stages": [
+        {"span_ids": [3, 4, 5, 6, 7, 10, 11, 17, 18], "semantic_subgoal": "read and interpret the y-intercept", "required_evidence": "A"},
+        {"span_ids": [25, 26, 27, 28], "semantic_subgoal": "interpret line slope as a monthly cost", "required_evidence": "B"},
+        {"span_ids": [29, 37, 38, 39, 40], "semantic_subgoal": "contrast initial cost and recurring cost", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "the line has no marked second point", "possible_text_shortcut": "context suggests an upfront and monthly component, but graph assigns their roles", "annotation_confidence": "medium"}
+    },
+    {
+      "example_id": "3044", "confidence": "high", "evidence_type": "graph_two_points",
+      "evidence_A": {"semantic_fact": "first marked point is approximately (5,17)", "boxes": [[160, 130, 280, 215]], "expected_reasoning_stage": "read first slope endpoint"},
+      "evidence_B": {"semantic_fact": "second marked point is approximately (15,22)", "boxes": [[350, 60, 460, 135]], "expected_reasoning_stage": "read second slope endpoint"},
+      "reasoning_stages": [
+        {"span_ids": [13, 22, 25, 30, 63, 79], "semantic_subgoal": "read first marked coordinate", "required_evidence": "A"},
+        {"span_ids": [31, 80], "semantic_subgoal": "read second marked coordinate", "required_evidence": "B"},
+        {"span_ids": [32, 33, 82, 202, 224, 225, 228, 230], "semantic_subgoal": "compute and interpret slope", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "coordinate readings are approximate in the trace", "possible_text_shortcut": "none", "annotation_confidence": "high"}
+    },
+    {
+      "example_id": "3069", "confidence": "high", "evidence_type": "graph_segments",
+      "evidence_A": {"semantic_fact": "first speed segment has a gentle positive slope", "boxes": [[70, 270, 360, 455]], "expected_reasoning_stage": "identify gradual acceleration"},
+      "evidence_B": {"semantic_fact": "second speed segment has a steeper positive slope", "boxes": [[345, 40, 500, 315]], "expected_reasoning_stage": "identify faster acceleration"},
+      "reasoning_stages": [
+        {"span_ids": [6, 7, 23, 30, 43], "semantic_subgoal": "describe first segment", "required_evidence": "A"},
+        {"span_ids": [6, 7, 23, 30, 44], "semantic_subgoal": "describe second segment", "required_evidence": "B"},
+        {"span_ids": [31, 32, 53, 60], "semantic_subgoal": "map slope change to the answer", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "the two segments meet at one shared visual token row/column neighborhood", "possible_text_shortcut": "none", "annotation_confidence": "high"}
+    },
+    {
+      "example_id": "3074", "confidence": "medium", "evidence_type": "graph_segments",
+      "evidence_A": {"semantic_fact": "early rise followed by a sharp drop", "boxes": [[70, 145, 255, 450]], "expected_reasoning_stage": "identify acceleration then interruption"},
+      "evidence_B": {"semantic_fact": "late recovery and continuing rise", "boxes": [[245, 115, 485, 445]], "expected_reasoning_stage": "identify recovery behavior"},
+      "reasoning_stages": [
+        {"span_ids": [4, 5, 7, 8, 11, 12, 14], "semantic_subgoal": "parse early increase and drop", "required_evidence": "A"},
+        {"span_ids": [26, 27, 37, 38, 46], "semantic_subgoal": "parse recovery and late increase", "required_evidence": "B"},
+        {"span_ids": [17, 19, 22, 23, 29, 30], "semantic_subgoal": "evaluate whether the graph indicates a stop", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "trace repeatedly disputes whether the drop reaches zero", "possible_text_shortcut": "none", "annotation_confidence": "medium"}
+    },
+    {
+      "example_id": "3079", "confidence": "high", "evidence_type": "graph_segments",
+      "evidence_A": {"semantic_fact": "speed increases to the central peak", "boxes": [[70, 130, 305, 430]], "expected_reasoning_stage": "identify the increasing phase"},
+      "evidence_B": {"semantic_fact": "speed decreases after the peak", "boxes": [[285, 130, 475, 305]], "expected_reasoning_stage": "identify the decreasing phase"},
+      "reasoning_stages": [
+        {"span_ids": [2, 5, 9, 14, 17, 22, 23], "semantic_subgoal": "describe initial increase", "required_evidence": "A"},
+        {"span_ids": [6, 14, 16, 22, 23, 32, 33, 34], "semantic_subgoal": "describe later decrease", "required_evidence": "B"},
+        {"span_ids": [39, 40, 41, 44, 54, 55, 56], "semantic_subgoal": "interpret the two phases as a race description", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "peak neighborhood belongs to both ROIs", "possible_text_shortcut": "none", "annotation_confidence": "high"}
+    },
+    {
+      "example_id": "3764", "confidence": "high", "evidence_type": "multi_object_numeric",
+      "evidence_A": {"semantic_fact": "cylinder radius is 3", "boxes": [[20, 10, 180, 120]], "expected_reasoning_stage": "compute cylinder cross-sectional area"},
+      "evidence_B": {"semantic_fact": "rectangular water block dimensions are 6 by 5 by 4", "boxes": [[250, 30, 485, 225]], "expected_reasoning_stage": "compute transferred water volume"},
+      "reasoning_stages": [
+        {"span_ids": [9, 19, 20, 79, 80, 101], "semantic_subgoal": "read cylinder radius and compute base area", "required_evidence": "A"},
+        {"span_ids": [13, 14, 25, 26, 27, 28, 98, 99], "semantic_subgoal": "read container dimensions and compute water volume", "required_evidence": "B"},
+        {"span_ids": [35, 64, 65, 66, 92, 93, 102], "semantic_subgoal": "equate transferred volume to cylinder height rise", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "the container box includes water shading and all three labels", "possible_text_shortcut": "none", "annotation_confidence": "high"}
+    },
+    {
+      "example_id": "3799", "confidence": "medium", "evidence_type": "geometry_relational",
+      "evidence_A": {"semantic_fact": "PB is perpendicular to tangent AB at B", "boxes": [[215, 40, 325, 140]], "expected_reasoning_stage": "establish the first tangent-radius right angle"},
+      "evidence_B": {"semantic_fact": "M is the midpoint on AC and PC is perpendicular at C", "boxes": [[195, 225, 375, 330]], "expected_reasoning_stage": "use midpoint/equal-angle geometry around M,P,C"},
+      "reasoning_stages": [
+        {"span_ids": [6, 7, 8, 21, 22, 23, 29], "semantic_subgoal": "establish tangent geometry at B", "required_evidence": "A"},
+        {"span_ids": [9, 10, 16, 17, 18, 19, 25, 38, 39, 41, 42], "semantic_subgoal": "establish midpoint and right angle at C", "required_evidence": "B"},
+        {"span_ids": [24, 28, 30, 31, 37, 43], "semantic_subgoal": "combine the two tangent constructions", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "reasoning later switches to coordinates and is lengthy", "possible_text_shortcut": "question text states tangency and midpoint, so the image mainly supplies spatial configuration", "annotation_confidence": "medium"}
+    },
+    {
+      "example_id": "3839", "confidence": "high", "evidence_type": "geometry_dimensions",
+      "evidence_A": {"semantic_fact": "rectangle/ellipse horizontal dimension is l", "boxes": [[95, 15, 675, 90]], "expected_reasoning_stage": "identify major-axis/full-length relation"},
+      "evidence_B": {"semantic_fact": "rectangle/ellipse vertical dimension is w", "boxes": [[690, 95, 830, 465]], "expected_reasoning_stage": "identify minor-axis/full-width relation"},
+      "reasoning_stages": [
+        {"span_ids": [9, 10, 11, 12, 14], "semantic_subgoal": "relate l to the ellipse major axis", "required_evidence": "A"},
+        {"span_ids": [10, 11, 12, 14], "semantic_subgoal": "relate w to the ellipse minor axis", "required_evidence": "B"},
+        {"span_ids": [17, 20, 21, 22, 23, 24, 29], "semantic_subgoal": "derive rectangle and unshaded areas", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "dimension arrows are clear, but both are used in one formula stage", "possible_text_shortcut": "the formula is stated in text; the diagram supports the dimension interpretation", "annotation_confidence": "high"}
+    },
+    {
+      "example_id": "3939", "confidence": "medium", "evidence_type": "geometry_angle_correspondence",
+      "evidence_A": {"semantic_fact": "angle A corresponds to angle BED", "boxes": [[225, 0, 295, 80], [230, 175, 310, 265]], "expected_reasoning_stage": "establish the first AA correspondence"},
+      "evidence_B": {"semantic_fact": "angle C corresponds to angle D", "boxes": [[10, 270, 90, 358], [275, 245, 345, 320]], "expected_reasoning_stage": "establish the second AA correspondence"},
+      "reasoning_stages": [
+        {"span_ids": [5, 10, 29, 30, 31], "semantic_subgoal": "map angle A to BED", "required_evidence": "A"},
+        {"span_ids": [11, 21, 22, 23, 32, 33, 34, 35, 36], "semantic_subgoal": "map angle C to D", "required_evidence": "B"},
+        {"span_ids": [38, 42, 43, 45, 46, 47, 64, 69, 70], "semantic_subgoal": "establish triangle similarity", "required_evidence": "A+B"}
+      ],
+      "notes": {"ambiguity": "each semantic evidence item is a union of two spatially separated angle locations", "possible_text_shortcut": "angle congruences are stated in text; image is needed to resolve triangle correspondence", "annotation_confidence": "medium"}
+    }
+  ]
+}

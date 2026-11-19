@@ -1,0 +1,268 @@
+[
+  {
+    "base_problem_id": "115",
+    "facts": {
+      "A": {
+        "original_value": "6",
+        "counterfactual_value": "7",
+        "roi_xyxy": [
+          42,
+          90,
+          62,
+          119
+        ],
+        "identity": "sector radius6"
+      },
+      "B": {
+        "original_value": "120",
+        "counterfactual_value": "130",
+        "roi_xyxy": [
+          96,
+          94,
+          140,
+          125
+        ],
+        "identity": "sector central angle120"
+      }
+    },
+    "positions": [
+      140,
+      202,
+      236
+    ],
+    "reasons": [
+      "Reads radius6.",
+      "Uses sector angle120 in the arc-length formula.",
+      "Reuses radius6 in the numeric arc-length expression."
+    ],
+    "note": "Independent sector angle and radius; cone base perimeter follows the sector arc. Allfour sectors valid."
+  },
+  {
+    "base_problem_id": "116",
+    "facts": {
+      "A": {
+        "original_value": "13",
+        "counterfactual_value": "15",
+        "roi_xyxy": [
+          219,
+          59,
+          248,
+          91
+        ],
+        "identity": "cone slantheight13"
+      },
+      "B": {
+        "original_value": "12",
+        "counterfactual_value": "11",
+        "roi_xyxy": [
+          211,
+          129,
+          240,
+          157
+        ],
+        "identity": "cone verticalheight12"
+      }
+    },
+    "positions": [
+      250,
+      380,
+      430
+    ],
+    "reasons": [
+      "Reads slantheight13.",
+      "Reconsiders12 as verticalheight h, the actual labeled fact; previous radius12 mentions invalid.",
+      "Returns to labeled slantheight13."
+    ],
+    "note": "Selected height read is tentative but physically correct; incorrect radius readings are excluded. Allfour slantheight>height pairs valid."
+  },
+  {
+    "base_problem_id": "127",
+    "facts": {
+      "A": {
+        "original_value": "1",
+        "counterfactual_value": "2",
+        "roi_xyxy": [
+          206,
+          24,
+          238,
+          65
+        ],
+        "identity": "circle radius1"
+      },
+      "B": {
+        "original_value": "120",
+        "counterfactual_value": "130",
+        "roi_xyxy": [
+          159,
+          292,
+          250,
+          340
+        ],
+        "identity": "sector central angle120"
+      }
+    },
+    "positions": [
+      48,
+      157,
+      185
+    ],
+    "reasons": [
+      "Identifies circle radius1.",
+      "Identifies sector angle120.",
+      "Returns to circle radius1 while identifying the relationship to the sector."
+    ],
+    "note": "Circle and sector relationship is uncertain in native reasoning, but the two source values are correctly identified. Independently variable cone-development radius and angle."
+  },
+  {
+    "base_problem_id": "130",
+    "facts": {
+      "A": {
+        "original_value": "45",
+        "counterfactual_value": "50",
+        "roi_xyxy": [
+          98,
+          78,
+          130,
+          105
+        ],
+        "identity": "inscribed angleACB45"
+      },
+      "B": {
+        "original_value": "10",
+        "counterfactual_value": "12",
+        "roi_xyxy": [
+          92,
+          206,
+          128,
+          233
+        ],
+        "identity": "chord AB10"
+      }
+    },
+    "positions": [
+      61,
+      197,
+      350
+    ],
+    "reasons": [
+      "Identifies the angle at C as45.",
+      "Uses chord AB10 to relate chord length to circle radius.",
+      "Reidentifies angleC45; nearby360 explicitly calls itACB."
+    ],
+    "note": "Only one numeric angle atC; unrelated inventory and mistaken ACD references are not selected. Chord length and inscribed angle independently variable."
+  },
+  {
+    "base_problem_id": "181",
+    "facts": {
+      "A": {
+        "original_value": "5",
+        "counterfactual_value": "6",
+        "roi_xyxy": [
+          484,
+          526,
+          531,
+          587
+        ],
+        "identity": "circle radius OC5"
+      },
+      "B": {
+        "original_value": "6",
+        "counterfactual_value": "7",
+        "roi_xyxy": [
+          416,
+          781,
+          461,
+          831
+        ],
+        "identity": "chord AC6"
+      }
+    },
+    "positions": [
+      119,
+      155,
+      253
+    ],
+    "reasons": [
+      "Identifies circle radius5; earlier mentions incorrectly locate the printed5 onOA.",
+      "Identifies chord AC6.",
+      "Reuses OC=OA=5 by equal-radii property."
+    ],
+    "note": "Allfour chord/radius pairs have chord<diameter; radius invariant under OA/OC. Native final correctness is separate."
+  },
+  {
+    "base_problem_id": "215",
+    "facts": {
+      "A": {
+        "original_value": "8",
+        "counterfactual_value": "9",
+        "roi_xyxy": [
+          47,
+          49,
+          70,
+          84
+        ],
+        "identity": "rectangle longside8"
+      },
+      "B": {
+        "original_value": "6",
+        "counterfactual_value": "7",
+        "roi_xyxy": [
+          359,
+          94,
+          383,
+          133
+        ],
+        "identity": "rectangle shortside6"
+      }
+    },
+    "positions": [
+      34,
+      126,
+      172
+    ],
+    "reasons": [
+      "Reads rectangle side8.",
+      "Uses separate side6 for the diagonal computation.",
+      "Reuses length8 in the Pythagorean expression."
+    ],
+    "note": "Two independently variable rectangle sides; inscribed circle diameter adapts."
+  },
+  {
+    "base_problem_id": "217",
+    "facts": {
+      "A": {
+        "original_value": "20",
+        "counterfactual_value": "22",
+        "roi_xyxy": [
+          10,
+          79,
+          42,
+          115
+        ],
+        "identity": "parallelogram slantside20"
+      },
+      "B": {
+        "original_value": "12",
+        "counterfactual_value": "14",
+        "roi_xyxy": [
+          79,
+          202,
+          110,
+          228
+        ],
+        "identity": "parallelogram base12"
+      }
+    },
+    "positions": [
+      96,
+      137,
+      209
+    ],
+    "reasons": [
+      "Identifies side20.",
+      "Identifies base12.",
+      "Reidentifies the slanting side20."
+    ],
+    "note": "Both side lengths vary independently; fixedangle60 remains valid. Angle is not chosen because not needed for perimeter."
+  }
+]

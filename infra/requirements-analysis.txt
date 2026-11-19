@@ -1,0 +1,15 @@
+# Observed analysis environment, 2026-11-19. Python 3.12.
+# No inference equivalence is claimed from these analysis-tool pins.
+numpy==2.4.4
+pandas==3.0.3
+pyarrow==24.0.0
+scipy==1.18.0
+matplotlib==3.11.1
+Pillow==12.2.0
+pytest==9.1.1
+sympy==1.14.0
+scikit-learn==1.7.2
+pypdfium2==5.13.0
+requests==2.34.2
+tqdm==4.68.3
+PyYAML==6.0.3

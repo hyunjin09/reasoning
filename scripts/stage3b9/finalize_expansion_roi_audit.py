@@ -1,0 +1,79 @@
+#!/usr/bin/env python3
+"""Freeze manually reviewed expansion ROI mappings and a combined fresh map."""
+
+from __future__ import annotations
+
+import json
+from datetime import datetime, timezone
+from pathlib import Path
+
+from visual_reasoning.stage0.io import write_json, write_jsonl, write_text
+
+
+ROOT = Path(__file__).resolve().parents[2]
+OUT = ROOT / "outputs/stage3b9/roi_validation_expansion"
+
+
+def read_jsonl(path: Path) -> list[dict]:
+    return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+
+
+def main() -> None:
+    target = OUT / "roi_token_mapping.jsonl"
+    combined_target = ROOT / "outputs/stage3b9/roi_validation/roi_token_mapping_all_fresh.jsonl"
+    if target.exists() or combined_target.exists():
+        raise FileExistsError("Frozen expansion or combined ROI mapping already exists")
+    rows = read_jsonl(OUT / "roi_token_mapping_draft.jsonl")
+    if len(rows) != 25 or len({str(row["base_problem_id"]) for row in rows}) != 25:
+        raise RuntimeError("Expected 25 unique expansion ROI mappings")
+    reviewed_at = datetime.now(timezone.utc).isoformat()
+    for row in rows:
+        if not (row["target_token_count"] > 0 and row["target_complement_partition_exact"] and row["target_ring_irrelevant_disjoint"] and row["all_condition_layout_exact"] and row["edit_pixels_inside_declared_roi"]):
+            raise RuntimeError(f"Mechanical ROI audit failed for base {row['base_problem_id']}")
+        row["manual_overlay_validation"] = {
+            "status": "pass",
+            "reviewed_at": reviewed_at,
+            "reviewer": "primary_agent",
+            "review_material": row["overlay"],
+            "review_note": "Changed-token cells cover the validated edited label; ring and matched irrelevant cells are aligned and disjoint.",
+            "attention_used": False,
+            "generation_outcomes_used": False,
+            "stage3b9_value_or_causal_scores_used": False,
+        }
+    write_jsonl(target, rows)
+    initial = read_jsonl(ROOT / "outputs/stage3b9/roi_validation/roi_token_mapping.jsonl")
+    combined = sorted([*initial, *rows], key=lambda row: int(row["base_problem_id"]))
+    if len(initial) != 51 or len(combined) != 76 or len({str(row["base_problem_id"]) for row in combined}) != 76:
+        raise RuntimeError("Combined fresh ROI mapping identity/count mismatch")
+    write_jsonl(combined_target, combined)
+    write_json(
+        OUT / "manual_roi_review.json",
+        {
+            "reviewed_at": reviewed_at,
+            "reviewer": "primary_agent",
+            "review_sheets": [f"outputs/stage3b9/roi_validation_expansion/review_sheet_{index:02d}.png" for index in range(3)],
+            "reviewed": len(rows),
+            "passed": len(rows),
+            "rejected": 0,
+            "attention_used": False,
+            "generation_outcomes_used": False,
+            "stage3b9_value_or_causal_scores_used": False,
+        },
+    )
+    write_text(
+        OUT / "roi_mapping_report.md",
+        "# Stage 3B.9 expansion ROI mapping\n\n"
+        "All 25 edit-valid expansion examples were mapped to merged visual-token cells. The three contact sheets "
+        "were manually reviewed before expansion-generation, attention, Value-vector, or causal-score inspection.\n\n"
+        "- Phase A: 19/19 pass\n"
+        "- Phase B: 6/6 pass\n"
+        "- Every target contains at least one visual token.\n"
+        "- Every target/complement partition is exact.\n"
+        "- Target-ring and matched-irrelevant controls are disjoint.\n"
+        "- All condition preprocessing layouts match exactly.\n",
+    )
+    print(json.dumps({"expansion_reviewed": len(rows), "combined_fresh_mappings": len(combined), "rejected": 0}, indent=2))
+
+
+if __name__ == "__main__":
+    main()
