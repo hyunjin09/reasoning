@@ -23,6 +23,36 @@ for provenance; the outdated standalone specification bundle is excluded.
 `.gitignore` uses a root allowlist and exact output-document paths. Scientific
 records retain exact bytes through `.gitattributes`; do not reformat sealed files.
 
+## Server-specific files are never shared through Git
+
+Each server maintains its own instructions, permissions, paths and scheduler
+configuration. These filenames are ignored at any directory depth, including
+nested `AGENTS.md` and `AGENTS.override.md` files. Only portable `.example`
+templates are shared; copying a template does not configure or authorize a server.
+
+| Local file | Purpose | How to initialize |
+|---|---|---|
+| `AGENTS.md` / `AGENTS.override.md` | Agent instructions for this server or directory | Use the user's approved local instructions; no tracked copy is supplied |
+| `ACCESS_POLICY.md` | Allowed filesystem and dataset/cache access | Adapt the [access template](infra/templates/ACCESS_POLICY.md.example) |
+| `infra/gpu_policy.md` | Compute rules, authorized resources and budget enforcement | Adapt the [GPU policy template](infra/templates/gpu_policy.md.example) |
+| `infra/gpu_scheduler.py` | Actual scheduler adapter and local topology | Configure the [scheduler example](infra/templates/gpu_scheduler.py.example) for the server |
+| `workspace/env_state.md` | Installed environment, local paths and execution state | Adapt the [environment template](infra/templates/env_state.md.example) |
+| `workspace/dataset_inventory.md` | Dataset availability, revisions and locations on this server | Build from a local lookup under the access policy |
+
+Shared plans, scientific results and phase memories remain versioned. Their
+historical server references are provenance, not configuration for a new host.
+Do not force-add local configuration to share it between servers.
+
+After setup, verify that no local configuration is tracked (the first command
+should print nothing) and that the ignore rules apply:
+
+```bash
+git ls-files -- AGENTS.md ACCESS_POLICY.md infra/gpu_policy.md \
+  infra/gpu_scheduler.py workspace/env_state.md workspace/dataset_inventory.md
+git check-ignore -v AGENTS.md ACCESS_POLICY.md infra/gpu_policy.md \
+  infra/gpu_scheduler.py workspace/env_state.md workspace/dataset_inventory.md
+```
+
 ## Set up each server
 
 1. Clone the repository and create a short-lived branch for the work:
@@ -33,17 +63,14 @@ records retain exact bytes through `.gitattributes`; do not reformat sealed file
    git switch -c work/<server>-<stage>-<task>
    ```
 
-2. Create a local `AGENTS.md` from the instructions approved for this server;
-   it is intentionally not distributed through Git. Initialize the other
-   **machine-local files** from `infra/templates/`: `ACCESS_POLICY.md`,
-   `infra/gpu_policy.md`, `infra/gpu_scheduler.py`, and `workspace/env_state.md`.
-   Create `workspace/dataset_inventory.md` after checking local dataset roots.
-   Read the local access and agent instructions before proceeding.
-   Fill approved paths, cluster topology and limits
-   before agent file access or scheduling. Do not overwrite existing local
-   policies on an already configured server. The scheduler example preserves
-   the existing implementation but has empty topology tables and refuses to run
-   until configured; it is not a universal cluster adapter.
+2. Initialize and read `ACCESS_POLICY.md` using this server's approved paths
+   and permissions. Create and read a local `AGENTS.md` from the user's approved
+   instructions. Initialize the GPU policy, scheduler and environment state as
+   listed above; then check permitted dataset roots and create the local dataset
+   inventory. Configure topology and limits before scheduling. Do not overwrite
+   existing local policies on an already configured server. The scheduler
+   example has empty topology tables and refuses to run until configured; it is
+   not a universal cluster adapter.
 
 3. Use project-local environments; do not copy `.venv` between machines:
 
