@@ -2,7 +2,6 @@
 /*
 !/.gitignore
 !/.gitattributes
-!/AGENTS.md
 !/README.md
 !/requirements.txt
 !/code/
@@ -42,6 +41,7 @@ node_modules/
 /infra/gpu_policy.md
 /infra/gpu_scheduler.py
 /workspace/env_state.md
+/workspace/dataset_inventory.md
 /runs/
 /state/
 /datasets/
@@ -408,3 +408,17 @@ node_modules/
 !/outputs/stage9a_dynamics/amendment_v1/stage9a_compute_amendment_v1.md
 !/outputs/stage9a_dynamics/amendment_v1/stage9a_summary.md
 !/outputs/README.md
+
+# Machine-local instructions and configuration, at any depth.
+# Keep this block last so shared-document allowlists cannot re-include them.
+# Portable *.example templates remain tracked.
+AGENTS.md
+AGENTS.override.md
+agents.md
+ACCESS_POLICY.md
+access_policy.md
+GPU_POLICY.md
+gpu_policy.md
+gpu_scheduler.py
+env_state.md
+dataset_inventory.md

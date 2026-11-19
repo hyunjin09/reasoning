@@ -12,8 +12,10 @@ MAX_TOTAL = 100 * 1024 * 1024
 DENIED_ROOTS = {'.venv', 'venv', 'runs', 'state', 'datasets', 'models', 'checkpoints',
                 'piqd_agent_specs_v4', 'piqd_agent_sepcs_v4', '.pytest_cache'}
 DENIED_PARTS = {'__pycache__', 'uv_cache', 'node_modules', '.cache', '.pytest_cache'}
-LOCAL_FILES = {'ACCESS_POLICY.md', 'infra/gpu_policy.md', 'infra/gpu_scheduler.py',
-               'workspace/env_state.md', 'fix_AGENTS.md'}
+LOCAL_FILES = {'fix_AGENTS.md'}
+LOCAL_BASENAMES = {'agents.md', 'agents.override.md', 'access_policy.md',
+                   'gpu_policy.md', 'gpu_scheduler.py', 'env_state.md',
+                   'dataset_inventory.md'}
 DENIED_SUFFIXES = {'.pt', '.pth', '.ckpt', '.safetensors', '.bin', '.npy', '.npz',
                    '.parquet', '.arrow', '.whl', '.so', '.zip', '.pem', '.key', '.log'}
 SECRET_PATTERNS = [
@@ -32,7 +34,8 @@ def problems(path: str, mode: str, data: bytes) -> list[str]:
     issues = []
     if p.parts[0] in DENIED_ROOTS or any(x in DENIED_PARTS for x in p.parts):
         issues.append('local/artifact/cache directory')
-    if path in LOCAL_FILES or p.name == '.env' or p.name.startswith('.env.'):
+    if (path in LOCAL_FILES or p.name.casefold() in LOCAL_BASENAMES
+            or p.name == '.env' or p.name.startswith('.env.')):
         issues.append('machine-local or environment file')
     if p.suffix in DENIED_SUFFIXES:
         issues.append('binary/artifact/credential extension')
@@ -60,7 +63,15 @@ def self_test() -> None:
     assert problems('scripts/config.py', '100644', b'hf_' + b'B' * 30)
     assert problems('scripts/config.py', '100644', b'https://' + b'name:password@example.org')
     assert not problems('infra/templates/gpu_scheduler.py.example', '100644', b'# configure')
-    print('Payload guard: 12 regression checks passed.')
+    for path in ['AGENTS.md', 'scripts/AGENTS.md', 'code/AGENTS.override.md',
+                 'scripts/ACCESS_POLICY.md', 'infra/GPU_POLICY.md',
+                 'workspace/env_state.md', 'workspace/dataset_inventory.md']:
+        assert problems(path, '100644', b'# local configuration')
+    for path in ['infra/templates/ACCESS_POLICY.md.example',
+                 'infra/templates/gpu_policy.md.example',
+                 'infra/templates/env_state.md.example']:
+        assert not problems(path, '100644', b'# portable template')
+    print('Payload guard: 22 regression checks passed.')
 
 
 def main() -> int:

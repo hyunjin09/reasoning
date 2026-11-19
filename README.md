@@ -15,7 +15,7 @@ after Stage14E2; cloning or moving servers does not authorize new experiments.
 | `code/`, `scripts/`, `tests/`, shared infrastructure | `.venv/`, uv/pip caches, downloaded third-party repositories |
 | `plan/`, phase memories and compact research state | Models, datasets, images, tensor captures, large tables |
 | Selected consolidated reports and research histories | Raw `outputs/`, `runs/`, live `state/`, logs, job queues |
-| Environment specifications and server setup templates | `ACCESS_POLICY.md`, `infra/gpu_policy.md`, `infra/gpu_scheduler.py`, `workspace/env_state.md` |
+| Environment specifications and server setup templates | `AGENTS.md`, `ACCESS_POLICY.md`, `infra/gpu_policy.md`, `infra/gpu_scheduler.py`, `workspace/env_state.md`, `workspace/dataset_inventory.md` |
 
 Outdated `piqd_agent_specs_v4/` (and the misspelled variant), `fix_AGENTS.md`,
 credentials and temporary files are ignored. Historical PIQD source code remains
@@ -33,9 +33,13 @@ records retain exact bytes through `.gitattributes`; do not reformat sealed file
    git switch -c work/<server>-<stage>-<task>
    ```
 
-2. Read `AGENTS.md`. Initialize **new machine-local files** from `infra/templates/`:
-   `ACCESS_POLICY.md`, `infra/gpu_policy.md`, `infra/gpu_scheduler.py`, and
-   `workspace/env_state.md`. Fill approved paths, cluster topology and limits
+2. Create a local `AGENTS.md` from the instructions approved for this server;
+   it is intentionally not distributed through Git. Initialize the other
+   **machine-local files** from `infra/templates/`: `ACCESS_POLICY.md`,
+   `infra/gpu_policy.md`, `infra/gpu_scheduler.py`, and `workspace/env_state.md`.
+   Create `workspace/dataset_inventory.md` after checking local dataset roots.
+   Read the local access and agent instructions before proceeding.
+   Fill approved paths, cluster topology and limits
    before agent file access or scheduling. Do not overwrite existing local
    policies on an already configured server. The scheduler example preserves
    the existing implementation but has empty topology tables and refuses to run
@@ -78,6 +82,16 @@ records retain exact bytes through `.gitattributes`; do not reformat sealed file
 6. Run the active stage's bounded CPU checks and required scheduled runtime
    validation. Do not run the entire historical suite blindly: some tests need
    excluded artifacts, a specific stack, scheduler configuration or GPUs.
+
+## Migrating existing clones
+
+`AGENTS.md` and `workspace/dataset_inventory.md` were tracked in the initial
+import and are now local-only. Before pulling this change on another server,
+back up those files to an ignored local directory, then restore them after the
+pull. Git removes formerly tracked files when applying their deletion; adding
+an ignore rule alone does not preserve them in other clones. The publishing
+server retained its original copies unchanged. Older commits still contain the
+initial versions; repository history has not been rewritten.
 
 ## Work safely across servers
 
