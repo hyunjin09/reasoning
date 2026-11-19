@@ -1,0 +1,7 @@
+# User-authorized two-GPU replacement and reduced-sweep completion
+
+2026-09-15: User requests two GPUs on node02 in the tmux session and completion of the plan. Interpret the typo "2 memories" as two GPUs, consistent with the preceding allocation discussion. This explicitly authorizes a replacement allocation and supersedes the previous existing113280-only restriction for this action. Use tmux10, node02, two A6000 GPUs, up to3 days,16 CPUs and100G host memory (within node02's50G/requested-GPU cap). Register through the project scheduler before Slurm submission; do not request more than two GPUs.
+
+Preserve the sealed42-event MMLong scientific membership and all completed native/causal evidence. Implement an exact-preserving operational cache-memory repair feasible on two GPUs, validate with CPU checks and actual canonical model mechanics, freeze the new runtime binding, then run only the remaining MMLong pilot. Complete the reduced five-benchmark comparison, all required accounting/figures/acceptance, give exactly one recommendation and STOP without executing it. No new benchmark, model, monitor, rollback or decoding intervention. No subagents.
+
+The two longest events have a static three-cache lower bound near90GiB. Naive splitting across two48GiB GPUs has insufficient unmeasured headroom; reduce simultaneous cache residency rather than assume aggregate VRAM is enough. Exact CPU cache storage/reload or carefully verified ownership-preserving cache reuse are operational candidates. Preserve all42 members and no numerical tolerance fallback.

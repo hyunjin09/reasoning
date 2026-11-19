@@ -1,0 +1,4087 @@
+{
+  "snapshot_date": "2026-11-19",
+  "task": "retrospective documentation only",
+  "report": "reports/research_history_all_stages_2026-11-19.md",
+  "report_sha256": "a4af2ce4467c0fe94b270e3240d9b85b6534f5b190638a971b87a4a32aaa2a8d",
+  "stage_entries": [
+    {
+      "id": "piqd1",
+      "title": "PIQD Phase 1 — instrumentation smoke",
+      "status": "Technical smoke only",
+      "findings": "The 10-example Qwen3-VL-8B-Thinking/FastV smoke established execution and hooks with approximately 33.3% visual-token retention (a pruning setting, not accuracy). This was a mechanics test, not validated pruning efficacy; the later audit narrowed its interpretation.",
+      "reports": [
+        "outputs/piqd/phase1/phase1_summary.md",
+        "outputs/piqd/phase1_diag/phase1_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_1_piqd_smoke.md"
+      ],
+      "plans": []
+    },
+    {
+      "id": "piqd2",
+      "title": "PIQD Phase 2 — query extraction",
+      "status": "Technical smoke only",
+      "findings": "Ten-example query extraction produced hook/query artifacts. Successful extraction did not establish query-conditioned causal pruning or faithful RVIS measurement.",
+      "reports": [
+        "outputs/piqd/phase2/phase2_summary.md",
+        "outputs/piqd/phase2_diag/phase2_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_2_piqd_query_extraction.md"
+      ],
+      "plans": []
+    },
+    {
+      "id": "piqd2audit",
+      "title": "PIQD Phase 2B — retrospective validity audit",
+      "status": "Audit complete",
+      "findings": "The audit classified the inherited work as hook_smoke_only. Preserve it as engineering evidence; do not promote the earlier outputs to a validated pruning experiment.",
+      "reports": [
+        "outputs/piqd/phase2/phase2_audit.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_2b_phase2_audit.md"
+      ],
+      "plans": []
+    },
+    {
+      "id": "0",
+      "title": "Stage0 — visual-reasoning instrumentation",
+      "status": "Complete",
+      "findings": "Thirty MathVerse trajectories established the instrumentation path. Four were correct and 26 reached the 2,048-token cap. Unicode/prefix-rewriting defects were repaired. This initial cap-heavy run was not a reliable accuracy characterization.",
+      "reports": [
+        "outputs/stage0/summaries/stage0_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_0_visual_reasoning_instrumentation.md"
+      ],
+      "plans": [
+        "plan/stage0_plan.md"
+      ]
+    },
+    {
+      "id": "1",
+      "title": "Stage1 — baseline visual-attention dynamics",
+      "status": "Complete",
+      "findings": "Completion depended strongly on decoding/cap: the 4,096-token pilot had 10/20 cap hits; the 8,192 pilot had 5/10. The sampled 40,960-token calibration completed 10/10 versus 8/10 greedy. Discovery comprised 200 VI/VD trajectories from 100 pairs: 82 correct, 116 wrong, two cap hits, zero invalid. Recurrent visual-attention patterns survived fixed-window checks, but timing/rates were scale-sensitive and semantic labels remained noisy. Attention recurrence alone is not fresh acquisition.",
+      "reports": [
+        "outputs/stage1/summaries/stage1_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_1_baseline_dynamics.md"
+      ],
+      "plans": [
+        "plan/stage1.md"
+      ]
+    },
+    {
+      "id": "2a",
+      "title": "Stage2A — paired ROI discovery",
+      "status": "Complete, descriptive",
+      "findings": "Among 36 both-correct pairs, 13 had clear shifts, 22 no effective shift and one mixed. Twenty ROI examples included ten descriptive A→B cases, five high-confidence. No robust global visual-mass change was established; this supplied candidate events rather than causal evidence.",
+      "reports": [
+        "outputs/stage2a/summaries/stage2a_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_2a_paired_roi_discovery.md"
+      ],
+      "plans": [
+        "plan/stage2a.md"
+      ]
+    },
+    {
+      "id": "2b",
+      "title": "Stage2B — evidence-specific causal pilot",
+      "status": "Complete, scientific gate failed",
+      "findings": "Technical validation passed 12/12, but the P1 gate passed 0/5 and P2 1/5; median target-minus-irrelevant ΔNLL was only 0.0022 nats/token. Stage2C subsequently found 8/10 intervention windows began after E1, so this null mainly concerns re-access after verbalization, not initial acquisition.",
+      "reports": [
+        "outputs/stage2b/summaries/stage2b_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_2b_evidence_specific_causal_pilot.md"
+      ],
+      "plans": [
+        "plan/stage2b_plan.md"
+      ]
+    },
+    {
+      "id": "2c",
+      "title": "Stage2C — temporal measurement audit",
+      "status": "Complete, artifact-only",
+      "findings": "Fifty completed-correct examples yielded 70 localized evidence events. Timing classes were 3 pre-mention leads, 58 mention-centered, 2 post-mention lags, 4 repeated-mention locked and 3 without clear structure. Stored row t predicts generated token y_t; its query is y_(t−1), except the first row. Thirty-eight counterfactual candidates across 26 examples were identified. No inference/intervention was run; attention timing remains descriptive.",
+      "reports": [
+        "outputs/stage2c/summaries/stage2c_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_2c_temporal_measurement_audit.md"
+      ],
+      "plans": [
+        "plan/stage2c_plan.md"
+      ]
+    },
+    {
+      "id": "3a",
+      "title": "Stage3A — counterfactual visual-content sensitivity",
+      "status": "Complete, positive bounded result",
+      "findings": "Forty-nine bases (45 numeric/four structural) showed positive content effects in 49/49; controlled mean effect 3.1864 with CI [2.8688,3.4988], versus sham 0.0392. All 46 eligible early pre-E0 tests were sensitive; 46/49 edits produced the exact changed fact and one an inexact counterpart. Image content mattered before explicit verbalization, without identifying its internal carrier.",
+      "reports": [
+        "outputs/stage3a/summaries/stage3a_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3a_counterfactual_visual_content.md"
+      ],
+      "plans": [
+        "plan/stage3a_plan.md"
+      ]
+    },
+    {
+      "id": "3b0",
+      "title": "Stage3B.0 — broad carrier screen",
+      "status": "Complete",
+      "findings": "Visual cutoff retained only 14.5% mean/6.1% median of the content effect. Q carried some residual signal but not most of the original effect. This motivated carrier localization rather than an inference that low visual attention means visual independence.",
+      "reports": [
+        "outputs/stage3b0/summaries/stage3b0_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3b0_broad_carrier_screen.md"
+      ],
+      "plans": [
+        "plan/stage3b0_plan.md"
+      ]
+    },
+    {
+      "id": "3b1",
+      "title": "Stage3B.1 — visual sufficiency timing",
+      "status": "Complete, no clean early sufficiency",
+      "findings": "Across 49 bases and 489 checkpoints, 0/49 reached the ≥0.8 retention criterion. Median retention at E0−1 was 0.1114. Direct visual dependence persisted under this assay; an early universal handoff was not established.",
+      "reports": [
+        "outputs/stage3b1/summaries/stage3b1_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3b1_visual_sufficiency_timing.md"
+      ],
+      "plans": [
+        "plan/stage3b1_plan.md"
+      ]
+    },
+    {
+      "id": "3b2",
+      "title": "Stage3B.2 — source switching",
+      "status": "Complete, positive bounded result",
+      "findings": "All 49 bases showed bidirectional donor-source control at E_d−1 and E_d, with BRI 0.9703 and 0.8022. This establishes strong source-content control in the frozen counterfactual assay, not a universal natural-failure mechanism.",
+      "reports": [
+        "outputs/stage3b2/summaries/stage3b2_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3b2_visual_source_switching.md"
+      ],
+      "plans": [
+        "plan/stage3b2_plan.md"
+      ]
+    },
+    {
+      "id": "3b3",
+      "title": "Stage3B.3 — layerwise transfer and redesign",
+      "status": "Original stopped; redesign complete",
+      "findings": "Original smoke failed sham validity (ratio 0.314949 >0.25). The preserved redesign used eight validation and 41 primary bases, including 37 numeric paired-restoration cases. Layers 24–29 (W4) were strongest: median BWS 0.6107 and BSRC 0.6531 at E_d−1; fine localization implicated layers 28–29 and 32–33. The redesign supersedes the invalid implementation, not its historical record.",
+      "reports": [
+        "outputs/stage3b3/summaries/stage3b3_summary.md",
+        "outputs/stage3b3_redesign/summaries/stage3b3_redesign_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3b3_layerwise_visual_transfer.md"
+      ],
+      "plans": [
+        "plan/stage3b3_plan.md",
+        "plan/stage3b3_redesign_plan.md"
+      ]
+    },
+    {
+      "id": "3b4",
+      "title": "Stage3B.4 — module localization",
+      "status": "Complete, isolated-module attribution failed",
+      "findings": "Full-block restoration was robust in 4/4 tested settings. Isolated attention, MLP and their tested joint decomposition did not pass attribution gates. A full-block effect does not license attribution to a single submodule.",
+      "reports": [
+        "outputs/stage3b4/summaries/stage3b4_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3b4_module_localization.md"
+      ],
+      "plans": [
+        "plan/stage3b4_plan.md"
+      ]
+    },
+    {
+      "id": "3b5",
+      "title": "Stage3B.5 — sequential recomputation",
+      "status": "Complete",
+      "findings": "Thirty-seven bases yielded 1,480 boundary rows and 40 Holm-controlled tests. Post-attention gains appeared in 3/4 target settings; W5/E_d also implicated upstream state. Recomputed downstream effects cannot be treated as additive fractions of one independent mechanism.",
+      "reports": [
+        "outputs/stage3b5/summaries/stage3b5_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3b5_sequential_recompute.md"
+      ],
+      "plans": [
+        "plan/stage3b5_plan.md"
+      ]
+    },
+    {
+      "id": "3b6",
+      "title": "Stage3B.6 — head/path localization",
+      "status": "Complete with target-specific qualification",
+      "findings": "Top-four heads at E_d/W4 achieved VPRR 0.979; top-two at E_d−1/W4 achieved 0.885. W5 head 10 failed the sham gate. Localized transport is real in passing settings, but head importance is not uniform across layers/times.",
+      "reports": [
+        "outputs/stage3b6/summaries/stage3b6_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3b6_head_path_localization.md"
+      ],
+      "plans": [
+        "plan/stage3b6_plan.md"
+      ]
+    },
+    {
+      "id": "3b7",
+      "title": "Stage3B.7 — ROI routing versus Value",
+      "status": "Stopped at fresh validation",
+      "findings": "Eight fresh validation cases failed the top-two sham ratio (0.269893 >0.25). Primary inference did not run. This is a validity failure, not a scientific null about ROI/Value mechanisms.",
+      "reports": [
+        "outputs/stage3b7/summaries/stage3b7_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3b7_roi_routing_value.md"
+      ],
+      "plans": [
+        "plan/stage3b7_plan.md"
+      ]
+    },
+    {
+      "id": "3b7r",
+      "title": "Stage3B.7-R — revalidated ROI path",
+      "status": "Complete",
+      "findings": "Thirteen fresh validation cases and 37 primary cases supported an ROI-local, Value-dominant path in both tested targets; KV reconstruction was exact. Fresh sham controls were necessary before attributing the effect.",
+      "reports": [
+        "outputs/stage3b7r/summaries/stage3b7r_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3b7r_revalidated_roi_path.md"
+      ],
+      "plans": [
+        "plan/stage3b7r_plan.md"
+      ]
+    },
+    {
+      "id": "3b8",
+      "title": "Stage3B.8 — Value geometry",
+      "status": "Complete, low-rank generalization limited",
+      "findings": "Rank-eight structure learned on 20 discovery cases did not meet generalization gates on 37 primary cases: projected/full ratios 0.368/0.532 and complement ratios 0.472/0.348. Learned directions beat 100 random controls (p=0.0099 for each target), but cross-target transfer was near zero. No universal rank-eight evidence code was established.",
+      "reports": [
+        "outputs/stage3b8/summaries/stage3b8_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3b8_value_geometry.md"
+      ],
+      "plans": [
+        "plan/stage3b8_plan.md"
+      ]
+    },
+    {
+      "id": "3b9",
+      "title": "Stage3B.9 — distributed Value geometry",
+      "status": "Complete",
+      "findings": "On 24 fresh cases, rank-24/rank-16 representations met the frozen ≥0.8 retained/≤0.3 complement criteria; local rank-one/two alternatives failed. The supported picture is shared, moderately distributed structure, not a single local direction.",
+      "reports": [
+        "outputs/stage3b9/summaries/stage3b9_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3b9_distributed_value_geometry.md"
+      ],
+      "plans": [
+        "plan/stage3b9_plan.md"
+      ]
+    },
+    {
+      "id": "3c1",
+      "title": "Stage3C.1 — retrieval-attention phenotype",
+      "status": "Complete, descriptive",
+      "findings": "Thirty-seven bases produced 14,820 head rows and 444 archives. Causally implicated paths had strong ROI-routing phenotypes, but raw attention magnitude was not a reliable universal proxy for causal source contribution.",
+      "reports": [
+        "outputs/stage3c1/summaries/stage3c1_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3c1_retrieval_attention_phenotype.md"
+      ],
+      "plans": [
+        "plan/stage3c1_plan.md"
+      ]
+    },
+    {
+      "id": "3c2",
+      "title": "Stage3C.2 — semantic alignment and sink dynamics",
+      "status": "Complete, descriptive",
+      "findings": "Technical checks passed 20/20 on 31 distinct-mention/target bases. At retrieval, T exceeded M in all 62 target/base events for attention density, QK, alpha-V and post-W_O norms: 40/62 alignment-then-retrieval and 22/62 retrieval-only. All seven prospective contrasts survived Holm correction. Median target-mass gain 0.3397 accompanied candidate-sink loss −0.2052; 46/62 were exploratory sink-release cases. Natural reallocation is not sink causality or proof of acquisition.",
+      "reports": [
+        "outputs/stage3c2/summaries/stage3c2_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3c2_semantic_retrieval_sink.md"
+      ],
+      "plans": [
+        "plan/stage3c2_plan.md"
+      ]
+    },
+    {
+      "id": "3c3",
+      "title": "Stage3C.3 — routing causality",
+      "status": "Routing changes; downstream gate failed",
+      "findings": "Query swaps changed routing and alpha-V on 24/24 bases for both targets, but reciprocal evidence-preference transfer failed the gate. Phase B did not run. Changing attention allocation is insufficient evidence of changing the evidence used.",
+      "reports": [
+        "outputs/stage3c3/summaries/stage3c3_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3c3_routing_causality.md"
+      ],
+      "plans": [
+        "plan/stage3c3_plan.md"
+      ]
+    },
+    {
+      "id": "3c3r",
+      "title": "Stage3C.3-R — signal-gain repair",
+      "status": "Complete",
+      "findings": "FP32 contribution bookkeeping repaired decomposition fidelity; λ=0 retained 0.996591. Even all-head suppression in the two target layers left retention 0.9864/0.9910, motivating redundancy tests rather than declaring those paths behaviorally unnecessary everywhere.",
+      "reports": [
+        "outputs/stage3c3r/summaries/stage3c3r_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3c3r_signal_gain.md"
+      ],
+      "plans": [
+        "plan/stage3c3r_plan.md"
+      ]
+    },
+    {
+      "id": "3c4",
+      "title": "Stage3C.4 — spatiotemporal redundancy",
+      "status": "Complete, O2 temporal redundancy",
+      "findings": "All-layer current-query suppression retained median 0.8436; adding the previous query reduced it to 0.6515, then 0.5952 at T2 and about 0.55 through T16. The T0→T1 increment was largest and positive on 24/24 bases; all 14 prospective tests survived Holm correction. Evidence support was distributed across depth and recent time, with strong A/B heterogeneity.",
+      "reports": [
+        "outputs/stage3c4/summaries/stage3c4_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3c4_spatiotemporal_redundancy.md"
+      ],
+      "plans": [
+        "plan/stage3c4_plan.md"
+      ]
+    },
+    {
+      "id": "3c5",
+      "title": "Stage3C.5 — necessary visual window and handoff",
+      "status": "Complete, O5 no clean carrier",
+      "findings": "Previous-query necessity was broad-depth: layers 16–35 reached 80% of the all-layer effect. h_pre was the strongest transfer candidate (median CRR 0.1832), ahead of R_last1 0.0719 and Q 0.0109, but none met pooled CRR≥0.20. h_pre differed sharply by target (0.3226 versus 0.0205). Significant transfer did not satisfy the predeclared clean-carrier magnitude gate.",
+      "reports": [
+        "outputs/stage3c5/summaries/stage3c5_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3c5_visual_window_handoff.md"
+      ],
+      "plans": [
+        "plan/stage3c5_plan.md"
+      ]
+    },
+    {
+      "id": "3c6",
+      "title": "Stage3C.6 — suppression/residual rescue",
+      "status": "Complete, incomplete/heterogeneous rescue",
+      "findings": "Late residual rescue was incomplete. The first RR≥0.2 occurred at layer 34 for A and 35 for B; neither reached 0.5. A supported a limited rescue region; the result did not establish a universal current-residual carrier.",
+      "reports": [
+        "outputs/stage3c6/summaries/stage3c6_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3c6_suppression_residual_rescue.md"
+      ],
+      "plans": [
+        "plan/stage3c6_plan.md"
+      ]
+    },
+    {
+      "id": "3c7",
+      "title": "Stage3C.7 — prior-cache and joint rescue",
+      "status": "Complete, target-specific",
+      "findings": "Native prior K+V could restore the complete endpoint with Value-dominant behavior. Joint residual/cache rescue was near-complete for A but not B. Carrier explanations remain target-dependent; patch effects are not additive independent mediation fractions.",
+      "reports": [
+        "outputs/stage3c7/summaries/stage3c7_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3c7_prior_cache_joint_rescue.md"
+      ],
+      "plans": [
+        "plan/stage3c7_plan.md"
+      ]
+    },
+    {
+      "id": "3c8",
+      "title": "Stage3C.8 — token-type carrier atlas",
+      "status": "Complete; long-horizon extension gated off",
+      "findings": "Sixty-four fresh bases plus 24 anchors showed stronger recent 1–2-token than 4–16-token effects and phase/type heterogeneity. Full-KV endpoint results differed sharply between A (64/64, median 1.125) and B (57/64, median 0.151); full-Q passed 61/64, median 0.624. Only 15 long-horizon candidates met a required 28, so that extension was not run.",
+      "reports": [
+        "outputs/stage3c8/summaries/stage3c8_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3c8_token_type_carrier_atlas.md"
+      ],
+      "plans": [
+        "plan/stage3c8_plan.md"
+      ]
+    },
+    {
+      "id": "a6000",
+      "title": "A6000 platform calibration v1",
+      "status": "Failed exact-path validity",
+      "findings": "Full/cache comparisons exceeded the 1e−5 requirement; BF16 chunk/path differences mattered. This machine migration was an engineering failure, not a revised scientific result.",
+      "reports": [
+        "outputs/a6000_calibration/summaries/a6000_calibration_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_a6000_platform_calibration.md"
+      ],
+      "plans": [
+        "plan/a6000_platform_calibration_plan.md"
+      ]
+    },
+    {
+      "id": "a6000v2",
+      "title": "A6000 calibration v2 and Stage3C.9 restart",
+      "status": "Technical PASS",
+      "findings": "Canonical maximum-2,048-token streaming passed 17/17 checks across all four devices. The failed v1 paths remained preserved; subsequent inference was tied to the validated same-path implementation.",
+      "reports": [
+        "outputs/a6000_calibration_v2/summaries/a6000_calibration_v2_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_a6000_calibration_v2_stage3c9_restart.md"
+      ],
+      "plans": [
+        "plan/a6000_calibration_v2_stage3c9_restart_plan.md"
+      ]
+    },
+    {
+      "id": "3c9",
+      "title": "Stage3C.9 — long-horizon checkpoints",
+      "status": "Complete with cross-path validity concerns",
+      "findings": "The 600-case screen yielded 391 correct, 207 wrong and two caps; 48 primary cases were selected. No repeated C2 pattern was established. Twenty-four of 33 cross-path gates were unstable, requiring a same-path repair before interpreting isolated effects.",
+      "reports": [
+        "outputs/stage3c9/summaries/stage3c9_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3c9_long_horizon_checkpoints.md"
+      ],
+      "plans": [
+        "plan/stage3c9_plan.md"
+      ]
+    },
+    {
+      "id": "3c9r",
+      "title": "Stage3C.9-R — same-path repair",
+      "status": "Complete, recurrent effect absent under tested rules",
+      "findings": "The repair preserved 576 raw condition files across 288 event-window pairs, with matched O/O_sham/C/C_sham interventions. Across 33 source events there were ten isolated checkpoints at floor .05; floors .025/.05/.10/.15 yielded 12/10/6/3, but zero repeated cases at every floor. Final categories were 111 C0, 23 C1, nine C2 and one C3; five short, two persistent and three censored episodes were distinguished. Isolated counts changed with validity repair; the negative repeated-effect finding did not.",
+      "reports": [
+        "outputs/stage3c9r/summaries/stage3c9r_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3c9r_same_path_validity_repair.md"
+      ],
+      "plans": [
+        "plan/stage3c9r_plan.md"
+      ]
+    },
+    {
+      "id": "3c10",
+      "title": "Stage3C.10 — retrieval trigger",
+      "status": "Complete, routing trigger not content restoration",
+      "findings": "Twenty-four bases passed the five trigger gates for both targets. Late Q restoration recovered routing but not robust VSD; h_pre also failed the required restoration. A trigger for where the model routes is not sufficient to recover the right source content.",
+      "reports": [
+        "outputs/stage3c10/summaries/stage3c10_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_3c10_retrieval_trigger.md"
+      ],
+      "plans": [
+        "plan/stage3c10_retrieval_trigger_plan.md"
+      ]
+    },
+    {
+      "id": "4a",
+      "title": "Stage4A — multi-evidence switch/refresh",
+      "status": "Complete, demand-conditioned routing supported",
+      "findings": "In 48 A→B→A cases, 36/48 W2 and 30/48 W8 comparisons showed dynamic behavior. All 24 semantic-challenge cases favored demanded source over other/sham. The stronger O3 trigger account was not established. Reasoning demand can redirect causal source use without validating an acquisition method.",
+      "reports": [
+        "outputs/stage4a/summaries/stage4a_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_4a_multi_evidence_switch_refresh.md"
+      ],
+      "plans": [
+        "plan/stage4a_multi_evidence_switch_refresh_plan.md"
+      ]
+    },
+    {
+      "id": "5a",
+      "title": "Stage5A — failure/attention taxonomy",
+      "status": "Complete, strict failure evidence sparse",
+      "findings": "Two hundred natural cases yielded 550 events; the atlas retained 128/347. There were ten Tier2 H-MR events from nine bases, one Tier1 H-SC, and 13 integration events from seven bases. Only one H-MR had positive support for the actual wrong token; alternative-source ablation increased wrong-token probability in seven. Margin-defined labels are not proof of error-causing source use. Strict confirmation mirage gates failed; primary extension did not run.",
+      "reports": [
+        "outputs/stage5a/summaries/stage5a_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_5a_failure_attention_state_taxonomy.md"
+      ],
+      "plans": [
+        "plan/stage5a_failure_attention_state_taxonomy_plan.md"
+      ]
+    },
+    {
+      "id": "6a",
+      "title": "Stage6A — alignment/mirage/dynamics cohorts",
+      "status": "Cohort construction complete",
+      "findings": "Built 2,983 events from 1,276 bases: C1 109/1,199, C2 31/124, C3 136/660 and C4 1,000 native bases. C4 review found ten confirmed object errors, 50 unknown and 940 without the designated error; ten pairs were below the requested 60. Recorded 117.4163 device-hours are measured runtime, not interchangeable with charged allocation-hours.",
+      "reports": [
+        "outputs/stage6a/summaries/stage6a_cohort_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_6a_dedicated_alignment_mirage_retrieval_dynamics_cohort.md"
+      ],
+      "plans": [
+        "plan/stage6a_dedicated_alignment_mirage_retrieval_dynamics_cohort_plan.md",
+        "plan/stage6a_execution_checklist.md"
+      ]
+    },
+    {
+      "id": "6b",
+      "title": "Stage6B — causal retrieval/mirage analysis",
+      "status": "Complete, broad failure claims not established",
+      "findings": "All 21 technical criteria passed. Demand increased focal-source necessity (confirmation W2 median 1.426, 18/19 positive; W8 1.063, 17/19). Strong/mask losses survived shams on 57/62 and 58/62 bases. Nine strict mirage candidates arose in eight bases/seven source groups, but broad robustness failed. Only nine held-out demand switches and seven mixed comparisons, no matched holds, were available. C3/C4 broad replication gates failed; natural descriptors were not causal failure labels. Sink association was descriptive, not mediation.",
+      "reports": [
+        "outputs/stage6b/summaries/stage6b_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_6b_causal_retrieval_dynamics_mirage_analysis.md"
+      ],
+      "plans": [
+        "plan/stage6b_causal_retrieval_dynamics_mirage_analysis_plan.md",
+        "plan/stage6b_execution_checklist.md"
+      ]
+    },
+    {
+      "id": "6br",
+      "title": "Stage6B-R — dynamic panel repair",
+      "status": "Stopped at CPU feasibility gate",
+      "findings": "Maximum matching was only 62 versus the required 64 even under an optimistic admissibility bound. A certified cover supported the shortfall. Whole-span annotation was not fully complete; no GPU scientific repair was run and no full PASS was claimed.",
+      "reports": [
+        "outputs/stage6br/summaries/stage6br_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_6br_dynamic_demand_readout_panel_repair.md"
+      ],
+      "plans": [
+        "plan/stage6br_dynamic_demand_readout_panel_repair_plan.md",
+        "plan/stage6br_execution_checklist.md"
+      ]
+    },
+    {
+      "id": "7a",
+      "title": "Stage7A — causal visual-grounding states",
+      "status": "Complete; monitor/intervention gates closed",
+      "findings": "Sixty-seven bases/399 native conditions yielded 390 completed responses and nine cap exclusions; 480 events were scored. Strong states: 181 FAITHFUL_READ, three WRONG_SOURCE_READ, one SOURCE_COUPLED_EXTRACTION_ERROR and two DOWNSTREAM_INTEGRATION_ERROR; zero certified PRIOR_FILL/STALE_SOURCE_READ. There were 292 unresolved records and one ordinary Tier2 faithful read. Faithful controls passed, but rare failure counts did not meet held-out monitor or intervention gates. Missing certification is not proof of absent failures.",
+      "reports": [
+        "outputs/stage7a/summaries/stage7a_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_7a_causal_visual_grounding_states.md"
+      ],
+      "plans": [
+        "plan/stage7a_causal_visual_grounding_states_plan.md"
+      ]
+    },
+    {
+      "id": "7bench",
+      "title": "Stage7A-Bench v1 — benchmark enrichment",
+      "status": "Superseded; artifacts preserved",
+      "findings": "The broad benchmark-enrichment plan was replaced by v2 and then narrowed prospectively. No extra results should be invented for deferred medical/overlapping benchmarks; preparatory artifacts remain historical rather than completed causal studies.",
+      "reports": [],
+      "memories": [
+        "workspace/phase_memory/phase_7a_bench_benchmark_failure_enrichment.md"
+      ],
+      "plans": [
+        "plan/stage7a_bench_execution_checklist.md",
+        "plan/stage7a_benchmark_failure_enrichment_plan.md"
+      ]
+    },
+    {
+      "id": "7benchv2",
+      "title": "Stage7A-Bench v2 — reduced mechanistic sweep",
+      "status": "Complete under scope amendment",
+      "findings": "Phantom supplied 400 conditions/200 bases as the extreme no-valid-source behavioral reference. CharXiv: 200 native, 64 pilot events, one strong wrong-source/six strong faithful/25 weaker faithful/32 unresolved. MathWild passed the 96-review gate with 19 localizable candidates/12 bases; 264 native conditions and 48 pilot events yielded three strong faithful/three weaker/42 unresolved. MMMU: 328 reviews and 33 pilot events, one strong faithful/24 weaker/eight unresolved. MMLong: 190/200 reviewed (five OOM, two PDF, three context exclusions), 89/169 scored correct plus 21 unscorable; 42 pilot events yielded two wrong-source/seven strong faithful/14 weaker/19 unresolved. Total 187 pilot events: 17 strong faithful, 66 weaker faithful, three wrong-source and 101 unresolved. Low accuracy did not imply causal failure yield. MathSight, MicroVQA and MedXpertQA-MM were deferred.",
+      "reports": [
+        "outputs/stage7a_bench_v2/summaries/stage7a_bench_v2_summary.md",
+        "outputs/stage7a_bench_v2/summaries/phantom_behavior_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_7a_bench_v2_mirage_track.md"
+      ],
+      "plans": [
+        "plan/stage7a_bench_v2_execution_checklist.md",
+        "plan/stage7a_bench_v2_mmlong_launch_monitor_20260914.md",
+        "plan/stage7a_bench_v2_mmlong_oom_continuation_20260914.md",
+        "plan/stage7a_bench_v2_node02_two_gpu_completion_20260915.md",
+        "plan/stage7a_bench_v2_pre_mmlong_handoff_20260914.md",
+        "plan/stage7a_bench_v2_review_to_completion_20260914.md",
+        "plan/stage7a_bench_v2_scope_amendment_20260913.md",
+        "plan/stage7a_benchmark_failure_enrichment_plan_v2_mirage_track.md"
+      ]
+    },
+    {
+      "id": "8a",
+      "title": "Stage8A — retrieval-proxy transport calibration",
+      "status": "Complete, transport/generalization gate failed",
+      "findings": "Ninety-six new trajectories had 71 EOS/25 caps. The retrieval proxy had AUROC .9776 and FPR .1277 in its evaluated setting, but state coverage 19/18 failed a 24/12 gate. Value transfer was positive in 16/16 events from 15 families, median 8.3125 [7.1314,10.2163]. Cheap transported predictors had AUROC .346–.425; positive intervention transfer did not imply a useful generalizing monitor.",
+      "reports": [
+        "outputs/stage8a/summaries/stage8a_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_8a_retrieval_proxy_transport_calibration.md"
+      ],
+      "plans": [
+        "plan/stage8a_analysis_protocol_v1.md",
+        "plan/stage8a_execution_checklist.md",
+        "plan/stage8a_localization_protocol_v1.md",
+        "plan/stage8a_localization_protocol_v2.md",
+        "plan/stage8a_main_measurement_protocol_v1.md",
+        "plan/stage8a_main_measurement_protocol_v2.md",
+        "plan/stage8a_plan.md"
+      ]
+    },
+    {
+      "id": "8b",
+      "title": "Stage8B v1/v2 — retrieval-aligned MathVision",
+      "status": "Transfer panel complete; v1 cap pathology retained",
+      "findings": "On the same 32 cases, v1 had seven correct/three wrong/22 caps; sampled v2 had 12 correct/16 wrong/four unknown and 28 EOS. Semantic review found 38 target events (33 L+, four L−, one unknown) and 32 mention events, 30 nonvisual. Thirty-five of 38 target events aligned, with six false alarms among 62 controls; prefix review covered 7.88%. Annotation and completion limits constrained interpretation.",
+      "reports": [
+        "outputs/stage8b/summaries/transfer32_results.md",
+        "outputs/stage8b/v2/summaries/transfer32_results.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_8b_retrieval_aligned_mathvision.md"
+      ],
+      "plans": [
+        "plan/stage8b_answer_scoring_protocol_v1.md",
+        "plan/stage8b_census_protocol_v1.md",
+        "plan/stage8b_execution_checklist.md",
+        "plan/stage8b_resource_estimate.md",
+        "plan/stage8b_retrieval_aligned_success_failure_mathvision_plan.md",
+        "plan/stage8b_retrieval_aligned_success_failure_mathvision_plan_v2.md",
+        "plan/stage8b_transfer_annotation_protocol_v1.md",
+        "plan/stage8b_v2_execution_checklist.md",
+        "plan/stage8b_v2_four_gpu_amendment_20260917.md",
+        "plan/stage8b_v2_single_gpu_amendment_20260917.md",
+        "plan/stage8b_v2_transfer_annotation_protocol.md"
+      ]
+    },
+    {
+      "id": "8b1a",
+      "title": "Stage8B.1A — bounded 224-case census",
+      "status": "Complete after pause/resume",
+      "findings": "Added 224 fixed cases to the original 32: 256 total, 238 EOS and 18 cap hits. Pauses, node changes and parallel execution preserved frozen case membership. This supplied a bounded discovery corpus, not a new causal comparison.",
+      "reports": [
+        "outputs/stage8b1a/summaries/native256_completion.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_8b1a_bounded_mathvision_discovery.md"
+      ],
+      "plans": [
+        "plan/stage8b1a_224_mathvision_bounded_census_plan.md",
+        "plan/stage8b1a_execution_checklist.md",
+        "plan/stage8b1a_node06_resume_execution.md"
+      ]
+    },
+    {
+      "id": "8b_block0",
+      "title": "Stage8B Block0 — compute-once shared dataset",
+      "status": "Complete",
+      "findings": "Constructed the shared, provenance-linked trajectory/event dataset, including 4,016,542 reasoning-token rows, 2,358 primary episodes and 456 review events from 256 families, to prevent independent re-extraction and inconsistent cohorts across downstream blocks. Dataset construction itself supplies no new causal finding.",
+      "reports": [
+        "outputs/stage8b_block0/v1/stage8b_block0_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_8b_block0_shared_dataset.md"
+      ],
+      "plans": [
+        "plan/stage8b_block0_compute_once_shared_dataset_plan.md",
+        "plan/stage8b_block0_execution_checklist.md",
+        "plan/stage8b_block0_execution_protocol.md"
+      ]
+    },
+    {
+      "id": "8b_block1",
+      "title": "Stage8B Block1 — whole-trajectory success/failure",
+      "status": "Complete, fully adjusted signals uncertain",
+      "findings": "Among 256 trajectories, 134 were correct, 105 wrong and 17 unknown. All 11 fully controlled contrast intervals crossed zero. Some count/tortuosity signals appeared under partial adjustment; they did not establish robust success/failure mechanisms.",
+      "reports": [
+        "outputs/stage8b_block1/v1/stage8b_block1_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_8b_block1_whole_trajectory.md"
+      ],
+      "plans": [
+        "plan/stage8b_block1_analysis_protocol_v1.md",
+        "plan/stage8b_block1_execution_checklist.md",
+        "plan/stage8b_block1_node06_amendment_v3.md",
+        "plan/stage8b_block1_split_nodes_amendment_v2.md",
+        "plan/stage8b_block1_whole_trajectory_success_failure_plan.md"
+      ]
+    },
+    {
+      "id": "8b_block2",
+      "title": "Stage8B Block2 — local-read success/failure",
+      "status": "Complete, failure coverage gate failed",
+      "findings": "Of 456 reviews, 148 were target events, 253 mentions and 55 unresolved. Target outcomes: 120 L+ from 107 families, 17 L− from 16 families and 11 unknown. The 24-failure gate failed. Source ambiguity and sparse locally wrong reads prevented the proposed primary causal comparison.",
+      "reports": [
+        "outputs/stage8b_block2/v1/stage8b_block2_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_8b_block2_local_reads.md"
+      ],
+      "plans": [
+        "plan/stage8b_block2_execution_checklist.md",
+        "plan/stage8b_block2_execution_protocol_v1.md",
+        "plan/stage8b_block2_retrieval_event_local_read_success_failure_plan.md"
+      ]
+    },
+    {
+      "id": "8b_block3a",
+      "title": "Stage8B Block3A — target-selective routing test",
+      "status": "Screen complete; causal assay not run",
+      "findings": "One hundred twenty-eight trajectories (32 items×four seeds) yielded 79 L+, 28 L−, one unknown and 20 unmatched. Only four usable pairs across three families met the matching conditions, below 20 pairs/16 families. No causal routing efficacy result was produced.",
+      "reports": [
+        "outputs/stage8b_block3a/v1/stage8b_block3a_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_8b_block3a_routing_causal.md"
+      ],
+      "plans": [
+        "plan/stage8b_block3a_execution_checklist.md",
+        "plan/stage8b_block3a_execution_protocol_v1.md",
+        "plan/stage8b_block3a_family_clarification_v1.md",
+        "plan/stage8b_block3a_four_gpu_resume_v1.md",
+        "plan/stage8b_block3a_target_selective_routing_causal_test_plan.md"
+      ]
+    },
+    {
+      "id": "8c_v2",
+      "title": "Stage8C v2 — retrieval-triggered visual gain",
+      "status": "Stopped at technical reconstruction gate",
+      "findings": "The decomposition failed native reconstruction requirements before scientific testing. No gain-efficacy conclusion is licensed by this technical failure.",
+      "reports": [
+        "outputs/stage8c_v2/v1/stage8c_v2_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_8c_v2_visual_gain.md"
+      ],
+      "plans": [
+        "plan/stage8c_v2_execution_checklist.md",
+        "plan/stage8c_v2_execution_protocol_v1.md",
+        "plan/stage8c_v2_retrieval_triggered_visual_gain_large_diverse_plan.md"
+      ]
+    },
+    {
+      "id": "8c_repair",
+      "title": "Stage8C-R — visual-decomposition revalidation",
+      "status": "Repair tested; unchanged bound failed",
+      "findings": "Eight fixed cases/four families produced 4,128 layer-query records. Independent BF16 source reductions introduced rounding before W_O: pre-projection error .25, separately projected .5 and residual reconstruction 4 versus .125 limits. A full-KV BF16 candidate still failed V3; Dev128 was not launched. This narrows the failure to tested numerical paths, not all possible BF16 methods.",
+      "reports": [
+        "outputs/stage8c_repair/v1/stage8c_repair_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_8c_repair_visual_decomposition.md"
+      ],
+      "plans": [
+        "plan/stage8c_repair_execution_checklist.md",
+        "plan/stage8c_repair_visual_decomposition_revalidation_plan.md"
+      ]
+    },
+    {
+      "id": "8c_v3",
+      "title": "Stage8C v3 — FP32 direct visual gain",
+      "status": "Development complete; held-out launch gated off",
+      "findings": "FP32 enabled valid testing on 128 development cases×four gains. Correct counts were 61/60/59/57 at gains 1/1.25/1.5/2; rescue/regression pairs were 4/4, 3/4 and 3/7 for the nonbaseline gains. All promotion gates failed; the 512-case test did not run. Increasing direct visual contribution did not yield a supported improvement.",
+      "reports": [
+        "outputs/stage8c_v3/v1/stage8c_v3_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_8c_v3_fp32_visual_gain.md"
+      ],
+      "plans": [
+        "plan/stage8c_v3_execution_checklist.md",
+        "plan/stage8c_v3_execution_protocol_v1.md",
+        "plan/stage8c_v3_four_gpu_resume_v1.md",
+        "plan/stage8c_v3_fp32_direct_retrieval_gain_plan.md"
+      ]
+    },
+    {
+      "id": "8b_block3b",
+      "title": "Stage8B Block3B — post-read recovery/wandering",
+      "status": "Complete, bounded descriptive evidence",
+      "findings": "One hundred forty-eight reviews included 16 full remainders and 132 windows. Three correction and two mutation witnesses were found. Unreviewed/unresolved trajectories cannot be counted as absence of recovery or wandering.",
+      "reports": [
+        "outputs/stage8b_block3b/v1/stage8b_block3b_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_8b_block3b_post_read.md"
+      ],
+      "plans": [
+        "plan/stage8b_block3b_execution_checklist.md",
+        "plan/stage8b_block3b_execution_protocol_v1.md",
+        "plan/stage8b_block3b_post_read_recovery_wandering_plan.md"
+      ]
+    },
+    {
+      "id": "9a_native",
+      "title": "Stage9A — native Thinking versus prompted CoT",
+      "status": "Complete, positive usage hypothesis unsupported",
+      "findings": "The 128-family study preserved 384 native trajectories, 539 accepted semantic demands and 50 local readouts. None of four primary contrasts supported the proposed positive Thinking-specific usage regime; episode density was 2.437 versus 5.122/k tokens for CoT. Length matching was sparse. Native accuracy, attention usage and causal necessity remain different quantities.",
+      "reports": [
+        "outputs/stage9a/v1/stage9a_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_9a_thinking_vs_cot.md"
+      ],
+      "plans": [
+        "plan/stage9a_execution_checklist.md",
+        "plan/stage9a_execution_protocol_v1.md",
+        "plan/stage9a_node07_resource_amendment.md",
+        "plan/stage9a_thinking_vs_cot_visual_access_regimes_plan.md"
+      ]
+    },
+    {
+      "id": "9a_vab",
+      "title": "Stage9A VAB reimplementation proposal",
+      "status": "Cancelled before GPU execution",
+      "findings": "The user replaced this proposal with direct visual-access dynamics. Synthetic/protocol preparation is preserved; it is not an executed VAB experiment and must not be merged with later calibration results.",
+      "reports": [],
+      "memories": [
+        "workspace/phase_memory/phase_9a_vab_necessity.md"
+      ],
+      "plans": [
+        "plan/stage9a_vab_execution_protocol_v1.md",
+        "plan/stage9a_vab_style_visual_access_necessity_thinking_vs_cot_plan.md"
+      ]
+    },
+    {
+      "id": "9a_dynamics",
+      "title": "Stage9A — direct visual-access dynamics amendment",
+      "status": "Main complete; controls closed by explicit transition",
+      "findings": "Prospective compute reduction selected 64/128 metadata-stratified families: 1,904 distinct continuations, 2,138 logical conditions and 50 unchanged readouts. Eight old rows were reused; 78 old rows preserved, 70 outside primary. Thinking−CoT damage: cutoff512 −4.69pp, cutoff2048 −3.13pp, late windows −2.34pp, demand−control +10.71pp; all simultaneous intervals crossed zero. Demand contrast became zero without algebra, so reserve/query-text gates failed. Stage9A.3 explicitly superseded the remaining controls: 74/87 preserved, 13 cancelled. Do not claim all 87 were completed or use the old running summary as current status.",
+      "reports": [
+        "outputs/stage9a_dynamics/amendment_v1/stage9a_summary.md",
+        "outputs/stage9a_dynamics/amendment_v1/stage9a3_transition_addendum.md",
+        "outputs/stage9a_dynamics/amendment_v1/stage9a_compute_amendment_v1.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_9a_access_dynamics.md"
+      ],
+      "plans": [
+        "plan/stage9a_compute_amendment_v1.md",
+        "plan/stage9a_direct_cot_thinking_visual_access_dynamics_plan.md",
+        "plan/stage9a_dynamics_execution_checklist.md",
+        "plan/stage9a_dynamics_execution_protocol_v1.md",
+        "plan/stage9a_finish_execution_checklist.md",
+        "plan/stage9a_resource_addendum_8gpu_20260925.md"
+      ]
+    },
+    {
+      "id": "9a3",
+      "title": "Stage9A.3 — bounded VAB calibration",
+      "status": "Complete; Qwen3 baseline invalid",
+      "findings": "Qwen2.5 synthetic calibration produced FULL 68/96, zero-access damage 21.875pp and finite-64 damage −1.0417pp, with stable null-sink direction. Qwen3's baseline was only 20/64 correct with 18 caps and failed validity. No cross-model conclusion can be drawn from an invalid baseline regime.",
+      "reports": [
+        "outputs/stage9a3/v1/stage9a3_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_9a3_vab_calibration.md"
+      ],
+      "plans": [
+        "plan/stage9a3_bounded_vab_calibration_qwen25_vs_qwen3_cot_plan.md",
+        "plan/stage9a3_execution_checklist.md",
+        "plan/stage9a3_execution_protocol_v1.md"
+      ]
+    },
+    {
+      "id": "9a4",
+      "title": "Stage9A.4 — Qwen3-4B finite-access repair",
+      "status": "Complete, Outcome B",
+      "findings": "The repaired baseline scored FULL 45/64, ZERO 28/64, cutoff64 37/64 and cutoff128 46/64. The main frozen criterion supported finite-access point preservation at128, while64 was insufficient. Null-sink cutoff128 scored43/64, with uncertainty crossing the five-point boundary; redistribution-independent preservation therefore remained uncertain.",
+      "reports": [
+        "outputs/stage9a4/v1/stage9a4_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_9a4_qwen3_4b_finite_access.md"
+      ],
+      "plans": [
+        "plan/stage9a4_execution_checklist.md",
+        "plan/stage9a4_execution_protocol_v1.md",
+        "plan/stage9a4_qwen3vl4b_vab_baseline_repair_finite_access_plan.md"
+      ]
+    },
+    {
+      "id": "9a5",
+      "title": "Stage9A.5 — Thinking versus CoT finite access",
+      "status": "Complete, control-dependent",
+      "findings": "Thinking standard cutoff128 damage was 1.5625pp [0,4.6875], versus CoT −1.5625pp. Thinking null-sink damage was 10.9375pp [3.125,21.875], breaking preservation. Both failed cutoff64. Apparent access sufficiency depended materially on redistribution controls.",
+      "reports": [
+        "outputs/stage9a5/v1/stage9a5_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_9a5_thinking_finite_access.md"
+      ],
+      "plans": [
+        "plan/stage9a5_execution_checklist.md",
+        "plan/stage9a5_execution_protocol_v1.md",
+        "plan/stage9a5_qwen3vl4b_thinking_vs_cot_finite_access_plan.md"
+      ]
+    },
+    {
+      "id": "10a",
+      "title": "Stage10A — perceptual-to-textual handoff",
+      "status": "Complete, Outcome C",
+      "findings": "Twenty-four primary/eight reserve cases and 264 new outputs showed text influence under image-free continuation, but the full handoff criterion was not established. A textual intervention effect alone is not enough to certify a clean state transition.",
+      "reports": [
+        "outputs/stage10a/v1/stage10a_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_10a_perceptual_textual_handoff.md"
+      ],
+      "plans": [
+        "plan/stage10a_causal_perceptual_to_textual_handoff_plan.md",
+        "plan/stage10a_execution_checklist.md",
+        "plan/stage10a_execution_protocol_v1.md"
+      ]
+    },
+    {
+      "id": "10ar",
+      "title": "Stage10A-R — transition localization",
+      "status": "Complete, positive controlled handoff result",
+      "findings": "Twenty-four primary families produced 236 logical/190 new conditions. P1–P4 were +29.17/+95.83/+41.67/+45.83pp with adjusted intervals above zero. Optional semantic counterfactual following was 9/12 versus three original and one sham. This supports a functional perceptual-to-textual handoff in the controlled synthetic assay, not a universal MathVision boundary or complete visual-information erasure.",
+      "reports": [
+        "outputs/stage10ar/v1/stage10ar_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_10ar_phase_transition_localization.md"
+      ],
+      "plans": [
+        "plan/stage10ar_causal_phase_transition_localization_plan.md",
+        "plan/stage10ar_execution_checklist.md",
+        "plan/stage10ar_execution_protocol_v1.md"
+      ]
+    },
+    {
+      "id": "10b",
+      "title": "Stage10B — recurrent visual-demand census",
+      "status": "Complete, observational",
+      "findings": "Of 224 trajectories, 26 were clean recurrent-demand cases (11.6%, CI 8.0–16.5): 15/128 MathVision and 11/96 MathVerse. Thirty-seven semantic candidates narrowed to 26 C5; all 26 supported primary S1 and five secondary S3. Event-union agreement was weak. Recurrent demand is not demonstrated causal reopening.",
+      "reports": [
+        "outputs/stage10b/v1/stage10b_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_10b_recurrent_visual_demand_census.md"
+      ],
+      "plans": [
+        "plan/stage10b_agreement_implementation_v1.md",
+        "plan/stage10b_execution_checklist.md",
+        "plan/stage10b_execution_protocol_v1.md",
+        "plan/stage10b_metadata_clarification_v1.md",
+        "plan/stage10b_recurrent_visual_demand_census_plan.md"
+      ]
+    },
+    {
+      "id": "10c",
+      "title": "Stage10C — causal visual reopening",
+      "status": "Complete; full reopening gate failed",
+      "findings": "Sixteen primary families yielded 80 free continuations and 80 NLL tests. Only P2 survived adjusted uncertainty; P1=.125, P2=.39957, P3=.0625, P4=.17718. Greedy baseline 3/16 differed from historical sampled 8/16. Mixed dataset behavior and gate failure precluded the reserve extension and a general reopening claim.",
+      "reports": [
+        "outputs/stage10c/v1/stage10c_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_10c_causal_visual_reopening.md"
+      ],
+      "plans": [
+        "plan/stage10c_causal_visual_reopening_plan.md",
+        "plan/stage10c_execution_checklist.md",
+        "plan/stage10c_execution_protocol_v1.md"
+      ]
+    },
+    {
+      "id": "11a",
+      "title": "Stage11A — visual-evidence bottleneck census",
+      "status": "Complete; localization cohort too sparse",
+      "findings": "Of 128 source cases, 61 were eligible for 183 probes. Twelve Thinking-correct/CoT-failed cases contained only four unique localized candidates (A1/B1/C2), with eight mixed cases; the required eight-case gate failed. No sufficiently large clean bottleneck cohort was established.",
+      "reports": [
+        "outputs/stage11a/v1/stage11a_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_11a_visual_evidence_bottleneck_census.md"
+      ],
+      "plans": [
+        "plan/stage11a_execution_checklist.md",
+        "plan/stage11a_execution_protocol_v1.md",
+        "plan/stage11a_visual_evidence_bottleneck_census_plan.md"
+      ]
+    },
+    {
+      "id": "11b",
+      "title": "Stage11B — harder MathVision equal-evidence oracle",
+      "status": "Feasibility failed; oracle not run",
+      "findings": "One hundred twenty-eight fresh cases yielded 49 eligible but all six strata failed feasibility. Sixty-one of 68 outputs capped; the sole feasible stratum had zero correct among 27 Thinking and 31 CoT calls. The attainable candidate bound was only nine (ten under ambiguity), below 12. Hardness without completion did not create a valid oracle experiment.",
+      "reports": [
+        "outputs/stage11b/v1/stage11b_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_11b_harder_mathvision_equal_evidence_oracle.md"
+      ],
+      "plans": [
+        "plan/stage11b_execution_checklist.md",
+        "plan/stage11b_harder_mathvision_equal_evidence_oracle_plan.md"
+      ]
+    },
+    {
+      "id": "11c",
+      "title": "Stage11C — Thinking/Instruct lifecycle localization",
+      "status": "Technical stop before oracle",
+      "findings": "Two hundred fifty source cases yielded 120 eligible (80 primary/40 reserve). Forty-eight calibration and 32 native-gate calls showed severe capping at 8,192: Thinking 16/16 and Instruct 15/16. No primary/oracle lifecycle result was produced.",
+      "reports": [
+        "outputs/stage11c/v1/stage11c_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_11c_thinking_instruct_lifecycle.md"
+      ],
+      "plans": [
+        "plan/stage11c_execution_checklist.md",
+        "plan/stage11c_thinking_vs_instruct_lifecycle_localization_plan.md"
+      ]
+    },
+    {
+      "id": "11cr",
+      "title": "Stage11C-R — historical recipe reconstruction",
+      "status": "Reconstruction passed; completion gate failed",
+      "findings": "Historical token sequences reproduced exactly on 12/12 known-good cases. On 12 fixed nonprimary cases with the historical sampled 40,960-token recipe, Thinking had one cap/11 finals and Instruct four caps/eight finals/four repetition pathologies. Exact recovery of historical implementation did not validate its intended operating regime.",
+      "reports": [
+        "outputs/stage11cr/v1/stage11cr_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_11cr_technical_repair_frozen_rerun.md"
+      ],
+      "plans": [
+        "plan/stage11cr_execution_checklist.md",
+        "plan/stage11cr_technical_repair_and_frozen_rerun_plan.md"
+      ]
+    },
+    {
+      "id": "official",
+      "title": "Official Qwen MathVision protocol audit",
+      "status": "OFFICIAL_PROTOCOL_STILL_INVALID",
+      "findings": "Primary-source, pinned-revision comparison verified model-specific MathVision settings rather than assuming a shared recipe. The official Instruct sanity run had 7/12 committed finals, five caps and five loops; Thinking had 12/12 finals, no caps/loops. Thus the official recipe did not eliminate the fixed-set Direct pathology. No optional favorable-protocol search or Claim-3 rerun was launched. Exact prompts, recipe discrepancies and runtime limitations remain in the embedded audit.",
+      "reports": [
+        "outputs/qwen3vl_official_eval/v1/qwen3vl_mathvision_official_protocol_audit.md",
+        "outputs/qwen3vl_official_eval/v1/qwen3vl_mathvision_prompt_diff.md",
+        "outputs/qwen3vl_official_eval/v1/qwen3vl_official_sanity_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_qwen3vl_official_eval_audit.md"
+      ],
+      "plans": []
+    },
+    {
+      "id": "12a",
+      "title": "Stage12A — multimodal lost-keys pilot",
+      "status": "Technical stop; scientific panel not run",
+      "findings": "Sixty-one families/157 facts were prepared. The prospective D/C output-contract clarification was preserved before generation. Twelve-case technical checks and repair attempts totaled 60 calls: E passed but D/C failed. The 49-family scientific comparison did not run under that invalid contract.",
+      "reports": [
+        "outputs/stage12a/v1/stage12a_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_12a_multimodal_lost_keys_pilot.md"
+      ],
+      "plans": [
+        "plan/stage12a_multimodal_lost_keys_pilot_plan.md"
+      ]
+    },
+    {
+      "id": "12ar",
+      "title": "Stage12A-R — answer-only contract validation",
+      "status": "Failed contract gate",
+      "findings": "Answer-only formatting passed 0/12; six outputs contained reasoning, three committed finals and nine capped. C was not run. Output-contract failure is distinct from mathematical correctness or evidence acquisition.",
+      "reports": [
+        "outputs/stage12ar/v1/stage12ar_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_12ar_answer_only_reasoning_contract_validation.md"
+      ],
+      "plans": [
+        "plan/stage12ar_answer_only_reasoning_contract_validation_plan.md"
+      ]
+    },
+    {
+      "id": "12b",
+      "title": "Stage12B — failure bottleneck profiling",
+      "status": "Stopped under original pathology gate",
+      "findings": "Thirty-six 4B technical calls: E 12 parsed; N 12 finals with four cycles; O 11 finals with three cycles. The original repetition gate failed. Those observations were retained rather than deleting pathological samples.",
+      "reports": [
+        "outputs/stage12b/v1/stage12b_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_12b_visual_failure_bottleneck_profiling.md"
+      ],
+      "plans": [
+        "plan/stage12b_visual_failure_bottleneck_profiling_plan.md"
+      ]
+    },
+    {
+      "id": "12br",
+      "title": "Stage12B-R — pathology-aware validity repair",
+      "status": "Technical repair complete",
+      "findings": "A fresh 12-family/36-call check separated valid final scoring from behavioral repetition. Repetition remained an observed outcome rather than an automatic exclusion; this repaired the validity contract without making loops disappear or calling them correct reasoning.",
+      "reports": [
+        "outputs/stage12br/v1/stage12br_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_12br_pathology_aware_validity_repair.md"
+      ],
+      "plans": [
+        "plan/stage12br_pathology_aware_validity_repair_plan.md"
+      ]
+    },
+    {
+      "id": "12bs",
+      "title": "Stage12B-S — full scientific failure profiles",
+      "status": "Complete",
+      "findings": "Across 61 families, 183 E/N/O outcomes comprised 111 new plus 72 reused calls. E/N/O scorable counts were 60/57/55, with 51 complete triples. N had 28/57 correct and 29/57 wrong; 26 complete native failures split B1/B2/B3/B4=11/1/3/11. Oracle rescue was 12/26. Incomplete E− evidence is not automatically a demonstrated visual misread.",
+      "reports": [
+        "outputs/stage12bs/v1/stage12bs_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_12bs_full_scientific_failure_profiling.md"
+      ],
+      "plans": [
+        "plan/stage12bs_full_scientific_failure_profiling_plan.md"
+      ]
+    },
+    {
+      "id": "12c",
+      "title": "Stage12C — selective CoT/Thinking rescue",
+      "status": "Technical stop; sampled recipe clarified prospectively",
+      "findings": "The approved 4B Thinking MathVision recipe was temperature1/top-p.95/top-k20/repetition1/presence0/cap40,960, not the old synthetic greedy512 configuration. Twelve C and 12 T sanity calls passed C but had two pre-answer T caps. Scientific rescue effects were not estimated at this stage.",
+      "reports": [
+        "outputs/stage12c/v1/stage12c_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_12c_selective_rescue_cot_thinking.md"
+      ],
+      "plans": [
+        "plan/stage12c_selective_rescue_cot_thinking_plan.md"
+      ]
+    },
+    {
+      "id": "12cr",
+      "title": "Stage12C-R / 12T-R — decoupled CoT science and Thinking completion",
+      "status": "CoT complete; long Thinking validation passed",
+      "findings": "Full CoT: 61 families, 57 scorable and three pre-answer caps; on 54 common families, three rescues/three regressions. B1 rescue 1/10, B4 0/11; selectivity .10 [0,.30], with no evidence-linked rescue established. Thinking at 81,920 completed all original 12 and 11/12 fresh cases, one cap. Nine old prefixes matched and three diverged, so improvement cannot be attributed to budget alone.",
+      "reports": [
+        "outputs/stage12cr/v1/stage12cr_cot_summary.md",
+        "outputs/stage12cr/v1/stage12tr_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_12cr_decoupled_cot_thinking.md"
+      ],
+      "plans": [
+        "plan/stage12cr_decoupled_cot_science_thinking_completion_validation_plan.md"
+      ]
+    },
+    {
+      "id": "12ts",
+      "title": "Stage12T-S — Thinking rescue/evidence recovery",
+      "status": "Complete; downstream signal, not visual recovery",
+      "findings": "Among 61 Thinking outputs, 59 were scorable and two capped. B1 rescue 3/10 and B4 5/11; only one B1 rescue was fully evidence-linked. On 53 common cases N/C/T correct counts were 26/26/35. This supports a downstream signal under the tested model/recipe, not a controlled proof of better visual acquisition.",
+      "reports": [
+        "outputs/stage12ts/v1/stage12ts_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_12ts_thinking_visual_evidence_recovery.md"
+      ],
+      "plans": [
+        "plan/stage12ts_thinking_scientific_rescue_plan.md",
+        "plan/stage12ts_thinking_scientific_rescue_visual_evidence_recovery_plan.md"
+      ]
+    },
+    {
+      "id": "12us",
+      "title": "Stage12U-S — reasoning-state production versus utilization",
+      "status": "Complete, small selected panel",
+      "findings": "Five B4 primary/two B1 descriptive families produced 156 scientific and 12 technical calls across three seeds. Thinking-prefix→Instruct succeeded 4/5 and →Thinking 5/5; CoT-prefix→Instruct 1/5 and →Thinking 2/5. Four of five supported trace-dependent state production. Text portability is not identification of a hidden neural mechanism.",
+      "reports": [
+        "outputs/stage12us/v1/stage12us_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_12us_reasoning_state_transfer.md"
+      ],
+      "plans": [
+        "plan/stage12us_reasoning_state_production_vs_utilization_plan.md"
+      ]
+    },
+    {
+      "id": "12vs",
+      "title": "Stage12V-S — portable-state localization",
+      "status": "Complete, localization mixed",
+      "findings": "Four families/162 calls yielded 156 scorable results. Full prefixes transferred in 4/4; two families had stable localization, family750 was nonmonotonic and798 lacked a suitable boundary. Single-step joint evidence failed 0/2; DROP did not destroy the effect, and E*+step failed 0/3 for both tested recipients. No universal single decisive step was established.",
+      "reports": [
+        "outputs/stage12vs/v1/stage12vs_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_12vs_portable_state_localization.md"
+      ],
+      "plans": [
+        "plan/stage12vs_portable_thinking_state_localization_plan.md"
+      ]
+    },
+    {
+      "id": "12ws",
+      "title": "Stage12W-S — distributed state construction",
+      "status": "Complete, UNRESOLVED",
+      "findings": "Of 420 slots, 416 raw outputs and 411 scorable outcomes were available; nine slots were missing/unscorable in the endpoint accounting. Full-prefix advantage appeared in 3/4 and derived-state advantage in 2/4; distributed/order criteria were not supported. Small selected-family evidence did not settle distributed construction versus reusable state.",
+      "reports": [
+        "outputs/stage12ws/v1/stage12ws_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_12ws_distributed_state.md"
+      ],
+      "plans": [
+        "plan/stage12ws_distributed_reasoning_state_construction_plan.md"
+      ]
+    },
+    {
+      "id": "12xs",
+      "title": "Stage12X-S — held-out portability replication",
+      "status": "Source amendment completed; transfer gated off",
+      "findings": "The original source pool was insufficient. A prospective ≤64 extension stopped after 28 additional candidates once 96 final-QC families/193 facts were sealed. Phase A produced 288 calls and Phase B 40; B1/B2/B3/B4 counts were 13/3/3/20. Only two eligible transfer candidates survived: HELDOUT_CANDIDATE_SPARSE. Phase C did not run; selection was not expanded after observing the shortfall.",
+      "reports": [
+        "outputs/stage12xs/v1/stage12xs_summary.md",
+        "outputs/stage12xs/v2/stage12xs_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_12xs_heldout_portability.md"
+      ],
+      "plans": [
+        "plan/stage12xs_execution_checklist.md",
+        "plan/stage12xs_heldout_portable_reasoning_state_replication_plan.md"
+      ]
+    },
+    {
+      "id": "12ys",
+      "title": "Stage12Y-S — Thinking-role decomposition",
+      "status": "Complete, role confirmation unresolved",
+      "findings": "On the same 96-family source cohort, A/B/C produced 288/192/160=640 calls. Evidence extraction I37/94 versus T43/96; native I45/87 versus T54/96; equal-evidence I61/93 versus T76/96. Post-evidence gap +13.98pp [6.45,22.58] was descriptive. Access-role 1/5, downstream-role 8/15 with one unknown, state-role 2/8 did not support a broad confirmed decomposition.",
+      "reports": [
+        "outputs/stage12ys/v1/stage12ys_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_12ys_thinking_role_decomposition.md"
+      ],
+      "plans": [
+        "plan/stage12ys_execution_checklist.md",
+        "plan/stage12ys_thinking_role_decomposition_vlm_math_plan.md"
+      ]
+    },
+    {
+      "id": "13a",
+      "title": "Stage13A — confirmatory equal-evidence advantage",
+      "status": "Complete, positive preregistered contrast",
+      "findings": "Ninety-six families/576 fresh calls across three seeds: on 84 complete primary families, Thinking advantage +11.11pp [5.56,17.06]; 32k sensitivity on 82 families +11.38pp [6.10,17.48]. This is a deployed checkpoint/recipe comparison with equal evidence, not a same-weight thinking toggle. It reused the Stage12Y source cohort, so fresh runs do not make the families independently new. Charged compute 8.568611 GPU-hours.",
+      "reports": [
+        "outputs/stage13a/v1/stage13a_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_13a_equal_evidence_confirmation.md"
+      ],
+      "plans": [
+        "plan/stage13a_confirmatory_equal_evidence_thinking_advantage_plan.md",
+        "plan/stage13a_execution_checklist.md"
+      ]
+    },
+    {
+      "id": "13b",
+      "title": "Stage13B — cross-scale role",
+      "status": "Stopped at technical gate",
+      "findings": "2B Instruct had 14/24 pre-outcome caps and failed validity. One hundred twenty outputs were reviewed; 8B Thinking was cancelled before execution. No cross-scale scientific conclusion was established.",
+      "reports": [
+        "outputs/stage13b/v1/stage13b_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_13b_cross_scale_role.md"
+      ],
+      "plans": [
+        "plan/stage13b_cross_scale_thinking_role_vlm_plan.md"
+      ]
+    },
+    {
+      "id": "13c",
+      "title": "Stage13C — computational buffer versus derived-state priming",
+      "status": "Stopped at output-channel contract",
+      "findings": "The forced-trace contract could close the native thinking channel but could not prevent new deliberation reliably. Scientific conditions did not run; this is an identification/implementation constraint, not evidence for either mechanism.",
+      "reports": [
+        "outputs/stage13c/v1/stage13c_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_13c_buffer_vs_derived_state.md"
+      ],
+      "plans": [
+        "plan/stage13c_computational_buffer_vs_derived_state_priming_plan.md",
+        "plan/stage13c_execution_checklist.md"
+      ]
+    },
+    {
+      "id": "13d",
+      "title": "Stage13D — derived-state priming and immediate buffer",
+      "status": "Partial scientific result; neither mechanism confirmed",
+      "findings": "Twenty-three safe families, 13 complete, produced 460 calls/five seeds. Derived−baseline −1.54pp [−16.92,9.23], derived−dummy +1.54pp [−13.85,13.85], shuffle +3.08pp [−13.85,18.46]. Eleven MC families gave buffer Δ−.3438 nats [−.8068,.1222]. No positive mechanism was confirmed; missingness and selected eligibility constrain interpretation.",
+      "reports": [
+        "outputs/stage13d/v1/stage13d_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_13d_derived_state_immediate_buffer.md"
+      ],
+      "plans": [
+        "plan/stage13d_derived_state_priming_and_immediate_buffer_plan.md",
+        "plan/stage13d_execution_checklist.md"
+      ]
+    },
+    {
+      "id": "14a",
+      "title": "Stage14A — large-scale source cohort",
+      "status": "Complete, source-only construction",
+      "findings": "Of 3,040 MathVision items/2,104 known families, 1,727 reviewed records yielded 1,000 accepted, 725 excluded and two aliases. The structured-atom clarification allowed one coherent directly observed layout, with internal subfact count separately recorded; the first 16 were rechecked. All accepted cases had second review and 250 final rereads. MathVerse supplied 788×six=4,728 variants; two 300-family confirmation panels were frozen. No inference was needed for construction.",
+      "reports": [
+        "outputs/stage14a/v1/stage14a_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_14a_large_scale_math_cohort.md"
+      ],
+      "plans": [
+        "plan/stage14a_atom_count_clarification_requested.md",
+        "plan/stage14a_atom_count_user_clarification_v2.md",
+        "plan/stage14a_execution_checklist.md",
+        "plan/stage14a_large_scale_math_cohort_construction_plan.md"
+      ]
+    },
+    {
+      "id": "14b",
+      "title": "Stage14B — large-scale phenomenon",
+      "status": "Complete",
+      "findings": "All 17,536 main, 9,600 fresh confirmation and 24 technical generations were accounted for with zero technical missing. Native Thinking−Instruct +7.20pp [5.67,9.08] on 2,738 common scored MathVision items; family-equal +8.501pp is a different estimand. Instruct E* rescued 234/418 scored native-wrong cases (55.98%, CI51.08–60.80), with 31 unscorable E* outcomes outside that denominator. Equal-E* advantage +14.69pp [12.10,17.39], n926/1,000. MathVerse T−I gaps were TD22.83, TL26.18, TO26.65, VI25.57, VD26.46 and VO40.74pp; visual-relative profile +9.28pp [6.15,12.36]. Seed replication is not a new source cohort; E* rescue changes the input representation, not only perception.",
+      "reports": [
+        "outputs/stage14b/summaries/stage14b_final_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_14b_large_scale_math_phenomenon.md"
+      ],
+      "plans": [
+        "plan/stage14b_execution_checklist.md",
+        "plan/stage14b_large_scale_math_phenomenon_plan.md",
+        "plan/stage14b_oom_skip_amendment_v1.md"
+      ]
+    },
+    {
+      "id": "14c",
+      "title": "Stage14C — cross-task evidence bottleneck",
+      "status": "Complete; cross-task heterogeneity",
+      "findings": "Completed 4,588 unique new main calls (42 scientific G2 calls counted within main) plus 600 D1 probes, without technical missing. MMStar Instruct E* rescue 25/37=67.57% [52.27,82.50], post-E* T−I +1.81pp [−1.81,5.43]. BlindTest Instruct rescue39/46 coexisted with104 regressions, net−21.67pp [−29.33,−14]; Thinking had56 rescues/73 regressions. D1 full-evidence rates: Math I20/97 T31/100; MMStar38/96 vs53/99; BlindTest0/100 both. D1 separately elicited evidence is not what the native solver necessarily used. MMStar997's reversed source relation remains disclosed with sensitivity, not silently repaired.",
+      "reports": [
+        "outputs/stage14c/summaries/stage14c_final_summary.md",
+        "outputs/stage14c/summaries/stage14c_D1_summary.md",
+        "outputs/stage14c/summaries/stage14c_sensitivity_summary.md",
+        "outputs/stage14c/summaries/stage14c_g1_source_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_14c_cross_task_bottleneck.md",
+        "workspace/phase_memory/phase_14c_execution_history_20261009.md"
+      ],
+      "plans": [
+        "plan/stage14c_cross_task_bottleneck_plan.md",
+        "plan/stage14c_execution_checklist.md"
+      ]
+    },
+    {
+      "id": "14cv",
+      "title": "Stage14C-V — BlindTest representation/contract validation",
+      "status": "R panel complete; C review/final closure unfinished",
+      "findings": "All 1,800 R outputs reviewed/QC: I R0=190/300, R1=123/300, R2=245/298; T R0=191/300, R1=177/300, R2=277/300. I R1−R0 −22.33pp [−30.33,−14.33], opposite the clarity prediction. R2 improved I +18.46pp and T +28.67pp; I still had46 regressions versus39 rescues and two unscorable. Historical104 regressions remain distinct from fresh R0's103. R2 is a format-package effect including changed response behavior, not an isolated naming mechanism. C generation is saved but its remaining review/final seals are unfinished; the whole stage is not complete.",
+      "reports": [
+        "outputs/stage14c_v_blindtest_validation/summaries/stage14c_v_R_primary_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_14cv_blindtest_representation_contract.md"
+      ],
+      "plans": [
+        "plan/stage14c_blindtest_representation_contract_validation_plan.md",
+        "plan/stage14cv_execution_checklist.md"
+      ]
+    },
+    {
+      "id": "blindviewer",
+      "title": "BlindTest human case-audit viewer",
+      "status": "Read-only package complete",
+      "findings": "Built the all-300-family viewer, provenance manifest, answer/representation comparisons, empty review template and deterministic queues. Original images, native traces, D1 probes and researcher E* are separated; absent wrong visual statements remain unknown. This is an inspection aid, not new human annotations, repaired gold or a fresh experiment.",
+      "reports": [
+        "outputs/blindtest_human_audit/v1/blindtest_audit_summary.md",
+        "outputs/blindtest_human_audit/v1/blindtest_review_guide.md"
+      ],
+      "memories": [],
+      "plans": []
+    },
+    {
+      "id": "14d",
+      "title": "Stage14D — causal acquisition localization proposal",
+      "status": "Technical calibration complete; main HOLD",
+      "findings": "Three hundred source families included 296 valid/four inapplicable; 414 trace/QC reviews and 24 technical checks were prepared/passed. The 1,674-continuation, approximately375-GPU-hour main experiment was never released and remains HOLD. No same-layout semantic counterfactual was certified. Calibration used about .363056 charged GPU-hours; it is not completion of the proposed main experiment.",
+      "reports": [
+        "outputs/stage14d/reports/stage14d_technical_calibration_summary.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_14d_causal_evidence_acquisition.md"
+      ],
+      "plans": [
+        "plan/stage14d_causal_evidence_acquisition_localization_plan.md",
+        "plan/stage14d_execution_checklist.md",
+        "plan/stage14d_execution_checklist_v2.md"
+      ]
+    },
+    {
+      "id": "14d0",
+      "title": "Stage14D-0 — native source-evidence trace audit",
+      "status": "Complete, retrospective single-AI audit",
+      "findings": "All 300 families/600 native outputs were reviewed: 437 E* parents, 1,887 subfacts, 1,883 source-adjudicable. Native I119 correct/128 wrong/53 unscorable; T143/156/1 (pooled discovery counts, not prevalence). Representative R had150 source-selected and F150 outcome-enriched families. Weighted R explicit-correct coverage I55.85%/T58.37%; explicit-error-among-explicit I28.92%/T26.85%; paired T−I error −3.60pp [−7.86,.40]. Corrected wrong facts numbered17/378 I and9/262 T with ordered anchors; no higher Thinking correction rate was established. Fifteen I/20 T wrong finals had all required facts last correct, but that is not proof of purely downstream failure. One AI reviewer, prior exposure and sparse timing limit causal interpretation.",
+      "reports": [
+        "outputs/stage14d0/reports/stage14d0_native_trace_audit_results.md",
+        "outputs/stage14d0/reports/decision_and_unresolved_limitations.md"
+      ],
+      "memories": [
+        "outputs/stage14d0/state/phase_memory.md"
+      ],
+      "plans": [
+        "plan/stage14d0_estar_instruct_thinking_native_trace_audit_plan.md"
+      ]
+    },
+    {
+      "id": "14d0supp",
+      "title": "Stage14D-0 supplement — answer × evidence correctness",
+      "status": "Complete, existing-data analysis",
+      "findings": "R wrong answers had explicit required-source errors in52/73 I and50/69 T, versus13/63 and15/80 correct answers. R all-required-correct appeared in9/73 wrong I and5/69 wrong T. Weighted answer accuracy for all-correct versus explicit-error evidence was80.8% vs19.9% I and90.8% vs23.0% T; differences60.9pp [45.7,75.4] and67.9pp [55.5,80.1]. Full R/F/descriptive-combined tables and pre-answer sensitivity are preserved below. Association is not mediation; incomplete/unmentioned/ambiguous evidence is a separate category, not acquisition failure.",
+      "reports": [
+        "outputs/stage14d0_answer_evidence_supplement_v1/supplementary_report.md"
+      ],
+      "memories": [],
+      "plans": []
+    },
+    {
+      "id": "14d0difficulty",
+      "title": "Stage14D-0 v2 — source-defined visual difficulty",
+      "status": "Complete on R; optional F features deferred",
+      "findings": "The150-family R panel had986 source annotations/979 eligible facts per model. Global-required versus local-sufficient explicit-error coverage differed by I+12.33pp [2.49,21.99] and T+14.72pp [7.94,21.76]; global vs one-local spatial scope also differed positively. Operation-depth contrasts showed no reliable monotonic trend. Tiny-text difficulty was not estimable; count/read comparisons were sparse. Competitor association had a tiny no-competitor reference and correlated features. This supports a source-context association, not a crop remedy or latent acquisition diagnosis; seven exclusions make these denominators different from the original audit.",
+      "reports": [
+        "outputs/stage14d0_visual_difficulty/v2/report.md",
+        "outputs/stage14d0_visual_difficulty/v2/method_design_implications.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_14d0_visual_difficulty_v2.md"
+      ],
+      "plans": [
+        "plan/stage14d0_visual_evidence_difficulty_analysis_plan_v2.md"
+      ]
+    },
+    {
+      "id": "14d1",
+      "title": "Stage14D-1 SAVA — original technical attempts",
+      "status": "Technical failures preserved, later repaired",
+      "findings": "Original v1/v2/v3 attempts encountered exact replay, constrained QUERY/NONE grammar and provenance defects. Eight NONE outputs from the biased grammar are invalid scientific evidence. Failed technical runs did not show SAVA ineffective. The frozen eight technical/72 scientific families remained intact.",
+      "reports": [
+        "outputs/stage14d1_sava/reports/feasibility_main.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_14d1_sava.md"
+      ],
+      "plans": [
+        "plan/stage14d1_sava_execution_amendment_v2.md",
+        "plan/stage14d1_sava_method_feasibility_plan.md"
+      ]
+    },
+    {
+      "id": "14d1recovery",
+      "title": "Stage14D-1 — deterministic replay/provenance recovery",
+      "status": "Technical recovery completed",
+      "findings": "Deterministic vLLM scheduling with VLLM_ENABLE_V1_MULTIPROCESSING=0 recovered exact replay8/8; QUERY/NONE became reachable and valid queries8/8, but initial strict provenance accepted0/8. The later interface used deterministic source spans, explicit structural-number rules and regression/adversarial tests. Fresh same-prefix, same-runtime seeded continuations replaced a fictional restoration of historical advanced RNG. Valid syntax/provenance did not certify relevant targets or correct evidence.",
+      "reports": [
+        "outputs/stage14d1_sava_recovery/v1/reports/technical_recovery_final.md"
+      ],
+      "memories": [],
+      "plans": [
+        "plan/stage14d1_technical_recovery_plan_v1.md"
+      ]
+    },
+    {
+      "id": "14d1pilot",
+      "title": "Stage14D-1 — full 72-family six-arm SAVA pilot",
+      "status": "Complete, no supported benefit",
+      "findings": "There were432 logical assignments/345 physical continuations. Correct/72: N39,G41,Q39,QI36,QIA37 (one unscorable),QGL36. Primary QI−N −4.17pp [−12.50,+4.17], three rescues/six regressions. Of69QUERY/3NONE,22/62accepted queries were fully relevant;47/72 concerned given/tentative information;14/49 local views localized correctly. In the frozen24-panel QI recovered new correct information3/24 versus G2/24; none of the three QI rescues supplied a clearly new critical helper fact. QGL did not improve QI. Actual historical charged compute21.365278 GPU-hours remains disclosed separately.",
+      "reports": [
+        "outputs/stage14d1_sava_pilot/v1/reports/feasibility_main_v8.md"
+      ],
+      "memories": [],
+      "plans": [
+        "plan/stage14d1_autonomous_full_pilot_amendment_v4.md"
+      ]
+    },
+    {
+      "id": "14e",
+      "title": "Stage14E — acquisition development/Source-Premise Ledger",
+      "status": "Completed bounded cycle, method not successful",
+      "findings": "Completed72-family SAVA postmortem,24-family diagnostic, one24-family development revision and disjoint32-family evaluation. Diagnostic source-informed targets carried some qualitative hints, so they are not a clean value-free oracle upper bound. Ledger development had3/24partial useful reinspections; final M0/32 useful versus S1/32, Δ−3.125pp [−9.375,0]. Final accuracy N19/32,S20/32,M20/32; both rescued only family166, whose helper repeated already-known facts. M had17accepted/12invalid/3NONE, no fully relevant accepted target. Precise relational targeting and reliable source reading remain operational bottlenecks; no established new acquisition benefit or causal mediation. Charged cycle compute7.148889 hours.",
+      "reports": [
+        "outputs/stage14e_acquisition_development/v1/reports/final_research_report_v1.md",
+        "outputs/stage14e_acquisition_development/v1/reports/sava_failure_postmortem_v1.md",
+        "outputs/stage14e_acquisition_development/v1/reports/prior_art_and_hypotheses_v1.md",
+        "outputs/stage14e_acquisition_development/v1/reports/diagnostic_v1.md",
+        "outputs/stage14e_acquisition_development/v1/reports/development_revision_v2.md",
+        "outputs/stage14e_acquisition_development/v1/reports/final_acquisition_review_v1.md",
+        "outputs/stage14e_acquisition_development/v1/reports/postmortem_source_coverage_supplement_v1.md",
+        "outputs/stage14e_acquisition_development/v1/reports/diagnostic_interpretation_limits_v1.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_14e_acquisition_development.md"
+      ],
+      "plans": [
+        "plan/stage14e_acquisition_development_plan_v1.md"
+      ]
+    },
+    {
+      "id": "14e2",
+      "title": "Stage14E2 — deliberative versus compact source reader",
+      "status": "Experiment complete; research paused",
+      "findings": "Twenty-four development families:120 logical/108 physical reads plus eight short technical calls. Useful yields O_C3,O_T5,T_C4,T_T4,T_N1 per24. Primary T_T−T_C=0pp [−16.67,12.50], two gains/two losses; original-target reasoning+8.33pp [0,20.83], fresh-image vs no-image+12.50pp [0,25]. No new/reinspected complete task-source representation was recovered. T_C generated2,340 tokens versus T_T114,501 with five caps; extra reasoning did not solve acquisition. Cost1.668611hours, current allowance cumulative8.8175/24. Fresh32 evaluation remains unused; no downstream accuracy test was run. User-requested pause remains in force.",
+      "reports": [
+        "outputs/stage14e_readout_mechanism/v1/reports/final_diagnostic_report_v1.md",
+        "outputs/stage14e_readout_mechanism/v1/reports/diagnostic_tables_v1.md"
+      ],
+      "memories": [
+        "workspace/phase_memory/phase_14e2_deliberative_source_reading.md"
+      ],
+      "plans": [
+        "plan/stage14e2_deliberative_source_reading_plan_v1.md"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "stage": "piqd1",
+      "type": "reports",
+      "path": "outputs/piqd/phase1/phase1_summary.md",
+      "sha256": "25d6647dd8764be4604fb24b55279478aa793b98a9b80d8d1fc4760459446706"
+    },
+    {
+      "stage": "piqd1",
+      "type": "reports",
+      "path": "outputs/piqd/phase1_diag/phase1_summary.md",
+      "sha256": "b04921e2c08b0d79634891ecfcb276b9bb34128e7a64c9402495622cda39a8c6"
+    },
+    {
+      "stage": "piqd1",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_1_piqd_smoke.md",
+      "sha256": "dc94bc37480c0430750cd97103bd02d7270d51f9f0bd369d1f86aadec9e78916"
+    },
+    {
+      "stage": "piqd2",
+      "type": "reports",
+      "path": "outputs/piqd/phase2/phase2_summary.md",
+      "sha256": "5f438f3817e49ee33ddff01cdcb7e77953b3e8406157c70f53a7fab03d8d999b"
+    },
+    {
+      "stage": "piqd2",
+      "type": "reports",
+      "path": "outputs/piqd/phase2_diag/phase2_summary.md",
+      "sha256": "d3ba7373a08108cc0563efe03bfcf666d0bc6cdc3911961eda20078c7033287f"
+    },
+    {
+      "stage": "piqd2",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_2_piqd_query_extraction.md",
+      "sha256": "377cbd6b90d5aa8a454a9975eb44209190919c894050928925f5cc6b313a6c4d"
+    },
+    {
+      "stage": "piqd2audit",
+      "type": "reports",
+      "path": "outputs/piqd/phase2/phase2_audit.md",
+      "sha256": "ef39a6b06af9c0d33ad523e1b262f69ab71b36c075ed0c60a754b3a717b2107d"
+    },
+    {
+      "stage": "piqd2audit",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_2b_phase2_audit.md",
+      "sha256": "93e77773d26d3419e4d589a885932c41f9fb77b9500f648caf61abd6ab7c673d"
+    },
+    {
+      "stage": "0",
+      "type": "reports",
+      "path": "outputs/stage0/summaries/stage0_summary.md",
+      "sha256": "c09a14b176e7cc4e4c41c81a24b4c3e48315e7462af01cf885c7a20fabdde367"
+    },
+    {
+      "stage": "0",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_0_visual_reasoning_instrumentation.md",
+      "sha256": "7853c765049e6b3962847155a10c306f7464c2eea4f8436ef570e5d6dd08a3ae"
+    },
+    {
+      "stage": "0",
+      "type": "plans",
+      "path": "plan/stage0_plan.md",
+      "sha256": "a9ed403515e813fca6ba1f565f09ef0ed619c8142be784456636e52d3dd7aacc"
+    },
+    {
+      "stage": "1",
+      "type": "reports",
+      "path": "outputs/stage1/summaries/stage1_summary.md",
+      "sha256": "23438fb52253b9a460996afcfc09f3bce311c9429dc99e087eccadc656b40534"
+    },
+    {
+      "stage": "1",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_1_baseline_dynamics.md",
+      "sha256": "a370152f02d189e5713dafa858f1c90487db988286118f57ee9fcf85bf826719"
+    },
+    {
+      "stage": "1",
+      "type": "plans",
+      "path": "plan/stage1.md",
+      "sha256": "07a0e5e4e36497e7476fd83de1da59736f0f0aec7008404e8de99bf8e0b02e3c"
+    },
+    {
+      "stage": "2a",
+      "type": "reports",
+      "path": "outputs/stage2a/summaries/stage2a_summary.md",
+      "sha256": "45108320c1c63465b0755d369c6943b04b88b054e29fae0a3727f29f9ce0ba72"
+    },
+    {
+      "stage": "2a",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_2a_paired_roi_discovery.md",
+      "sha256": "41d4b73600574781a7eb7211340f4c75736b1adef38dd4ba0cd2050ffe08ed20"
+    },
+    {
+      "stage": "2a",
+      "type": "plans",
+      "path": "plan/stage2a.md",
+      "sha256": "4093b1713ebe066e2e1608fc2cd2cbb6171124eee6d9b776d25351f6db3cc806"
+    },
+    {
+      "stage": "2b",
+      "type": "reports",
+      "path": "outputs/stage2b/summaries/stage2b_summary.md",
+      "sha256": "6b556e37280583b44b1d92caa8604f5b6374d049de36bf359bc9e9dca4ba7ecc"
+    },
+    {
+      "stage": "2b",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_2b_evidence_specific_causal_pilot.md",
+      "sha256": "f67d6d3577320d61d66b9ac11f46993196d04b81e21daf4da09bd354488af822"
+    },
+    {
+      "stage": "2b",
+      "type": "plans",
+      "path": "plan/stage2b_plan.md",
+      "sha256": "90ee3a92fa582a1974de8a35bc767cb49abea9a1b6ff71ef7b68bb778ba85515"
+    },
+    {
+      "stage": "2c",
+      "type": "reports",
+      "path": "outputs/stage2c/summaries/stage2c_summary.md",
+      "sha256": "0321a90b88316c70e786342cde98b287f252e6ade700ca7bb735b1cab2b1e433"
+    },
+    {
+      "stage": "2c",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_2c_temporal_measurement_audit.md",
+      "sha256": "b6aaeb85f2490edf91501fa56f0f61eca86364b6aafa179912a33d2f109d67b1"
+    },
+    {
+      "stage": "2c",
+      "type": "plans",
+      "path": "plan/stage2c_plan.md",
+      "sha256": "e8a3411504ea6da9fde4cb0d4283ef9aa8fdba602c926372e825aa35b3f40ae9"
+    },
+    {
+      "stage": "3a",
+      "type": "reports",
+      "path": "outputs/stage3a/summaries/stage3a_summary.md",
+      "sha256": "4e27d2e2b602f7eabc13608f1211bbc6fc250195eedce845cc435accc058c8e4"
+    },
+    {
+      "stage": "3a",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3a_counterfactual_visual_content.md",
+      "sha256": "aae596bc3693ff4fea3819750c0c55a8c0b233c3b3744f827d5ca3421133e15c"
+    },
+    {
+      "stage": "3a",
+      "type": "plans",
+      "path": "plan/stage3a_plan.md",
+      "sha256": "341694f5c5ea0604c371249891a5e219f4a94d626b426f40836c90a49dbda631"
+    },
+    {
+      "stage": "3b0",
+      "type": "reports",
+      "path": "outputs/stage3b0/summaries/stage3b0_summary.md",
+      "sha256": "6028e0b2d9d6b9c8382dae82515518aab5987f793b09622080672d3f6148cdbe"
+    },
+    {
+      "stage": "3b0",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3b0_broad_carrier_screen.md",
+      "sha256": "0137f8e4455f19e455a8e864500fb72b38a75a8c4e37ace771b2eef18880a1eb"
+    },
+    {
+      "stage": "3b0",
+      "type": "plans",
+      "path": "plan/stage3b0_plan.md",
+      "sha256": "35d72b7cd3a28fe3c78b0eea59d548b3a6fb3352b97cf4efd0f27b760b39222f"
+    },
+    {
+      "stage": "3b1",
+      "type": "reports",
+      "path": "outputs/stage3b1/summaries/stage3b1_summary.md",
+      "sha256": "f0610c508096cb46066ca1790401c2c3066ad1478018f254c06f77a7a255b447"
+    },
+    {
+      "stage": "3b1",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3b1_visual_sufficiency_timing.md",
+      "sha256": "b3109481ef2da623a82da4e43e643b95dfe68bfa0cdad8d0427e9ea878e96f84"
+    },
+    {
+      "stage": "3b1",
+      "type": "plans",
+      "path": "plan/stage3b1_plan.md",
+      "sha256": "0bd5f4189c633673f45351555e4e82798744b5173bb74b982ce68c51145ee643"
+    },
+    {
+      "stage": "3b2",
+      "type": "reports",
+      "path": "outputs/stage3b2/summaries/stage3b2_summary.md",
+      "sha256": "28e11414040e600c457f3fa78ab26e0f9c624e9245603f79af426fcd7902825e"
+    },
+    {
+      "stage": "3b2",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3b2_visual_source_switching.md",
+      "sha256": "27610297c8d04c164e5f4fcfdb9b8bb8a064c5619099a7366d05eb1450f4aad0"
+    },
+    {
+      "stage": "3b2",
+      "type": "plans",
+      "path": "plan/stage3b2_plan.md",
+      "sha256": "34ee7f76322409a0a2ff06c57ac67ff269659a0143731d7be48bac6f68bff82f"
+    },
+    {
+      "stage": "3b3",
+      "type": "reports",
+      "path": "outputs/stage3b3/summaries/stage3b3_summary.md",
+      "sha256": "78ff48e43a8407769f5d9743bc694535de9c11eda81a5dc73166189d0f87fdd7"
+    },
+    {
+      "stage": "3b3",
+      "type": "reports",
+      "path": "outputs/stage3b3_redesign/summaries/stage3b3_redesign_summary.md",
+      "sha256": "019d0a1351fecf24e0f21280a597f5b38effdf08a1d50c33edbcac6e48288cec"
+    },
+    {
+      "stage": "3b3",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3b3_layerwise_visual_transfer.md",
+      "sha256": "8867bb8ba1a48f4c0cbf122e09ebc20ce3cf1ded2917dd988714a4be0c5357c4"
+    },
+    {
+      "stage": "3b3",
+      "type": "plans",
+      "path": "plan/stage3b3_plan.md",
+      "sha256": "da0cf388383e340c087081b1c0292cfac60d87054bbd8c77aa28e0937cb10ebb"
+    },
+    {
+      "stage": "3b3",
+      "type": "plans",
+      "path": "plan/stage3b3_redesign_plan.md",
+      "sha256": "0523f16ab2bd95f79d1a7b9e67ba1432ad5bd8a87a4991343625fcd5694aaea2"
+    },
+    {
+      "stage": "3b4",
+      "type": "reports",
+      "path": "outputs/stage3b4/summaries/stage3b4_summary.md",
+      "sha256": "51ecaf5031949a732a47c1fec470b5a478c393c0d98b5ff83e24512172c0c48c"
+    },
+    {
+      "stage": "3b4",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3b4_module_localization.md",
+      "sha256": "4c6a67884773947f6855acd95362d1f52dda20d9c0b8168749b6c6c52008606a"
+    },
+    {
+      "stage": "3b4",
+      "type": "plans",
+      "path": "plan/stage3b4_plan.md",
+      "sha256": "c591a6a447a9fa5acb32b57bace4df2fb3520f09d22f78f35461149082efb912"
+    },
+    {
+      "stage": "3b5",
+      "type": "reports",
+      "path": "outputs/stage3b5/summaries/stage3b5_summary.md",
+      "sha256": "e9c9c737975aefb3d1bad764980cf99aa7b06e12853f1fd0275763ded5058a5e"
+    },
+    {
+      "stage": "3b5",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3b5_sequential_recompute.md",
+      "sha256": "127b961f82f9b2d9157f2a31e17c025003758be9f9085a39a59780b4fc73ec8b"
+    },
+    {
+      "stage": "3b5",
+      "type": "plans",
+      "path": "plan/stage3b5_plan.md",
+      "sha256": "29fe66354e6be84673c423f15798afd2c56b6f7a11add84d0c441b9161fa53d7"
+    },
+    {
+      "stage": "3b6",
+      "type": "reports",
+      "path": "outputs/stage3b6/summaries/stage3b6_summary.md",
+      "sha256": "77df246e49244aad7134a4f5ce716950a29965dce7c4781e91d3477ffb572458"
+    },
+    {
+      "stage": "3b6",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3b6_head_path_localization.md",
+      "sha256": "05cb689f310f044f643357cf4a81ea205185ad8aa67202cf91ed71f7c39354c4"
+    },
+    {
+      "stage": "3b6",
+      "type": "plans",
+      "path": "plan/stage3b6_plan.md",
+      "sha256": "51bab1791c571e71f459780174d6c68f153d3046d2fdc1696400e07db5839153"
+    },
+    {
+      "stage": "3b7",
+      "type": "reports",
+      "path": "outputs/stage3b7/summaries/stage3b7_summary.md",
+      "sha256": "3dd7ea9f8ddf4464b3a2f808179421759cdc1bcb9297108feca771ac67385e87"
+    },
+    {
+      "stage": "3b7",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3b7_roi_routing_value.md",
+      "sha256": "60022ecc60c7cf5325c342c475d8c76f5a037284984569678a5fad83c52bf06b"
+    },
+    {
+      "stage": "3b7",
+      "type": "plans",
+      "path": "plan/stage3b7_plan.md",
+      "sha256": "2f81315a482e1fc1ec9e8431aa1dc210392111e0b2435e88204800973bf50c28"
+    },
+    {
+      "stage": "3b7r",
+      "type": "reports",
+      "path": "outputs/stage3b7r/summaries/stage3b7r_summary.md",
+      "sha256": "54561e28efc2f71e4fc3491e9ad598e68d6a9c9bf71f43e45d8113c487e3855c"
+    },
+    {
+      "stage": "3b7r",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3b7r_revalidated_roi_path.md",
+      "sha256": "d1cfdd8e52437b8ee6eb9e367e0477bd207ffce132263bf5774b9869406e778a"
+    },
+    {
+      "stage": "3b7r",
+      "type": "plans",
+      "path": "plan/stage3b7r_plan.md",
+      "sha256": "83359719f00cb243c3b6f22d26ef5324684a8132e450884406a7416872332dbf"
+    },
+    {
+      "stage": "3b8",
+      "type": "reports",
+      "path": "outputs/stage3b8/summaries/stage3b8_summary.md",
+      "sha256": "eaa0c3a52080d52e36e997bed4b0062394aeb3ef946d421ae493424d7ec35e8d"
+    },
+    {
+      "stage": "3b8",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3b8_value_geometry.md",
+      "sha256": "dc4240d52721badf06d18c67a0fad7dab6b55b08814dbb574c9e15699188eba0"
+    },
+    {
+      "stage": "3b8",
+      "type": "plans",
+      "path": "plan/stage3b8_plan.md",
+      "sha256": "880e49b359db3eebee157eb7609d62976ce6c86f93006b3c412f7f7a4d4be1ba"
+    },
+    {
+      "stage": "3b9",
+      "type": "reports",
+      "path": "outputs/stage3b9/summaries/stage3b9_summary.md",
+      "sha256": "d1201c44dc5747c35c55597ffae42292c4a15ba728c787d695f3a52e97fddd02"
+    },
+    {
+      "stage": "3b9",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3b9_distributed_value_geometry.md",
+      "sha256": "60952cea949314123ba0ea39616020f6655c44933174345f7139438466b9f593"
+    },
+    {
+      "stage": "3b9",
+      "type": "plans",
+      "path": "plan/stage3b9_plan.md",
+      "sha256": "fd1e6ed5b0783f2174033591829d530462a583aad48ef5f1a5b4e7074d2d2012"
+    },
+    {
+      "stage": "3c1",
+      "type": "reports",
+      "path": "outputs/stage3c1/summaries/stage3c1_summary.md",
+      "sha256": "3995bb2f32475bf35fd051a734c3e0a23f137067d58322dedf05fd1ab0f82453"
+    },
+    {
+      "stage": "3c1",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3c1_retrieval_attention_phenotype.md",
+      "sha256": "8bc1f592f3b44f91c7862d3137b49a4f641b9d475dd89460541b0da9c947826b"
+    },
+    {
+      "stage": "3c1",
+      "type": "plans",
+      "path": "plan/stage3c1_plan.md",
+      "sha256": "89c3bb33016f58d343f237f670edad337528bd5bffa2898d0332b8ca94f11d68"
+    },
+    {
+      "stage": "3c2",
+      "type": "reports",
+      "path": "outputs/stage3c2/summaries/stage3c2_summary.md",
+      "sha256": "55dc73a8a18207ee87cb4069b00091e7504643041c388f08fe1d9f32523a7466"
+    },
+    {
+      "stage": "3c2",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3c2_semantic_retrieval_sink.md",
+      "sha256": "49e6dc163c29f2099852f190f29a4a339f9d78946d80ae0b2694fe5995005988"
+    },
+    {
+      "stage": "3c2",
+      "type": "plans",
+      "path": "plan/stage3c2_plan.md",
+      "sha256": "761ad5426c0b8abf053c57d9e112c0f9f7a3c4fbc98d06f6737f1ad450ccce27"
+    },
+    {
+      "stage": "3c3",
+      "type": "reports",
+      "path": "outputs/stage3c3/summaries/stage3c3_summary.md",
+      "sha256": "e2f0fee058d06bf1fc9a36b84ce491c6739a257bd88e55ade96a89e616e218a2"
+    },
+    {
+      "stage": "3c3",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3c3_routing_causality.md",
+      "sha256": "d179131e36538b7205b905cca0aa4570b634446c6b4ad2634605ec84b426f6f9"
+    },
+    {
+      "stage": "3c3",
+      "type": "plans",
+      "path": "plan/stage3c3_plan.md",
+      "sha256": "d4914194fae589b8588fec42a16221fe412a84f4125c68652067c4b88e7407c1"
+    },
+    {
+      "stage": "3c3r",
+      "type": "reports",
+      "path": "outputs/stage3c3r/summaries/stage3c3r_summary.md",
+      "sha256": "4df1e15d6964939fa797e9e6799a55d235d607c0683c4a61aea388f088f8a9dd"
+    },
+    {
+      "stage": "3c3r",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3c3r_signal_gain.md",
+      "sha256": "703dd66f694b86a132793d8824e5285374c1f64393974ce327e0f61b11ee3ae6"
+    },
+    {
+      "stage": "3c3r",
+      "type": "plans",
+      "path": "plan/stage3c3r_plan.md",
+      "sha256": "282da98edddfaa9344b71fd036919aec22a7855503ccbb350b511a19469648a0"
+    },
+    {
+      "stage": "3c4",
+      "type": "reports",
+      "path": "outputs/stage3c4/summaries/stage3c4_summary.md",
+      "sha256": "5f12787d051fc08373f88ff7aa65222f35d02833a2eeb9c4ca1cdf920b6c2a83"
+    },
+    {
+      "stage": "3c4",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3c4_spatiotemporal_redundancy.md",
+      "sha256": "d7f1b72bd14b149ebf0576c398fd704133ab62c8cfbf47a7006dd86f99cfb3a5"
+    },
+    {
+      "stage": "3c4",
+      "type": "plans",
+      "path": "plan/stage3c4_plan.md",
+      "sha256": "62161e7d98ab91e3512126ff83d394be62b3eb161dd4d3f63321b708a42255f6"
+    },
+    {
+      "stage": "3c5",
+      "type": "reports",
+      "path": "outputs/stage3c5/summaries/stage3c5_summary.md",
+      "sha256": "005a1de345189d3ff33ce792e760f872fd3bb0273036abb8d726c15e7db932a8"
+    },
+    {
+      "stage": "3c5",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3c5_visual_window_handoff.md",
+      "sha256": "68bf3aa1fb9b477c947348770a2ef5eb3cab9bfbec9f07b66abd1346734d45a6"
+    },
+    {
+      "stage": "3c5",
+      "type": "plans",
+      "path": "plan/stage3c5_plan.md",
+      "sha256": "6df14e8f5975bf1218e9b0be90e693967ef3dc2cac9fcfb626415de05e6dfb8e"
+    },
+    {
+      "stage": "3c6",
+      "type": "reports",
+      "path": "outputs/stage3c6/summaries/stage3c6_summary.md",
+      "sha256": "d9b8d667cd08a7553456c8c4eea2ed99a14083f1cd6d66e8f88440bd91572bba"
+    },
+    {
+      "stage": "3c6",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3c6_suppression_residual_rescue.md",
+      "sha256": "399226eba6470dfad93e9384bb048dfd416c18b9b375bd72f30601ea123fa478"
+    },
+    {
+      "stage": "3c6",
+      "type": "plans",
+      "path": "plan/stage3c6_plan.md",
+      "sha256": "28a161a7575c252dcf71dc4881831392fa20580d589860ae75c1560b77493dbd"
+    },
+    {
+      "stage": "3c7",
+      "type": "reports",
+      "path": "outputs/stage3c7/summaries/stage3c7_summary.md",
+      "sha256": "b2b04f4f959dc30e1f9d345c8f869612ccac496d1e47422e0f7cd83574fe5d3f"
+    },
+    {
+      "stage": "3c7",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3c7_prior_cache_joint_rescue.md",
+      "sha256": "0fe06cd6fb89d4408d5377927920cdd0c0cf76bfe344f8dffa0b54982de3429e"
+    },
+    {
+      "stage": "3c7",
+      "type": "plans",
+      "path": "plan/stage3c7_plan.md",
+      "sha256": "0ddd4d609e90453bc2ec5807a6d226c48ab54958a195d3d7c8893b176be6082c"
+    },
+    {
+      "stage": "3c8",
+      "type": "reports",
+      "path": "outputs/stage3c8/summaries/stage3c8_summary.md",
+      "sha256": "496a11ad1c574a4017aabb1388a40f76c893bf38f639cd69507754ac2ccfb6c2"
+    },
+    {
+      "stage": "3c8",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3c8_token_type_carrier_atlas.md",
+      "sha256": "0bbfb34fa0f70ef8376289201e225e95978ad088c5270e2c29a26fb4f3b48220"
+    },
+    {
+      "stage": "3c8",
+      "type": "plans",
+      "path": "plan/stage3c8_plan.md",
+      "sha256": "55818880d77640188a322557048ac2bf03e2409ba98777ddd6c35e6661fefff2"
+    },
+    {
+      "stage": "a6000",
+      "type": "reports",
+      "path": "outputs/a6000_calibration/summaries/a6000_calibration_summary.md",
+      "sha256": "c6b34c0acb82cd5028f45c79900afc17dc8168e24f25216ef06b586ce633f749"
+    },
+    {
+      "stage": "a6000",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_a6000_platform_calibration.md",
+      "sha256": "c44da8f7af7685657f764fa2343665f8664ca7e30e818c471899f8c3edf7043e"
+    },
+    {
+      "stage": "a6000",
+      "type": "plans",
+      "path": "plan/a6000_platform_calibration_plan.md",
+      "sha256": "016363b712e4ec670571c1c50550463194d902ad36c388dd98da3810c56d9135"
+    },
+    {
+      "stage": "a6000v2",
+      "type": "reports",
+      "path": "outputs/a6000_calibration_v2/summaries/a6000_calibration_v2_summary.md",
+      "sha256": "c955d6cdb0092668d1fcb29c23916edd79bc510106f8bf1058be4ae18f0fc2c8"
+    },
+    {
+      "stage": "a6000v2",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_a6000_calibration_v2_stage3c9_restart.md",
+      "sha256": "2913beffac4afd8f5dd09e271e18eec0e025b4d792b8b3441d7692024249b00b"
+    },
+    {
+      "stage": "a6000v2",
+      "type": "plans",
+      "path": "plan/a6000_calibration_v2_stage3c9_restart_plan.md",
+      "sha256": "2524041c40b61054ef921c880aa15f927327aadcddadb555ded672ad15a679d0"
+    },
+    {
+      "stage": "3c9",
+      "type": "reports",
+      "path": "outputs/stage3c9/summaries/stage3c9_summary.md",
+      "sha256": "f5ca90906f0bee42cb168a831091480faca56a7f916a391bd92c529a0679d725"
+    },
+    {
+      "stage": "3c9",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3c9_long_horizon_checkpoints.md",
+      "sha256": "33d119ac387f2c7b88beaa218aae1588192bf752cc31e75a0771b2da667784f9"
+    },
+    {
+      "stage": "3c9",
+      "type": "plans",
+      "path": "plan/stage3c9_plan.md",
+      "sha256": "d328741da4068b98ea3a067ea958769baf3ac9346c13e76536d9593694c484b2"
+    },
+    {
+      "stage": "3c9r",
+      "type": "reports",
+      "path": "outputs/stage3c9r/summaries/stage3c9r_summary.md",
+      "sha256": "95bed0fde572b11ef148a40045366b2b45ae386be9813618f5f4c2c2e8dd2cc2"
+    },
+    {
+      "stage": "3c9r",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3c9r_same_path_validity_repair.md",
+      "sha256": "1d13db80aa5b78c9385573aaaf85f461ade6a9e3ee2ff235b3b1f7acd2966289"
+    },
+    {
+      "stage": "3c9r",
+      "type": "plans",
+      "path": "plan/stage3c9r_plan.md",
+      "sha256": "a2aadd0ee22ac153c5688c66d7b025a4c0a6f3f6a00675c7babed8fd44c258e7"
+    },
+    {
+      "stage": "3c10",
+      "type": "reports",
+      "path": "outputs/stage3c10/summaries/stage3c10_summary.md",
+      "sha256": "bd2c68097d67efe03420a41e73fa2b2b451e2f726a77ecab06de898cc859b4c3"
+    },
+    {
+      "stage": "3c10",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_3c10_retrieval_trigger.md",
+      "sha256": "9863dff93754f5847b92341f2df8f12c5f1feafb3bf2c877caacc9c6dff41739"
+    },
+    {
+      "stage": "3c10",
+      "type": "plans",
+      "path": "plan/stage3c10_retrieval_trigger_plan.md",
+      "sha256": "e4f174e7bf009e5c58f7f93bf856b9fcfb8ed94e81ff18e538f9968f946c7740"
+    },
+    {
+      "stage": "4a",
+      "type": "reports",
+      "path": "outputs/stage4a/summaries/stage4a_summary.md",
+      "sha256": "d17a4fe1302d4f4e02a657696497d23f5430a216cd2bef95104c40d28c8d1eef"
+    },
+    {
+      "stage": "4a",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_4a_multi_evidence_switch_refresh.md",
+      "sha256": "9415df093ed81eaa0bfbf0335d468ad6ff46e778e14fb60610a59404c1ecc9b6"
+    },
+    {
+      "stage": "4a",
+      "type": "plans",
+      "path": "plan/stage4a_multi_evidence_switch_refresh_plan.md",
+      "sha256": "ad0033677a3d0883d3561941ddb7d5c705362dfffccdd2f5d686b6c4a0ce8a27"
+    },
+    {
+      "stage": "5a",
+      "type": "reports",
+      "path": "outputs/stage5a/summaries/stage5a_summary.md",
+      "sha256": "17aa4fa0ea8cce1db51b13ff2044e249f90cd0f132c6eb71e65e536ec295c958"
+    },
+    {
+      "stage": "5a",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_5a_failure_attention_state_taxonomy.md",
+      "sha256": "567a4add340e0717af33478efa9e2e501fc69c30b14ac26f49cf2d52175f94e8"
+    },
+    {
+      "stage": "5a",
+      "type": "plans",
+      "path": "plan/stage5a_failure_attention_state_taxonomy_plan.md",
+      "sha256": "e8df7b0a9455db8d092cfd51c71fd7d57f20a164c43969a02bea424d76c5b0d8"
+    },
+    {
+      "stage": "6a",
+      "type": "reports",
+      "path": "outputs/stage6a/summaries/stage6a_cohort_summary.md",
+      "sha256": "ec7ddfd8299dbe2cd45be1598355d6cac858373bd9f2357aef78df585be85b06"
+    },
+    {
+      "stage": "6a",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_6a_dedicated_alignment_mirage_retrieval_dynamics_cohort.md",
+      "sha256": "43d505e3b702820c46052c2af89cd2c326331d7fff206e53ae73dd511a122993"
+    },
+    {
+      "stage": "6a",
+      "type": "plans",
+      "path": "plan/stage6a_dedicated_alignment_mirage_retrieval_dynamics_cohort_plan.md",
+      "sha256": "2d84ffdb39444f80510f87cdb65e0a2431c5b9f25f16c453839af62c239704ba"
+    },
+    {
+      "stage": "6a",
+      "type": "plans",
+      "path": "plan/stage6a_execution_checklist.md",
+      "sha256": "130ba66f18306a7546f49823e0db567fcbbe74a9acd52e344aa3291650353a6a"
+    },
+    {
+      "stage": "6b",
+      "type": "reports",
+      "path": "outputs/stage6b/summaries/stage6b_summary.md",
+      "sha256": "4d5ceb3dd8be07583d571a0206a891aa2ef138f8098c1aef744f893f5b22f283"
+    },
+    {
+      "stage": "6b",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_6b_causal_retrieval_dynamics_mirage_analysis.md",
+      "sha256": "97528904087e316a7f70f4e33b928907bc826db0305a239c1ced7200864fe2d4"
+    },
+    {
+      "stage": "6b",
+      "type": "plans",
+      "path": "plan/stage6b_causal_retrieval_dynamics_mirage_analysis_plan.md",
+      "sha256": "5ac67f434a4b9c38e59ce6faf6fa4ccf25b728203d16f88364f47498007a376d"
+    },
+    {
+      "stage": "6b",
+      "type": "plans",
+      "path": "plan/stage6b_execution_checklist.md",
+      "sha256": "1871b68e627cbf962bf2d8b7c6b8677c5526428631d49a081eb73c1122249a08"
+    },
+    {
+      "stage": "6br",
+      "type": "reports",
+      "path": "outputs/stage6br/summaries/stage6br_summary.md",
+      "sha256": "d46b6d07cd7a45077e7cbea24921b6b5ceb7fd2a2b5de9e0d36efa7373fd46e6"
+    },
+    {
+      "stage": "6br",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_6br_dynamic_demand_readout_panel_repair.md",
+      "sha256": "d0fcb35834181a82b4b865ba5c154457489425306a57a9b3278db0aca588a7e9"
+    },
+    {
+      "stage": "6br",
+      "type": "plans",
+      "path": "plan/stage6br_dynamic_demand_readout_panel_repair_plan.md",
+      "sha256": "09c40534d151ebd0e6c91ce8c07ffeaa3c66f48b9e9a165ba12a45a6545600e2"
+    },
+    {
+      "stage": "6br",
+      "type": "plans",
+      "path": "plan/stage6br_execution_checklist.md",
+      "sha256": "d57c9aad1cfa8c8fe580740bab490796158153a891d8573dc16d688d19f5de3a"
+    },
+    {
+      "stage": "7a",
+      "type": "reports",
+      "path": "outputs/stage7a/summaries/stage7a_summary.md",
+      "sha256": "8dddc190bc73539dcb2acd19e89fd844cfe25607d76ae2487b8b32d775a45e3c"
+    },
+    {
+      "stage": "7a",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_7a_causal_visual_grounding_states.md",
+      "sha256": "2af4ad27f583c96e98aac2e51f8b808ac8dfc41eb8301e2656b4efc6650562ce"
+    },
+    {
+      "stage": "7a",
+      "type": "plans",
+      "path": "plan/stage7a_causal_visual_grounding_states_plan.md",
+      "sha256": "09cc88dfc925bf17bba6fde3e7aee4af762bbf4f33ef418de04a81f36997ab1b"
+    },
+    {
+      "stage": "7bench",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_7a_bench_benchmark_failure_enrichment.md",
+      "sha256": "89f8abf167a87d30a86bf812b255d6526304b5ebc1e85667cb675dcbe16d29a1"
+    },
+    {
+      "stage": "7bench",
+      "type": "plans",
+      "path": "plan/stage7a_bench_execution_checklist.md",
+      "sha256": "007b6f7b992e93745607abb5c3bd3ba10fca0e3249669092a2e3cf1b9b64e4f3"
+    },
+    {
+      "stage": "7bench",
+      "type": "plans",
+      "path": "plan/stage7a_benchmark_failure_enrichment_plan.md",
+      "sha256": "62cad286105e620c24a0a5c503b7588d9b18d049cce551ca8895dd4a83f6a3bc"
+    },
+    {
+      "stage": "7benchv2",
+      "type": "reports",
+      "path": "outputs/stage7a_bench_v2/summaries/stage7a_bench_v2_summary.md",
+      "sha256": "0f129da0730848e6eef46a2fc9837ffe0329d3d9fa29a0086b17a642af7d3f60"
+    },
+    {
+      "stage": "7benchv2",
+      "type": "reports",
+      "path": "outputs/stage7a_bench_v2/summaries/phantom_behavior_summary.md",
+      "sha256": "6e304e11c4ed52767377eeab1917611e1c185c3e74150faf6b8d16e880cdd08d"
+    },
+    {
+      "stage": "7benchv2",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_7a_bench_v2_mirage_track.md",
+      "sha256": "02792c59747a0e6920077e707048a86e3da277dc4fea92b684440cdaad334087"
+    },
+    {
+      "stage": "7benchv2",
+      "type": "plans",
+      "path": "plan/stage7a_bench_v2_execution_checklist.md",
+      "sha256": "4ae9b9f85994a27517d900f5515b671e719bbc2e822e49865d4846d59db6d894"
+    },
+    {
+      "stage": "7benchv2",
+      "type": "plans",
+      "path": "plan/stage7a_bench_v2_mmlong_launch_monitor_20260914.md",
+      "sha256": "e5a509ab2cb81cf968d8bf79faf91401302f7e7345fe2667fe6d2f89b63b09e3"
+    },
+    {
+      "stage": "7benchv2",
+      "type": "plans",
+      "path": "plan/stage7a_bench_v2_mmlong_oom_continuation_20260914.md",
+      "sha256": "665a91e4d117510c988253fefb5a548d0daf0b8b682fe6bbf2a3a2e1a8e214fa"
+    },
+    {
+      "stage": "7benchv2",
+      "type": "plans",
+      "path": "plan/stage7a_bench_v2_node02_two_gpu_completion_20260915.md",
+      "sha256": "2874db83642be504cdaadeb9613a915b92a8700cf3ec1f13ee215adc9532cfe5"
+    },
+    {
+      "stage": "7benchv2",
+      "type": "plans",
+      "path": "plan/stage7a_bench_v2_pre_mmlong_handoff_20260914.md",
+      "sha256": "20adbdd9ae278447591218f8796c803be82425757374ca1f4c60bfc711ec8da8"
+    },
+    {
+      "stage": "7benchv2",
+      "type": "plans",
+      "path": "plan/stage7a_bench_v2_review_to_completion_20260914.md",
+      "sha256": "02b9429675b5011d469b2eebc124e970ec9fe6caadc48714e60519bfdcc6fc55"
+    },
+    {
+      "stage": "7benchv2",
+      "type": "plans",
+      "path": "plan/stage7a_bench_v2_scope_amendment_20260913.md",
+      "sha256": "deea82ef0b6868e4b4918c0c43978800a8ba9a13eed65cf9c6cd626f600a534d"
+    },
+    {
+      "stage": "7benchv2",
+      "type": "plans",
+      "path": "plan/stage7a_benchmark_failure_enrichment_plan_v2_mirage_track.md",
+      "sha256": "67b64e75d8c4f25426010e895bdfa966685f459d434ddbfddbd0f5e2ff6e1e75"
+    },
+    {
+      "stage": "8a",
+      "type": "reports",
+      "path": "outputs/stage8a/summaries/stage8a_summary.md",
+      "sha256": "9da1ffb848de1ac2c481f4ea9d53ec3c3b064913a24ef8de2b0a707e05ca5779"
+    },
+    {
+      "stage": "8a",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_8a_retrieval_proxy_transport_calibration.md",
+      "sha256": "11e6ce5bc0218ee4916078fc51c111bbd9ab04f3213af30dee00a320eedc7f6a"
+    },
+    {
+      "stage": "8a",
+      "type": "plans",
+      "path": "plan/stage8a_analysis_protocol_v1.md",
+      "sha256": "61dbf41fb7ebcf0c34d1468293aa8149dc8ec6614e8be352e0b5c80de096c123"
+    },
+    {
+      "stage": "8a",
+      "type": "plans",
+      "path": "plan/stage8a_execution_checklist.md",
+      "sha256": "1bde1b8f5a12f029041a877bf9b993f42b07e5297f4c74cab0c70b1ba81fb65e"
+    },
+    {
+      "stage": "8a",
+      "type": "plans",
+      "path": "plan/stage8a_localization_protocol_v1.md",
+      "sha256": "dea5e95be6fab91b8455b50567634e9bb47e801661189c7592facda62441c8ef"
+    },
+    {
+      "stage": "8a",
+      "type": "plans",
+      "path": "plan/stage8a_localization_protocol_v2.md",
+      "sha256": "f90ef8d3036932c5161621ef266f89e938331160789d48446dee73d1b40da4ae"
+    },
+    {
+      "stage": "8a",
+      "type": "plans",
+      "path": "plan/stage8a_main_measurement_protocol_v1.md",
+      "sha256": "9e7af7506c3099bec45713dd4375e3915db79f502582c57cb417bed9695a282e"
+    },
+    {
+      "stage": "8a",
+      "type": "plans",
+      "path": "plan/stage8a_main_measurement_protocol_v2.md",
+      "sha256": "e8b5702d30f8537252a28067d4af7147f08cc829d83bcd97c916e4e426a752c2"
+    },
+    {
+      "stage": "8a",
+      "type": "plans",
+      "path": "plan/stage8a_plan.md",
+      "sha256": "efe7e6e5ee28ea5004008020d578fe658de4a83e0c8122651a744f6efde27b73"
+    },
+    {
+      "stage": "8b",
+      "type": "reports",
+      "path": "outputs/stage8b/summaries/transfer32_results.md",
+      "sha256": "a9fd0e8742409dd8b8f4774672b16cb1ced108f16b44d4f4e95517a9ca72f28d"
+    },
+    {
+      "stage": "8b",
+      "type": "reports",
+      "path": "outputs/stage8b/v2/summaries/transfer32_results.md",
+      "sha256": "98c8eb88fa4b1e189b6aed413a0b715c3f729075e5381ec74823b9412df7646a"
+    },
+    {
+      "stage": "8b",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_8b_retrieval_aligned_mathvision.md",
+      "sha256": "46e44e664b85349b884569a0daf2f8c6d8da7f71ab07128fcfedb5075d4e7b16"
+    },
+    {
+      "stage": "8b",
+      "type": "plans",
+      "path": "plan/stage8b_answer_scoring_protocol_v1.md",
+      "sha256": "f1ae66097bea989d73fbc852e13d12c52733fe04be84cc5e7e3a6dff5fb43e00"
+    },
+    {
+      "stage": "8b",
+      "type": "plans",
+      "path": "plan/stage8b_census_protocol_v1.md",
+      "sha256": "57446c080092194cb0b165c2c2d4f27f72c996b139a20887749103880034a4db"
+    },
+    {
+      "stage": "8b",
+      "type": "plans",
+      "path": "plan/stage8b_execution_checklist.md",
+      "sha256": "70c0527ab3942dd7742a98e657431b26d07d78f7a7c889ea04ab6bd7e4764968"
+    },
+    {
+      "stage": "8b",
+      "type": "plans",
+      "path": "plan/stage8b_resource_estimate.md",
+      "sha256": "070d9349102c8a1741eb299a8594d600ae210fa2b1d7eacfb4b9bd7993e664c0"
+    },
+    {
+      "stage": "8b",
+      "type": "plans",
+      "path": "plan/stage8b_retrieval_aligned_success_failure_mathvision_plan.md",
+      "sha256": "42df59e2f483a421a79eb578e126383ccec4de598631d87a78bfcacda6cf2721"
+    },
+    {
+      "stage": "8b",
+      "type": "plans",
+      "path": "plan/stage8b_retrieval_aligned_success_failure_mathvision_plan_v2.md",
+      "sha256": "cf6082c886847b6a3f061067be25f9e0915bbba230c3611e0c0b78089dffa15b"
+    },
+    {
+      "stage": "8b",
+      "type": "plans",
+      "path": "plan/stage8b_transfer_annotation_protocol_v1.md",
+      "sha256": "b3ff457ed0ab4e7e371e102f459da1bcc0abd50b6a10cc5ad19afd81a189ffcb"
+    },
+    {
+      "stage": "8b",
+      "type": "plans",
+      "path": "plan/stage8b_v2_execution_checklist.md",
+      "sha256": "5253b3b5c0db2ae1ac2b00da86075694a9bbad3795ce2085610a093e28561fd1"
+    },
+    {
+      "stage": "8b",
+      "type": "plans",
+      "path": "plan/stage8b_v2_four_gpu_amendment_20260917.md",
+      "sha256": "da8e0cd150e1ee125e1e190b92cbb4ec00a74d102ce7f50ba368cb369f430876"
+    },
+    {
+      "stage": "8b",
+      "type": "plans",
+      "path": "plan/stage8b_v2_single_gpu_amendment_20260917.md",
+      "sha256": "bdb363027b246d24eb0182275ee44628f8f58caf5871fd04b7e395776db45c04"
+    },
+    {
+      "stage": "8b",
+      "type": "plans",
+      "path": "plan/stage8b_v2_transfer_annotation_protocol.md",
+      "sha256": "c905e1469fc6238302cb4fbb51444f6d8593b811d2c6193dabe09909e834ceea"
+    },
+    {
+      "stage": "8b1a",
+      "type": "reports",
+      "path": "outputs/stage8b1a/summaries/native256_completion.md",
+      "sha256": "80f210f66e6c298373850b1b86e51bdc83940070011d098e5b2587e84b478590"
+    },
+    {
+      "stage": "8b1a",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_8b1a_bounded_mathvision_discovery.md",
+      "sha256": "701bb3dacc254fb3f80285137ee5f2077b433e2fd4ee5b938fc6a52083e159ae"
+    },
+    {
+      "stage": "8b1a",
+      "type": "plans",
+      "path": "plan/stage8b1a_224_mathvision_bounded_census_plan.md",
+      "sha256": "1155b1cf350566a737c735f6c37747b228cd2d801b695ec0bd35ad4bce02747a"
+    },
+    {
+      "stage": "8b1a",
+      "type": "plans",
+      "path": "plan/stage8b1a_execution_checklist.md",
+      "sha256": "b3fe835529b9bb4f140382df23ac046a64450cd6a86a2aeaa2a7e2b99940e102"
+    },
+    {
+      "stage": "8b1a",
+      "type": "plans",
+      "path": "plan/stage8b1a_node06_resume_execution.md",
+      "sha256": "0d7f43de16aa944a1046a04055970dc5ad6920d92265b9d4761798974b6e013c"
+    },
+    {
+      "stage": "8b_block0",
+      "type": "reports",
+      "path": "outputs/stage8b_block0/v1/stage8b_block0_summary.md",
+      "sha256": "961d1a930f5366180134744f9c630507d6913f9a5853af3d17c40f53975d2627"
+    },
+    {
+      "stage": "8b_block0",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_8b_block0_shared_dataset.md",
+      "sha256": "f40ca029c9372485876f655e8a153dcf64f0643bdfe03388c6e24de316be05c7"
+    },
+    {
+      "stage": "8b_block0",
+      "type": "plans",
+      "path": "plan/stage8b_block0_compute_once_shared_dataset_plan.md",
+      "sha256": "e647ef283558f2a9156c495334dd73349516b6e9c5140e58c1b098cdd84a7ae8"
+    },
+    {
+      "stage": "8b_block0",
+      "type": "plans",
+      "path": "plan/stage8b_block0_execution_checklist.md",
+      "sha256": "68e85ab837b6d2920ce625e2589b405897951338c5cadc3079ffb23f542c438c"
+    },
+    {
+      "stage": "8b_block0",
+      "type": "plans",
+      "path": "plan/stage8b_block0_execution_protocol.md",
+      "sha256": "7650274253bf8d8d402cdbdec4975804eec0d19b8ad4dd81fef5af32b7f8fe64"
+    },
+    {
+      "stage": "8b_block1",
+      "type": "reports",
+      "path": "outputs/stage8b_block1/v1/stage8b_block1_summary.md",
+      "sha256": "235458e64cdc9b53f50382c85a528f6bec05e927c6ccb71c9832c8453e35e56e"
+    },
+    {
+      "stage": "8b_block1",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_8b_block1_whole_trajectory.md",
+      "sha256": "c567b09731a831d21591e0a8eda0091a2311968f2a5dcc096c21f6def08af37b"
+    },
+    {
+      "stage": "8b_block1",
+      "type": "plans",
+      "path": "plan/stage8b_block1_analysis_protocol_v1.md",
+      "sha256": "480af23fde1da1ad1225264263a66f7bc5890cc4a12156e16a0b777ccdd35346"
+    },
+    {
+      "stage": "8b_block1",
+      "type": "plans",
+      "path": "plan/stage8b_block1_execution_checklist.md",
+      "sha256": "4c6c57ad1904eee351f7cd87832436b2a1c884b3958d026e2b815d888c6bac68"
+    },
+    {
+      "stage": "8b_block1",
+      "type": "plans",
+      "path": "plan/stage8b_block1_node06_amendment_v3.md",
+      "sha256": "b5d4d25e7c72aad392a4cc849ca6b2fb1e7a6580624aa92917f3b7aaec788178"
+    },
+    {
+      "stage": "8b_block1",
+      "type": "plans",
+      "path": "plan/stage8b_block1_split_nodes_amendment_v2.md",
+      "sha256": "db5d87535a576a3f566ff16f33f256cfcbe4a94a0213d0657342470ec779b512"
+    },
+    {
+      "stage": "8b_block1",
+      "type": "plans",
+      "path": "plan/stage8b_block1_whole_trajectory_success_failure_plan.md",
+      "sha256": "669355501d119c351a5bc04f411a47fe1cb40ea234d37c5979fd98711d212d76"
+    },
+    {
+      "stage": "8b_block2",
+      "type": "reports",
+      "path": "outputs/stage8b_block2/v1/stage8b_block2_summary.md",
+      "sha256": "5eff722220edc65d512e5b858775fabc3e8f1bc515df1a4782596d3ba01e8726"
+    },
+    {
+      "stage": "8b_block2",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_8b_block2_local_reads.md",
+      "sha256": "e6b48fa514f86065e4991082c21cd3cde3fd63e5b2948477c1ea12cb8fe34833"
+    },
+    {
+      "stage": "8b_block2",
+      "type": "plans",
+      "path": "plan/stage8b_block2_execution_checklist.md",
+      "sha256": "93075fd3a918c7a5f85a587a1226782d2d5f5d95d402d7b7336e8707c7ac7deb"
+    },
+    {
+      "stage": "8b_block2",
+      "type": "plans",
+      "path": "plan/stage8b_block2_execution_protocol_v1.md",
+      "sha256": "114bfc710ca6694e00c1faf3fc7bd99f54d587042701ca4f0ed81d0087bcddea"
+    },
+    {
+      "stage": "8b_block2",
+      "type": "plans",
+      "path": "plan/stage8b_block2_retrieval_event_local_read_success_failure_plan.md",
+      "sha256": "4a1b68a1c01c807e1c3d8dbea73b4b7e17fb9da5747175a599e652fdaa2b7f6c"
+    },
+    {
+      "stage": "8b_block3a",
+      "type": "reports",
+      "path": "outputs/stage8b_block3a/v1/stage8b_block3a_summary.md",
+      "sha256": "6a3c8578fa5e1317757fae7bcd194991dc7b0f7969b22c8807106cc59745c123"
+    },
+    {
+      "stage": "8b_block3a",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_8b_block3a_routing_causal.md",
+      "sha256": "684c226a23e159551e332cca55f41b61408a13aaf07d9673b0b897f69ef24867"
+    },
+    {
+      "stage": "8b_block3a",
+      "type": "plans",
+      "path": "plan/stage8b_block3a_execution_checklist.md",
+      "sha256": "608e4ae2a1250b281b41552dd8d30c699d05067354afddb3b23a624cd67fb9df"
+    },
+    {
+      "stage": "8b_block3a",
+      "type": "plans",
+      "path": "plan/stage8b_block3a_execution_protocol_v1.md",
+      "sha256": "4b079e68829a830a83ba32e38ff3d6d87e140a65c1d21b30823a7073c35d0105"
+    },
+    {
+      "stage": "8b_block3a",
+      "type": "plans",
+      "path": "plan/stage8b_block3a_family_clarification_v1.md",
+      "sha256": "4177b02f2b744b084a30fc5130cc0790bc0970b62d927f2f61f11cd76793e6bb"
+    },
+    {
+      "stage": "8b_block3a",
+      "type": "plans",
+      "path": "plan/stage8b_block3a_four_gpu_resume_v1.md",
+      "sha256": "ab6da8863d6124165b5ad0c288daf15293dbf1ba441f76356739567bce3eb105"
+    },
+    {
+      "stage": "8b_block3a",
+      "type": "plans",
+      "path": "plan/stage8b_block3a_target_selective_routing_causal_test_plan.md",
+      "sha256": "13ed2c384f177763f63c6a6d586ad044763b1da03e91ae2409a546483cfdc87b"
+    },
+    {
+      "stage": "8c_v2",
+      "type": "reports",
+      "path": "outputs/stage8c_v2/v1/stage8c_v2_summary.md",
+      "sha256": "0687321fb55b11921222e89788ce8d9dc3162090173f7f85465ddbcc371579ea"
+    },
+    {
+      "stage": "8c_v2",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_8c_v2_visual_gain.md",
+      "sha256": "c89d4809223ab845b35d4fbe07fd6fcb8dda87cf3d6952bc2fa80c4bef2d78d0"
+    },
+    {
+      "stage": "8c_v2",
+      "type": "plans",
+      "path": "plan/stage8c_v2_execution_checklist.md",
+      "sha256": "839b6c9513de95086181982b332c041ed654a19a91393296a6fe13618eda9b7e"
+    },
+    {
+      "stage": "8c_v2",
+      "type": "plans",
+      "path": "plan/stage8c_v2_execution_protocol_v1.md",
+      "sha256": "21cc5ceda09bc695426dca0eb8952ca91a049697f63ae6bb63a3b22eb69a5737"
+    },
+    {
+      "stage": "8c_v2",
+      "type": "plans",
+      "path": "plan/stage8c_v2_retrieval_triggered_visual_gain_large_diverse_plan.md",
+      "sha256": "f96ec18c1ea866ccc28579858ac9fa11647d18015d51fa57eb4e6929eb1522f7"
+    },
+    {
+      "stage": "8c_repair",
+      "type": "reports",
+      "path": "outputs/stage8c_repair/v1/stage8c_repair_summary.md",
+      "sha256": "bcdc4145e5d10cbd440f42a0cb473633d1530959cc7326e95a83b42210f3d715"
+    },
+    {
+      "stage": "8c_repair",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_8c_repair_visual_decomposition.md",
+      "sha256": "e5ffd2aaa835fa54db0785bf732f1b743d3603d3dd667b4c3eed0550e9e47903"
+    },
+    {
+      "stage": "8c_repair",
+      "type": "plans",
+      "path": "plan/stage8c_repair_execution_checklist.md",
+      "sha256": "a93745b1adaa0d2e2875d3867f735d556e84b8d3e49bff03c28080859d931209"
+    },
+    {
+      "stage": "8c_repair",
+      "type": "plans",
+      "path": "plan/stage8c_repair_visual_decomposition_revalidation_plan.md",
+      "sha256": "329e3fa798251898a9e2df777c6d91c9e91df462b50ef4fd9fb0a108c0d92b90"
+    },
+    {
+      "stage": "8c_v3",
+      "type": "reports",
+      "path": "outputs/stage8c_v3/v1/stage8c_v3_summary.md",
+      "sha256": "50da0e480b959f20f0e2056646e6f95da6ed1137a7e91cb1fd18c7aac0ad4a85"
+    },
+    {
+      "stage": "8c_v3",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_8c_v3_fp32_visual_gain.md",
+      "sha256": "62fc11e4191fef41be6c5a391eca38416152c8c7f0309b13c0bd092814aa5cd1"
+    },
+    {
+      "stage": "8c_v3",
+      "type": "plans",
+      "path": "plan/stage8c_v3_execution_checklist.md",
+      "sha256": "7456c40f529787e2783cebc34e57fd54ab32d746553960d25aec7c949940e78e"
+    },
+    {
+      "stage": "8c_v3",
+      "type": "plans",
+      "path": "plan/stage8c_v3_execution_protocol_v1.md",
+      "sha256": "c64e34c9358c04d7265c389e47523cd317342c4e3ef93a4162a65c98160e2873"
+    },
+    {
+      "stage": "8c_v3",
+      "type": "plans",
+      "path": "plan/stage8c_v3_four_gpu_resume_v1.md",
+      "sha256": "6686aa53542295c46fdcc0c88abef55292a75214661a7e2b4e3439b4341458e6"
+    },
+    {
+      "stage": "8c_v3",
+      "type": "plans",
+      "path": "plan/stage8c_v3_fp32_direct_retrieval_gain_plan.md",
+      "sha256": "543eb4db4198de8e59a109787a2ec1206f350a4c0fdc4156161231904703a2dd"
+    },
+    {
+      "stage": "8b_block3b",
+      "type": "reports",
+      "path": "outputs/stage8b_block3b/v1/stage8b_block3b_summary.md",
+      "sha256": "bbbd919d49fd02ae9aef0eb2f85916c237cbc01c9d9e361f791ac534ab6d9f1a"
+    },
+    {
+      "stage": "8b_block3b",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_8b_block3b_post_read.md",
+      "sha256": "e75ad577c131dd66bad885b2299925a0882225ea6f05ae0ce1c0bcafc4421561"
+    },
+    {
+      "stage": "8b_block3b",
+      "type": "plans",
+      "path": "plan/stage8b_block3b_execution_checklist.md",
+      "sha256": "f05030d35da956f8e71b34dad84cb55f26bdc0cf40bbae7cb72582cd42338276"
+    },
+    {
+      "stage": "8b_block3b",
+      "type": "plans",
+      "path": "plan/stage8b_block3b_execution_protocol_v1.md",
+      "sha256": "877346036c0d42d43227c4edfaaadf1929e59e5576039fe829140c8cd7eff8fe"
+    },
+    {
+      "stage": "8b_block3b",
+      "type": "plans",
+      "path": "plan/stage8b_block3b_post_read_recovery_wandering_plan.md",
+      "sha256": "997fbd986ebf040e20f737029c6fa8abaac8934057bf29940326e75f014426d6"
+    },
+    {
+      "stage": "9a_native",
+      "type": "reports",
+      "path": "outputs/stage9a/v1/stage9a_summary.md",
+      "sha256": "432621f8253cc1fe1a775b421a026a77a292078758ef8241f0c12e10a52bf922"
+    },
+    {
+      "stage": "9a_native",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_9a_thinking_vs_cot.md",
+      "sha256": "7e2d9849d57066377c966ba0d3d4e635ee730d3495ec10b6cc759c0c294da5b0"
+    },
+    {
+      "stage": "9a_native",
+      "type": "plans",
+      "path": "plan/stage9a_execution_checklist.md",
+      "sha256": "027d2e6cd47096a1d593127dda6357982ebecede822247b469e3a784699225fa"
+    },
+    {
+      "stage": "9a_native",
+      "type": "plans",
+      "path": "plan/stage9a_execution_protocol_v1.md",
+      "sha256": "a81f1bf1da9ad8f867cacc25d8224de5cb25b7a72fffefbd0364aa9dd8d71922"
+    },
+    {
+      "stage": "9a_native",
+      "type": "plans",
+      "path": "plan/stage9a_node07_resource_amendment.md",
+      "sha256": "8a2400a04e646bdf7a667d6be8d91d092b87451c5ea7cb64d640a9ff54694311"
+    },
+    {
+      "stage": "9a_native",
+      "type": "plans",
+      "path": "plan/stage9a_thinking_vs_cot_visual_access_regimes_plan.md",
+      "sha256": "d72dcdca7a5ff47547e38b6454ddc4503f6d464559a40f13c9d586bdeff740a3"
+    },
+    {
+      "stage": "9a_vab",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_9a_vab_necessity.md",
+      "sha256": "cefdddbaffae903316bb530f6b58f9b35d0cb8e080923a1bcd82f41fb6a1e023"
+    },
+    {
+      "stage": "9a_vab",
+      "type": "plans",
+      "path": "plan/stage9a_vab_execution_protocol_v1.md",
+      "sha256": "8b0c764391168c82a2f041a0f29821cd2761eff05fd7558ef72952e5f8a330c7"
+    },
+    {
+      "stage": "9a_vab",
+      "type": "plans",
+      "path": "plan/stage9a_vab_style_visual_access_necessity_thinking_vs_cot_plan.md",
+      "sha256": "bef553b1dda57173486ef537743c804317ae7cf77582b0b53409161faa5363d2"
+    },
+    {
+      "stage": "9a_dynamics",
+      "type": "reports",
+      "path": "outputs/stage9a_dynamics/amendment_v1/stage9a_summary.md",
+      "sha256": "cbeed1eb15c916ff8efeb8ebf86ce5ee5d23d1608b87ec2b7925c1a400beb44b"
+    },
+    {
+      "stage": "9a_dynamics",
+      "type": "reports",
+      "path": "outputs/stage9a_dynamics/amendment_v1/stage9a3_transition_addendum.md",
+      "sha256": "2ca04bb700fa81494abcfc8d7111ad03537540b54f760fb432bc9047c9e24c3b"
+    },
+    {
+      "stage": "9a_dynamics",
+      "type": "reports",
+      "path": "outputs/stage9a_dynamics/amendment_v1/stage9a_compute_amendment_v1.md",
+      "sha256": "da536a84e8d1049ab78c1bbd19e82f7377f67a60e5db752dad60c15b02bd6d59"
+    },
+    {
+      "stage": "9a_dynamics",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_9a_access_dynamics.md",
+      "sha256": "52a9b0ee3d8412bf5dc7adff8c1a6ebc2174a5780d22abd9b193e519f40691d7"
+    },
+    {
+      "stage": "9a_dynamics",
+      "type": "plans",
+      "path": "plan/stage9a_compute_amendment_v1.md",
+      "sha256": "da536a84e8d1049ab78c1bbd19e82f7377f67a60e5db752dad60c15b02bd6d59"
+    },
+    {
+      "stage": "9a_dynamics",
+      "type": "plans",
+      "path": "plan/stage9a_direct_cot_thinking_visual_access_dynamics_plan.md",
+      "sha256": "bbc2b469e159d315d6f8543916b9f4ef620431712153726232788716ef849260"
+    },
+    {
+      "stage": "9a_dynamics",
+      "type": "plans",
+      "path": "plan/stage9a_dynamics_execution_checklist.md",
+      "sha256": "cfd71321a885d786548994dc28a83ce5c580bf338cfc8761befd6ea2c5a8c88c"
+    },
+    {
+      "stage": "9a_dynamics",
+      "type": "plans",
+      "path": "plan/stage9a_dynamics_execution_protocol_v1.md",
+      "sha256": "1e8fe547c5d45005994ebc3fc05101435d11a31c7f15498d87715349833f7b32"
+    },
+    {
+      "stage": "9a_dynamics",
+      "type": "plans",
+      "path": "plan/stage9a_finish_execution_checklist.md",
+      "sha256": "eb9674b77bdd9179cf711b9afdeb265dd5ea7e054a46c43d5e1350f26ab30386"
+    },
+    {
+      "stage": "9a_dynamics",
+      "type": "plans",
+      "path": "plan/stage9a_resource_addendum_8gpu_20260925.md",
+      "sha256": "0fbcbf6e1f413363ca4b0bb5c00a1f02d6b5304af76920121adb1657a7d32853"
+    },
+    {
+      "stage": "9a3",
+      "type": "reports",
+      "path": "outputs/stage9a3/v1/stage9a3_summary.md",
+      "sha256": "fe5f13c0d35bd0e865cf2c96091c5fda585e8c01a3b184a8189ce0709d95de9b"
+    },
+    {
+      "stage": "9a3",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_9a3_vab_calibration.md",
+      "sha256": "e77e7fd8b11c8e961b8acbe50487d3974be021c09379e613c2d69c25e88fce6c"
+    },
+    {
+      "stage": "9a3",
+      "type": "plans",
+      "path": "plan/stage9a3_bounded_vab_calibration_qwen25_vs_qwen3_cot_plan.md",
+      "sha256": "3aa062c5d3d13c97cbf4c13adfbea6bf5171f634ebe230b7ee99c1a160893b6e"
+    },
+    {
+      "stage": "9a3",
+      "type": "plans",
+      "path": "plan/stage9a3_execution_checklist.md",
+      "sha256": "8d550ab18a00e9f6a61b43ee8ba77baa43aacdc96f6f7c10a7e42463d06d9d99"
+    },
+    {
+      "stage": "9a3",
+      "type": "plans",
+      "path": "plan/stage9a3_execution_protocol_v1.md",
+      "sha256": "8dfd7503dee81e593ca701afb0b828572b6440b2f17c393e58cb9c0b882dddf7"
+    },
+    {
+      "stage": "9a4",
+      "type": "reports",
+      "path": "outputs/stage9a4/v1/stage9a4_summary.md",
+      "sha256": "3c508e334659d6fe65baf5694619a942144db6ad4d34c27af9df79b4ae67d112"
+    },
+    {
+      "stage": "9a4",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_9a4_qwen3_4b_finite_access.md",
+      "sha256": "f4733c0327e30d40a927060a223efc885465a4ad85b65d2fc1d515926c89cd72"
+    },
+    {
+      "stage": "9a4",
+      "type": "plans",
+      "path": "plan/stage9a4_execution_checklist.md",
+      "sha256": "1b4f9dc4b2e66df616cb1316b66010d0f0f1ad9fbdce3ad4c81d889cb450c035"
+    },
+    {
+      "stage": "9a4",
+      "type": "plans",
+      "path": "plan/stage9a4_execution_protocol_v1.md",
+      "sha256": "22b751e13aef380fa1de7b4ab9fa80c57650593b1b71164c69440329827f30e2"
+    },
+    {
+      "stage": "9a4",
+      "type": "plans",
+      "path": "plan/stage9a4_qwen3vl4b_vab_baseline_repair_finite_access_plan.md",
+      "sha256": "1a22c1af54409853619400dc593a84b8ad86e2b9d9ce80574b5196539a93dcf6"
+    },
+    {
+      "stage": "9a5",
+      "type": "reports",
+      "path": "outputs/stage9a5/v1/stage9a5_summary.md",
+      "sha256": "4fb80e0c2b66073d19709bc1f455fea329c7bd169b38335e54790297430d51ac"
+    },
+    {
+      "stage": "9a5",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_9a5_thinking_finite_access.md",
+      "sha256": "989861b7b64641ef1780a11a999726b06b9df15a25ba020dff575761ec08ae74"
+    },
+    {
+      "stage": "9a5",
+      "type": "plans",
+      "path": "plan/stage9a5_execution_checklist.md",
+      "sha256": "dfeb43f3354e8661caf03ed889d52dd67c3345077015693d7daa818323746e09"
+    },
+    {
+      "stage": "9a5",
+      "type": "plans",
+      "path": "plan/stage9a5_execution_protocol_v1.md",
+      "sha256": "fd4cce56bc8c243937f3ef0f44eeba7173c5f33eabd2e0e3bbe9007530828395"
+    },
+    {
+      "stage": "9a5",
+      "type": "plans",
+      "path": "plan/stage9a5_qwen3vl4b_thinking_vs_cot_finite_access_plan.md",
+      "sha256": "cfed1faa4ed03454dce0915d21dc819183a73d310ed09515cd72dada5b0afdae"
+    },
+    {
+      "stage": "10a",
+      "type": "reports",
+      "path": "outputs/stage10a/v1/stage10a_summary.md",
+      "sha256": "0ee0d73fe24c88e804e44cc011a337090e04636dad7d21d5d448a96cdd94abd3"
+    },
+    {
+      "stage": "10a",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_10a_perceptual_textual_handoff.md",
+      "sha256": "47241c2cf41e2ab0aeafdd87fcd4215e21986d1c15fd73dcf334e918ac6468f6"
+    },
+    {
+      "stage": "10a",
+      "type": "plans",
+      "path": "plan/stage10a_causal_perceptual_to_textual_handoff_plan.md",
+      "sha256": "f0eb69becabe45b7ffcba822e024109b716295eb4bd5539a06fd6d93fd73cc46"
+    },
+    {
+      "stage": "10a",
+      "type": "plans",
+      "path": "plan/stage10a_execution_checklist.md",
+      "sha256": "64a966502e9fdb29e90a29ca6cb45db5a5f9b4bb929312bb98de8aaf89a3d3b3"
+    },
+    {
+      "stage": "10a",
+      "type": "plans",
+      "path": "plan/stage10a_execution_protocol_v1.md",
+      "sha256": "bec7ddbf148467e3c7f2d6a300f9d89498d45f833b435a0426f004a5764e5c0a"
+    },
+    {
+      "stage": "10ar",
+      "type": "reports",
+      "path": "outputs/stage10ar/v1/stage10ar_summary.md",
+      "sha256": "c7f2e32c7127913867f5a823eccfe8080a5963861f668ef2b984617eb33eb53a"
+    },
+    {
+      "stage": "10ar",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_10ar_phase_transition_localization.md",
+      "sha256": "a74d3dbde4411de3220682a2428ffd82ba33f1d13c7c3f7c039ab77a8a9416a9"
+    },
+    {
+      "stage": "10ar",
+      "type": "plans",
+      "path": "plan/stage10ar_causal_phase_transition_localization_plan.md",
+      "sha256": "d864f71ff0fe0f409542f0b734e5c6969d948050b44fd207d83856f0e710b90f"
+    },
+    {
+      "stage": "10ar",
+      "type": "plans",
+      "path": "plan/stage10ar_execution_checklist.md",
+      "sha256": "5eb6476e75b2aca7a980f57ebfd11387bae8c7130a42b9d1d982d380a561cf8d"
+    },
+    {
+      "stage": "10ar",
+      "type": "plans",
+      "path": "plan/stage10ar_execution_protocol_v1.md",
+      "sha256": "73786299b984c3dcb8022546740f7f22f9d1f350d928eb1329ef9a1bcd6e1f88"
+    },
+    {
+      "stage": "10b",
+      "type": "reports",
+      "path": "outputs/stage10b/v1/stage10b_summary.md",
+      "sha256": "e77fc5939384a280fee28e67f091928d7fe60c1e8b85d918a4c1da1a3d616d61"
+    },
+    {
+      "stage": "10b",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_10b_recurrent_visual_demand_census.md",
+      "sha256": "b8451183b820aa8d7bfb16664a57429f1c3043e95d03c7311b4b7d68b1b513cf"
+    },
+    {
+      "stage": "10b",
+      "type": "plans",
+      "path": "plan/stage10b_agreement_implementation_v1.md",
+      "sha256": "0635ac06bdcb85060c69bfb0f9e7f78b4013bf36a2afa7fed6d68d7609f18020"
+    },
+    {
+      "stage": "10b",
+      "type": "plans",
+      "path": "plan/stage10b_execution_checklist.md",
+      "sha256": "a71fa4eb16420baea7bcfaa76125e6f4ec79774ac59a22ff7821ba65edd6b3f1"
+    },
+    {
+      "stage": "10b",
+      "type": "plans",
+      "path": "plan/stage10b_execution_protocol_v1.md",
+      "sha256": "d194cd6ed5205402dfbcbb2a41caa6e2fab8d15e9509b5d9490c232bb61b257e"
+    },
+    {
+      "stage": "10b",
+      "type": "plans",
+      "path": "plan/stage10b_metadata_clarification_v1.md",
+      "sha256": "9504140b6e92cd01eb4fdf155f2f60314d0e66de8f0daa7167dd78cd1594d839"
+    },
+    {
+      "stage": "10b",
+      "type": "plans",
+      "path": "plan/stage10b_recurrent_visual_demand_census_plan.md",
+      "sha256": "0983e2c235e72fd619ce7ab6417f910aace0ad2e486e484306bec67c77ce7a0b"
+    },
+    {
+      "stage": "10c",
+      "type": "reports",
+      "path": "outputs/stage10c/v1/stage10c_summary.md",
+      "sha256": "8a287de5722f139cd1a7e40c26f26cc57e7515a2207f097c59950f7ad75f3ddc"
+    },
+    {
+      "stage": "10c",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_10c_causal_visual_reopening.md",
+      "sha256": "291000f2de70b70143a263c117d5f0055412940401d7706fd0a35f094d14990f"
+    },
+    {
+      "stage": "10c",
+      "type": "plans",
+      "path": "plan/stage10c_causal_visual_reopening_plan.md",
+      "sha256": "9806ec5e595e9bb4a83b3ee56c5155b3a61ffd188665d3f548b4f3feeca03254"
+    },
+    {
+      "stage": "10c",
+      "type": "plans",
+      "path": "plan/stage10c_execution_checklist.md",
+      "sha256": "d625f3c5827134861894f067af5f1c99c1b24993d87bd0b07c76f862201de48d"
+    },
+    {
+      "stage": "10c",
+      "type": "plans",
+      "path": "plan/stage10c_execution_protocol_v1.md",
+      "sha256": "63d9928fbe8d88a09d62b5155f9992808887b6fc743906897578cf5845a23ac8"
+    },
+    {
+      "stage": "11a",
+      "type": "reports",
+      "path": "outputs/stage11a/v1/stage11a_summary.md",
+      "sha256": "0cecdb79fc46578bc500c1e224efb73ae73457410eacb77f7b24767c6cc908c7"
+    },
+    {
+      "stage": "11a",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_11a_visual_evidence_bottleneck_census.md",
+      "sha256": "8e192a86284cacc582c01febab12df4b6aa9385cc26880f62ac8e80a47eba62e"
+    },
+    {
+      "stage": "11a",
+      "type": "plans",
+      "path": "plan/stage11a_execution_checklist.md",
+      "sha256": "01f8ce95130096c0fb0daa7a1a96238b1ebad5a64440d434f38e08b98cd0382e"
+    },
+    {
+      "stage": "11a",
+      "type": "plans",
+      "path": "plan/stage11a_execution_protocol_v1.md",
+      "sha256": "24d7334a95bc5b9da81b6fdf2ed872afccf413a4ca893b698871cd9ee8d03133"
+    },
+    {
+      "stage": "11a",
+      "type": "plans",
+      "path": "plan/stage11a_visual_evidence_bottleneck_census_plan.md",
+      "sha256": "a4bc4278722261cb420bc8e59745137e3fd65eeace56fb41da0e4bdef34d5abd"
+    },
+    {
+      "stage": "11b",
+      "type": "reports",
+      "path": "outputs/stage11b/v1/stage11b_summary.md",
+      "sha256": "c978969a7a41f2132511211ea7215a1b7138c635f4598fb323996d7d85b1671d"
+    },
+    {
+      "stage": "11b",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_11b_harder_mathvision_equal_evidence_oracle.md",
+      "sha256": "c4d59dd2de06d007deb9f64dcfb0a23012e23dfe063ae9d5b23b6bf29e0f275d"
+    },
+    {
+      "stage": "11b",
+      "type": "plans",
+      "path": "plan/stage11b_execution_checklist.md",
+      "sha256": "7fb53cf8c0f8e1096e5bf5a217a546925e9a2aefe73f98e0258502c0713d7363"
+    },
+    {
+      "stage": "11b",
+      "type": "plans",
+      "path": "plan/stage11b_harder_mathvision_equal_evidence_oracle_plan.md",
+      "sha256": "7820b9f7545e63bef02ddc84db99e9dbae0550c67ff03897aded559ee248feb5"
+    },
+    {
+      "stage": "11c",
+      "type": "reports",
+      "path": "outputs/stage11c/v1/stage11c_summary.md",
+      "sha256": "0e0d68136325d381aa8c6adeea0933ef7938d7f0885c491309524514fe433ccd"
+    },
+    {
+      "stage": "11c",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_11c_thinking_instruct_lifecycle.md",
+      "sha256": "2683ca00cbc6ef127b45e4714d7f58702ab61143b2c354a2f6561ebf928f7a85"
+    },
+    {
+      "stage": "11c",
+      "type": "plans",
+      "path": "plan/stage11c_execution_checklist.md",
+      "sha256": "3a46ac2313f3b862df6a2837c05dd20c35bff42f6500a61710c3f9d4a6fef337"
+    },
+    {
+      "stage": "11c",
+      "type": "plans",
+      "path": "plan/stage11c_thinking_vs_instruct_lifecycle_localization_plan.md",
+      "sha256": "a7ba245a591d080ee1a4934162926fdf6fbd328ad333139fa6ab3c52e1da45eb"
+    },
+    {
+      "stage": "11cr",
+      "type": "reports",
+      "path": "outputs/stage11cr/v1/stage11cr_summary.md",
+      "sha256": "af2d3807d979bd5140c2d168f04e79d4327cb3f5d8ad50042cba8351ed12035d"
+    },
+    {
+      "stage": "11cr",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_11cr_technical_repair_frozen_rerun.md",
+      "sha256": "2818a790b0f2f333b0283fc0067678dca0e1f97d21585029324833ceb983a4d6"
+    },
+    {
+      "stage": "11cr",
+      "type": "plans",
+      "path": "plan/stage11cr_execution_checklist.md",
+      "sha256": "8df520c6fa34f25ec4ff6cf019125254a63e4a1f1e06295e95ddd0b6dab8031e"
+    },
+    {
+      "stage": "11cr",
+      "type": "plans",
+      "path": "plan/stage11cr_technical_repair_and_frozen_rerun_plan.md",
+      "sha256": "e4c88e0791e9cbafd8045137251224fce7abe9bb3bc5cf1fa3e6b122e445789b"
+    },
+    {
+      "stage": "official",
+      "type": "reports",
+      "path": "outputs/qwen3vl_official_eval/v1/qwen3vl_mathvision_official_protocol_audit.md",
+      "sha256": "0bd6e67216a013742b8424199b6437d35bf7100690dda8a5f667bb330902ce0f"
+    },
+    {
+      "stage": "official",
+      "type": "reports",
+      "path": "outputs/qwen3vl_official_eval/v1/qwen3vl_mathvision_prompt_diff.md",
+      "sha256": "ac77d54e25a0c0b00bf155e832a3bd59ba7e236f6422f2edd44ef2473cae998e"
+    },
+    {
+      "stage": "official",
+      "type": "reports",
+      "path": "outputs/qwen3vl_official_eval/v1/qwen3vl_official_sanity_summary.md",
+      "sha256": "eb191152091e84ab737641a8776ec5c9a579e3b09244712243f2e96fef44163d"
+    },
+    {
+      "stage": "official",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_qwen3vl_official_eval_audit.md",
+      "sha256": "39ee00f073f8391c1686a29334068ac3dc9b7b7498ee7bd04ff45761ca16d585"
+    },
+    {
+      "stage": "12a",
+      "type": "reports",
+      "path": "outputs/stage12a/v1/stage12a_summary.md",
+      "sha256": "2a4cb4c7b822d2afa5609f2bf2b4aa3daa510750beed8c9fb8f0a27ac428a201"
+    },
+    {
+      "stage": "12a",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_12a_multimodal_lost_keys_pilot.md",
+      "sha256": "b6ebc4d5ff76d3eb826ebc4589b8c0e7d237c24b6bf8d16ffd676ba6c05a22be"
+    },
+    {
+      "stage": "12a",
+      "type": "plans",
+      "path": "plan/stage12a_multimodal_lost_keys_pilot_plan.md",
+      "sha256": "d3188293c13bee14f26dcbb90096023b802ce5197ed5547c2a7ea4135ba83436"
+    },
+    {
+      "stage": "12ar",
+      "type": "reports",
+      "path": "outputs/stage12ar/v1/stage12ar_summary.md",
+      "sha256": "96217298fb24f2b3852cd2b77f436037f43e8257fe2a25b9012d28798344e634"
+    },
+    {
+      "stage": "12ar",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_12ar_answer_only_reasoning_contract_validation.md",
+      "sha256": "2a8dc828511ca2815f3009009b8e6a587c1fcd85efbff207200df238d2f73397"
+    },
+    {
+      "stage": "12ar",
+      "type": "plans",
+      "path": "plan/stage12ar_answer_only_reasoning_contract_validation_plan.md",
+      "sha256": "b2c5bc58f731e4d53aa7af38c2585ac70830769676814ef528ac4160e21e3a37"
+    },
+    {
+      "stage": "12b",
+      "type": "reports",
+      "path": "outputs/stage12b/v1/stage12b_summary.md",
+      "sha256": "021b1f6065b0896f2633da6682aad47dc5387f4508bb95719f8b98b87c1746b1"
+    },
+    {
+      "stage": "12b",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_12b_visual_failure_bottleneck_profiling.md",
+      "sha256": "edd322a60562f502750c7cb63e5c619fb28b7e746ed5b33610f88aefc1da96c8"
+    },
+    {
+      "stage": "12b",
+      "type": "plans",
+      "path": "plan/stage12b_visual_failure_bottleneck_profiling_plan.md",
+      "sha256": "891246c51804c41bea273ad0b5959370785507f4dfdc9ff49693585cc081141d"
+    },
+    {
+      "stage": "12br",
+      "type": "reports",
+      "path": "outputs/stage12br/v1/stage12br_summary.md",
+      "sha256": "1e996d7453b680b771477f09ffef78c8943e5d2d7f75e0b45503cf338da1fea7"
+    },
+    {
+      "stage": "12br",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_12br_pathology_aware_validity_repair.md",
+      "sha256": "8a8d627e0cd5759cb9e2a23198d2c14c920c275bdf8b6131795d46c3c4a9dc0d"
+    },
+    {
+      "stage": "12br",
+      "type": "plans",
+      "path": "plan/stage12br_pathology_aware_validity_repair_plan.md",
+      "sha256": "5ebaaeaf04c30dc6e24befa0583219168d9cfdf1d125a790123c41949715918d"
+    },
+    {
+      "stage": "12bs",
+      "type": "reports",
+      "path": "outputs/stage12bs/v1/stage12bs_summary.md",
+      "sha256": "1e7ed4076687b3d84c70cfe18f81edc0dae61c14404ec9412090943e33716ec8"
+    },
+    {
+      "stage": "12bs",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_12bs_full_scientific_failure_profiling.md",
+      "sha256": "2a24f1985621e661223a694d5123af8b596217398f9bf7c1e52284ac3d6b09d8"
+    },
+    {
+      "stage": "12bs",
+      "type": "plans",
+      "path": "plan/stage12bs_full_scientific_failure_profiling_plan.md",
+      "sha256": "ae3a2ad90c1d7fe65e4a630b895198ebf5114595ac6fddca923b3185b85b5e79"
+    },
+    {
+      "stage": "12c",
+      "type": "reports",
+      "path": "outputs/stage12c/v1/stage12c_summary.md",
+      "sha256": "c992768908bba634427093ce7d9bb358a9177254e8f6004d2d94ead15ab9232c"
+    },
+    {
+      "stage": "12c",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_12c_selective_rescue_cot_thinking.md",
+      "sha256": "6f51ba39c39f258c2c1ef023581f3b49e5c09c24d9f371fe24e50f293217d6c9"
+    },
+    {
+      "stage": "12c",
+      "type": "plans",
+      "path": "plan/stage12c_selective_rescue_cot_thinking_plan.md",
+      "sha256": "ec99f9e41293fc97a2fecbccebc2ee8bec0fd9e4833e2f28b86a8851e0c728f0"
+    },
+    {
+      "stage": "12cr",
+      "type": "reports",
+      "path": "outputs/stage12cr/v1/stage12cr_cot_summary.md",
+      "sha256": "fccb111d4ba7bd6efddaca5d2933a1d24f5d42236ffca05e53e5c0b9a7e73378"
+    },
+    {
+      "stage": "12cr",
+      "type": "reports",
+      "path": "outputs/stage12cr/v1/stage12tr_summary.md",
+      "sha256": "a62c83fe54334c8328f3cb1c9f15a53a94309d897797d44fe2979ce5fddd7ec3"
+    },
+    {
+      "stage": "12cr",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_12cr_decoupled_cot_thinking.md",
+      "sha256": "db678de3cd1d22025e2c899fe257e3fc7be349a506d8150bf0dc091c7272c8f3"
+    },
+    {
+      "stage": "12cr",
+      "type": "plans",
+      "path": "plan/stage12cr_decoupled_cot_science_thinking_completion_validation_plan.md",
+      "sha256": "a7a876c7bcf51d7a753ccc57703299f27dcf7464590bf0cdf5095c85dbbbbb79"
+    },
+    {
+      "stage": "12ts",
+      "type": "reports",
+      "path": "outputs/stage12ts/v1/stage12ts_summary.md",
+      "sha256": "56d64db32f8f6f5250ee82dff0b3e2008ed0cf6a62a34d7597ffd4c5f6f60075"
+    },
+    {
+      "stage": "12ts",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_12ts_thinking_visual_evidence_recovery.md",
+      "sha256": "b829f6988d2b427736727e085eef4804686ddae699392c9c2a85d5cc2062c66c"
+    },
+    {
+      "stage": "12ts",
+      "type": "plans",
+      "path": "plan/stage12ts_thinking_scientific_rescue_plan.md",
+      "sha256": "953e4e8ae2f6d6cf58ed0e5a7ba52152f30ea869e3b50af1ff828abc98051bf6"
+    },
+    {
+      "stage": "12ts",
+      "type": "plans",
+      "path": "plan/stage12ts_thinking_scientific_rescue_visual_evidence_recovery_plan.md",
+      "sha256": "87d7d8196ae42dc81704fad068d632af16e4b164a31255a9536e706bb8781d73"
+    },
+    {
+      "stage": "12us",
+      "type": "reports",
+      "path": "outputs/stage12us/v1/stage12us_summary.md",
+      "sha256": "3d15b271591b966b5116758418f1d38988f16daf1e13e3dcacc82c28f3ae4299"
+    },
+    {
+      "stage": "12us",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_12us_reasoning_state_transfer.md",
+      "sha256": "1e80714ead0a2e97f330815ce8fce93af96e167fbf2552c998d5724eb27026de"
+    },
+    {
+      "stage": "12us",
+      "type": "plans",
+      "path": "plan/stage12us_reasoning_state_production_vs_utilization_plan.md",
+      "sha256": "37c4e0586bf66b926000642a6a3ae0ce97772eecf8cf597a34c56649bd19db79"
+    },
+    {
+      "stage": "12vs",
+      "type": "reports",
+      "path": "outputs/stage12vs/v1/stage12vs_summary.md",
+      "sha256": "0e4cef28ff8e94f5e1fb6900fc762c636c1376ff2e2485bcc786cd2507e46427"
+    },
+    {
+      "stage": "12vs",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_12vs_portable_state_localization.md",
+      "sha256": "1ab45141f04643f502aaa7b99e3c84c3ad86c0263bbc1e1d65c5e992d5e6d615"
+    },
+    {
+      "stage": "12vs",
+      "type": "plans",
+      "path": "plan/stage12vs_portable_thinking_state_localization_plan.md",
+      "sha256": "fcd6a6536f22f9342f98ef50eaa86242097ee30f824abcb8642ae41caa4ad563"
+    },
+    {
+      "stage": "12ws",
+      "type": "reports",
+      "path": "outputs/stage12ws/v1/stage12ws_summary.md",
+      "sha256": "51930d50ace1b31de7c8cc2e65b66c9e19e4e4e6a748d7eaf8af2b580c681c66"
+    },
+    {
+      "stage": "12ws",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_12ws_distributed_state.md",
+      "sha256": "e03fc1911b19c944e4ec101ede5b77621ecd971cd8513a71466196a76be4d769"
+    },
+    {
+      "stage": "12ws",
+      "type": "plans",
+      "path": "plan/stage12ws_distributed_reasoning_state_construction_plan.md",
+      "sha256": "ab74f88011b76ffd0408880d5bd7cb704a4ac7dc8e9d2335a51b48386a849d22"
+    },
+    {
+      "stage": "12xs",
+      "type": "reports",
+      "path": "outputs/stage12xs/v1/stage12xs_summary.md",
+      "sha256": "7260500e15d4eb3672facc5161b9ae50211d4d1f573b267f704e4783326e7882"
+    },
+    {
+      "stage": "12xs",
+      "type": "reports",
+      "path": "outputs/stage12xs/v2/stage12xs_summary.md",
+      "sha256": "2a99cc33278dccd612729a3223eda3ece8f5fba9366625ea86ac9dc751d98f94"
+    },
+    {
+      "stage": "12xs",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_12xs_heldout_portability.md",
+      "sha256": "e29d37137ac96d35c0c2445716f643704807a6754106e4ef2035c4bd52a1edbc"
+    },
+    {
+      "stage": "12xs",
+      "type": "plans",
+      "path": "plan/stage12xs_execution_checklist.md",
+      "sha256": "22b66a75704d1d5c6d9a698359a6f4e07c0c8b3d3a48b4c70a218ff3377daf06"
+    },
+    {
+      "stage": "12xs",
+      "type": "plans",
+      "path": "plan/stage12xs_heldout_portable_reasoning_state_replication_plan.md",
+      "sha256": "7c9b5694b44883e6d2c31bc45c6163f9202b79472a8bc335e16151ccb0fb033d"
+    },
+    {
+      "stage": "12ys",
+      "type": "reports",
+      "path": "outputs/stage12ys/v1/stage12ys_summary.md",
+      "sha256": "1b56a5bd6dfb20a4b1ca05ff9e1d3b5d605397f113a739c24228f6f7314cb358"
+    },
+    {
+      "stage": "12ys",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_12ys_thinking_role_decomposition.md",
+      "sha256": "067f9e8beb303966f777f660cf900598bda14befe4ef30937ded0ca38b4e3ef6"
+    },
+    {
+      "stage": "12ys",
+      "type": "plans",
+      "path": "plan/stage12ys_execution_checklist.md",
+      "sha256": "91facbee5266049446b7969e0f96c3140c324a334285edb4db7df48b483ddbab"
+    },
+    {
+      "stage": "12ys",
+      "type": "plans",
+      "path": "plan/stage12ys_thinking_role_decomposition_vlm_math_plan.md",
+      "sha256": "be6391183d099f340580186cab7a654f50d5313a1eb307875477624963626ff1"
+    },
+    {
+      "stage": "13a",
+      "type": "reports",
+      "path": "outputs/stage13a/v1/stage13a_summary.md",
+      "sha256": "f9d3c4b0a8110530b7e2e80763878f8e2807643ce85871daa72875407017c31a"
+    },
+    {
+      "stage": "13a",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_13a_equal_evidence_confirmation.md",
+      "sha256": "5915d269aeca16d0b3c867cfcc6871774ec304c5d839838a3eb5f0cf2f84f35f"
+    },
+    {
+      "stage": "13a",
+      "type": "plans",
+      "path": "plan/stage13a_confirmatory_equal_evidence_thinking_advantage_plan.md",
+      "sha256": "869c229a6923fbf99c4909fc8834434294773ffde2a8b039ca94d90a94a1f519"
+    },
+    {
+      "stage": "13a",
+      "type": "plans",
+      "path": "plan/stage13a_execution_checklist.md",
+      "sha256": "6c45fe504b1c4a0bc3095ca416b67c150331ff0e3148a526afc581d760680a56"
+    },
+    {
+      "stage": "13b",
+      "type": "reports",
+      "path": "outputs/stage13b/v1/stage13b_summary.md",
+      "sha256": "c16972cff5e2bf47ddccbdccbfb93d68f198f9785069a49146ccb7c569b23701"
+    },
+    {
+      "stage": "13b",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_13b_cross_scale_role.md",
+      "sha256": "1fb1aaf39f5803bcf0348776803cdaec9140043a16ef3c7cec2c972aec6245c9"
+    },
+    {
+      "stage": "13b",
+      "type": "plans",
+      "path": "plan/stage13b_cross_scale_thinking_role_vlm_plan.md",
+      "sha256": "25173cfe69b0d9e45c56dea0887fce5a78f5c5feb64327c3b4c692462a821c76"
+    },
+    {
+      "stage": "13c",
+      "type": "reports",
+      "path": "outputs/stage13c/v1/stage13c_summary.md",
+      "sha256": "1b88450f3f873de53d5e824073b05f7fc165e0824197ac87cf0764808b5b7995"
+    },
+    {
+      "stage": "13c",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_13c_buffer_vs_derived_state.md",
+      "sha256": "7a3d128a53cec3861352437c7657a559317adf8128ad1f703bd4224f5758463e"
+    },
+    {
+      "stage": "13c",
+      "type": "plans",
+      "path": "plan/stage13c_computational_buffer_vs_derived_state_priming_plan.md",
+      "sha256": "84de8b1b6b3b4e79109ab0b608342bade34dbef9458d4de49e50860c9a2e4ef6"
+    },
+    {
+      "stage": "13c",
+      "type": "plans",
+      "path": "plan/stage13c_execution_checklist.md",
+      "sha256": "4bdbbe540869415807ae35e99fae028669114865e1deddc1745d2c6504a7e265"
+    },
+    {
+      "stage": "13d",
+      "type": "reports",
+      "path": "outputs/stage13d/v1/stage13d_summary.md",
+      "sha256": "d7e6433f373964afc615738f523942362c244ab7665280121b0f6fa7d414cd07"
+    },
+    {
+      "stage": "13d",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_13d_derived_state_immediate_buffer.md",
+      "sha256": "2ee598d6a6b65817740fcb180307ba170e7f2edf1a4300485986652a7d0e4dfe"
+    },
+    {
+      "stage": "13d",
+      "type": "plans",
+      "path": "plan/stage13d_derived_state_priming_and_immediate_buffer_plan.md",
+      "sha256": "79b7895a701e51a12f73b11eaa458dc07cc209c174ca2092297d7813d3d1296a"
+    },
+    {
+      "stage": "13d",
+      "type": "plans",
+      "path": "plan/stage13d_execution_checklist.md",
+      "sha256": "c5bfaeddf5840bc9cba0c21e2b4fb7f3e870c4d4c07638cf943c3ac923802405"
+    },
+    {
+      "stage": "14a",
+      "type": "reports",
+      "path": "outputs/stage14a/v1/stage14a_summary.md",
+      "sha256": "3dd245fd075ac0d113e557fff6b34247af301068edd793920ed03e8c36ec739a"
+    },
+    {
+      "stage": "14a",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_14a_large_scale_math_cohort.md",
+      "sha256": "f166a29671f4eeab252543cad8cec46beb20c2a1240eed6791bebb9ca4da2634"
+    },
+    {
+      "stage": "14a",
+      "type": "plans",
+      "path": "plan/stage14a_atom_count_clarification_requested.md",
+      "sha256": "855d588d8943e6b3218945f32c3a839ffb13c963064aeb5e1d50372aec10a866"
+    },
+    {
+      "stage": "14a",
+      "type": "plans",
+      "path": "plan/stage14a_atom_count_user_clarification_v2.md",
+      "sha256": "a252807f9eba151942f1eafe95384691bd0e7a984863f642a11d7245a380b464"
+    },
+    {
+      "stage": "14a",
+      "type": "plans",
+      "path": "plan/stage14a_execution_checklist.md",
+      "sha256": "5b7193194785b974cf37505caaaa69c09b53d81e3b0b1571b1f31d8a80b52432"
+    },
+    {
+      "stage": "14a",
+      "type": "plans",
+      "path": "plan/stage14a_large_scale_math_cohort_construction_plan.md",
+      "sha256": "b506d5c0b6de2af6aeea0694d5849db31f34add35b5a6bb88254603166469a54"
+    },
+    {
+      "stage": "14b",
+      "type": "reports",
+      "path": "outputs/stage14b/summaries/stage14b_final_summary.md",
+      "sha256": "9b24aa67c431c98667ed1b51ca9fff7840769be4f5ed1fb5ee065406cf46f502"
+    },
+    {
+      "stage": "14b",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_14b_large_scale_math_phenomenon.md",
+      "sha256": "f0e1fe58c2e9e94c538aee3603d0d4db48bc32dbfc46af07acaf9034fad7cab5"
+    },
+    {
+      "stage": "14b",
+      "type": "plans",
+      "path": "plan/stage14b_execution_checklist.md",
+      "sha256": "869233f193715199bd4cf86a57eb697172e72d6890e5dad8949e31e5bb81ffed"
+    },
+    {
+      "stage": "14b",
+      "type": "plans",
+      "path": "plan/stage14b_large_scale_math_phenomenon_plan.md",
+      "sha256": "042f9d734c33ec886d11785d3bad92562a0f151addb3f525b4042b00a5908638"
+    },
+    {
+      "stage": "14b",
+      "type": "plans",
+      "path": "plan/stage14b_oom_skip_amendment_v1.md",
+      "sha256": "f8f7c0a90e485c7b0963cc1bbe2f25380d9805e5f91cc3c5b327126b783ace6d"
+    },
+    {
+      "stage": "14c",
+      "type": "reports",
+      "path": "outputs/stage14c/summaries/stage14c_final_summary.md",
+      "sha256": "900436de8867c4a8644a07e58f9d1049c006e1f2d747937dd30a3dce46281d93"
+    },
+    {
+      "stage": "14c",
+      "type": "reports",
+      "path": "outputs/stage14c/summaries/stage14c_D1_summary.md",
+      "sha256": "19cb6ed55bba723e4439602d3cc379b1838d6ac8038a15dac4f0d0aa25e0d5c3"
+    },
+    {
+      "stage": "14c",
+      "type": "reports",
+      "path": "outputs/stage14c/summaries/stage14c_sensitivity_summary.md",
+      "sha256": "c5bf1bad0031eb3cf098d7e4e98f8f0eebbb120fb8f4e664dc64d7690fc9993f"
+    },
+    {
+      "stage": "14c",
+      "type": "reports",
+      "path": "outputs/stage14c/summaries/stage14c_g1_source_summary.md",
+      "sha256": "e75caf8aa13e27d0b5adf546d7476cb68857fc33a09b46f22a3d374881b691fd"
+    },
+    {
+      "stage": "14c",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_14c_cross_task_bottleneck.md",
+      "sha256": "1989b5fd379af4f10292452dbaf8425d18bd4ca15ecab879bc6774c00588406d"
+    },
+    {
+      "stage": "14c",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_14c_execution_history_20261009.md",
+      "sha256": "0d77bf7c2c421388f42a4d5b7c16e7fdb9fc4da119d9a8eca8db7349e696ee22"
+    },
+    {
+      "stage": "14c",
+      "type": "plans",
+      "path": "plan/stage14c_cross_task_bottleneck_plan.md",
+      "sha256": "352db29accc056642cbe6eec19e4082aa251e8ba9ead84b7b6e9b96138b7ef48"
+    },
+    {
+      "stage": "14c",
+      "type": "plans",
+      "path": "plan/stage14c_execution_checklist.md",
+      "sha256": "cf2cabefd1df07c7a541f0ddbfc3234b9c3133fa530fb32435053cf695f08cc4"
+    },
+    {
+      "stage": "14cv",
+      "type": "reports",
+      "path": "outputs/stage14c_v_blindtest_validation/summaries/stage14c_v_R_primary_summary.md",
+      "sha256": "3f5e403acff420847f30e40ca489ece3b82309a2277d0fd0acbe3b9987db3207"
+    },
+    {
+      "stage": "14cv",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_14cv_blindtest_representation_contract.md",
+      "sha256": "dbad51a9d3d66467c1a7fda5180760af6072329760e7c9a8d4c31e85a37de70f"
+    },
+    {
+      "stage": "14cv",
+      "type": "plans",
+      "path": "plan/stage14c_blindtest_representation_contract_validation_plan.md",
+      "sha256": "079e24d6d445cdea264ce860eaf9dbce90707ddf4014fc9debc1fe38736d54c4"
+    },
+    {
+      "stage": "14cv",
+      "type": "plans",
+      "path": "plan/stage14cv_execution_checklist.md",
+      "sha256": "4d49b51a0c6bdd09b3f330b00733d287f2106b498fea2be564ca5a03e9d4ac66"
+    },
+    {
+      "stage": "blindviewer",
+      "type": "reports",
+      "path": "outputs/blindtest_human_audit/v1/blindtest_audit_summary.md",
+      "sha256": "a2ee80ca426c7009ab9a7020900819688ad89ef1071f537e7ec09952c21d2d7e"
+    },
+    {
+      "stage": "blindviewer",
+      "type": "reports",
+      "path": "outputs/blindtest_human_audit/v1/blindtest_review_guide.md",
+      "sha256": "f288c622d816e1e9472a053e03284c51bc4841fed5061b8c4faf245b361e054e"
+    },
+    {
+      "stage": "14d",
+      "type": "reports",
+      "path": "outputs/stage14d/reports/stage14d_technical_calibration_summary.md",
+      "sha256": "f059b9f5fe7ae612c91202de04f03c934d925b5f61a49b81fb5473b4afedfd79"
+    },
+    {
+      "stage": "14d",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_14d_causal_evidence_acquisition.md",
+      "sha256": "b02b91fd4839792701f2a888a58cd83653232b065fdef2c75e4688b014192e50"
+    },
+    {
+      "stage": "14d",
+      "type": "plans",
+      "path": "plan/stage14d_causal_evidence_acquisition_localization_plan.md",
+      "sha256": "8312eb400146220cfa5b5dbec4b6f1fc6ead69edf02ca3a61b08da037b070628"
+    },
+    {
+      "stage": "14d",
+      "type": "plans",
+      "path": "plan/stage14d_execution_checklist.md",
+      "sha256": "5e765ff95635144b94d3a6db57ac93541a6d8f9c26a83f8028646c4c3f25859f"
+    },
+    {
+      "stage": "14d",
+      "type": "plans",
+      "path": "plan/stage14d_execution_checklist_v2.md",
+      "sha256": "167d03455120c096528006176b72a1bc5117f421afea6b7e860357e5fa9577e1"
+    },
+    {
+      "stage": "14d0",
+      "type": "reports",
+      "path": "outputs/stage14d0/reports/stage14d0_native_trace_audit_results.md",
+      "sha256": "61d2ff045a196e20a5bdb64c074abfbb403276b3bae7e474df719a440ed33104"
+    },
+    {
+      "stage": "14d0",
+      "type": "reports",
+      "path": "outputs/stage14d0/reports/decision_and_unresolved_limitations.md",
+      "sha256": "1778eacde3d80a48f00a0f5f8ad25e639d6c6f0c705b2ef0b9e9303229a12233"
+    },
+    {
+      "stage": "14d0",
+      "type": "memories",
+      "path": "outputs/stage14d0/state/phase_memory.md",
+      "sha256": "a171cfa1c7ab3bf9f925a0aa74aaa48e533758ca7d40a19f1de28edc0eaa934e"
+    },
+    {
+      "stage": "14d0",
+      "type": "plans",
+      "path": "plan/stage14d0_estar_instruct_thinking_native_trace_audit_plan.md",
+      "sha256": "8aefc7ea681833fa978b5b2c97bfc635f5d4defa83bbcf61619ceb6af515ffba"
+    },
+    {
+      "stage": "14d0supp",
+      "type": "reports",
+      "path": "outputs/stage14d0_answer_evidence_supplement_v1/supplementary_report.md",
+      "sha256": "7e8a84a8cd99004d14a0188af851dead3e46f9c079b095478c9af428bc059d80"
+    },
+    {
+      "stage": "14d0difficulty",
+      "type": "reports",
+      "path": "outputs/stage14d0_visual_difficulty/v2/report.md",
+      "sha256": "69069c9bb3e573fb78d7ae9064c066bdc067f8e0438eee458fea1812f4bf2d85"
+    },
+    {
+      "stage": "14d0difficulty",
+      "type": "reports",
+      "path": "outputs/stage14d0_visual_difficulty/v2/method_design_implications.md",
+      "sha256": "ef765ac8e6078ce1ecf7e356bb77158a3aefa76b8dcad4c02914122891723876"
+    },
+    {
+      "stage": "14d0difficulty",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_14d0_visual_difficulty_v2.md",
+      "sha256": "3d14a5aa42cb1d6d0e2b72a3c734e217e054810d719c406e3c0ffaedc4d56d13"
+    },
+    {
+      "stage": "14d0difficulty",
+      "type": "plans",
+      "path": "plan/stage14d0_visual_evidence_difficulty_analysis_plan_v2.md",
+      "sha256": "8e1a6aa037f53494d28b46215feb70a8d88e1e2139c78aab5374b3c0d879b37f"
+    },
+    {
+      "stage": "14d1",
+      "type": "reports",
+      "path": "outputs/stage14d1_sava/reports/feasibility_main.md",
+      "sha256": "0009e5f3ff81032fd0aec1e1634638cce919e57e4e0d786a1088664b2fecb0a9"
+    },
+    {
+      "stage": "14d1",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_14d1_sava.md",
+      "sha256": "08100c8ddc66a5c66c250c87de636812898d87a136f390b2c59a41046f33afe2"
+    },
+    {
+      "stage": "14d1",
+      "type": "plans",
+      "path": "plan/stage14d1_sava_execution_amendment_v2.md",
+      "sha256": "564a32993c12395177959e3c6a1a9bb6c69c4121b43b1cf0790b6053f8540da4"
+    },
+    {
+      "stage": "14d1",
+      "type": "plans",
+      "path": "plan/stage14d1_sava_method_feasibility_plan.md",
+      "sha256": "be70f400732dd5110ae5934c7404dba9a2403365496528c8e8d9c1f2802ebf83"
+    },
+    {
+      "stage": "14d1recovery",
+      "type": "reports",
+      "path": "outputs/stage14d1_sava_recovery/v1/reports/technical_recovery_final.md",
+      "sha256": "0fb7b90e723dca714a3b64181b01c22036e037ebfba06fc5271c692aa663626e"
+    },
+    {
+      "stage": "14d1recovery",
+      "type": "plans",
+      "path": "plan/stage14d1_technical_recovery_plan_v1.md",
+      "sha256": "daf666105a0ac1132b0e906dd35682e64c3295e09ac0573cf8735ffa6d8a1698"
+    },
+    {
+      "stage": "14d1pilot",
+      "type": "reports",
+      "path": "outputs/stage14d1_sava_pilot/v1/reports/feasibility_main_v8.md",
+      "sha256": "38b7b6e14c00c5ba03b11421bfb6797e283c8e4e20357ce5a6b0bcfb16722cd1"
+    },
+    {
+      "stage": "14d1pilot",
+      "type": "plans",
+      "path": "plan/stage14d1_autonomous_full_pilot_amendment_v4.md",
+      "sha256": "e9c7d00b9d525dd6a1ca08b0400fe9641d21cb540081f2d1e7153b33762c2c61"
+    },
+    {
+      "stage": "14e",
+      "type": "reports",
+      "path": "outputs/stage14e_acquisition_development/v1/reports/final_research_report_v1.md",
+      "sha256": "ee41fd9a7a2857ea6130958fcbeb0975a92df0f8908e0addff2a88ad395db995"
+    },
+    {
+      "stage": "14e",
+      "type": "reports",
+      "path": "outputs/stage14e_acquisition_development/v1/reports/sava_failure_postmortem_v1.md",
+      "sha256": "1f316d85afc6f92bc0a3888bbb51ce79b3c4cd88b58535ef2fd73431dc091580"
+    },
+    {
+      "stage": "14e",
+      "type": "reports",
+      "path": "outputs/stage14e_acquisition_development/v1/reports/prior_art_and_hypotheses_v1.md",
+      "sha256": "c5395d3a4225467902b408b5c64c20fabddbee54bf235fb4da7a94dd067eeb7d"
+    },
+    {
+      "stage": "14e",
+      "type": "reports",
+      "path": "outputs/stage14e_acquisition_development/v1/reports/diagnostic_v1.md",
+      "sha256": "8e217d34db189d89ec05e7d9627414fcd7f0b571e669461da586f049b96fa20c"
+    },
+    {
+      "stage": "14e",
+      "type": "reports",
+      "path": "outputs/stage14e_acquisition_development/v1/reports/development_revision_v2.md",
+      "sha256": "25a7b8a8f20958b924055020334bba14a8ea51e653f162cfebef0736eeb469bd"
+    },
+    {
+      "stage": "14e",
+      "type": "reports",
+      "path": "outputs/stage14e_acquisition_development/v1/reports/final_acquisition_review_v1.md",
+      "sha256": "012ef20b6a5145051311ca9455c5c68d5846760e6c93036c016999852908a2ec"
+    },
+    {
+      "stage": "14e",
+      "type": "reports",
+      "path": "outputs/stage14e_acquisition_development/v1/reports/postmortem_source_coverage_supplement_v1.md",
+      "sha256": "5c7759cdeb80b2e7d3c0192cc9e66c9f2671760bb48cb88f4defcdd91014004f"
+    },
+    {
+      "stage": "14e",
+      "type": "reports",
+      "path": "outputs/stage14e_acquisition_development/v1/reports/diagnostic_interpretation_limits_v1.md",
+      "sha256": "bcb6b40116671a517270bb9711f418b88ee7406d47c4c75767bc32022d8a681d"
+    },
+    {
+      "stage": "14e",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_14e_acquisition_development.md",
+      "sha256": "f30c740c738b8dd6d04e64d422fe7d144f4d2d2a308e164734c032cb124fe09b"
+    },
+    {
+      "stage": "14e",
+      "type": "plans",
+      "path": "plan/stage14e_acquisition_development_plan_v1.md",
+      "sha256": "cdbe23619c62daa3f6d747c535c9766c4cbb30f2759155f483da2770c2e83d00"
+    },
+    {
+      "stage": "14e2",
+      "type": "reports",
+      "path": "outputs/stage14e_readout_mechanism/v1/reports/final_diagnostic_report_v1.md",
+      "sha256": "094f85432859d9af056cf2fb3d4b00311c8af7fec58b928a4212d5bb3c540e53"
+    },
+    {
+      "stage": "14e2",
+      "type": "reports",
+      "path": "outputs/stage14e_readout_mechanism/v1/reports/diagnostic_tables_v1.md",
+      "sha256": "633aee0c968c228ce4e3278fbeb7f804246ad08002dd1e7bd76d577cb4238642"
+    },
+    {
+      "stage": "14e2",
+      "type": "memories",
+      "path": "workspace/phase_memory/phase_14e2_deliberative_source_reading.md",
+      "sha256": "8ae13bd59a8c77252c126c839afbd4c8957a5f70a6d8308ba84d1569c96775b6"
+    },
+    {
+      "stage": "14e2",
+      "type": "plans",
+      "path": "plan/stage14e2_deliberative_source_reading_plan_v1.md",
+      "sha256": "dee39f0586f3da1ee674288e932dfe44c5b9543ab835fbee83996227ae5caa7d"
+    },
+    {
+      "stage": "global",
+      "type": "context",
+      "path": "workspace/research_plan.md",
+      "sha256": "d04a9b15a33ab09bca9f4628ac0500aea00a658975a4e06fbe05dd909cac74f8"
+    },
+    {
+      "stage": "global",
+      "type": "context",
+      "path": "workspace/workflow_state.md",
+      "sha256": "7dca30d097e65267cca4e80f4fbcca5aa79f946b13d034a871c6188be4392c7e"
+    },
+    {
+      "stage": "global",
+      "type": "context",
+      "path": "workspace/decision_log.md",
+      "sha256": "1f478323973ef133a47c78acc13e792c10243b7593fb46ecb7859696b3b654b0"
+    },
+    {
+      "stage": "global",
+      "type": "context",
+      "path": "workspace/dataset_inventory.md",
+      "sha256": "669e3759702296ba240831b2f0fc94c516448cf29fdfead2c535dba27c93327e"
+    },
+    {
+      "stage": "global",
+      "type": "context",
+      "path": "workspace/env_state.md",
+      "sha256": "47b80f2014e87a9202eb650c3e581a8b5370a2533cea48c48f505825a92ee512"
+    },
+    {
+      "stage": "global",
+      "type": "context",
+      "path": "reports/index.md",
+      "sha256": "f6f9f75bcdec8d51121ccd85393ba714e69594a26f54f08aad5a9230fa259fd6"
+    },
+    {
+      "stage": "global",
+      "type": "context",
+      "path": "plan/overview.md",
+      "sha256": "9008130e94e0ade835ea46cbe84dd84f1bbc2428288399d1659a9b32ce217bab"
+    }
+  ],
+  "unresolved_source_links": [],
+  "coverage": {
+    "stages": 99,
+    "reports": 122,
+    "memories": 96,
+    "plans": 190,
+    "all_phase_memories_mapped": true,
+    "all_plans_mapped": true,
+    "sources_unchanged_during_build": true
+  }
+}

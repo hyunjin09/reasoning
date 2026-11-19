@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "stage_entries": 99,
+  "source_documents": 414,
+  "embedded_reports": 122,
+  "embedded_phase_histories": 96,
+  "indexed_plans": 190,
+  "explicit_anchors": 206,
+  "checked_local_link_targets": 843,
+  "original_source_hashes_unchanged": true,
+  "report_sha256": "a4af2ce4467c0fe94b270e3240d9b85b6534f5b190638a971b87a4a32aaa2a8d",
+  "report_bytes": 1828736
+}

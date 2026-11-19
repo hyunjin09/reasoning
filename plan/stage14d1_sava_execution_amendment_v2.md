@@ -1,0 +1,14 @@
+# Stage14D1 prospective execution amendment v2 — 2026-10-19
+
+Authority: the current user asked to pursue subgoal-specific visual retrieval in correct global context, permitted plan modifications while pursuing that goal, and directed execution without further approval requests. This supersedes the draft's design-only/permission-request language for a bounded Stage14D1 feasibility action. No SAVA generation has occurred when this amendment is written. The original v1 is preserved at `outputs/stage14d1_sava/provenance/original_plan_v1.md`.
+
+- Execute CPU preparation → eight-family technical smoke → frozen R72 discovery pilot only if technical gates and measured compute allow → source/answer/cost analysis → method decision → STOP.
+- Budget selected under this delegation: at most16 total allocatedGPUh, including unsuccessful attempts/idle startup; initial smoke at most2GPUh. Max8 concurrent GPUs, current availability governs; use project scheduler and Slurm. This is a new stage limit chosen by the agent, not a numerical budget previously stated by the user. No old Stage14D budget transfers.
+- Decouple SAVA's technical validity from unrelated unfinished BlindTest Stage14C-V closure. Stage14C-V remains unfinished; its records/headlines are untouched. SAVA must pass its own prompt/schema/source/provenance/prefix gates. This is an explicit plan dependency change under delegated amendment authority, not a retrospective closure or waiver for the old Stage14D main.
+- Offline source-feature quotas select development opportunities only. No oracle target name/value/ROI enters the deployable worker. A model query selecting a different genuinely needed source fact is judged for that actual fact; sampled-opportunity coverage is separate. Do not mark every mismatch as a targeting failure.
+- Preserve five main arms N/G/Q/QI/QGL and add localization-matched full-image QIA as a bounded presentation control: QIA/QGL share the exact query and predicted address; only rendering differs. All calls/costs count, including shared helper calls.
+- Freeze source selection, query/no-demand contract, checkpoint rule, evaluation labels, seeds and numerical technical gates before model output inspection. Any infrastructure fix is versioned and preserves earlier evidence. Do not change settings based on accuracy.
+- Freeze one interrupted/restarted prefix per family; no claim of continuous unchanged decoder. Keep source dimensions as offline exploratory strata, not inference hints.
+- P3 is optional and conditional; no automatic Stage14E, new checkpoint, training, benchmark or held-out evaluation.
+
+The v1 scientific questions H1–H4, negative-result interpretation, no-oracle boundary and family-level paired analysis remain in force. The executable details are in `outputs/stage14d1_sava/protocol/frozen_method_spec.md` and `technical_preflight.md` once sealed.

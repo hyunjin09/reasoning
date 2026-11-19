@@ -1,0 +1,15 @@
+# Stage8B resource estimate
+
+Measured checkpoint2026-09-17 supersedes the initial estimates below:32/32 traces completed in8h24m wall time,15.55 native GPUh and approximately16.80 allocated GPUh. Mean native time29.16 minutes/item;994,503 generated tokens. Both GPUs released; wrapper exit0 and empty live queue verified. Remaining3,008 items project to30.46 ideal two-worker days or32.90 days at this batch's efficiency, excluding annotation, paired rollouts and causal validation. This32-item projection is not a reliable whole-stage ETA or a resource reservation. The22/32 no-final capped traces also limit useful outcome yield. [Measured accounting](../outputs/stage8b/analysis/transfer32_resources_v1.json).
+
+Approved resource shape: exactly2 RTX A6000 on node03,16 CPU cores,100G host RAM, direct scheduler-managed sbatch. No tmux allocation, extra GPUs or keepalive. Completed job115741 had a1-day wall-time limit: at most48 allocated GPU-hours. It released on batch exit after the32-item audit batch. No continuation job is active.
+
+The real-device technical check completed128 observed tokens in6.49–6.50seconds per GPU, about19.7tokens/second at short context. The preceding baseline includes cold-start cost and is not an instrumentation-overhead comparison. Full native traces permit40,960tokens and become more expensive with context. Therefore short-preflight throughput is not a reliable full-census ETA or upper runtime bound.
+
+At the first execution checkpoint no full native trajectory had completed. Estimate the remaining32-item batch only after enough completions and at least one long/capped trajectory are available; include unfinished examples as censored observations rather than averaging only fast completed cases. Native per-example elapsed time, peak allocated/reserved VRAM and process peak RSS are retained in result.json. Slurm allocation time and technical/reload/idle overhead should be accounted separately.
+
+After32 full traces and the transfer audit, assess feasibility of continuing all3,040 examples under the same two-GPU shape. Already completed census items are reused. For measured mean native time m seconds and n remaining items, n*m/7200 is an ideal two-worker wall-hour projection before overhead/straggler uncertainty. Do not present that as a guaranteed completion time, and do not expand GPU count to accelerate it.
+
+Local event review and matched-cohort construction use CPU work while GPUs are released. Additional same-item seeds are limited to the approved4–8seed range and only the items needed for the pairing gate; freeze a paired-compute bound before launching them. The causal subset is48–72events, conditional on the earlier gates and a frozen passive hypothesis; estimate its cost from the first technical replay, not the native-generation rate.
+
+No reliable whole-stage ETA exists until full-native runtime, outcome yield and local-read annotation yield are measured. A failed scientific gate terminates the relevant continuation and lowers remaining compute; it must not trigger automatic detector refitting, extra benchmark breadth or an intervention.
