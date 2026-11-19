@@ -8,6 +8,22 @@ The [complete history](reports/research_history_all_stages_2026-11-19.md) contai
 99 stages/branches/audits, detailed reports and provenance. Research is paused
 after Stage14E2; cloning or moving servers does not authorize new experiments.
 
+## Getting started: read the summary first
+
+You do **not** need to read every Markdown file in `reports/` to get started.
+For research orientation, the
+[key-findings summary](reports/research_history_key_findings_2026-11-19.md)
+is the default starting point. The complete history and individual stage/case
+reports are a reference archive: consult them only when the current task needs
+their methods, evidence, limitations or provenance. Do not load the entire
+report archive into a new agent session by default.
+
+Before doing work, also read the server-local access/agent instructions and
+the current [workflow state](workspace/workflow_state.md). For research
+execution, read the active approved plan and its relevant phase memory; for
+GPU work, also read the local GPU policy. The summary provides orientation,
+while these task-specific records govern execution and current status.
+
 ## What belongs in Git
 
 | Shared in Git | Kept local / transferred separately |
