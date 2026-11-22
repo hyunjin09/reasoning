@@ -1,0 +1,37 @@
+dataset,status,flag,n,flagged,rate,interpretation
+MATH-Vision,CORRECT,image_unavailable_statement,1917,288,0.15023474178403756,Exact lexical trigger only; no semantic/causal classification
+MATH-Vision,CORRECT,description_or_text_reference,1917,292,0.15232133541992696,Exact lexical trigger only; no semantic/causal classification
+MATH-Vision,CORRECT,assumption_language,1917,1188,0.6197183098591549,Exact lexical trigger only; no semantic/causal classification
+MATH-Vision,CORRECT,template_language,1917,475,0.2477829942618675,Exact lexical trigger only; no semantic/causal classification
+MATH-Vision,CORRECT,20_plus_waits,1917,1584,0.8262910798122066,"Mechanical text behavior, not validated pathology"
+MATH-Vision,CORRECT,repeated_32word_windows_ge_10pct,1917,0,0.0,"Mechanical text behavior, not validated pathology"
+MATH-Vision,WRONG,image_unavailable_statement,1097,379,0.3454876937101185,Exact lexical trigger only; no semantic/causal classification
+MATH-Vision,WRONG,description_or_text_reference,1097,318,0.28988149498632637,Exact lexical trigger only; no semantic/causal classification
+MATH-Vision,WRONG,assumption_language,1097,957,0.8723792160437557,Exact lexical trigger only; no semantic/causal classification
+MATH-Vision,WRONG,template_language,1097,603,0.5496809480401094,Exact lexical trigger only; no semantic/causal classification
+MATH-Vision,WRONG,20_plus_waits,1097,1079,0.98359161349134,"Mechanical text behavior, not validated pathology"
+MATH-Vision,WRONG,repeated_32word_windows_ge_10pct,1097,0,0.0,"Mechanical text behavior, not validated pathology"
+MATH-Vision,UNSCORABLE,image_unavailable_statement,26,10,0.38461538461538464,Exact lexical trigger only; no semantic/causal classification
+MATH-Vision,UNSCORABLE,description_or_text_reference,26,13,0.5,Exact lexical trigger only; no semantic/causal classification
+MATH-Vision,UNSCORABLE,assumption_language,26,23,0.8846153846153846,Exact lexical trigger only; no semantic/causal classification
+MATH-Vision,UNSCORABLE,template_language,26,13,0.5,Exact lexical trigger only; no semantic/causal classification
+MATH-Vision,UNSCORABLE,20_plus_waits,26,24,0.9230769230769231,"Mechanical text behavior, not validated pathology"
+MATH-Vision,UNSCORABLE,repeated_32word_windows_ge_10pct,26,9,0.34615384615384615,"Mechanical text behavior, not validated pathology"
+MathVerse,CORRECT,image_unavailable_statement,3522,140,0.039750141964792735,Exact lexical trigger only; no semantic/causal classification
+MathVerse,CORRECT,description_or_text_reference,3522,206,0.05848949460533787,Exact lexical trigger only; no semantic/causal classification
+MathVerse,CORRECT,assumption_language,3522,1283,0.3642816581487791,Exact lexical trigger only; no semantic/causal classification
+MathVerse,CORRECT,template_language,3522,373,0.10590573537762635,Exact lexical trigger only; no semantic/causal classification
+MathVerse,CORRECT,20_plus_waits,3522,1684,0.478137421919364,"Mechanical text behavior, not validated pathology"
+MathVerse,CORRECT,repeated_32word_windows_ge_10pct,3522,0,0.0,"Mechanical text behavior, not validated pathology"
+MathVerse,WRONG,image_unavailable_statement,1206,112,0.09286898839137644,Exact lexical trigger only; no semantic/causal classification
+MathVerse,WRONG,description_or_text_reference,1206,113,0.09369817578772803,Exact lexical trigger only; no semantic/causal classification
+MathVerse,WRONG,assumption_language,1206,727,0.6028192371475953,Exact lexical trigger only; no semantic/causal classification
+MathVerse,WRONG,template_language,1206,377,0.31260364842454397,Exact lexical trigger only; no semantic/causal classification
+MathVerse,WRONG,20_plus_waits,1206,913,0.7570480928689884,"Mechanical text behavior, not validated pathology"
+MathVerse,WRONG,repeated_32word_windows_ge_10pct,1206,0,0.0,"Mechanical text behavior, not validated pathology"
+MathVerse,UNSCORABLE,image_unavailable_statement,0,0,,Exact lexical trigger only; no semantic/causal classification
+MathVerse,UNSCORABLE,description_or_text_reference,0,0,,Exact lexical trigger only; no semantic/causal classification
+MathVerse,UNSCORABLE,assumption_language,0,0,,Exact lexical trigger only; no semantic/causal classification
+MathVerse,UNSCORABLE,template_language,0,0,,Exact lexical trigger only; no semantic/causal classification
+MathVerse,UNSCORABLE,20_plus_waits,0,0,,"Mechanical text behavior, not validated pathology"
+MathVerse,UNSCORABLE,repeated_32word_windows_ge_10pct,0,0,,"Mechanical text behavior, not validated pathology"

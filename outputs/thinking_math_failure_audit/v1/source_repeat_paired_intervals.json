@@ -1,0 +1,42 @@
+[
+  {
+    "recorded_checks_pass_only": false,
+    "left": "Text Dominant",
+    "right": "Vision Only",
+    "pairs": 788,
+    "source_repeat_clusters": 772,
+    "estimate_pp": 11.548223350253807,
+    "ci_low_pp": 8.438057944159743,
+    "ci_high_pp": 14.559386973180077
+  },
+  {
+    "recorded_checks_pass_only": false,
+    "left": "Text Only",
+    "right": "Vision Only",
+    "pairs": 788,
+    "source_repeat_clusters": 772,
+    "estimate_pp": -1.5228426395939085,
+    "ci_low_pp": -5.223096483816457,
+    "ci_high_pp": 2.275600505689001
+  },
+  {
+    "recorded_checks_pass_only": true,
+    "left": "Text Dominant",
+    "right": "Vision Only",
+    "pairs": 350,
+    "source_repeat_clusters": 344,
+    "estimate_pp": 15.142857142857142,
+    "ci_low_pp": 10.951008645533141,
+    "ci_high_pp": 19.428571428571427
+  },
+  {
+    "recorded_checks_pass_only": true,
+    "left": "Text Only",
+    "right": "Vision Only",
+    "pairs": 350,
+    "source_repeat_clusters": 344,
+    "estimate_pp": 14.285714285714286,
+    "ci_low_pp": 9.971509971509972,
+    "ci_high_pp": 18.857142857142858
+  }
+]

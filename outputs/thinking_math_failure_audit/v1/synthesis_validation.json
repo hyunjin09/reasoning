@@ -1,0 +1,10 @@
+{
+  "main_wrong_cases": 2303,
+  "main_unscorable_cases": 26,
+  "image_denial_inputs_checked": 884,
+  "all_checked_inputs_image_present": true,
+  "historical_source_fact_records": 1883,
+  "new_model_calls": 0,
+  "new_score_changes": 0,
+  "new_gpu_hours": 0
+}

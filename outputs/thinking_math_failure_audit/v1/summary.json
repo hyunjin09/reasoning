@@ -1,0 +1,190 @@
+{
+  "primary_native": {
+    "n": 7768,
+    "MATH-Vision": {
+      "n": 3040,
+      "correct": 1917,
+      "wrong": 1097,
+      "unscorable": 26,
+      "technical_missing": 0,
+      "scored": 3014,
+      "wrong_rate": 0.36396814863968147,
+      "unscorable_rate": 0.008552631578947369
+    },
+    "MathVerse": {
+      "n": 4728,
+      "correct": 3522,
+      "wrong": 1206,
+      "unscorable": 0,
+      "technical_missing": 0,
+      "scored": 4728,
+      "wrong_rate": 0.2550761421319797,
+      "unscorable_rate": 0.0
+    }
+  },
+  "total_thinking_records": 13568,
+  "total_native_records": 11968,
+  "all_native_wrong": 3417,
+  "all_native_unscorable": 35,
+  "source_eligible_native": {
+    "n": 1000,
+    "correct": 574,
+    "wrong": 420,
+    "unscorable": 6,
+    "technical_missing": 0,
+    "scored": 994,
+    "wrong_rate": 0.4225352112676056,
+    "unscorable_rate": 0.006
+  },
+  "followups": {
+    "0": {
+      "n": 1000,
+      "transitions": {
+        "CORRECT__CORRECT": 543,
+        "WRONG__CORRECT": 306,
+        "WRONG__WRONG": 110,
+        "CORRECT__WRONG": 30,
+        "UNSCORABLE__CORRECT": 3,
+        "CORRECT__UNSCORABLE": 1,
+        "WRONG__UNSCORABLE": 4,
+        "UNSCORABLE__WRONG": 3
+      }
+    },
+    "1": {
+      "n": 300,
+      "transitions": {
+        "CORRECT__CORRECT": 165,
+        "CORRECT__WRONG": 9,
+        "WRONG__CORRECT": 88,
+        "WRONG__WRONG": 32,
+        "UNSCORABLE__WRONG": 2,
+        "WRONG__UNSCORABLE": 1,
+        "UNSCORABLE__UNSCORABLE": 1,
+        "CORRECT__UNSCORABLE": 1,
+        "UNSCORABLE__CORRECT": 1
+      }
+    },
+    "2": {
+      "n": 300,
+      "transitions": {
+        "CORRECT__CORRECT": 163,
+        "WRONG__CORRECT": 89,
+        "WRONG__WRONG": 30,
+        "CORRECT__WRONG": 13,
+        "UNSCORABLE__CORRECT": 3,
+        "UNSCORABLE__UNSCORABLE": 1,
+        "WRONG__UNSCORABLE": 1
+      }
+    }
+  },
+  "mathverse_family_profiles": {
+    "ALL_SIX_CORRECT": 381,
+    "MIXED_OR_UNSCORABLE": 332,
+    "ALL_SIX_WRONG": 75
+  },
+  "repeat_cluster_sensitivity": {
+    "Text Dominant": {
+      "n": 788,
+      "correct": 654,
+      "wrong": 134,
+      "unscorable": 0,
+      "technical_missing": 0,
+      "scored": 788,
+      "wrong_rate": 0.1700507614213198,
+      "unscorable_rate": 0.0,
+      "clusters": 772,
+      "ci_low": 0.14394904458598726,
+      "ci_high": 0.19568047854658402,
+      "family_equal_wrong_rate": 0.16968911917098445,
+      "finite_draws": 4000
+    },
+    "Text Lite": {
+      "n": 788,
+      "correct": 607,
+      "wrong": 181,
+      "unscorable": 0,
+      "technical_missing": 0,
+      "scored": 788,
+      "wrong_rate": 0.2296954314720812,
+      "unscorable_rate": 0.0,
+      "clusters": 772,
+      "ci_low": 0.20076238881829733,
+      "ci_high": 0.2594470395051494,
+      "family_equal_wrong_rate": 0.22927461139896374,
+      "finite_draws": 4000
+    },
+    "Text Only": {
+      "n": 788,
+      "correct": 551,
+      "wrong": 237,
+      "unscorable": 0,
+      "technical_missing": 0,
+      "scored": 788,
+      "wrong_rate": 0.30076142131979694,
+      "unscorable_rate": 0.0,
+      "clusters": 772,
+      "ci_low": 0.267515923566879,
+      "ci_high": 0.33209013387126357,
+      "family_equal_wrong_rate": 0.29857512953367876,
+      "finite_draws": 4000
+    },
+    "Vision Intensive": {
+      "n": 788,
+      "correct": 578,
+      "wrong": 210,
+      "unscorable": 0,
+      "technical_missing": 0,
+      "scored": 788,
+      "wrong_rate": 0.26649746192893403,
+      "unscorable_rate": 0.0,
+      "clusters": 772,
+      "ci_low": 0.23596938775510204,
+      "ci_high": 0.29784537389100124,
+      "family_equal_wrong_rate": 0.266839378238342,
+      "finite_draws": 4000
+    },
+    "Vision Dominant": {
+      "n": 788,
+      "correct": 569,
+      "wrong": 219,
+      "unscorable": 0,
+      "technical_missing": 0,
+      "scored": 788,
+      "wrong_rate": 0.2779187817258883,
+      "unscorable_rate": 0.0,
+      "clusters": 772,
+      "ci_low": 0.24746192893401014,
+      "ci_high": 0.3091626031598603,
+      "family_equal_wrong_rate": 0.2778497409326425,
+      "finite_draws": 4000
+    },
+    "Vision Only": {
+      "n": 788,
+      "correct": 563,
+      "wrong": 225,
+      "unscorable": 0,
+      "technical_missing": 0,
+      "scored": 788,
+      "wrong_rate": 0.28553299492385786,
+      "unscorable_rate": 0.0,
+      "clusters": 772,
+      "ci_low": 0.2528585966327024,
+      "ci_high": 0.3167321078646428,
+      "family_equal_wrong_rate": 0.28756476683937826,
+      "finite_draws": 4000
+    }
+  },
+  "source_review_coverage": {
+    "existing_audit_families": 300,
+    "main_wrong_with_audit": 156
+  },
+  "raw_screens": 13568,
+  "script_wall_seconds": 307.15593761811033,
+  "gpu_hours": 0,
+  "limitations": [
+    "All rows screened computationally; not an exhaustive new human/semantic source-image audit.",
+    "No attention/image-necessity measurements; no ignored-image classification.",
+    "Existing audit and E* references have documented source/QC limitations.",
+    "Retrospective source/trace associations, not confirmatory causal effects."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "seed": 20261122,
+  "draws": 4000,
+  "topic_patterns": {
+    "counting": "\\bhow many\\b|\\bnumber of (?:cubes|blocks|circles|triangles|squares|rectangles|paths|routes|ways|objects|points|edges|vertices|intersections|kangaroos)\\b|\\bcount(?:ing)?\\b",
+    "area": "\\barea\\b",
+    "length_distance_perimeter": "\\blength\\b|\\bdistance\\b|\\bperimeter\\b|\\bradius\\b|\\bdiameter\\b",
+    "angle_relations": "\\bangle\\b|\\bangles\\b|\\\\angle|\\bdegrees?\\b|°",
+    "solid_volume_surface": "\\bvolume\\b|\\bsurface area\\b|\\bsolid\\b|\\bprism\\b|\\bpyramid\\b|\\bcubes?\\b|\\bcylinder\\b|\\bcone\\b",
+    "transformation_viewpoint": "\\brotat\\w*\\b|\\breflect\\w*\\b|\\bfold\\w*\\b|\\bmirror\\b|\\bview from\\b|\\bviewed from\\b|\\bunfold\\w*\\b",
+    "graph_chart_table_coordinate": "\\bgraph\\b|\\bchart\\b|\\btable\\b|\\bcoordinate\\w*\\b|\\baxes\\b|\\bx-axis\\b|\\by-axis\\b|\\bplott?\\w*\\b",
+    "pattern_sequence_missing": "\\bpattern\\b|\\bsequence\\b|\\bmissing\\b|\\bquestion mark\\b|\\bnext (?:figure|shape|number|term)\\b",
+    "probability_statistics": "\\bprobability\\b|\\baverage\\b|\\bmedian\\b|\\bmean\\b|\\bpercent\\w*\\b|\\bratio\\b",
+    "spatial_relation_connectivity": "\\binside\\b|\\boutside\\b|\\boverlap\\w*\\b|\\bintersect\\w*\\b|\\bparallel\\b|\\bperpendicular\\b|\\badjacent\\b|\\bconnected\\b|\\bpath\\b|\\broute\\b"
+  },
+  "lexical_patterns": {
+    "image_unavailable_statement": [
+      "\\b(?:I|we) (?:can(?:not|'t|’t)|am unable to|are unable to) (?:actually )?(?:see|view|access|inspect|read) (?:the |this |an? |any )?(?:provided |actual |original )?(?:image|diagram|picture|figure)\\b",
+      "\\bI can(?:not|'t|’t) see it\\b",
+      "\\b(?:image|diagram|picture) (?:is |was )?(?:not (?:visible|available|provided|accessible)|unavailable|missing)\\b"
+    ],
+    "description_or_text_reference": [
+      "\\b(?:based on|from|according to|using) (?:the )?(?:text(?:ual)? description|description|given text|problem statement)\\b"
+    ],
+    "assumption_language": [
+      "\\b(?:let(?:'s| us) assume|assuming|assume that|if we assume|most reasonable assumption)\\b"
+    ],
+    "template_language": [
+      "\\b(?:standard|typical|usual|common|classic) (?:three[- ]circle |geometr(?:ic|y) |Venn )?(?:diagram|configuration|problem|Venn diagram|triangle|pattern|arrangement)\\b"
+    ]
+  },
+  "interpretation": "Lexical flags are navigation cues, not cause labels; source annotations are historical and unchanged.",
+  "model": "Qwen3-VL-4B-Thinking",
+  "independent_unit": "conservative visual family; repeated versions/seeds remain nested"
+}

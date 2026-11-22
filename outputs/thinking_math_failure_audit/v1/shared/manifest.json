@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "outcomes": 13568,
+  "trace_screens": 13568,
+  "source_condition_records": 8768,
+  "original_csv_sha256": "107752d2997c531f88c441bc06ae43218db8901727b254ba1e4467019f8ffa7c",
+  "original_trace_screens_sha256": "bdcf2fb7c6179506249865c8f4f566427da71e45f52cb5fc4216590a8ce8b9b2",
+  "trace_projection": "All per-call counts and trace metadata retained in trace_features.csv. Broad image-denial matches/offsets/context remain in candidate CSV; bulky full match cache is archived only.",
+  "omitted_redundant_file": "failure_inventory.jsonl duplicates outcomes/source records and screens; full per-match cache and input-receipt list stay archived. All main failures are in main_native_failure_cases.csv.",
+  "metadata_join": "identity + :: + condition; source metadata can differ between image and evidence conditions.",
+  "files": [
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/shared/all_thinking_records/part-001.csv",
+      "bytes": 3499049,
+      "sha256": "b75537a16657133e90de9ec73a645fa6b8470a0b87cca40ae4f6eb3d4991133b"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/shared/all_thinking_records/part-002.csv",
+      "bytes": 3499371,
+      "sha256": "ff69bd6aee2f5be88579b913f13cbc9340d1c7b89344d00d2ce89b929a219938"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/shared/all_thinking_records/part-003.csv",
+      "bytes": 3499887,
+      "sha256": "a98aead368e17d5e67c94d2e691857ecd53344589855ba056f48816d5f092dec"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/shared/all_thinking_records/part-004.csv",
+      "bytes": 1248772,
+      "sha256": "c240205684904147b465d75e6b09d1e423157b71a779246a55ca394a497ff1b5"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/shared/trace_features.csv",
+      "bytes": 1165517,
+      "sha256": "7ebb80623558600ca56f46db356102e31de2e29ba19e44be053c354156fdf6fd"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/shared/source_metadata/part-001.jsonl",
+      "bytes": 3499800,
+      "sha256": "30e5ebe8df2efece639c3671708593526c512262c0dc9e755304aee54c27d044"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/shared/source_metadata/part-002.jsonl",
+      "bytes": 3499208,
+      "sha256": "966ef879b62216f47a44d68b46af8997284c2e741a27728ddacd0c18eff2c2f1"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/shared/source_metadata/part-003.jsonl",
+      "bytes": 3499311,
+      "sha256": "41f85ca8481f9c744c6d3072e048877ab0a8e320811cf3c80dd246696794cf50"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/shared/source_metadata/part-004.jsonl",
+      "bytes": 1706690,
+      "sha256": "8b6ae825e8a0ba23fe56b68dad7a12e4dd56fd75cf5163daa474c35c1a434cb1"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/analysis_rules.json",
+      "bytes": 2586,
+      "sha256": "20311f60e2719d39b4281995f69cea3f2100b61cd23eb80a97f2613f243fb6ce"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/question_type_failure_rates.csv",
+      "bytes": 27000,
+      "sha256": "715b3a6ae48440bda57d3d1166986bb60972383cedf2cb837fb261444a855511"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/source_feature_failure_rates.csv",
+      "bytes": 3262,
+      "sha256": "aec26e10882f259d15cfa7455f02e4181eef9c6b606e7e3d29456232956d0ef0"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/evidence_followups.csv",
+      "bytes": 195739,
+      "sha256": "e6d619336cd36e45339e8af3f9e7c2c5f279f0c12cd77fc8c8d88fb3a0e4fdbe"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/modality_transitions.json",
+      "bytes": 3127,
+      "sha256": "ea48bd993b1de2183efd33d2b982e4cc2f5b1bb6580eceb84ecef44ff70ad0a2"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/mathverse_family_profiles.csv",
+      "bytes": 203183,
+      "sha256": "80a99ef223a28a504e3579de25f955d56fcad0f6813651ee13958b6771599977"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/trace_behavior_rates.csv",
+      "bytes": 4520,
+      "sha256": "3938a41bab2b4b067b3ec2ab7b5e8c95b50b6e5b2a8c4e8d21e614c0f173ea4b"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/confirmation_seed_sensitivity.csv",
+      "bytes": 777,
+      "sha256": "570c43b4d943fd72d6b13b62476f0f88f2b351c6820f22845e0832fb158e8cf7"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/summary.json",
+      "bytes": 5030,
+      "sha256": "6a4eadb3bea6e8020d5954dd02d79691b10fab94791c8fd6e7d95d93de38cd91"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/validation.json",
+      "bytes": 1015,
+      "sha256": "2231f6f8916e79726e59210f1cbc276bd3350a5b9e8c22c22d3bc4a2c48bee7a"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/source_gold_issue_notes.json",
+      "bytes": 5210,
+      "sha256": "21ca8d9efb2cbdfeb9905921b9307de4bd4d54bd476bf39fc4871b41f107b0cf"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/main_native_failure_cases.csv",
+      "bytes": 1883558,
+      "sha256": "faada3ce5a8973a6af79a343361a5e598a75bd611c6a94bd9f9942e19d22b17c"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/failure_evidence_coverage.csv",
+      "bytes": 281,
+      "sha256": "47106ff9f8fd33d2c1efa3cba49d5963d1b6e797a044fc8710c81bbbc7b1f484"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/trace_behavior_by_modality.csv",
+      "bytes": 16769,
+      "sha256": "f2f5ec5486349875ee45a03a34f08347760c3ce5e7a75314c1ee7cc06d39f343"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/completion_and_length.csv",
+      "bytes": 321,
+      "sha256": "3bb9d222e1b99c9ebe6cec2eda53cee24f43c256db56b5769f0290314d0bc3f2"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/image_denial_length_strata.csv",
+      "bytes": 586,
+      "sha256": "4ae9f0806200e214301895e77f8aa534e0a02a87e8e9f15aed10faa588289faf"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/text_reliance_screen_candidates.csv",
+      "bytes": 837812,
+      "sha256": "8947b7705ba90fdf5a2d8ce706e262c9d7d70b248becec36d4daa2aba0f149db"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/historical_thinking_evidence_crosstabs.csv",
+      "bytes": 11621,
+      "sha256": "b2e0e6cda2cb454e3d5a421d5a7b6d28fe01d67b737d75153e83d2f8f30bffe5"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/historical_thinking_source_difficulty.csv",
+      "bytes": 42873,
+      "sha256": "0be437033b00060be2c9077dc8a33d5aff5f9f80609da91a23c98966d2cecf3e"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/historical_evidence_type_failures.csv",
+      "bytes": 5520,
+      "sha256": "dc59625f874a8fd6d049e3e5256164b817b977fe58e5e3f179a89c51a2d33fb0"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/source_note_exclusion_sensitivity.json",
+      "bytes": 5856,
+      "sha256": "7171433ae9cac663ea57bef2796c5f4ac46c087082ae432a250d04d9e1e5aa5c"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/modality_by_subject.json",
+      "bytes": 3262,
+      "sha256": "881f74bbe574a5a4d397047a05ee64b9296b9c824b5fcf724ddc60074aa190f3"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/structured_size_by_subject.csv",
+      "bytes": 4131,
+      "sha256": "adaa8c59b30db37632009c0ffc1f768afeec2f4592385ebc978537bbd3920234"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/prior_work_sources.json",
+      "bytes": 631,
+      "sha256": "0859f2fbffba6598e2c365ec77268956729fec93c89a454d8ad5841885b41fdb"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/synthesis_validation.json",
+      "bytes": 258,
+      "sha256": "59381e4bc803b8bf71de4ab643247bbe902440f4094f27ef60b8fffab70c47c0"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/strict_named_image_denial_sensitivity.json",
+      "bytes": 288763,
+      "sha256": "0b19f03b38504eb970f1125db81e44e7c30bf9448b615e692ac1a5653ddda96c"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/casebook_provenance.json",
+      "bytes": 21829,
+      "sha256": "f4dfc8fc9ef14d93d976dc068e02fc87474b80b2a2e065a6f4cd75575835601c"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/independent_validation.json",
+      "bytes": 539,
+      "sha256": "52f245db180306c40d78106d3c0ca1fb1a89e00b9503f911f019e9e9a8aa98b5"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/source_repeat_paired_intervals.json",
+      "bytes": 1079,
+      "sha256": "ab143910e3e20e3a717d36cb087ef4833a8ff22e015fda1d535cef31db25ef71"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/case_traces/mv_1118_image_T_r0.md",
+      "bytes": 158759,
+      "sha256": "46fb220761992f1caa405c0030313fde844b2a26840caf5781f4cf56fba39924"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/case_traces/mv_120_image_T_r0.md",
+      "bytes": 8126,
+      "sha256": "ae73458cf3f09e279073a5c77b0f7cb26e0453bb505841ba0f30a9bccc2c89a4"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/case_traces/mv_2045_image_T_r0.md",
+      "bytes": 147713,
+      "sha256": "38ee61fa44afd6f55f02c37a76391ed549119fd31f34f1b6d3090e562142df88"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/case_traces/mv_2239_image_T_r0.md",
+      "bytes": 124232,
+      "sha256": "0b982983ad7d5cbf50ab65bd1b7115778ce290f9d0dee500edab9434429d7c5e"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/case_traces/mv_2831_image_T_r0.md",
+      "bytes": 132284,
+      "sha256": "9c6542ee872526e16915f356104c40331167b3e9e8d249e6029686dabd85295c"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/case_traces/mv_2925_image_T_r0.md",
+      "bytes": 9487,
+      "sha256": "9474cb3221aecd6b0fbaa23247dea5e5fce7c9d98e4a96553b75659bc6c8d432"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/case_traces/mv_2997_image_T_r0.md",
+      "bytes": 5916,
+      "sha256": "5d105f5e2a9bde8196b8751d7e39a3aa690f09bb69f34acef235e33e49d20ff7"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/case_traces/mv_32_image_T_r0.md",
+      "bytes": 10808,
+      "sha256": "8512db5328d1469e6a8b3d6d60d51417b4462f83228c728da6dc6fc69f114cac"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/case_traces/mv_51_image_T_r0.md",
+      "bytes": 7349,
+      "sha256": "24dc33aa3388f22ef9627e87d1e52a8bcbb2395b1c7de6afb109ae15c3bb7d82"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/case_traces/mv_580_image_T_r0.md",
+      "bytes": 9086,
+      "sha256": "6e2dc4cf27f88be750fcee2797d61ba3c9e8e945aabf3ea9e5e9a49a8e02aaf6"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/case_traces/mv_9_image_T_r0.md",
+      "bytes": 21748,
+      "sha256": "9c1acd503cc6ea4777ff71c5bf0b2e71606b0d3178bcc846a777890f298d0c1f"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/case_traces/verse_59_Vision_Intensive_native_T_r0.md",
+      "bytes": 4740,
+      "sha256": "451dfb8c9638d1c6c6683b27fd7a1bbe3e7ccff3ae34758fcc253c32a48f335c"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/case_traces/verse_7_Vision_Only_native_T_r0.md",
+      "bytes": 21727,
+      "sha256": "e9579a154e7230ed6e34417907dd8ad3c55694d353d637ba169dcfaeaba24d43"
+    },
+    {
+      "path": "outputs/thinking_math_failure_audit/v1/case_traces/verse_90_Vision_Dominant_native_T_r0.md",
+      "bytes": 4504,
+      "sha256": "7317ab6ff02f90b626468c71ec04b939ac9e2cbb79d8ee8094441666e4e1ea4c"
+    }
+  ]
+}

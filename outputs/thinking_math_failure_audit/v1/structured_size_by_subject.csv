@@ -1,0 +1,79 @@
+subject,size_bin,n,correct,wrong,unscorable,technical_missing,scored,wrong_rate,unscorable_rate
+algebra,none,9,9,0,0,0,9,0.0,0.0
+algebra,1-4,37,29,8,0,0,37,0.21621621621621623,0.0
+algebra,5-9,62,47,15,0,0,62,0.24193548387096775,0.0
+algebra,10-19,36,19,16,1,0,35,0.45714285714285713,0.027777777777777776
+algebra,20+,12,4,8,0,0,12,0.6666666666666666,0.0
+analytic geometry,none,6,3,3,0,0,6,0.5,0.0
+analytic geometry,1-4,5,4,1,0,0,5,0.2,0.0
+analytic geometry,5-9,11,5,5,1,0,10,0.5,0.09090909090909091
+analytic geometry,10-19,1,0,1,0,0,1,1.0,0.0
+arithmetic,none,14,10,4,0,0,14,0.2857142857142857,0.0
+arithmetic,1-4,13,9,4,0,0,13,0.3076923076923077,0.0
+arithmetic,5-9,19,13,6,0,0,19,0.3157894736842105,0.0
+arithmetic,10-19,6,1,5,0,0,6,0.8333333333333334,0.0
+arithmetic,20+,5,2,3,0,0,5,0.6,0.0
+combinatorial geometry,none,8,3,5,0,0,8,0.625,0.0
+combinatorial geometry,1-4,17,9,8,0,0,17,0.47058823529411764,0.0
+combinatorial geometry,5-9,25,14,11,0,0,25,0.44,0.0
+combinatorial geometry,10-19,20,5,15,0,0,20,0.75,0.0
+combinatorial geometry,20+,13,3,9,1,0,12,0.75,0.07692307692307693
+combinatorics,none,3,1,2,0,0,3,0.6666666666666666,0.0
+combinatorics,1-4,8,5,3,0,0,8,0.375,0.0
+combinatorics,5-9,29,20,9,0,0,29,0.3103448275862069,0.0
+combinatorics,10-19,10,4,6,0,0,10,0.6,0.0
+combinatorics,20+,7,1,6,0,0,7,0.8571428571428571,0.0
+counting,none,3,2,1,0,0,3,0.3333333333333333,0.0
+counting,1-4,4,2,2,0,0,4,0.5,0.0
+counting,5-9,7,1,6,0,0,7,0.8571428571428571,0.0
+counting,10-19,6,2,4,0,0,6,0.6666666666666666,0.0
+counting,20+,7,3,4,0,0,7,0.5714285714285714,0.0
+descriptive geometry,none,5,1,4,0,0,5,0.8,0.0
+descriptive geometry,1-4,4,3,1,0,0,4,0.25,0.0
+descriptive geometry,5-9,9,2,7,0,0,9,0.7777777777777778,0.0
+descriptive geometry,10-19,4,0,4,0,0,4,1.0,0.0
+descriptive geometry,20+,5,1,4,0,0,5,0.8,0.0
+graph theory,none,2,2,0,0,0,2,0.0,0.0
+graph theory,1-4,4,3,1,0,0,4,0.25,0.0
+graph theory,5-9,21,8,13,0,0,21,0.6190476190476191,0.0
+graph theory,10-19,9,3,4,2,0,7,0.5714285714285714,0.2222222222222222
+graph theory,20+,11,4,7,0,0,11,0.6363636363636364,0.0
+logic,none,7,6,1,0,0,7,0.14285714285714285,0.0
+logic,1-4,13,11,2,0,0,13,0.15384615384615385,0.0
+logic,5-9,11,7,4,0,0,11,0.36363636363636365,0.0
+logic,10-19,7,5,2,0,0,7,0.2857142857142857,0.0
+logic,20+,6,3,3,0,0,6,0.5,0.0
+metric geometry - angle,none,25,21,4,0,0,25,0.16,0.0
+metric geometry - angle,1-4,12,7,5,0,0,12,0.4166666666666667,0.0
+metric geometry - angle,5-9,20,12,8,0,0,20,0.4,0.0
+metric geometry - angle,10-19,2,1,1,0,0,2,0.5,0.0
+metric geometry - area,none,52,39,13,0,0,52,0.25,0.0
+metric geometry - area,1-4,32,20,12,0,0,32,0.375,0.0
+metric geometry - area,5-9,35,18,17,0,0,35,0.4857142857142857,0.0
+metric geometry - area,10-19,15,5,10,0,0,15,0.6666666666666666,0.0
+metric geometry - area,20+,4,3,1,0,0,4,0.25,0.0
+metric geometry - length,none,36,34,2,0,0,36,0.05555555555555555,0.0
+metric geometry - length,1-4,35,25,10,0,0,35,0.2857142857142857,0.0
+metric geometry - length,5-9,41,23,18,0,0,41,0.43902439024390244,0.0
+metric geometry - length,10-19,7,2,5,0,0,7,0.7142857142857143,0.0
+metric geometry - length,20+,6,3,3,0,0,6,0.5,0.0
+solid geometry,none,17,13,4,0,0,17,0.23529411764705882,0.0
+solid geometry,1-4,14,8,6,0,0,14,0.42857142857142855,0.0
+solid geometry,5-9,31,13,18,0,0,31,0.5806451612903226,0.0
+solid geometry,10-19,13,2,11,0,0,13,0.8461538461538461,0.0
+solid geometry,20+,7,0,7,0,0,7,1.0,0.0
+statistics,none,4,3,1,0,0,4,0.25,0.0
+statistics,1-4,11,8,3,0,0,11,0.2727272727272727,0.0
+statistics,5-9,9,6,3,0,0,9,0.3333333333333333,0.0
+statistics,10-19,5,2,3,0,0,5,0.6,0.0
+statistics,20+,1,1,0,0,0,1,0.0,0.0
+topology,none,1,0,1,0,0,1,1.0,0.0
+topology,1-4,1,0,1,0,0,1,1.0,0.0
+topology,5-9,3,2,1,0,0,3,0.3333333333333333,0.0
+topology,10-19,2,0,2,0,0,2,1.0,0.0
+topology,20+,1,0,1,0,0,1,1.0,0.0
+transformation geometry,none,11,4,6,1,0,10,0.6,0.09090909090909091
+transformation geometry,1-4,13,7,6,0,0,13,0.46153846153846156,0.0
+transformation geometry,5-9,6,1,5,0,0,6,0.8333333333333334,0.0
+transformation geometry,10-19,5,1,4,0,0,5,0.8,0.0
+transformation geometry,20+,2,1,1,0,0,2,0.5,0.0

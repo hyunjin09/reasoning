@@ -4,6 +4,10 @@ Completed24families/120logical/108physical reads. Primary useful acquisition4/24
 
 The broad methodology goal remains unachieved. Pause explicitly requested by the user after this experiment. No new allocation, method revision or evaluation until resumed. [Final diagnostic report](../outputs/stage14e_readout_mechanism/v1/reports/final_diagnostic_report_v1.md) · [Phase](phase_memory/phase_14e2_deliberative_source_reading.md). Earlier entries are historical.
 
+## Additional existing-data analysis — completed 22 November 2026
+
+Thinking-only MATH-Vision/MathVerse failure retrospective: all 13,568 saved Thinking main/followup records screened, every 2,303 main native wrong plus 26 unscorable output inventoried; original scores unchanged. [Report](../reports/thinking_math_failure_audit/thinking_failure_analysis_20261122.md) · [14-case casebook](../reports/thinking_math_failure_audit/casebook_20261122.md) · [Phase](phase_memory/phase_thinking_math_failure_retrospective.md). No inference/GPU work or resumed method development; Stage14E2 remains paused.
+
 # Stage14E2 — PAUSE AFTER CURRENT EXPERIMENT
 
 User requested pause after the running reader-mode diagnostic. Finish jobs150977/150978 and its source/paired analysis, release GPUs, then pause. No further method revision or fresh32family evaluation.

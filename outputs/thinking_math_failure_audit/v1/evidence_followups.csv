@@ -1,0 +1,1601 @@
+item_id,family_id,replicate,subject,native_status,evidence_status,native_answer,evidence_answer,native_task,evidence_task
+1,visual_family_6b86b273ff34fce19d6b,0,arithmetic,CORRECT,CORRECT,60,60,mv_1_image_T_r0,mv_1_evidence_T_r0
+5,visual_family_ef2d127de37b942baad0,0,arithmetic,CORRECT,CORRECT,61,61,mv_5_image_T_r0,mv_5_evidence_T_r0
+7,visual_family_7902699be42c8a8e46fb,0,counting,WRONG,CORRECT,5,6,mv_7_image_T_r0,mv_7_evidence_T_r0
+8,visual_family_2c624232cdd221771294,0,arithmetic,CORRECT,CORRECT,2,2,mv_8_image_T_r0,mv_8_evidence_T_r0
+9,visual_family_19581e27de7ced00ff1c,0,graph theory,WRONG,WRONG,**C**,E**,mv_9_image_T_r0,mv_9_evidence_T_r0
+10,visual_family_4a44dc15364204a80fe8,0,arithmetic,CORRECT,CORRECT,10,10,mv_10_image_T_r0,mv_10_evidence_T_r0
+11,visual_family_4fc82b26aecb47d2868c,0,solid geometry,WRONG,CORRECT,9,7,mv_11_image_T_r0,mv_11_evidence_T_r0
+16,visual_family_b17ef6d19c7a5b1ee83b,0,arithmetic,WRONG,CORRECT,12,11,mv_16_image_T_r0,mv_16_evidence_T_r0
+20,visual_family_f5ca38f748a1d6eaf726,0,arithmetic,CORRECT,CORRECT,** 3,3,mv_20_image_T_r0,mv_20_evidence_T_r0
+23,visual_family_535fa30d7e25dd8a49f1,0,combinatorial geometry,WRONG,CORRECT,160,140,mv_23_image_T_r0,mv_23_evidence_T_r0
+28,visual_family_59e19706d51d39f66711,0,counting,CORRECT,CORRECT,9,9,mv_28_image_T_r0,mv_28_evidence_T_r0
+29,visual_family_35135aaa6cc23891b40c,0,counting,WRONG,CORRECT,8,10,mv_29_image_T_r0,mv_29_evidence_T_r0
+30,visual_family_624b60c58c9d8bfb6ff1,0,metric geometry - area,CORRECT,CORRECT,** The tiger (labeled 2) is the middle animal,\text{Tiger},mv_30_image_T_r0,mv_30_evidence_T_r0
+32,visual_family_e29c9c180c6279b0b02a,0,counting,WRONG,CORRECT,** 2,** 3,mv_32_image_T_r0,mv_32_evidence_T_r0
+33,visual_family_c6f3ac57944a531490cd,0,analytic geometry,WRONG,CORRECT,C,A**,mv_33_image_T_r0,mv_33_evidence_T_r0
+35,visual_family_9f14025af0065b30e47e,0,descriptive geometry,WRONG,CORRECT,5,3,mv_35_image_T_r0,mv_35_evidence_T_r0
+38,visual_family_aea92132c4cbeb263e6a,0,arithmetic,CORRECT,CORRECT,95,95,mv_38_image_T_r0,mv_38_evidence_T_r0
+39,visual_family_0b918943df0962bc7a18,0,logic,CORRECT,CORRECT,A,\text{A},mv_39_image_T_r0,mv_39_evidence_T_r0
+47,visual_family_31489056e0916d59fe3a,0,counting,CORRECT,CORRECT,** 2,:,mv_47_image_T_r0,mv_47_evidence_T_r0
+51,visual_family_031b4af5197ec30a926f,0,topology,WRONG,CORRECT,** 5,3,mv_51_image_T_r0,mv_51_evidence_T_r0
+52,visual_family_41cfc0d1f2d127b04555,0,graph theory,WRONG,WRONG,D,D,mv_52_image_T_r0,mv_52_evidence_T_r0
+55,visual_family_02d20bbd7e394ad5999a,0,combinatorics,WRONG,WRONG,E,B,mv_55_image_T_r0,mv_55_evidence_T_r0
+57,visual_family_c837649cce43f2729138,0,arithmetic,CORRECT,CORRECT,10,10,mv_57_image_T_r0,mv_57_evidence_T_r0
+62,visual_family_81b8a03f97e8787c53fe,0,counting,WRONG,CORRECT,3,10,mv_62_image_T_r0,mv_62_evidence_T_r0
+73,visual_family_96061e92f58e4bdcdee7,0,arithmetic,WRONG,CORRECT,** 4,5,mv_73_image_T_r0,mv_73_evidence_T_r0
+75,visual_family_f369cb89fc627e668987,0,combinatorial geometry,WRONG,CORRECT,E,D,mv_75_image_T_r0,mv_75_evidence_T_r0
+76,visual_family_f74efabef12ea619e30b,0,descriptive geometry,WRONG,CORRECT,1,3,mv_76_image_T_r0,mv_76_evidence_T_r0
+82,visual_family_a46e37632fa6ca51a13f,0,arithmetic,WRONG,CORRECT,23,6,mv_82_image_T_r0,mv_82_evidence_T_r0
+83,visual_family_bbb965ab0c80d6538cf2,0,combinatorial geometry,CORRECT,CORRECT,B,B,mv_83_image_T_r0,mv_83_evidence_T_r0
+89,visual_family_cd70bea023f752a0564a,0,counting,WRONG,CORRECT,4,5,mv_89_image_T_r0,mv_89_evidence_T_r0
+91,visual_family_1da51b8d8ff98f6a48f8,0,combinatorial geometry,WRONG,WRONG,C,B,mv_91_image_T_r0,mv_91_evidence_T_r0
+92,visual_family_8241649609f88ccd2a0a,0,combinatorics,CORRECT,CORRECT,6,6,mv_92_image_T_r0,mv_92_evidence_T_r0
+98,visual_family_29db0c6782dbd5000559,0,arithmetic,CORRECT,CORRECT,4,4,mv_98_image_T_r0,mv_98_evidence_T_r0
+99,visual_family_8c1f1046219ddd216a02,0,descriptive geometry,WRONG,CORRECT,D,C,mv_99_image_T_r0,mv_99_evidence_T_r0
+104,visual_family_5ef6fdf32513aa7cd11f,0,solid geometry,WRONG,CORRECT,4,2,mv_104_image_T_r0,mv_104_evidence_T_r0
+107,visual_family_3346f2bbf6c34bd2dbe2,0,logic,WRONG,CORRECT,A,D,mv_107_image_T_r0,mv_107_evidence_T_r0
+109,visual_family_0fd42b3f73c448b34940,0,arithmetic,WRONG,CORRECT,9,30,mv_109_image_T_r0,mv_109_evidence_T_r0
+111,visual_family_f6e0a1e2ac41945a9aa7,0,logic,CORRECT,CORRECT,2,2,mv_111_image_T_r0,mv_111_evidence_T_r0
+114,visual_family_9f1f9dce319c4700ef28,0,algebra,CORRECT,CORRECT,8,8,mv_114_image_T_r0,mv_114_evidence_T_r0
+115,visual_family_28dae7c8bde2f3ca608f,0,logic,CORRECT,CORRECT,3,3,mv_115_image_T_r0,mv_115_evidence_T_r0
+116,visual_family_e5b861a6d8a966dfca7e,0,arithmetic,CORRECT,CORRECT,16,16,mv_116_image_T_r0,mv_116_evidence_T_r0
+117,visual_family_2ac878b0e2180616993b,0,logic,CORRECT,CORRECT,C,C,mv_117_image_T_r0,mv_117_evidence_T_r0
+118,visual_family_85daaf6f7055cd573628,0,combinatorics,WRONG,WRONG,10,20,mv_118_image_T_r0,mv_118_evidence_T_r0
+120,visual_family_2abaca4911e68fa9bfbf,0,arithmetic,WRONG,CORRECT,8,5,mv_120_image_T_r0,mv_120_evidence_T_r0
+122,visual_family_1be00341082e25c4e251,0,descriptive geometry,CORRECT,CORRECT,D,D,mv_122_image_T_r0,mv_122_evidence_T_r0
+124,visual_family_6affdae3b3c1aa6aa768,0,counting,CORRECT,CORRECT,6,6,mv_124_image_T_r0,mv_124_evidence_T_r0
+126,visual_family_65a699905c02619370bc,0,topology,WRONG,CORRECT,2,12,mv_126_image_T_r0,mv_126_evidence_T_r0
+127,visual_family_922c7954216ccfe7a61d,0,metric geometry - length,WRONG,CORRECT,E,**D**,mv_127_image_T_r0,mv_127_evidence_T_r0
+129,visual_family_6566230e3a3ce3774c1b,0,algebra,CORRECT,CORRECT,E,E,mv_129_image_T_r0,mv_129_evidence_T_r0
+136,visual_family_36ebe205bcdfc499a25e,0,logic,CORRECT,CORRECT,3,3,mv_136_image_T_r0,mv_136_evidence_T_r0
+144,visual_family_5ec1a0c99d428601ce42,0,counting,WRONG,WRONG,1,3,mv_144_image_T_r0,mv_144_evidence_T_r0
+149,visual_family_05ada863a4cf9660fd8c,0,algebra,CORRECT,CORRECT,9,9,mv_149_image_T_r0,mv_149_evidence_T_r0
+150,visual_family_9ae2bdd7beedc2e766c6,0,arithmetic,WRONG,CORRECT,36,34,mv_150_image_T_r0,mv_150_evidence_T_r0
+156,visual_family_0fecf9247f3ddc84db8a,0,arithmetic,WRONG,CORRECT,4,13,mv_156_image_T_r0,mv_156_evidence_T_r0
+158,visual_family_7ed8f0f3b707956d9fb1,0,solid geometry,WRONG,CORRECT,15,11,mv_158_image_T_r0,mv_158_evidence_T_r0
+159,stage12xs_family_23ac74f78457156d00c6,0,algebra,CORRECT,CORRECT,3,3,mv_159_image_T_r0,mv_159_evidence_T_r0
+164,visual_family_3f9807cb9ae9fb6c3094,0,algebra,CORRECT,CORRECT,\text{A},A,mv_164_image_T_r0,mv_164_evidence_T_r0
+165,visual_family_bc52dd634277c4a34a2d,0,metric geometry - length,CORRECT,CORRECT,60,60,mv_165_image_T_r0,mv_165_evidence_T_r0
+166,visual_family_e0f05da93a0f5a86a3be,0,metric geometry - area,CORRECT,CORRECT,1,1,mv_166_image_T_r0,mv_166_evidence_T_r0
+175,visual_family_dac53c17c250fd4d4d81,0,analytic geometry,CORRECT,CORRECT,C,C,mv_175_image_T_r0,mv_175_evidence_T_r0
+182,visual_family_bfa7634640c53da7cb5e,0,metric geometry - area,CORRECT,CORRECT,D,D,mv_182_image_T_r0,mv_182_evidence_T_r0
+184,visual_family_52f11620e397f867b7d9,0,combinatorial geometry,WRONG,WRONG,4,7,mv_184_image_T_r0,mv_184_evidence_T_r0
+187,visual_family_38b2d03f3256502b1e9d,0,metric geometry - length,CORRECT,CORRECT,E,E,mv_187_image_T_r0,mv_187_evidence_T_r0
+190,visual_family_2397346b45823e070f6f,0,graph theory,CORRECT,CORRECT,4,4,mv_190_image_T_r0,mv_190_evidence_T_r0
+191,visual_family_70260742c2952154c84e,0,metric geometry - area,CORRECT,CORRECT,400,400,mv_191_image_T_r0,mv_191_evidence_T_r0
+192,visual_family_eb3be230bbd2844b1f5d,0,solid geometry,CORRECT,CORRECT,10,10,mv_192_image_T_r0,mv_192_evidence_T_r0
+195,visual_family_1dfacb2ea5a03e0a9159,0,solid geometry,WRONG,WRONG,1,1,mv_195_image_T_r0,mv_195_evidence_T_r0
+198,visual_family_a4e00d7e6aa821115754,0,transformation geometry,WRONG,CORRECT,A,\text{C},mv_198_image_T_r0,mv_198_evidence_T_r0
+200,visual_family_27badc983df1780b60c2,0,metric geometry - length,CORRECT,CORRECT,13,13,mv_200_image_T_r0,mv_200_evidence_T_r0
+204,visual_family_fc56dbc6d4652b315b86,0,algebra,WRONG,CORRECT,5,1,mv_204_image_T_r0,mv_204_evidence_T_r0
+207,visual_family_968076be2e38cf897d4d,0,metric geometry - angle,CORRECT,CORRECT,D,D,mv_207_image_T_r0,mv_207_evidence_T_r0
+209,visual_family_83f814f7a92e365cbd79,0,solid geometry,CORRECT,CORRECT,A,\text{A. } \sqrt{17},mv_209_image_T_r0,mv_209_evidence_T_r0
+210,visual_family_d29d53701d3c859e29e1,0,combinatorics,CORRECT,CORRECT,20,20,mv_210_image_T_r0,mv_210_evidence_T_r0
+211,visual_family_093434a3ee9e0a010bb2,0,algebra,WRONG,CORRECT,33,16,mv_211_image_T_r0,mv_211_evidence_T_r0
+214,visual_family_802b906a18591ead8a6d,0,algebra,WRONG,WRONG,368,176,mv_214_image_T_r0,mv_214_evidence_T_r0
+218,visual_family_5966abd0cbfc86f98a18,0,metric geometry - length,CORRECT,CORRECT,B,B,mv_218_image_T_r0,mv_218_evidence_T_r0
+221,visual_family_67e9c3acebb154a282f3,0,analytic geometry,WRONG,CORRECT,C,\text{A},mv_221_image_T_r0,mv_221_evidence_T_r0
+225,visual_family_c7ccda2639eddee33be6,0,combinatorial geometry,WRONG,WRONG,2,2,mv_225_image_T_r0,mv_225_evidence_T_r0
+227,visual_family_dfe62e836a0a6f263342,0,metric geometry - area,CORRECT,CORRECT,\text{A},A,mv_227_image_T_r0,mv_227_evidence_T_r0
+228,visual_family_9d693eeee1d1899cbc50,0,metric geometry - area,CORRECT,CORRECT,C,C,mv_228_image_T_r0,mv_228_evidence_T_r0
+229,visual_family_08490295488a11890997,0,combinatorial geometry,WRONG,CORRECT,\text{C},11,mv_229_image_T_r0,mv_229_evidence_T_r0
+233,visual_family_c0509a487a18b003ba05,0,metric geometry - angle,WRONG,CORRECT,E,B,mv_233_image_T_r0,mv_233_evidence_T_r0
+234,stage12xs_family_322ee8dec2ea5476f4b3,0,algebra,CORRECT,CORRECT,1,1,mv_234_image_T_r0,mv_234_evidence_T_r0
+235,visual_family_0a2d643bfd24a028cd23,0,logic,WRONG,CORRECT,D,C,mv_235_image_T_r0,mv_235_evidence_T_r0
+239,visual_family_79bf08685d3138f9b109,0,analytic geometry,WRONG,WRONG,1,4,mv_239_image_T_r0,mv_239_evidence_T_r0
+240,visual_family_6af1f692e9496c6d0b66,0,metric geometry - angle,CORRECT,CORRECT,B,B,mv_240_image_T_r0,mv_240_evidence_T_r0
+242,visual_family_14063697603e22d600d3,0,analytic geometry,WRONG,CORRECT,D,E,mv_242_image_T_r0,mv_242_evidence_T_r0
+243,visual_family_72440a20f54075ac43f5,0,combinatorics,CORRECT,CORRECT,19,19,mv_243_image_T_r0,mv_243_evidence_T_r0
+245,visual_family_011af72a910ac4acf367,0,statistics,WRONG,CORRECT,14,13,mv_245_image_T_r0,mv_245_evidence_T_r0
+247,visual_family_5e0e2de714fcc63655b4,0,transformation geometry,CORRECT,CORRECT,32,C,mv_247_image_T_r0,mv_247_evidence_T_r0
+250,visual_family_1e472b39b105d349bcd0,0,metric geometry - length,WRONG,CORRECT,3,\frac{24}{5},mv_250_image_T_r0,mv_250_evidence_T_r0
+252,visual_family_d6e5a20b30f87216b2c7,0,arithmetic,WRONG,WRONG,C,C,mv_252_image_T_r0,mv_252_evidence_T_r0
+253,visual_family_e7866fdc6672f827c76f,0,solid geometry,CORRECT,CORRECT,\text{C},C,mv_253_image_T_r0,mv_253_evidence_T_r0
+254,visual_family_9512d95d00d61bdec03d,0,transformation geometry,WRONG,WRONG,D,D,mv_254_image_T_r0,mv_254_evidence_T_r0
+255,visual_family_9556b82499cc0aaf86ae,0,metric geometry - length,WRONG,CORRECT,5\sqrt{2 + \sqrt{2}},5,mv_255_image_T_r0,mv_255_evidence_T_r0
+257,visual_family_00324ee57a0418b1968b,0,combinatorial geometry,WRONG,WRONG,5,5,mv_257_image_T_r0,mv_257_evidence_T_r0
+263,visual_family_4be84111a613654b3624,0,solid geometry,WRONG,CORRECT,25,64,mv_263_image_T_r0,mv_263_evidence_T_r0
+264,visual_family_bba58959c32abe688d9c,0,solid geometry,CORRECT,CORRECT,D,D,mv_264_image_T_r0,mv_264_evidence_T_r0
+266,stage12xs_family_e7b381bf3fbb7086c558,0,algebra,CORRECT,CORRECT,2,2,mv_266_image_T_r0,mv_266_evidence_T_r0
+268,visual_family_8b496bf96bbcc9e5ac11,0,metric geometry - length,CORRECT,CORRECT,10,10,mv_268_image_T_r0,mv_268_evidence_T_r0
+272,visual_family_1c6c0bb2c7ecdc3be8e1,0,graph theory,WRONG,CORRECT,4,3,mv_272_image_T_r0,mv_272_evidence_T_r0
+274,visual_family_718127812c05853f0bec,0,metric geometry - area,CORRECT,CORRECT,C,C,mv_274_image_T_r0,mv_274_evidence_T_r0
+275,visual_family_3a1dfb05d7257530e634,0,transformation geometry,WRONG,WRONG,4,4,mv_275_image_T_r0,mv_275_evidence_T_r0
+276,visual_family_c76b405781134be1dab7,0,algebra,CORRECT,CORRECT,E,E,mv_276_image_T_r0,mv_276_evidence_T_r0
+279,visual_family_efd96aedf377e20afd95,0,analytic geometry,WRONG,CORRECT,D,\text{A},mv_279_image_T_r0,mv_279_evidence_T_r0
+286,visual_family_00328ce57bbc14b33bd6,0,metric geometry - angle,CORRECT,CORRECT,E,E,mv_286_image_T_r0,mv_286_evidence_T_r0
+287,visual_family_d7cdaa5ca0582076c8e7,0,algebra,CORRECT,CORRECT,D,D,mv_287_image_T_r0,mv_287_evidence_T_r0
+289,visual_family_af180e4359fc6179dc95,0,combinatorics,WRONG,CORRECT,\text{B},\text{A. only 0},mv_289_image_T_r0,mv_289_evidence_T_r0
+290,visual_family_09895de0407bcb038673,0,metric geometry - angle,CORRECT,CORRECT,C,C,mv_290_image_T_r0,mv_290_evidence_T_r0
+291,visual_family_33512007840ced1bb0aa,0,analytic geometry,CORRECT,CORRECT,22,22,mv_291_image_T_r0,mv_291_evidence_T_r0
+292,visual_family_6db6eb4af1e18ab81d38,0,transformation geometry,WRONG,WRONG,E,\text{E. } 125 \text{ cm}^2,mv_292_image_T_r0,mv_292_evidence_T_r0
+294,visual_family_2cfc8ccbd7c0b1761532,0,algebra,CORRECT,CORRECT,16,16,mv_294_image_T_r0,mv_294_evidence_T_r0
+303,visual_family_8bd9c0d453533757387e,0,metric geometry - area,CORRECT,CORRECT,E,E,mv_303_image_T_r0,mv_303_evidence_T_r0
+306,visual_family_dec660afc373652ef49c,0,arithmetic,CORRECT,CORRECT,\text{A},A,mv_306_image_T_r0,mv_306_evidence_T_r0
+307,visual_family_6d976934be74941fba57,0,graph theory,WRONG,CORRECT,5,2,mv_307_image_T_r0,mv_307_evidence_T_r0
+310,visual_family_226f76b55acb49701e06,0,solid geometry,CORRECT,CORRECT,B,B,mv_310_image_T_r0,mv_310_evidence_T_r0
+317,visual_family_8d1ede4f889e0ed6f082,0,metric geometry - angle,WRONG,CORRECT,C,\text{E},mv_317_image_T_r0,mv_317_evidence_T_r0
+318,visual_family_aae02129362d611717b6,0,algebra,CORRECT,CORRECT,2,2,mv_318_image_T_r0,mv_318_evidence_T_r0
+329,visual_family_0791963ca2667a23cf32,0,metric geometry - length,CORRECT,CORRECT,6,6,mv_329_image_T_r0,mv_329_evidence_T_r0
+333,visual_family_556d7dc3a115356350f1,0,metric geometry - area,CORRECT,CORRECT,D,D,mv_333_image_T_r0,mv_333_evidence_T_r0
+334,visual_family_058d5d43bf485bf78dda,0,logic,CORRECT,CORRECT,3,3,mv_334_image_T_r0,mv_334_evidence_T_r0
+337,visual_family_8ede6b26343305e05c3c,0,algebra,WRONG,WRONG,20,20,mv_337_image_T_r0,mv_337_evidence_T_r0
+338,visual_family_5d8f6cce532a7aeb5719,0,metric geometry - length,CORRECT,CORRECT,D,18,mv_338_image_T_r0,mv_338_evidence_T_r0
+339,visual_family_fc95ce176603e9e1d1ff,0,solid geometry,WRONG,WRONG,12,12,mv_339_image_T_r0,mv_339_evidence_T_r0
+344,visual_family_02e6295d8f522840f09b,0,solid geometry,WRONG,CORRECT,E,A,mv_344_image_T_r0,mv_344_evidence_T_r0
+345,visual_family_da70dfa4d9f95ac979f9,0,analytic geometry,CORRECT,CORRECT,A,A,mv_345_image_T_r0,mv_345_evidence_T_r0
+346,visual_family_6aac0cf87a32e6315361,0,analytic geometry,CORRECT,CORRECT,A,A,mv_346_image_T_r0,mv_346_evidence_T_r0
+347,visual_family_2289b221b39605c3494e,0,metric geometry - length,CORRECT,WRONG,\text{B},\text{A. } 60 \text{ m},mv_347_image_T_r0,mv_347_evidence_T_r0
+349,visual_family_72ba187b05e705de2dce,0,algebra,CORRECT,CORRECT,28,28,mv_349_image_T_r0,mv_349_evidence_T_r0
+356,visual_family_03a3d955b8799a90f1ff,0,logic,CORRECT,CORRECT,10,10,mv_356_image_T_r0,mv_356_evidence_T_r0
+357,visual_family_2ab0ce7632a611e907a4,0,topology,CORRECT,WRONG,B,\frac{1}{2},mv_357_image_T_r0,mv_357_evidence_T_r0
+359,visual_family_9197e4844abed2fea356,0,metric geometry - area,WRONG,CORRECT,24,16,mv_359_image_T_r0,mv_359_evidence_T_r0
+360,visual_family_838f461c2fa673cec73e,0,analytic geometry,WRONG,CORRECT,7,8,mv_360_image_T_r0,mv_360_evidence_T_r0
+361,visual_family_73daa9289ddd08a53ba8,0,logic,WRONG,WRONG,B,B,mv_361_image_T_r0,mv_361_evidence_T_r0
+364,visual_family_b3dfdc6efe322a6feccb,0,metric geometry - area,WRONG,CORRECT,16,12,mv_364_image_T_r0,mv_364_evidence_T_r0
+369,visual_family_5f193b350c8aba4883de,0,metric geometry - length,WRONG,CORRECT,C,D,mv_369_image_T_r0,mv_369_evidence_T_r0
+372,visual_family_62f77e7d6197863ac98d,0,graph theory,CORRECT,CORRECT,4,4,mv_372_image_T_r0,mv_372_evidence_T_r0
+376,visual_family_12e2c8df501501b2bb53,0,metric geometry - length,WRONG,CORRECT,22,30,mv_376_image_T_r0,mv_376_evidence_T_r0
+378,visual_family_21ef779311a43f0e067d,0,algebra,WRONG,CORRECT,A,E,mv_378_image_T_r0,mv_378_evidence_T_r0
+380,visual_family_2af4dd48399a5cf64c23,0,metric geometry - length,CORRECT,CORRECT,16,16,mv_380_image_T_r0,mv_380_evidence_T_r0
+381,visual_family_392a52e4f77c40bf3321,0,solid geometry,WRONG,WRONG,A,45,mv_381_image_T_r0,mv_381_evidence_T_r0
+383,visual_family_48b361d46638bfa4eee0,0,arithmetic,CORRECT,CORRECT,12,12,mv_383_image_T_r0,mv_383_evidence_T_r0
+386,visual_family_15a26c6fa5151c712acc,0,metric geometry - length,WRONG,CORRECT,65,70,mv_386_image_T_r0,mv_386_evidence_T_r0
+389,visual_family_b98880883fd8d975260f,0,metric geometry - area,WRONG,CORRECT,6,16,mv_389_image_T_r0,mv_389_evidence_T_r0
+390,visual_family_48a1a756f2d83f1dc57b,0,algebra,CORRECT,WRONG,B,\text{C},mv_390_image_T_r0,mv_390_evidence_T_r0
+391,visual_family_a934c244755c66aebb0d,0,solid geometry,WRONG,WRONG,D,B,mv_391_image_T_r0,mv_391_evidence_T_r0
+397,visual_family_1d2028ddcd746a7ee87d,0,metric geometry - length,CORRECT,CORRECT,3,3,mv_397_image_T_r0,mv_397_evidence_T_r0
+398,visual_family_188c1fdca79d927f6e81,0,solid geometry,WRONG,CORRECT,4,12,mv_398_image_T_r0,mv_398_evidence_T_r0
+399,visual_family_0f78540965a86402578f,0,arithmetic,WRONG,WRONG,102,95,mv_399_image_T_r0,mv_399_evidence_T_r0
+400,visual_family_26d228663f13a88592a1,0,solid geometry,WRONG,CORRECT,27,21,mv_400_image_T_r0,mv_400_evidence_T_r0
+401,visual_family_dcaadad1cfce437735b8,0,combinatorial geometry,WRONG,CORRECT,17,18,mv_401_image_T_r0,mv_401_evidence_T_r0
+402,visual_family_b7c7470e59e2a2df1bfd,0,metric geometry - length,WRONG,WRONG,A,A,mv_402_image_T_r0,mv_402_evidence_T_r0
+405,visual_family_a73b320dc0d3a57c03f8,0,metric geometry - length,CORRECT,CORRECT,6,6,mv_405_image_T_r0,mv_405_evidence_T_r0
+407,visual_family_a5abb1500bdeaef41e2e,0,arithmetic,CORRECT,CORRECT,3,3,mv_407_image_T_r0,mv_407_evidence_T_r0
+409,visual_family_480f5a496560ae4228bb,0,logic,CORRECT,CORRECT,B,B,mv_409_image_T_r0,mv_409_evidence_T_r0
+411,visual_family_52f14fc33ef45dd80ac2,0,metric geometry - length,WRONG,CORRECT,24,64,mv_411_image_T_r0,mv_411_evidence_T_r0
+414,visual_family_8111eb1556229541d7d2,0,algebra,CORRECT,CORRECT,\text{E},E,mv_414_image_T_r0,mv_414_evidence_T_r0
+422,visual_family_5658b88806a236b6439a,0,algebra,CORRECT,CORRECT,D,D,mv_422_image_T_r0,mv_422_evidence_T_r0
+423,visual_family_814bb6b8dc12188a44b7,0,metric geometry - length,CORRECT,WRONG,24,28,mv_423_image_T_r0,mv_423_evidence_T_r0
+427,visual_family_42f25adecf47629878e8,0,solid geometry,WRONG,CORRECT,10,7,mv_427_image_T_r0,mv_427_evidence_T_r0
+430,visual_family_fed88b40aba63cac05ea,0,graph theory,WRONG,CORRECT,60,90,mv_430_image_T_r0,mv_430_evidence_T_r0
+433,visual_family_aaf01d71b55e51b1a305,0,algebra,CORRECT,CORRECT,46,46,mv_433_image_T_r0,mv_433_evidence_T_r0
+435,visual_family_5f2703a5211db19a9020,0,counting,WRONG,CORRECT,14,26,mv_435_image_T_r0,mv_435_evidence_T_r0
+436,visual_family_155d1cf609cedded2fbc,0,solid geometry,WRONG,CORRECT,32,36,mv_436_image_T_r0,mv_436_evidence_T_r0
+438,visual_family_18d37c950a3e810d9b9a,0,algebra,WRONG,CORRECT,30,20,mv_438_image_T_r0,mv_438_evidence_T_r0
+439,visual_family_050a010ce24d0896056e,0,graph theory,WRONG,CORRECT,D,C,mv_439_image_T_r0,mv_439_evidence_T_r0
+443,visual_family_6d05621ab7cb7b4fb796,0,solid geometry,WRONG,CORRECT,8,17,mv_443_image_T_r0,mv_443_evidence_T_r0
+450,visual_family_83151157c10d85af7c84,0,arithmetic,WRONG,CORRECT,55,57,mv_450_image_T_r0,mv_450_evidence_T_r0
+455,visual_family_f626051bc94422f26f4b,0,combinatorics,CORRECT,CORRECT,6,6,mv_455_image_T_r0,mv_455_evidence_T_r0
+459,visual_family_42f0bec3310ddd8a55e8,0,counting,WRONG,WRONG,10,5,mv_459_image_T_r0,mv_459_evidence_T_r0
+460,visual_family_841a05fd378a2c067058,0,combinatorial geometry,WRONG,CORRECT,E,C,mv_460_image_T_r0,mv_460_evidence_T_r0
+463,visual_family_06de973bb45531d52cdb,0,counting,WRONG,CORRECT,35,32,mv_463_image_T_r0,mv_463_evidence_T_r0
+469,visual_family_c6bd343ae0007cdb979d,0,combinatorial geometry,WRONG,WRONG,3,3,mv_469_image_T_r0,mv_469_evidence_T_r0
+471,visual_family_064c3e311ef63912b0cc,0,transformation geometry,WRONG,CORRECT,4,2,mv_471_image_T_r0,mv_471_evidence_T_r0
+481,visual_family_51d089cdaf0c968c94b8,0,counting,CORRECT,CORRECT,C,C,mv_481_image_T_r0,mv_481_evidence_T_r0
+483,visual_family_48ce32e8ec7741594c87,0,combinatorics,WRONG,WRONG,6,6,mv_483_image_T_r0,mv_483_evidence_T_r0
+485,visual_family_5844a72aee9269a68da2,0,solid geometry,WRONG,CORRECT,36,56,mv_485_image_T_r0,mv_485_evidence_T_r0
+486,visual_family_86b700fab5db37977a73,0,algebra,CORRECT,CORRECT,16,16,mv_486_image_T_r0,mv_486_evidence_T_r0
+487,visual_family_9b19f9ab816598a0809e,0,algebra,CORRECT,CORRECT,61,61,mv_487_image_T_r0,mv_487_evidence_T_r0
+489,visual_family_e4be97ce765e6cfcd703,0,arithmetic,CORRECT,CORRECT,6,6,mv_489_image_T_r0,mv_489_evidence_T_r0
+496,visual_family_35bbce4007c5cd57a4c6,0,algebra,CORRECT,CORRECT,4,4,mv_496_image_T_r0,mv_496_evidence_T_r0
+498,visual_family_f138665c5aa660080145,0,counting,CORRECT,CORRECT,** 5,5,mv_498_image_T_r0,mv_498_evidence_T_r0
+504,visual_family_ba689abd93c9c6a7d08b,0,counting,WRONG,WRONG,14,13,mv_504_image_T_r0,mv_504_evidence_T_r0
+507,visual_family_a435270b90e9b7091c77,0,graph theory,WRONG,CORRECT,7,5,mv_507_image_T_r0,mv_507_evidence_T_r0
+508,visual_family_ecac903ea62dc1d5446a,0,arithmetic,CORRECT,CORRECT,67,67,mv_508_image_T_r0,mv_508_evidence_T_r0
+509,visual_family_a05198938c6ca8cd5628,0,arithmetic,WRONG,CORRECT,8,4,mv_509_image_T_r0,mv_509_evidence_T_r0
+517,visual_family_5088c1bc42f5cc6a32cd,0,arithmetic,CORRECT,CORRECT,D,D,mv_517_image_T_r0,mv_517_evidence_T_r0
+519,visual_family_0cce0bd361c46fcde41d,0,algebra,CORRECT,CORRECT,6,6,mv_519_image_T_r0,mv_519_evidence_T_r0
+520,visual_family_0b35b06a22779418f775,0,counting,WRONG,WRONG,80,223,mv_520_image_T_r0,mv_520_evidence_T_r0
+522,visual_family_a9346b0068335c634304,0,graph theory,CORRECT,CORRECT,3,3,mv_522_image_T_r0,mv_522_evidence_T_r0
+524,visual_family_388c2eafe5afd4754926,0,algebra,CORRECT,CORRECT,A,\text{A},mv_524_image_T_r0,mv_524_evidence_T_r0
+526,visual_family_f7c2599681e9284ce1c4,0,graph theory,CORRECT,CORRECT,21,21,mv_526_image_T_r0,mv_526_evidence_T_r0
+527,visual_family_e1bb74a7794720edf493,0,algebra,CORRECT,CORRECT,8,8,mv_527_image_T_r0,mv_527_evidence_T_r0
+528,visual_family_bd3a797ba94893897896,0,arithmetic,CORRECT,CORRECT,**15**,15,mv_528_image_T_r0,mv_528_evidence_T_r0
+531,visual_family_891d46993a36d7839224,0,algebra,CORRECT,CORRECT,6,6,mv_531_image_T_r0,mv_531_evidence_T_r0
+534,visual_family_5ef6514ed3304cf62b95,0,topology,WRONG,CORRECT,4,6,mv_534_image_T_r0,mv_534_evidence_T_r0
+536,visual_family_d11501b090fb2749f2c4,0,descriptive geometry,CORRECT,CORRECT,13,13,mv_536_image_T_r0,mv_536_evidence_T_r0
+540,visual_family_84f01dd97c687fb28a29,0,combinatorial geometry,WRONG,CORRECT,23,15,mv_540_image_T_r0,mv_540_evidence_T_r0
+541,visual_family_5de664ef205f95d4a68b,0,descriptive geometry,WRONG,WRONG,7,11,mv_541_image_T_r0,mv_541_evidence_T_r0
+551,visual_family_1f09802c4beac758321a,0,descriptive geometry,WRONG,CORRECT,E**,**A. triangle**,mv_551_image_T_r0,mv_551_evidence_T_r0
+556,visual_family_9d6aa3d89c0171b9c2cc,0,logic,CORRECT,CORRECT,4,4,mv_556_image_T_r0,mv_556_evidence_T_r0
+559,visual_family_0d6f9709edaeba4bebf5,0,algebra,CORRECT,CORRECT,B,B,mv_559_image_T_r0,mv_559_evidence_T_r0
+561,visual_family_04edd1d7736883194af3,0,logic,WRONG,CORRECT,E,B. Bernhard**,mv_561_image_T_r0,mv_561_evidence_T_r0
+563,visual_family_fa4ddf29f41b575377ce,0,arithmetic,CORRECT,CORRECT,12,** 12,mv_563_image_T_r0,mv_563_evidence_T_r0
+566,visual_family_c57727d64e318e2ea42a,0,counting,CORRECT,CORRECT,3,3,mv_566_image_T_r0,mv_566_evidence_T_r0
+567,visual_family_97a6d21df7c51e8289ac,0,arithmetic,CORRECT,CORRECT,16,16,mv_567_image_T_r0,mv_567_evidence_T_r0
+570,visual_family_085b2a38876eeddc33e3,0,arithmetic,WRONG,CORRECT,24,15,mv_570_image_T_r0,mv_570_evidence_T_r0
+574,visual_family_8e28c5eb829e92abf7a5,0,descriptive geometry,WRONG,CORRECT,7,5,mv_574_image_T_r0,mv_574_evidence_T_r0
+579,visual_family_9ad310f0c2f8c0e4ebf1,0,counting,CORRECT,CORRECT,6,6,mv_579_image_T_r0,mv_579_evidence_T_r0
+580,visual_family_de0023e398111d434248,0,descriptive geometry,WRONG,CORRECT,1**,5,mv_580_image_T_r0,mv_580_evidence_T_r0
+581,visual_family_4299da7466df09516d29,0,counting,CORRECT,CORRECT,6,6,mv_581_image_T_r0,mv_581_evidence_T_r0
+586,stage12xs_family_3b0c9fb336a68bd8f097,0,algebra,WRONG,CORRECT,18,21,mv_586_image_T_r0,mv_586_evidence_T_r0
+588,visual_family_a917ca757ac59f9d5686,0,combinatorial geometry,WRONG,WRONG,4,5,mv_588_image_T_r0,mv_588_evidence_T_r0
+592,visual_family_793733573a1dfd14a2e8,0,algebra,CORRECT,CORRECT,D,D,mv_592_image_T_r0,mv_592_evidence_T_r0
+594,visual_family_e2fa8f5b4364b8ef4dd1,0,combinatorial geometry,WRONG,CORRECT,16,77,mv_594_image_T_r0,mv_594_evidence_T_r0
+595,visual_family_a3aaf5a0e9ad2901ab35,0,graph theory,CORRECT,CORRECT,D,D,mv_595_image_T_r0,mv_595_evidence_T_r0
+597,visual_family_fcf1e4bf9cc9c1083647,0,arithmetic,CORRECT,CORRECT,B,B,mv_597_image_T_r0,mv_597_evidence_T_r0
+599,visual_family_182dc6b90f1c9cd913c3,0,logic,CORRECT,CORRECT,E,E,mv_599_image_T_r0,mv_599_evidence_T_r0
+604,visual_family_3b86df3ff95ad2fd7210,0,descriptive geometry,WRONG,WRONG,D**,B,mv_604_image_T_r0,mv_604_evidence_T_r0
+607,visual_family_67eab6db6703cdf9acf6,0,arithmetic,WRONG,CORRECT,9,5,mv_607_image_T_r0,mv_607_evidence_T_r0
+608,visual_family_1de4d95a81eb1780d5c2,0,arithmetic,CORRECT,CORRECT,16,16,mv_608_image_T_r0,mv_608_evidence_T_r0
+612,visual_family_55f0124bb79f5c53d868,0,algebra,CORRECT,CORRECT,A,A,mv_612_image_T_r0,mv_612_evidence_T_r0
+614,visual_family_fa7aec4efb728534ef32,0,algebra,CORRECT,CORRECT,D. 11 Taler**,D,mv_614_image_T_r0,mv_614_evidence_T_r0
+615,visual_family_3de8392541ace28284ac,0,algebra,CORRECT,CORRECT,6,6,mv_615_image_T_r0,mv_615_evidence_T_r0
+619,visual_family_86a3f9b13a5b652f93cb,0,metric geometry - length,WRONG,WRONG,B,C. 79 \text{ m},mv_619_image_T_r0,mv_619_evidence_T_r0
+623,visual_family_fc71f2d6d38dbfc752ec,0,logic,CORRECT,CORRECT,E,E,mv_623_image_T_r0,mv_623_evidence_T_r0
+624,visual_family_1b3c33580f2e2094cbde,0,descriptive geometry,WRONG,WRONG,16,4,mv_624_image_T_r0,mv_624_evidence_T_r0
+630,visual_family_21900f41ecb7b8e6cfd9,0,arithmetic,WRONG,CORRECT,12,6.5,mv_630_image_T_r0,mv_630_evidence_T_r0
+631,visual_family_7b81eb727ed48055fa55,0,combinatorial geometry,WRONG,WRONG,3,5,mv_631_image_T_r0,mv_631_evidence_T_r0
+633,visual_family_b6b1b469ea43c90a602e,0,algebra,CORRECT,CORRECT,76,76,mv_633_image_T_r0,mv_633_evidence_T_r0
+634,visual_family_709df012e236dc3f5c53,0,arithmetic,WRONG,CORRECT,9,12,mv_634_image_T_r0,mv_634_evidence_T_r0
+641,visual_family_455ae2dfc77dd77562c0,0,topology,WRONG,WRONG,5,3,mv_641_image_T_r0,mv_641_evidence_T_r0
+646,visual_family_ed0b853bd9c28435b6aa,0,algebra,CORRECT,CORRECT,5,5,mv_646_image_T_r0,mv_646_evidence_T_r0
+655,visual_family_9f6cb78c09b22a1a1056,0,algebra,WRONG,CORRECT,5,7,mv_655_image_T_r0,mv_655_evidence_T_r0
+658,visual_family_c22e1a4acbd2d996ff19,0,logic,WRONG,CORRECT,4,6,mv_658_image_T_r0,mv_658_evidence_T_r0
+659,visual_family_5c17cac5569c1ab72a3f,0,algebra,CORRECT,CORRECT,\text{A},\text{A},mv_659_image_T_r0,mv_659_evidence_T_r0
+660,visual_family_fc9e91cc78e1817d80b4,0,combinatorial geometry,CORRECT,CORRECT,E,E,mv_660_image_T_r0,mv_660_evidence_T_r0
+661,stage12xs_family_865b75e1bbddb3c24fad,0,logic,CORRECT,CORRECT,C,C,mv_661_image_T_r0,mv_661_evidence_T_r0
+662,visual_family_81f27f8a7d8766c72c03,0,transformation geometry,WRONG,WRONG,C,**D**,mv_662_image_T_r0,mv_662_evidence_T_r0
+663,visual_family_4b8ba4b13094beaef100,0,arithmetic,CORRECT,CORRECT,12,12,mv_663_image_T_r0,mv_663_evidence_T_r0
+666,visual_family_c7e616822f366fb1b5e0,0,combinatorial geometry,CORRECT,CORRECT,B,B,mv_666_image_T_r0,mv_666_evidence_T_r0
+668,visual_family_6f81082badfd007354ac,0,arithmetic,CORRECT,CORRECT,3,3,mv_668_image_T_r0,mv_668_evidence_T_r0
+669,visual_family_bf31e6128301d31bb401,0,arithmetic,WRONG,WRONG,20,44,mv_669_image_T_r0,mv_669_evidence_T_r0
+670,visual_family_172e1676eda470ede17e,0,transformation geometry,CORRECT,CORRECT,C,C,mv_670_image_T_r0,mv_670_evidence_T_r0
+674,visual_family_8ef532f440c91b5dfa24,0,solid geometry,WRONG,WRONG,60,C,mv_674_image_T_r0,mv_674_evidence_T_r0
+676,visual_family_63db0204e2f34aaadace,0,algebra,CORRECT,CORRECT,3,3,mv_676_image_T_r0,mv_676_evidence_T_r0
+677,visual_family_2782526eaa0c5c254b36,0,solid geometry,WRONG,WRONG,16,12,mv_677_image_T_r0,mv_677_evidence_T_r0
+678,visual_family_cebe3d9d614ba5c19f63,0,algebra,CORRECT,CORRECT,12,12,mv_678_image_T_r0,mv_678_evidence_T_r0
+681,stage12xs_family_d2e0853f4e13efe69823,0,transformation geometry,CORRECT,CORRECT,C,C,mv_681_image_T_r0,mv_681_evidence_T_r0
+682,stage12xs_family_1eb883233ee0078c8b77,0,combinatorial geometry,WRONG,CORRECT,B,\text{E},mv_682_image_T_r0,mv_682_evidence_T_r0
+683,visual_family_07bed92aab16ecdd9c88,0,statistics,CORRECT,CORRECT,8,8,mv_683_image_T_r0,mv_683_evidence_T_r0
+688,visual_family_1c63ed9164d61acfd1f4,0,algebra,CORRECT,CORRECT,A,\text{A},mv_688_image_T_r0,mv_688_evidence_T_r0
+692,visual_family_4cc3d9cba4633096fadf,0,graph theory,CORRECT,CORRECT,3,3,mv_692_image_T_r0,mv_692_evidence_T_r0
+694,visual_family_a6c2a2325dfd588f202a,0,algebra,CORRECT,CORRECT,D,D,mv_694_image_T_r0,mv_694_evidence_T_r0
+699,visual_family_c9a5da075f9e5c3e7a91,0,algebra,WRONG,CORRECT,3,4,mv_699_image_T_r0,mv_699_evidence_T_r0
+701,visual_family_290a0b92873bdf4e4798,0,algebra,WRONG,CORRECT,13,10,mv_701_image_T_r0,mv_701_evidence_T_r0
+703,visual_family_769e881d85fc5d27cb4c,0,algebra,CORRECT,CORRECT,22,22,mv_703_image_T_r0,mv_703_evidence_T_r0
+709,visual_family_92c5fd0421c1d619cbf1,0,arithmetic,WRONG,CORRECT,140,10100,mv_709_image_T_r0,mv_709_evidence_T_r0
+711,visual_family_2499d690642faa4da2a6,0,metric geometry - area,WRONG,CORRECT,90,45,mv_711_image_T_r0,mv_711_evidence_T_r0
+714,visual_family_c66bbe9d118f554bfdba,0,arithmetic,CORRECT,CORRECT,32,32,mv_714_image_T_r0,mv_714_evidence_T_r0
+715,visual_family_35c71bd7eaf4607047bb,0,algebra,WRONG,CORRECT,9,6,mv_715_image_T_r0,mv_715_evidence_T_r0
+716,visual_family_2e00b312b0a9681bef09,0,combinatorial geometry,CORRECT,CORRECT,2,2,mv_716_image_T_r0,mv_716_evidence_T_r0
+718,visual_family_6c0f3412848008d49d18,0,combinatorial geometry,WRONG,WRONG,38,34,mv_718_image_T_r0,mv_718_evidence_T_r0
+722,stage12xs_family_340251163e46018ae185,0,solid geometry,WRONG,CORRECT,B,D,mv_722_image_T_r0,mv_722_evidence_T_r0
+725,visual_family_5c3e9040008c91509e2d,0,arithmetic,WRONG,WRONG,5,5,mv_725_image_T_r0,mv_725_evidence_T_r0
+728,visual_family_7c3d90003d7d645be0b5,0,combinatorial geometry,WRONG,WRONG,6,2,mv_728_image_T_r0,mv_728_evidence_T_r0
+732,visual_family_81defd9e2e8f85c7f098,0,solid geometry,CORRECT,CORRECT,2,2,mv_732_image_T_r0,mv_732_evidence_T_r0
+733,visual_family_367461e6dd07bdb57342,0,metric geometry - length,WRONG,CORRECT,80 + 10\pi,160,mv_733_image_T_r0,mv_733_evidence_T_r0
+734,stage12xs_family_77290499dda508cc04df,0,descriptive geometry,CORRECT,CORRECT,E,\text{E},mv_734_image_T_r0,mv_734_evidence_T_r0
+737,visual_family_bc8db39f614342b78a67,0,algebra,CORRECT,CORRECT,B,\text{B},mv_737_image_T_r0,mv_737_evidence_T_r0
+738,stage12xs_family_b46f6614c944fc53dd56,0,metric geometry - length,WRONG,CORRECT,B,\text{C},mv_738_image_T_r0,mv_738_evidence_T_r0
+739,visual_family_40962624bfc236888ff8,0,combinatorial geometry,CORRECT,WRONG,B,E,mv_739_image_T_r0,mv_739_evidence_T_r0
+740,visual_family_234666d765f4c0a26cf4,0,graph theory,WRONG,WRONG,2,12,mv_740_image_T_r0,mv_740_evidence_T_r0
+742,visual_family_ccbcd0d62f439eacea8b,0,descriptive geometry,WRONG,WRONG,A,B,mv_742_image_T_r0,mv_742_evidence_T_r0
+743,visual_family_0df5486b7bca884d5f00,0,graph theory,CORRECT,CORRECT,1,1,mv_743_image_T_r0,mv_743_evidence_T_r0
+744,visual_family_a15faf6f6c7e4c11d795,0,graph theory,UNSCORABLE,CORRECT,,D,mv_744_image_T_r0,mv_744_evidence_T_r0
+750,visual_family_64d095f2fecfdeb907da,0,metric geometry - length,CORRECT,CORRECT,B,B,mv_750_image_T_r0,mv_750_evidence_T_r0
+751,visual_family_d3b913cdf3e8a7978621,0,combinatorial geometry,WRONG,CORRECT,75,50,mv_751_image_T_r0,mv_751_evidence_T_r0
+755,visual_family_86ab8cbe5869bd1f9c70,0,algebra,CORRECT,CORRECT,5,5,mv_755_image_T_r0,mv_755_evidence_T_r0
+756,visual_family_a7f0b84de7a450eaf6ff,0,algebra,CORRECT,CORRECT,5,5,mv_756_image_T_r0,mv_756_evidence_T_r0
+759,visual_family_b967fb22d506bda1b4d8,0,algebra,CORRECT,CORRECT,54,54,mv_759_image_T_r0,mv_759_evidence_T_r0
+760,visual_family_76dd40064a02125a672e,0,descriptive geometry,WRONG,CORRECT,10,14,mv_760_image_T_r0,mv_760_evidence_T_r0
+763,stage12xs_family_c0be26f04f8e75567672,0,graph theory,CORRECT,CORRECT,D,D,mv_763_image_T_r0,mv_763_evidence_T_r0
+764,visual_family_aaee0ce51abf0849e68b,0,combinatorics,CORRECT,CORRECT,9,9,mv_764_image_T_r0,mv_764_evidence_T_r0
+770,visual_family_ca0cec7f60085f0289aa,0,counting,CORRECT,CORRECT,8,8,mv_770_image_T_r0,mv_770_evidence_T_r0
+772,visual_family_9168e847861429230da3,0,arithmetic,WRONG,CORRECT,10,14,mv_772_image_T_r0,mv_772_evidence_T_r0
+776,visual_family_3daebbc6dfd81355f1cc,0,metric geometry - area,CORRECT,CORRECT,65,65,mv_776_image_T_r0,mv_776_evidence_T_r0
+778,visual_family_93411f44e228b5004bde,0,algebra,CORRECT,CORRECT,3,3,mv_778_image_T_r0,mv_778_evidence_T_r0
+781,visual_family_28955b1fb53203e2ff24,0,arithmetic,CORRECT,CORRECT,30,30,mv_781_image_T_r0,mv_781_evidence_T_r0
+784,visual_family_ff108b68b0e9bc1e5a74,0,metric geometry - length,CORRECT,CORRECT,46,46,mv_784_image_T_r0,mv_784_evidence_T_r0
+791,visual_family_0b0fc3be2ee8d1d33518,0,algebra,CORRECT,CORRECT,B,B,mv_791_image_T_r0,mv_791_evidence_T_r0
+792,visual_family_74332c78b10e3ee51ac4,0,logic,CORRECT,CORRECT,6,6,mv_792_image_T_r0,mv_792_evidence_T_r0
+797,visual_family_642ecf065b3d2bf87da2,0,graph theory,WRONG,WRONG,15,14,mv_797_image_T_r0,mv_797_evidence_T_r0
+798,visual_family_4d5e5deb0353d3a6c0b5,0,combinatorial geometry,WRONG,CORRECT,100,64,mv_798_image_T_r0,mv_798_evidence_T_r0
+799,visual_family_ce02d4b6d1aceeea96a5,0,algebra,CORRECT,CORRECT,56,56,mv_799_image_T_r0,mv_799_evidence_T_r0
+808,visual_family_d72a11d264e746464ed4,0,descriptive geometry,CORRECT,CORRECT,B,B,mv_808_image_T_r0,mv_808_evidence_T_r0
+809,visual_family_0b06d2ffebd5c025cf44,0,combinatorial geometry,CORRECT,CORRECT,D,D,mv_809_image_T_r0,mv_809_evidence_T_r0
+812,visual_family_313c938e0103b56b4363,0,transformation geometry,CORRECT,CORRECT,3,3,mv_812_image_T_r0,mv_812_evidence_T_r0
+814,visual_family_76ba652cbd2ef1931d05,0,combinatorial geometry,WRONG,CORRECT,C,\text{E. } 20 \text{ cm},mv_814_image_T_r0,mv_814_evidence_T_r0
+816,visual_family_96bb293aaa330ef307ee,0,arithmetic,CORRECT,CORRECT,**6**,6,mv_816_image_T_r0,mv_816_evidence_T_r0
+817,stage12xs_family_02b77c45c29921553643,0,solid geometry,WRONG,CORRECT,11,7,mv_817_image_T_r0,mv_817_evidence_T_r0
+818,visual_family_2b4da94214015b4281ac,0,arithmetic,CORRECT,CORRECT,C,C,mv_818_image_T_r0,mv_818_evidence_T_r0
+819,visual_family_bc57590a33fe355e1743,0,graph theory,WRONG,WRONG,3,3,mv_819_image_T_r0,mv_819_evidence_T_r0
+827,visual_family_ab16ce326c754df41ed0,0,graph theory,CORRECT,CORRECT,3,3,mv_827_image_T_r0,mv_827_evidence_T_r0
+828,visual_family_43d244581aa23a744de9,0,combinatorial geometry,WRONG,WRONG,8,8,mv_828_image_T_r0,mv_828_evidence_T_r0
+831,visual_family_209eb5f20ab018ff6f1e,0,algebra,CORRECT,CORRECT,0,0,mv_831_image_T_r0,mv_831_evidence_T_r0
+832,visual_family_93c3755d0c9030cd90f0,0,transformation geometry,CORRECT,CORRECT,D,"D. \, 60 \text{ cm}",mv_832_image_T_r0,mv_832_evidence_T_r0
+833,visual_family_130790feced08212eed7,0,counting,WRONG,CORRECT,4,3,mv_833_image_T_r0,mv_833_evidence_T_r0
+841,visual_family_7125e777a6b199fc4e8c,0,graph theory,CORRECT,CORRECT,2,2,mv_841_image_T_r0,mv_841_evidence_T_r0
+842,visual_family_ac93f3a0fee5afa2d939,0,combinatorial geometry,WRONG,CORRECT,C,B,mv_842_image_T_r0,mv_842_evidence_T_r0
+843,visual_family_55e8ab098d48f8be5578,0,algebra,CORRECT,WRONG,D,E,mv_843_image_T_r0,mv_843_evidence_T_r0
+847,visual_family_19e68d9fe08f7c4ac189,0,combinatorial geometry,CORRECT,CORRECT,12,12,mv_847_image_T_r0,mv_847_evidence_T_r0
+849,stage12xs_family_0903ea3cf627297970d3,0,graph theory,WRONG,CORRECT,A,\text{C},mv_849_image_T_r0,mv_849_evidence_T_r0
+850,visual_family_7ffc2066e20c16e95c0b,0,graph theory,WRONG,CORRECT,2,3,mv_850_image_T_r0,mv_850_evidence_T_r0
+851,visual_family_6ffbae9aaff664bd4739,0,descriptive geometry,WRONG,WRONG,E,E,mv_851_image_T_r0,mv_851_evidence_T_r0
+852,visual_family_bc590569dd9180a701eb,0,combinatorics,WRONG,WRONG,4,60,mv_852_image_T_r0,mv_852_evidence_T_r0
+855,visual_family_3097fc802d49355a0a25,0,transformation geometry,WRONG,CORRECT,B,A,mv_855_image_T_r0,mv_855_evidence_T_r0
+856,visual_family_c0cc3b36d8f848d56fbf,0,descriptive geometry,WRONG,CORRECT,1,4,mv_856_image_T_r0,mv_856_evidence_T_r0
+858,visual_family_8e46760943785a93c7bb,0,graph theory,CORRECT,CORRECT,2,2,mv_858_image_T_r0,mv_858_evidence_T_r0
+859,visual_family_12bdc9eedc0abc0dc0f5,0,combinatorics,CORRECT,CORRECT,2,2,mv_859_image_T_r0,mv_859_evidence_T_r0
+864,visual_family_8f97d9164b8fa131f036,0,combinatorial geometry,CORRECT,WRONG,6,5,mv_864_image_T_r0,mv_864_evidence_T_r0
+865,visual_family_8b6cd7c429e83373dbd4,0,metric geometry - length,CORRECT,WRONG,40,50,mv_865_image_T_r0,mv_865_evidence_T_r0
+869,stage12xs_family_6239b916ccc26a02a1fe,0,graph theory,WRONG,CORRECT,3,2,mv_869_image_T_r0,mv_869_evidence_T_r0
+871,visual_family_062f50753b9095ee2eff,0,arithmetic,CORRECT,CORRECT,3,** The number of red squares is **3**,mv_871_image_T_r0,mv_871_evidence_T_r0
+875,visual_family_c63efd61a70d0f6b7e5d,0,metric geometry - area,CORRECT,CORRECT,A,A,mv_875_image_T_r0,mv_875_evidence_T_r0
+877,visual_family_30e26cef13a6dbbf0e30,0,combinatorics,WRONG,CORRECT,5,6,mv_877_image_T_r0,mv_877_evidence_T_r0
+878,stage12xs_family_9fd461c251c026fd1a9c,0,counting,WRONG,CORRECT,28,13,mv_878_image_T_r0,mv_878_evidence_T_r0
+879,visual_family_4f97f2eebf92cde58c10,0,descriptive geometry,WRONG,WRONG,E,E,mv_879_image_T_r0,mv_879_evidence_T_r0
+885,visual_family_3bd625f07792e885b5a4,0,algebra,WRONG,CORRECT,C,B,mv_885_image_T_r0,mv_885_evidence_T_r0
+886,visual_family_000f21ac06aceb9cdd05,0,metric geometry - length,CORRECT,CORRECT,E,E,mv_886_image_T_r0,mv_886_evidence_T_r0
+888,visual_family_5e968ce47ce4a17e3823,0,metric geometry - length,WRONG,CORRECT,B,C,mv_888_image_T_r0,mv_888_evidence_T_r0
+890,visual_family_e6f095e985e6762f1538,0,graph theory,CORRECT,CORRECT,2,2,mv_890_image_T_r0,mv_890_evidence_T_r0
+892,visual_family_46db1ca7f3598c26c3e6,0,algebra,WRONG,CORRECT,4,5,mv_892_image_T_r0,mv_892_evidence_T_r0
+895,visual_family_c49b60838c5c6ddf3480,0,algebra,CORRECT,CORRECT,0,0,mv_895_image_T_r0,mv_895_evidence_T_r0
+897,visual_family_c62510afc57db491f9f9,0,algebra,CORRECT,CORRECT,C,C,mv_897_image_T_r0,mv_897_evidence_T_r0
+904,visual_family_533eb9a8909f614c351b,0,counting,CORRECT,CORRECT,8,8,mv_904_image_T_r0,mv_904_evidence_T_r0
+905,visual_family_43f64dc77762f69f9f52,0,algebra,CORRECT,CORRECT,9,9,mv_905_image_T_r0,mv_905_evidence_T_r0
+908,visual_family_5e61b431f3823da05836,0,algebra,WRONG,WRONG,E,D,mv_908_image_T_r0,mv_908_evidence_T_r0
+911,visual_family_a5ccb1c538e34663a658,0,algebra,CORRECT,CORRECT,41,41,mv_911_image_T_r0,mv_911_evidence_T_r0
+912,visual_family_9284d61c8c2ba62b951d,0,algebra,CORRECT,CORRECT,E,E,mv_912_image_T_r0,mv_912_evidence_T_r0
+913,visual_family_1bee34b6262a7777362f,0,arithmetic,CORRECT,CORRECT,2,2,mv_913_image_T_r0,mv_913_evidence_T_r0
+915,visual_family_b9dafef03fc90f65d4f9,0,arithmetic,WRONG,CORRECT,25,26,mv_915_image_T_r0,mv_915_evidence_T_r0
+921,visual_family_7e07ae1a0cd3da38f7e6,0,algebra,WRONG,CORRECT,6,1.5,mv_921_image_T_r0,mv_921_evidence_T_r0
+923,visual_family_b5a9ede9a93528be3e12,0,arithmetic,CORRECT,CORRECT,D,D,mv_923_image_T_r0,mv_923_evidence_T_r0
+928,visual_family_73c2e083e4e933fc3ba7,0,algebra,CORRECT,CORRECT,32,32,mv_928_image_T_r0,mv_928_evidence_T_r0
+930,visual_family_bff3992c1d4f9aa5a794,0,metric geometry - area,CORRECT,CORRECT,52,52,mv_930_image_T_r0,mv_930_evidence_T_r0
+931,visual_family_2f74d62c5e51079f4e0d,0,descriptive geometry,WRONG,CORRECT,7,12,mv_931_image_T_r0,mv_931_evidence_T_r0
+932,visual_family_6e8d1a943f1298968273,0,combinatorial geometry,CORRECT,CORRECT,4,4,mv_932_image_T_r0,mv_932_evidence_T_r0
+935,visual_family_b064bdba191139689139,0,solid geometry,WRONG,CORRECT,8,4,mv_935_image_T_r0,mv_935_evidence_T_r0
+937,visual_family_ffd560d182369b08a8b3,0,graph theory,WRONG,WRONG,E,\text{East},mv_937_image_T_r0,mv_937_evidence_T_r0
+939,visual_family_aaf57ee8c549ef3df8a0,0,counting,WRONG,WRONG,0,2,mv_939_image_T_r0,mv_939_evidence_T_r0
+943,visual_family_e133553ea138da0438f2,0,solid geometry,WRONG,CORRECT,33,69,mv_943_image_T_r0,mv_943_evidence_T_r0
+944,visual_family_6d094db49a6e224278dd,0,transformation geometry,WRONG,WRONG,E,A,mv_944_image_T_r0,mv_944_evidence_T_r0
+947,visual_family_4d0198f4905a08812518,0,graph theory,CORRECT,CORRECT,B,B,mv_947_image_T_r0,mv_947_evidence_T_r0
+949,visual_family_3033cf66fa728da7a294,0,algebra,CORRECT,CORRECT,4,4,mv_949_image_T_r0,mv_949_evidence_T_r0
+954,visual_family_b471aeea26820f379ea5,0,arithmetic,CORRECT,CORRECT,8,8,mv_954_image_T_r0,mv_954_evidence_T_r0
+956,visual_family_fbb2a73b0bacf3953186,0,combinatorial geometry,CORRECT,CORRECT,21,21,mv_956_image_T_r0,mv_956_evidence_T_r0
+958,visual_family_debc96817a3523d6f3cd,0,algebra,CORRECT,CORRECT,10,10,mv_958_image_T_r0,mv_958_evidence_T_r0
+962,visual_family_084917af148384c1e839,0,combinatorial geometry,WRONG,CORRECT,D,B,mv_962_image_T_r0,mv_962_evidence_T_r0
+965,visual_family_2f1d593cd98cb5bf81eb,0,arithmetic,CORRECT,CORRECT,D,D,mv_965_image_T_r0,mv_965_evidence_T_r0
+968,visual_family_d6420a4ee44bc345c7bf,0,solid geometry,WRONG,CORRECT,12,60,mv_968_image_T_r0,mv_968_evidence_T_r0
+969,visual_family_16b30490a644117a249c,0,solid geometry,CORRECT,CORRECT,D,D,mv_969_image_T_r0,mv_969_evidence_T_r0
+971,visual_family_98964da49d0a98402ed3,0,algebra,WRONG,CORRECT,1,2,mv_971_image_T_r0,mv_971_evidence_T_r0
+974,visual_family_51cfe39433c33d8144a4,0,combinatorics,CORRECT,CORRECT,5,5,mv_974_image_T_r0,mv_974_evidence_T_r0
+975,visual_family_0aa598c735f77296910c,0,descriptive geometry,WRONG,WRONG,13,17,mv_975_image_T_r0,mv_975_evidence_T_r0
+976,visual_family_3cb65cad26f0a517866e,0,algebra,CORRECT,CORRECT,20,20,mv_976_image_T_r0,mv_976_evidence_T_r0
+980,visual_family_38879b6376fbabdc8fbf,0,solid geometry,WRONG,CORRECT,9,12,mv_980_image_T_r0,mv_980_evidence_T_r0
+986,stage12xs_family_5616951257a5ca7c540e,0,combinatorial geometry,WRONG,CORRECT,B,C,mv_986_image_T_r0,mv_986_evidence_T_r0
+987,visual_family_55c8079ac96c6a4f6a94,0,transformation geometry,WRONG,CORRECT,B,D,mv_987_image_T_r0,mv_987_evidence_T_r0
+990,visual_family_fe50b64954720ccb97ff,0,algebra,CORRECT,CORRECT,17,17,mv_990_image_T_r0,mv_990_evidence_T_r0
+991,visual_family_25b7c81e770034aeda70,0,algebra,CORRECT,CORRECT,3,3,mv_991_image_T_r0,mv_991_evidence_T_r0
+992,visual_family_c0d2d188feaa1562d9a1,0,algebra,WRONG,WRONG,C,B,mv_992_image_T_r0,mv_992_evidence_T_r0
+995,visual_family_abbb9233cee3e720b2a8,0,combinatorics,CORRECT,CORRECT,E,E,mv_995_image_T_r0,mv_995_evidence_T_r0
+997,visual_family_864995ea35b82212a9a2,0,graph theory,WRONG,CORRECT,C,\text{A},mv_997_image_T_r0,mv_997_evidence_T_r0
+999,stage12xs_family_02c2642554f63c191a30,0,combinatorial geometry,UNSCORABLE,CORRECT,,16,mv_999_image_T_r0,mv_999_evidence_T_r0
+1005,visual_family_7f861bcee185de001377,0,combinatorial geometry,CORRECT,CORRECT,2,2,mv_1005_image_T_r0,mv_1005_evidence_T_r0
+1006,visual_family_478c4ffb1cbcea37956a,0,combinatorial geometry,CORRECT,CORRECT,B,B,mv_1006_image_T_r0,mv_1006_evidence_T_r0
+1009,visual_family_6ad4a6b1e5ea5569795e,0,transformation geometry,WRONG,WRONG,A,B,mv_1009_image_T_r0,mv_1009_evidence_T_r0
+1010,stage12xs_family_361973a4e9519673495c,0,logic,CORRECT,CORRECT,2,2,mv_1010_image_T_r0,mv_1010_evidence_T_r0
+1011,visual_family_69ef3038e1831b0ea6ff,0,descriptive geometry,WRONG,CORRECT,C,\text{A},mv_1011_image_T_r0,mv_1011_evidence_T_r0
+1012,visual_family_165940940a02a187e446,0,metric geometry - length,CORRECT,CORRECT,10,10,mv_1012_image_T_r0,mv_1012_evidence_T_r0
+1013,visual_family_2ec42bc1f3e672fc1cf7,0,combinatorial geometry,CORRECT,CORRECT,42,42,mv_1013_image_T_r0,mv_1013_evidence_T_r0
+1022,visual_family_f00f2e7bca65e9f8409f,0,metric geometry - area,WRONG,CORRECT,A,D,mv_1022_image_T_r0,mv_1022_evidence_T_r0
+1027,visual_family_1a20233e6a7650ce775c,0,algebra,CORRECT,CORRECT,124,124,mv_1027_image_T_r0,mv_1027_evidence_T_r0
+1028,visual_family_a73060afb61efe1b7c81,0,combinatorial geometry,WRONG,WRONG,3,5,mv_1028_image_T_r0,mv_1028_evidence_T_r0
+1040,visual_family_bc36cf3b9981226c5b01,0,solid geometry,CORRECT,CORRECT,36,36,mv_1040_image_T_r0,mv_1040_evidence_T_r0
+1042,visual_family_216da54b5931a6d37cca,0,combinatorics,WRONG,CORRECT,6,4,mv_1042_image_T_r0,mv_1042_evidence_T_r0
+1045,visual_family_40794500a2845c943a0f,0,algebra,CORRECT,CORRECT,864,864,mv_1045_image_T_r0,mv_1045_evidence_T_r0
+1047,stage12xs_family_77fe255923f6ad65c4ac,0,combinatorial geometry,CORRECT,CORRECT,C,C,mv_1047_image_T_r0,mv_1047_evidence_T_r0
+1056,visual_family_e8c5e943ad4fd9d115c2,0,algebra,WRONG,CORRECT,221,92,mv_1056_image_T_r0,mv_1056_evidence_T_r0
+1057,visual_family_b910260d6ccd1fedb991,0,solid geometry,CORRECT,UNSCORABLE,6,,mv_1057_image_T_r0,mv_1057_evidence_T_r0
+1061,visual_family_5d9e09b09389f1e4c826,0,metric geometry - length,CORRECT,CORRECT,E,E,mv_1061_image_T_r0,mv_1061_evidence_T_r0
+1067,visual_family_f48280c0107726b99afc,0,metric geometry - length,CORRECT,CORRECT,1,1,mv_1067_image_T_r0,mv_1067_evidence_T_r0
+1069,stage12xs_family_0399eb790c0fa43f6182,0,algebra,WRONG,CORRECT,7,6,mv_1069_image_T_r0,mv_1069_evidence_T_r0
+1075,stage12xs_family_5bbdbcf3361cbb224f13,0,logic,WRONG,CORRECT,B,**A. red**,mv_1075_image_T_r0,mv_1075_evidence_T_r0
+1079,stage12xs_family_1cd403b89e53db191a17,0,metric geometry - area,CORRECT,CORRECT,D,15,mv_1079_image_T_r0,mv_1079_evidence_T_r0
+1080,visual_family_39db2fadfcf000213631,0,transformation geometry,WRONG,CORRECT,\frac{143}{12},37,mv_1080_image_T_r0,mv_1080_evidence_T_r0
+1083,stage12xs_family_5a942c4f9ec7b42dd7ae,0,combinatorial geometry,CORRECT,CORRECT,C,\text{C},mv_1083_image_T_r0,mv_1083_evidence_T_r0
+1084,visual_family_9fbb55aa1ca6da90db1c,0,combinatorial geometry,WRONG,WRONG,6,6,mv_1084_image_T_r0,mv_1084_evidence_T_r0
+1095,visual_family_e0d8014e6e3c51d78046,0,combinatorial geometry,CORRECT,CORRECT,6,6,mv_1095_image_T_r0,mv_1095_evidence_T_r0
+1096,visual_family_e3c5039131fa10146b50,0,combinatorial geometry,CORRECT,CORRECT,4,4,mv_1096_image_T_r0,mv_1096_evidence_T_r0
+1105,visual_family_47c5fbf51c636da0b483,0,counting,WRONG,CORRECT,5,4,mv_1105_image_T_r0,mv_1105_evidence_T_r0
+1109,visual_family_6711597a2bc4e5878638,0,arithmetic,WRONG,CORRECT,6,7,mv_1109_image_T_r0,mv_1109_evidence_T_r0
+1112,visual_family_6f6194b6dc6a75c7c59d,0,algebra,WRONG,CORRECT,A,\text{E},mv_1112_image_T_r0,mv_1112_evidence_T_r0
+1115,visual_family_71af0fdd2e7f62c1c351,0,metric geometry - area,CORRECT,CORRECT,45,45,mv_1115_image_T_r0,mv_1115_evidence_T_r0
+1118,visual_family_63ecbfa3a1ad34a1fdd5,0,combinatorial geometry,WRONG,WRONG,8,8,mv_1118_image_T_r0,mv_1118_evidence_T_r0
+1120,visual_family_829f00a11ddfdebb51b6,0,descriptive geometry,CORRECT,CORRECT,A,A,mv_1120_image_T_r0,mv_1120_evidence_T_r0
+1121,visual_family_3958de59a1ae60b4330e,0,descriptive geometry,WRONG,WRONG,A,A. WV**,mv_1121_image_T_r0,mv_1121_evidence_T_r0
+1124,visual_family_736e537f0f664a3d8208,0,combinatorial geometry,WRONG,CORRECT,\frac{1}{2},1,mv_1124_image_T_r0,mv_1124_evidence_T_r0
+1135,visual_family_d7008e68b135c3c77bdf,0,graph theory,CORRECT,CORRECT,6,6,mv_1135_image_T_r0,mv_1135_evidence_T_r0
+1136,visual_family_35ca46713cea7233ec95,0,metric geometry - length,CORRECT,CORRECT,E,E,mv_1136_image_T_r0,mv_1136_evidence_T_r0
+1143,visual_family_a183251a8414fd819da0,0,algebra,CORRECT,CORRECT,118,118,mv_1143_image_T_r0,mv_1143_evidence_T_r0
+1145,visual_family_a5bef651c8e3fd6cc63c,0,metric geometry - area,WRONG,CORRECT,C,\text{A. } \frac{1}{2},mv_1145_image_T_r0,mv_1145_evidence_T_r0
+1148,visual_family_542cacae1d41132ac9e1,0,metric geometry - area,CORRECT,CORRECT,B,B,mv_1148_image_T_r0,mv_1148_evidence_T_r0
+1150,visual_family_0eaa69a16d7c358a329a,0,metric geometry - length,CORRECT,CORRECT,D,D,mv_1150_image_T_r0,mv_1150_evidence_T_r0
+1155,visual_family_37b1267a4ff4e12dddfe,0,metric geometry - length,WRONG,CORRECT,C,\text{D. } 32\%,mv_1155_image_T_r0,mv_1155_evidence_T_r0
+1156,visual_family_3aa82834b765ea042146,0,solid geometry,WRONG,CORRECT,33,39,mv_1156_image_T_r0,mv_1156_evidence_T_r0
+1168,visual_family_68ac846d8dc1c75da907,0,metric geometry - area,CORRECT,CORRECT,B,B,mv_1168_image_T_r0,mv_1168_evidence_T_r0
+1170,visual_family_19d0b0d4077454bdec0d,0,solid geometry,WRONG,CORRECT,E,C,mv_1170_image_T_r0,mv_1170_evidence_T_r0
+1173,visual_family_37322d5fb5ecd278782b,0,combinatorial geometry,CORRECT,CORRECT,D,D,mv_1173_image_T_r0,mv_1173_evidence_T_r0
+1176,visual_family_74e9f3d8efbda803994e,0,graph theory,CORRECT,CORRECT,3,3,mv_1176_image_T_r0,mv_1176_evidence_T_r0
+1185,visual_family_b7ecc2898ee9ca799ed9,0,transformation geometry,WRONG,CORRECT,4,5,mv_1185_image_T_r0,mv_1185_evidence_T_r0
+1187,visual_family_ca153fc499ffc25f1118,0,logic,WRONG,WRONG,8,10,mv_1187_image_T_r0,mv_1187_evidence_T_r0
+1195,visual_family_32396038fca01cb69d2c,0,logic,CORRECT,CORRECT,4,4,mv_1195_image_T_r0,mv_1195_evidence_T_r0
+1196,visual_family_369b906a75d372193bbe,0,metric geometry - angle,WRONG,CORRECT,D,E,mv_1196_image_T_r0,mv_1196_evidence_T_r0
+1197,visual_family_f343a80aafa11416dbea,0,logic,CORRECT,WRONG,D,C,mv_1197_image_T_r0,mv_1197_evidence_T_r0
+1202,visual_family_da26b77becf8bcc17aa4,0,descriptive geometry,WRONG,CORRECT,16,15,mv_1202_image_T_r0,mv_1202_evidence_T_r0
+1207,visual_family_eaf2067e34d6876930d2,0,metric geometry - area,CORRECT,CORRECT,E,E,mv_1207_image_T_r0,mv_1207_evidence_T_r0
+1212,visual_family_cbfad02f9ed2a8d1e08d,0,metric geometry - area,WRONG,CORRECT,12,4,mv_1212_image_T_r0,mv_1212_evidence_T_r0
+1218,stage12xs_family_56be861060d23258189b,0,solid geometry,WRONG,WRONG,B,E,mv_1218_image_T_r0,mv_1218_evidence_T_r0
+1221,visual_family_46437ab18a6657040b45,0,metric geometry - area,WRONG,CORRECT,20,6,mv_1221_image_T_r0,mv_1221_evidence_T_r0
+1222,stage12xs_family_c7884cb4de1d313709fd,0,topology,CORRECT,CORRECT,E,E,mv_1222_image_T_r0,mv_1222_evidence_T_r0
+1224,stage12xs_family_7fa4f4a0d7d932be4e60,0,algebra,CORRECT,CORRECT,C,C,mv_1224_image_T_r0,mv_1224_evidence_T_r0
+1225,visual_family_6ecf763ff6e7cef7b47e,0,solid geometry,CORRECT,CORRECT,C,\text{C},mv_1225_image_T_r0,mv_1225_evidence_T_r0
+1228,visual_family_6dfb97632210ac38a071,0,algebra,CORRECT,CORRECT,D,D,mv_1228_image_T_r0,mv_1228_evidence_T_r0
+1237,stage12xs_family_8a71827d578afa12828a,0,algebra,WRONG,CORRECT,16,17,mv_1237_image_T_r0,mv_1237_evidence_T_r0
+1244,stage12xs_family_27e4af6da59dfaf2726b,0,analytic geometry,WRONG,CORRECT,C,B,mv_1244_image_T_r0,mv_1244_evidence_T_r0
+1245,visual_family_42dc45a59236a5afe617,0,algebra,CORRECT,CORRECT,12,12,mv_1245_image_T_r0,mv_1245_evidence_T_r0
+1247,visual_family_92f3c34650437f1ddf6b,0,logic,CORRECT,CORRECT,7,7,mv_1247_image_T_r0,mv_1247_evidence_T_r0
+1248,visual_family_da2c575e48ee7651b9e9,0,metric geometry - length,WRONG,CORRECT,4.4,18,mv_1248_image_T_r0,mv_1248_evidence_T_r0
+1250,stage12xs_family_a7bc4003a517e25826f2,0,combinatorics,CORRECT,CORRECT,6,6,mv_1250_image_T_r0,mv_1250_evidence_T_r0
+1251,visual_family_1c918023d679a37e1f33,0,algebra,WRONG,CORRECT,38,40,mv_1251_image_T_r0,mv_1251_evidence_T_r0
+1256,visual_family_e7d5f7be5195d60646a4,0,combinatorics,WRONG,CORRECT,240,16,mv_1256_image_T_r0,mv_1256_evidence_T_r0
+1259,visual_family_b32523d903bfe2355dca,0,metric geometry - area,CORRECT,CORRECT,\text{A},\text{A},mv_1259_image_T_r0,mv_1259_evidence_T_r0
+1263,stage12xs_family_7556d49d2484fd55a27a,0,metric geometry - area,WRONG,WRONG,2a + b,D,mv_1263_image_T_r0,mv_1263_evidence_T_r0
+1264,stage12xs_family_cc47a1cab53bb7f76266,0,algebra,WRONG,CORRECT,7,8,mv_1264_image_T_r0,mv_1264_evidence_T_r0
+1266,visual_family_f7d7736a8f77a4940642,0,metric geometry - area,CORRECT,CORRECT,64,64,mv_1266_image_T_r0,mv_1266_evidence_T_r0
+1269,visual_family_6028e2a87c5080933ca4,0,metric geometry - area,CORRECT,CORRECT,18,18,mv_1269_image_T_r0,mv_1269_evidence_T_r0
+1274,stage12xs_family_a41516206353b33dd2f8,0,metric geometry - area,CORRECT,CORRECT,5,5,mv_1274_image_T_r0,mv_1274_evidence_T_r0
+1277,visual_family_7cbc1f697e71f94e5e48,0,metric geometry - length,CORRECT,CORRECT,\sqrt{32},\sqrt{32},mv_1277_image_T_r0,mv_1277_evidence_T_r0
+1280,visual_family_6f13d39f5c4665967f7d,0,metric geometry - length,CORRECT,CORRECT,6,6,mv_1280_image_T_r0,mv_1280_evidence_T_r0
+1282,stage12xs_family_64172f2f3686d60cf14d,0,metric geometry - length,CORRECT,WRONG,A,\text{C},mv_1282_image_T_r0,mv_1282_evidence_T_r0
+1283,visual_family_c47affb712a521d4fdd0,0,metric geometry - length,CORRECT,CORRECT,4,4,mv_1283_image_T_r0,mv_1283_evidence_T_r0
+1287,visual_family_065f4fa6723db9087ba0,0,metric geometry - length,WRONG,CORRECT,4,6,mv_1287_image_T_r0,mv_1287_evidence_T_r0
+1288,visual_family_c999d2c4092b50ce7f8b,0,metric geometry - length,CORRECT,CORRECT,C,12,mv_1288_image_T_r0,mv_1288_evidence_T_r0
+1289,visual_family_0e0c8d9c5fa46e66bd82,0,metric geometry - area,WRONG,WRONG,6,\frac{16}{7},mv_1289_image_T_r0,mv_1289_evidence_T_r0
+1291,visual_family_a9b9bd8e0ec83c8374c3,0,metric geometry - angle,CORRECT,CORRECT,B,B,mv_1291_image_T_r0,mv_1291_evidence_T_r0
+1294,visual_family_9c499c3ddf63c6ea23a4,0,algebra,WRONG,CORRECT,4,1,mv_1294_image_T_r0,mv_1294_evidence_T_r0
+1301,visual_family_0f2cb44170f42cc96653,0,combinatorics,WRONG,CORRECT,1,4,mv_1301_image_T_r0,mv_1301_evidence_T_r0
+1302,visual_family_ee47968ec53bbe68eaf5,0,logic,CORRECT,CORRECT,A,A,mv_1302_image_T_r0,mv_1302_evidence_T_r0
+1304,visual_family_8ecb5bcd8cd84cc3ffc6,0,metric geometry - length,WRONG,WRONG,C,\text{C. } 15\pi,mv_1304_image_T_r0,mv_1304_evidence_T_r0
+1305,visual_family_c7f4f146491d27eed1cd,0,combinatorics,WRONG,UNSCORABLE,321,,mv_1305_image_T_r0,mv_1305_evidence_T_r0
+1312,visual_family_712dca40936b39ce670d,0,algebra,CORRECT,CORRECT,9,9,mv_1312_image_T_r0,mv_1312_evidence_T_r0
+1318,visual_family_095eaa09cd36d1f1e7a9,0,solid geometry,CORRECT,CORRECT,6,6,mv_1318_image_T_r0,mv_1318_evidence_T_r0
+1319,visual_family_560229669058290cfa53,0,solid geometry,WRONG,WRONG,C,\text{E},mv_1319_image_T_r0,mv_1319_evidence_T_r0
+1328,visual_family_040fe555cb4f5459547e,0,solid geometry,CORRECT,CORRECT,6,6,mv_1328_image_T_r0,mv_1328_evidence_T_r0
+1335,visual_family_c399e9273f18bf50d4fc,0,combinatorics,CORRECT,CORRECT,2,2,mv_1335_image_T_r0,mv_1335_evidence_T_r0
+1337,visual_family_5db1fee4b5703808c480,0,analytic geometry,CORRECT,CORRECT,D,D,mv_1337_image_T_r0,mv_1337_evidence_T_r0
+1338,visual_family_929335bd815765d7b676,0,transformation geometry,CORRECT,CORRECT,3,3,mv_1338_image_T_r0,mv_1338_evidence_T_r0
+1341,visual_family_866cf6ce0c5209505ff7,0,metric geometry - length,WRONG,WRONG,24,5,mv_1341_image_T_r0,mv_1341_evidence_T_r0
+1345,visual_family_8d30c678193105253b54,0,transformation geometry,WRONG,CORRECT,D,C,mv_1345_image_T_r0,mv_1345_evidence_T_r0
+1346,visual_family_5631e5efadc1db19f6b2,0,metric geometry - length,WRONG,CORRECT,18,12,mv_1346_image_T_r0,mv_1346_evidence_T_r0
+1349,visual_family_6f42ae6ab479ee169805,0,logic,CORRECT,CORRECT,5,5,mv_1349_image_T_r0,mv_1349_evidence_T_r0
+1352,visual_family_9d551151d715267077b3,0,solid geometry,WRONG,CORRECT,300,225,mv_1352_image_T_r0,mv_1352_evidence_T_r0
+1356,visual_family_85e63bcfdcfcf1a63cce,0,metric geometry - area,CORRECT,CORRECT,6,6,mv_1356_image_T_r0,mv_1356_evidence_T_r0
+1361,visual_family_2ee1a4c2b1f11f0ca375,0,logic,CORRECT,CORRECT,4,4,mv_1361_image_T_r0,mv_1361_evidence_T_r0
+1364,visual_family_50e9a8665b62c8d68bcc,0,metric geometry - area,WRONG,CORRECT,D,B,mv_1364_image_T_r0,mv_1364_evidence_T_r0
+1365,visual_family_67d1514f9bb64c1adcec,0,algebra,CORRECT,CORRECT,5,5,mv_1365_image_T_r0,mv_1365_evidence_T_r0
+1368,visual_family_a985bb36df0be53b3487,0,combinatorial geometry,CORRECT,CORRECT,A,\text{A},mv_1368_image_T_r0,mv_1368_evidence_T_r0
+1375,visual_family_d818f221cbcb7016316f,0,metric geometry - length,CORRECT,CORRECT,A,A,mv_1375_image_T_r0,mv_1375_evidence_T_r0
+1380,visual_family_aecef364029f6f3f008b,0,metric geometry - length,CORRECT,CORRECT,C,\text{C},mv_1380_image_T_r0,mv_1380_evidence_T_r0
+1382,stage12xs_family_cbe8a7d0829e78fe1bc7,0,logic,CORRECT,CORRECT,23,23,mv_1382_image_T_r0,mv_1382_evidence_T_r0
+1383,visual_family_6495da527bb644b403ca,0,graph theory,WRONG,CORRECT,7,9,mv_1383_image_T_r0,mv_1383_evidence_T_r0
+1384,visual_family_a73531f89e6bcbc2a72a,0,solid geometry,WRONG,UNSCORABLE,21,,mv_1384_image_T_r0,mv_1384_evidence_T_r0
+1390,stage12xs_family_9868f3b054c82eec85ae,0,combinatorial geometry,CORRECT,CORRECT,C,\text{C},mv_1390_image_T_r0,mv_1390_evidence_T_r0
+1392,visual_family_01b23136ea7f9f8b9e72,0,algebra,WRONG,CORRECT,C,D,mv_1392_image_T_r0,mv_1392_evidence_T_r0
+1393,visual_family_6fef307f9c8a3fb0ad69,0,logic,CORRECT,CORRECT,0,0,mv_1393_image_T_r0,mv_1393_evidence_T_r0
+1394,stage12xs_family_40bc688800075841aa9f,0,metric geometry - length,CORRECT,CORRECT,D,\text{D. } 3:2,mv_1394_image_T_r0,mv_1394_evidence_T_r0
+1402,stage12xs_family_8683273305d8e0cbb716,0,graph theory,CORRECT,CORRECT,12,12,mv_1402_image_T_r0,mv_1402_evidence_T_r0
+1411,stage12xs_family_7ec7278acb05495ddf29,0,combinatorics,CORRECT,CORRECT,14,14,mv_1411_image_T_r0,mv_1411_evidence_T_r0
+1414,visual_family_afbfb89027a4dae87c60,0,topology,WRONG,CORRECT,8,5,mv_1414_image_T_r0,mv_1414_evidence_T_r0
+1416,stage12xs_family_2ac680093062834737a1,0,metric geometry - area,CORRECT,CORRECT,A,A,mv_1416_image_T_r0,mv_1416_evidence_T_r0
+1417,stage12xs_family_dc8f54d8c54ac3bfcfaf,0,algebra,CORRECT,CORRECT,15,15,mv_1417_image_T_r0,mv_1417_evidence_T_r0
+1419,visual_family_fea8344c6c192a73125b,0,metric geometry - area,WRONG,CORRECT,12 - 2\pi,8,mv_1419_image_T_r0,mv_1419_evidence_T_r0
+1431,visual_family_ffab53082b58bed639d2,0,combinatorial geometry,CORRECT,WRONG,2,4,mv_1431_image_T_r0,mv_1431_evidence_T_r0
+1436,visual_family_40dd2b010d461c24e487,0,counting,WRONG,CORRECT,6,1,mv_1436_image_T_r0,mv_1436_evidence_T_r0
+1437,visual_family_1e656185f98ed3a3eee6,0,algebra,CORRECT,CORRECT,B,B,mv_1437_image_T_r0,mv_1437_evidence_T_r0
+1439,visual_family_d55a6ae3aba2d301e18b,0,metric geometry - area,WRONG,CORRECT,4.5,5.5,mv_1439_image_T_r0,mv_1439_evidence_T_r0
+1440,visual_family_a4ff3ad278c7b0575a8e,0,metric geometry - area,CORRECT,CORRECT,1:1,1:1,mv_1440_image_T_r0,mv_1440_evidence_T_r0
+1441,visual_family_497e671df1de83a45eec,0,metric geometry - length,WRONG,CORRECT,B,D,mv_1441_image_T_r0,mv_1441_evidence_T_r0
+1442,visual_family_8fd238119777a31e5950,0,logic,CORRECT,CORRECT,81,81,mv_1442_image_T_r0,mv_1442_evidence_T_r0
+1443,visual_family_298647699bcb31c22e6d,0,metric geometry - angle,CORRECT,CORRECT,E,E,mv_1443_image_T_r0,mv_1443_evidence_T_r0
+1445,visual_family_146c09db1bc3d53de430,0,metric geometry - length,CORRECT,CORRECT,"\text{A. } 40 \, \text{cm}",A,mv_1445_image_T_r0,mv_1445_evidence_T_r0
+1449,visual_family_afd7745eb596901684c7,0,metric geometry - length,WRONG,CORRECT,10,C,mv_1449_image_T_r0,mv_1449_evidence_T_r0
+1450,visual_family_dd932afbc5cfa22b7923,0,combinatorics,WRONG,CORRECT,3136,1536,mv_1450_image_T_r0,mv_1450_evidence_T_r0
+1452,visual_family_abe6c5838bf22b825feb,0,metric geometry - length,WRONG,CORRECT,E,B,mv_1452_image_T_r0,mv_1452_evidence_T_r0
+1454,visual_family_96b026df37a1f9966a1e,0,metric geometry - area,CORRECT,CORRECT,C,45,mv_1454_image_T_r0,mv_1454_evidence_T_r0
+1457,visual_family_63fd44eec460feb25809,0,logic,WRONG,WRONG,3,4,mv_1457_image_T_r0,mv_1457_evidence_T_r0
+1458,visual_family_c4da2d0f7e453e96af0d,0,metric geometry - angle,CORRECT,CORRECT,9,A,mv_1458_image_T_r0,mv_1458_evidence_T_r0
+1460,visual_family_f0efd410084e2634530f,0,logic,CORRECT,CORRECT,16,16,mv_1460_image_T_r0,mv_1460_evidence_T_r0
+1462,stage12xs_family_ef8176958a5581746e64,0,algebra,WRONG,CORRECT,4041,4045,mv_1462_image_T_r0,mv_1462_evidence_T_r0
+1463,visual_family_e6538a5ea68642542b0f,0,metric geometry - length,CORRECT,CORRECT,E,E,mv_1463_image_T_r0,mv_1463_evidence_T_r0
+1466,stage12xs_family_3527f0ce75e9aba010c9,0,transformation geometry,WRONG,WRONG,5,4,mv_1466_image_T_r0,mv_1466_evidence_T_r0
+1467,stage12xs_family_1a704120d08bd14e977b,0,algebra,CORRECT,CORRECT,12,12,mv_1467_image_T_r0,mv_1467_evidence_T_r0
+1470,visual_family_57fb0303e4a6845cd7a1,0,algebra,CORRECT,CORRECT,6,6,mv_1470_image_T_r0,mv_1470_evidence_T_r0
+1471,visual_family_11857182f03a0a822937,0,metric geometry - area,WRONG,CORRECT,33,17,mv_1471_image_T_r0,mv_1471_evidence_T_r0
+1475,visual_family_d3fb4415d5c03cf65449,0,logic,CORRECT,CORRECT,3,3,mv_1475_image_T_r0,mv_1475_evidence_T_r0
+1477,visual_family_e5ce886c0b0869006dc9,0,combinatorics,WRONG,CORRECT,10,20,mv_1477_image_T_r0,mv_1477_evidence_T_r0
+1478,visual_family_d5e0af3b301e38cbf143,0,metric geometry - area,WRONG,CORRECT,20,40,mv_1478_image_T_r0,mv_1478_evidence_T_r0
+1481,visual_family_f525eef4f03ab8198339,0,metric geometry - length,CORRECT,CORRECT,A,A,mv_1481_image_T_r0,mv_1481_evidence_T_r0
+1486,visual_family_248aa2bdd0032920ac9e,0,combinatorial geometry,CORRECT,CORRECT,D,D,mv_1486_image_T_r0,mv_1486_evidence_T_r0
+1495,visual_family_ad5ef4b29e148afd784d,0,graph theory,CORRECT,CORRECT,128,128,mv_1495_image_T_r0,mv_1495_evidence_T_r0
+1496,stage12xs_family_74d09fe0163d640e4ec7,0,logic,CORRECT,CORRECT,2,2,mv_1496_image_T_r0,mv_1496_evidence_T_r0
+1499,visual_family_a3d0c75739a3c6a80dcb,0,metric geometry - length,WRONG,WRONG,24,42,mv_1499_image_T_r0,mv_1499_evidence_T_r0
+1503,visual_family_a3513549948fbfecfa1f,0,descriptive geometry,CORRECT,CORRECT,E,E,mv_1503_image_T_r0,mv_1503_evidence_T_r0
+1505,stage12xs_family_3b95798eb70ef6d7f722,0,algebra,WRONG,CORRECT,33,36,mv_1505_image_T_r0,mv_1505_evidence_T_r0
+1509,visual_family_7054d0451000f27e0673,0,combinatorial geometry,WRONG,CORRECT,3,2,mv_1509_image_T_r0,mv_1509_evidence_T_r0
+1511,visual_family_0d0c9bc37ae955b26c8b,0,transformation geometry,WRONG,UNSCORABLE,5,,mv_1511_image_T_r0,mv_1511_evidence_T_r0
+1513,visual_family_b695396d3070a538dafa,0,algebra,CORRECT,CORRECT,42,42,mv_1513_image_T_r0,mv_1513_evidence_T_r0
+1521,visual_family_9674b1f53ad3b01c8b4e,0,algebra,WRONG,WRONG,D,E,mv_1521_image_T_r0,mv_1521_evidence_T_r0
+1522,visual_family_ff231d4dee9c91e9ead0,0,metric geometry - area,CORRECT,WRONG,16,\frac{16}{9},mv_1522_image_T_r0,mv_1522_evidence_T_r0
+1525,stage12xs_family_b3f1d5118a48c2d26bdd,0,metric geometry - area,WRONG,CORRECT,C,E,mv_1525_image_T_r0,mv_1525_evidence_T_r0
+1527,visual_family_46ff18131a6daf2839e2,0,metric geometry - angle,WRONG,WRONG,12,12,mv_1527_image_T_r0,mv_1527_evidence_T_r0
+1528,visual_family_7e46d737fdcad87443ca,0,metric geometry - length,CORRECT,CORRECT,A,A,mv_1528_image_T_r0,mv_1528_evidence_T_r0
+1531,visual_family_f1294f35f19846cd0125,0,algebra,WRONG,CORRECT,\text{C},A,mv_1531_image_T_r0,mv_1531_evidence_T_r0
+1535,visual_family_7ab74ac64fd9a732609f,0,logic,CORRECT,CORRECT,E,E,mv_1535_image_T_r0,mv_1535_evidence_T_r0
+1536,stage12xs_family_90815b97f738fc3f3dec,0,metric geometry - length,CORRECT,CORRECT,18,18,mv_1536_image_T_r0,mv_1536_evidence_T_r0
+1537,visual_family_6a27eece1c1658b237ae,0,graph theory,WRONG,CORRECT,10,12,mv_1537_image_T_r0,mv_1537_evidence_T_r0
+1538,visual_family_0f8e631d28e2a339b435,0,algebra,CORRECT,CORRECT,124,124,mv_1538_image_T_r0,mv_1538_evidence_T_r0
+1540,stage12xs_family_cf4be4b402ea613fc26c,0,algebra,CORRECT,CORRECT,E,E,mv_1540_image_T_r0,mv_1540_evidence_T_r0
+1541,visual_family_477e2d13152129e72c4a,0,combinatorial geometry,CORRECT,CORRECT,E,E,mv_1541_image_T_r0,mv_1541_evidence_T_r0
+1543,visual_family_50a0a04f2d67b4a26d3a,0,metric geometry - length,WRONG,CORRECT,150,100,mv_1543_image_T_r0,mv_1543_evidence_T_r0
+1544,visual_family_194af3b3d7b007443c26,0,metric geometry - length,CORRECT,CORRECT,96,96,mv_1544_image_T_r0,mv_1544_evidence_T_r0
+1546,stage12xs_family_2541d604fe897e613edc,0,metric geometry - angle,CORRECT,CORRECT,D,D,mv_1546_image_T_r0,mv_1546_evidence_T_r0
+1548,visual_family_0b971bd7b579983f0878,0,metric geometry - area,CORRECT,CORRECT,2,2,mv_1548_image_T_r0,mv_1548_evidence_T_r0
+1549,visual_family_75abf1771c0d9038e452,0,combinatorics,CORRECT,CORRECT,14,14,mv_1549_image_T_r0,mv_1549_evidence_T_r0
+1550,visual_family_c27484c7087191b29f05,0,metric geometry - length,CORRECT,WRONG,D,E,mv_1550_image_T_r0,mv_1550_evidence_T_r0
+1552,visual_family_51e6811411165c04f691,0,combinatorial geometry,CORRECT,CORRECT,4,4,mv_1552_image_T_r0,mv_1552_evidence_T_r0
+1556,visual_family_46b724b2f85d4f7bd485,0,algebra,CORRECT,CORRECT,864,864,mv_1556_image_T_r0,mv_1556_evidence_T_r0
+1566,visual_family_a9ffbdf317b2dabf198f,0,algebra,WRONG,CORRECT,80,92,mv_1566_image_T_r0,mv_1566_evidence_T_r0
+1567,visual_family_0651ee70db05737d7195,0,solid geometry,CORRECT,CORRECT,6,6,mv_1567_image_T_r0,mv_1567_evidence_T_r0
+1568,stage12xs_family_b8c0b73349b8cc491128,0,algebra,WRONG,CORRECT,C,\text{A},mv_1568_image_T_r0,mv_1568_evidence_T_r0
+1578,visual_family_c6437e0ba0560952cb94,0,algebra,CORRECT,CORRECT,16,16,mv_1578_image_T_r0,mv_1578_evidence_T_r0
+1579,visual_family_acceba98ba56b87a65ad,0,combinatorial geometry,WRONG,CORRECT,18,11,mv_1579_image_T_r0,mv_1579_evidence_T_r0
+1583,stage12xs_family_97568a50501628bcd9d2,0,metric geometry - area,CORRECT,CORRECT,D,D,mv_1583_image_T_r0,mv_1583_evidence_T_r0
+1588,visual_family_d24eac45e69be063cc00,0,combinatorics,WRONG,CORRECT,6,4,mv_1588_image_T_r0,mv_1588_evidence_T_r0
+1591,stage12xs_family_be951b307a4b18a4e38d,0,algebra,CORRECT,CORRECT,60,60,mv_1591_image_T_r0,mv_1591_evidence_T_r0
+1592,visual_family_8cca04ee02b8915f60a6,0,metric geometry - angle,CORRECT,CORRECT,51,51,mv_1592_image_T_r0,mv_1592_evidence_T_r0
+1594,stage12xs_family_102e9eb2f484f08d2e70,0,solid geometry,WRONG,CORRECT,A,B,mv_1594_image_T_r0,mv_1594_evidence_T_r0
+1600,visual_family_b458944d9ec4322f9ff0,0,metric geometry - angle,WRONG,CORRECT,B,\text{E},mv_1600_image_T_r0,mv_1600_evidence_T_r0
+1604,stage12xs_family_c04c5d3c16f69fa3b456,0,combinatorial geometry,WRONG,CORRECT,\text{A. } 96 \text{ cm}^2,84,mv_1604_image_T_r0,mv_1604_evidence_T_r0
+1609,visual_family_86cb35a822329fe1de40,0,combinatorial geometry,WRONG,CORRECT,8,6,mv_1609_image_T_r0,mv_1609_evidence_T_r0
+1625,stage12xs_family_0348af0f173ba37f1235,0,metric geometry - length,WRONG,CORRECT,C,\text{D},mv_1625_image_T_r0,mv_1625_evidence_T_r0
+1629,visual_family_d4a66133ca14d9c93ec5,0,metric geometry - area,WRONG,CORRECT,200 - 50\pi,100,mv_1629_image_T_r0,mv_1629_evidence_T_r0
+1630,visual_family_e1406f532a84b02f7b76,0,combinatorics,CORRECT,CORRECT,6,6,mv_1630_image_T_r0,mv_1630_evidence_T_r0
+1632,stage12xs_family_a15894063131361ddc5a,0,transformation geometry,WRONG,CORRECT,C,\text{D},mv_1632_image_T_r0,mv_1632_evidence_T_r0
+1633,visual_family_41baf55616a693d1be27,0,solid geometry,CORRECT,CORRECT,105,105,mv_1633_image_T_r0,mv_1633_evidence_T_r0
+1637,visual_family_274e64235a5fb9590afa,0,algebra,WRONG,CORRECT,134,118,mv_1637_image_T_r0,mv_1637_evidence_T_r0
+1644,stage12xs_family_f2d3b472daad89780e64,0,logic,WRONG,CORRECT,23,22,mv_1644_image_T_r0,mv_1644_evidence_T_r0
+1645,visual_family_7e5cb8429dce239403fe,0,counting,WRONG,CORRECT,15,18,mv_1645_image_T_r0,mv_1645_evidence_T_r0
+1646,visual_family_c4c9f099e7a471df3389,0,metric geometry - area,WRONG,CORRECT,88.89,32,mv_1646_image_T_r0,mv_1646_evidence_T_r0
+1654,visual_family_26e8901648f5f25fb4d1,0,algebra,CORRECT,CORRECT,6,6,mv_1654_image_T_r0,mv_1654_evidence_T_r0
+1655,stage12xs_family_c310546d05f25e21d4f6,0,metric geometry - angle,CORRECT,CORRECT,A,\text{A},mv_1655_image_T_r0,mv_1655_evidence_T_r0
+1657,visual_family_14c54242e8185b507bc9,0,solid geometry,WRONG,WRONG,210,126,mv_1657_image_T_r0,mv_1657_evidence_T_r0
+1661,stage12xs_family_512102a587fd6ed0790e,0,algebra,WRONG,CORRECT,10,7,mv_1661_image_T_r0,mv_1661_evidence_T_r0
+1668,visual_family_328c58f0f1726122097e,0,transformation geometry,WRONG,CORRECT,4,5,mv_1668_image_T_r0,mv_1668_evidence_T_r0
+1672,visual_family_e2d6297ca63ddeb384f9,0,graph theory,WRONG,CORRECT,\text{E},\text{A},mv_1672_image_T_r0,mv_1672_evidence_T_r0
+1675,visual_family_38f13ba4550b60ae975c,0,combinatorial geometry,WRONG,WRONG,1,6,mv_1675_image_T_r0,mv_1675_evidence_T_r0
+1676,visual_family_df6822cd01387e05c8ea,0,algebra,CORRECT,CORRECT,43,43,mv_1676_image_T_r0,mv_1676_evidence_T_r0
+1677,visual_family_3b3e8459061b066c6635,0,metric geometry - length,CORRECT,CORRECT,A,\text{A},mv_1677_image_T_r0,mv_1677_evidence_T_r0
+1679,visual_family_b93e56aec7724213a91e,0,metric geometry - area,CORRECT,CORRECT,A,\text{A},mv_1679_image_T_r0,mv_1679_evidence_T_r0
+1681,stage12xs_family_ee968d910736616f10ed,0,transformation geometry,CORRECT,WRONG,A,D,mv_1681_image_T_r0,mv_1681_evidence_T_r0
+1682,visual_family_39fb5bd005525dbf0482,0,statistics,CORRECT,CORRECT,1,1,mv_1682_image_T_r0,mv_1682_evidence_T_r0
+1684,visual_family_2f351206009bd31541b5,0,logic,CORRECT,CORRECT,3,3,mv_1684_image_T_r0,mv_1684_evidence_T_r0
+1694,stage12xs_family_72d0c011f2ee57afc3b4,0,combinatorics,CORRECT,CORRECT,1,1,mv_1694_image_T_r0,mv_1694_evidence_T_r0
+1696,visual_family_54899c1613cba57ff4e5,0,logic,WRONG,CORRECT,A,B,mv_1696_image_T_r0,mv_1696_evidence_T_r0
+1697,visual_family_d464f7141af4a42f6579,0,combinatorics,WRONG,CORRECT,50,58,mv_1697_image_T_r0,mv_1697_evidence_T_r0
+1698,visual_family_2fe98face8187bcd9a09,0,metric geometry - area,WRONG,CORRECT,18,48,mv_1698_image_T_r0,mv_1698_evidence_T_r0
+1703,stage12xs_family_5a01d4563ccfae46ee3b,0,solid geometry,CORRECT,CORRECT,54,54,mv_1703_image_T_r0,mv_1703_evidence_T_r0
+1705,visual_family_38bc3d1c4787dd15fb6b,0,metric geometry - angle,CORRECT,CORRECT,36,36,mv_1705_image_T_r0,mv_1705_evidence_T_r0
+1709,visual_family_e41fbda961c9b0a19e12,0,combinatorics,CORRECT,CORRECT,7,7,mv_1709_image_T_r0,mv_1709_evidence_T_r0
+1719,visual_family_f3814d9bc40cd9a34554,0,algebra,WRONG,CORRECT,172,82,mv_1719_image_T_r0,mv_1719_evidence_T_r0
+1720,visual_family_c96aa733b75e278342e3,0,combinatorics,CORRECT,WRONG,70,24,mv_1720_image_T_r0,mv_1720_evidence_T_r0
+1722,visual_family_cdb1cf26ad261fb2b601,0,algebra,WRONG,CORRECT,9,6,mv_1722_image_T_r0,mv_1722_evidence_T_r0
+1724,visual_family_41a5bf614853fabc117e,0,metric geometry - length,CORRECT,CORRECT,\text{C},C,mv_1724_image_T_r0,mv_1724_evidence_T_r0
+1725,visual_family_be322fb77d654ad524a7,0,algebra,CORRECT,CORRECT,421,421,mv_1725_image_T_r0,mv_1725_evidence_T_r0
+1726,visual_family_2f11192801e83bf30f01,0,descriptive geometry,CORRECT,CORRECT,540,540,mv_1726_image_T_r0,mv_1726_evidence_T_r0
+1730,visual_family_dab2e78c8b5b1d04c099,0,metric geometry - length,CORRECT,CORRECT,D,D. \ 160 \text{ cm},mv_1730_image_T_r0,mv_1730_evidence_T_r0
+1733,visual_family_8b0ae2d638c19a4186bd,0,graph theory,WRONG,CORRECT,2,6,mv_1733_image_T_r0,mv_1733_evidence_T_r0
+1736,visual_family_96a1a93e19030f5f9378,0,algebra,CORRECT,CORRECT,16,16,mv_1736_image_T_r0,mv_1736_evidence_T_r0
+1737,visual_family_6d271914b437b2dacc23,0,combinatorics,CORRECT,CORRECT,4,4,mv_1737_image_T_r0,mv_1737_evidence_T_r0
+1738,visual_family_30606ac3b4fd5c618ac4,0,combinatorics,CORRECT,CORRECT,4,4,mv_1738_image_T_r0,mv_1738_evidence_T_r0
+1741,visual_family_1828526428f17576e658,0,metric geometry - angle,CORRECT,CORRECT,5,5,mv_1741_image_T_r0,mv_1741_evidence_T_r0
+1743,visual_family_acff539c0d5cd0d34613,0,metric geometry - length,CORRECT,CORRECT,D,D,mv_1743_image_T_r0,mv_1743_evidence_T_r0
+1744,visual_family_0c75ccaac28120811983,0,combinatorial geometry,CORRECT,CORRECT,B,B,mv_1744_image_T_r0,mv_1744_evidence_T_r0
+1748,visual_family_03d0925ac4f53b4b02d6,0,combinatorial geometry,WRONG,CORRECT,C,E,mv_1748_image_T_r0,mv_1748_evidence_T_r0
+1754,visual_family_a6d4096b24cd4ad24ea6,0,logic,CORRECT,CORRECT,B,B,mv_1754_image_T_r0,mv_1754_evidence_T_r0
+1760,visual_family_d2388821e8b13716fc4a,0,algebra,CORRECT,CORRECT,11,11,mv_1760_image_T_r0,mv_1760_evidence_T_r0
+1764,visual_family_9f273a349b224b830bf8,0,logic,CORRECT,CORRECT,5,5,mv_1764_image_T_r0,mv_1764_evidence_T_r0
+1765,stage12xs_family_97047d4eb8ae861f9084,0,metric geometry - length,CORRECT,CORRECT,C,\text{C},mv_1765_image_T_r0,mv_1765_evidence_T_r0
+1767,visual_family_eb25198438a00b734ec6,0,algebra,CORRECT,CORRECT,23,23,mv_1767_image_T_r0,mv_1767_evidence_T_r0
+1769,visual_family_eb861137efa007794537,0,algebra,CORRECT,CORRECT,20,20,mv_1769_image_T_r0,mv_1769_evidence_T_r0
+1771,visual_family_678fdf60f09b909c910d,0,graph theory,WRONG,WRONG,D,B,mv_1771_image_T_r0,mv_1771_evidence_T_r0
+1772,visual_family_717500ab9857a9da8711,0,arithmetic,WRONG,WRONG,37,148,mv_1772_image_T_r0,mv_1772_evidence_T_r0
+1780,visual_family_d8d0dedb4bda4204d0b5,0,logic,WRONG,CORRECT,C,B,mv_1780_image_T_r0,mv_1780_evidence_T_r0
+1782,visual_family_72b31cf00f8ab3967588,0,combinatorial geometry,WRONG,CORRECT,10,20,mv_1782_image_T_r0,mv_1782_evidence_T_r0
+1788,stage12xs_family_98dfd669933922b41bd6,0,combinatorics,CORRECT,CORRECT,4,4,mv_1788_image_T_r0,mv_1788_evidence_T_r0
+1790,visual_family_61dd8cd59a50bdaed10c,0,algebra,CORRECT,CORRECT,4,4,mv_1790_image_T_r0,mv_1790_evidence_T_r0
+1791,visual_family_d62e1c294189ca3ba7b7,0,graph theory,UNSCORABLE,WRONG,,5,mv_1791_image_T_r0,mv_1791_evidence_T_r0
+1793,visual_family_873bd5e10c28890f7e74,0,combinatorial geometry,CORRECT,CORRECT,4,4,mv_1793_image_T_r0,mv_1793_evidence_T_r0
+1799,visual_family_63a4b69673ba773821ec,0,combinatorics,CORRECT,WRONG,68,66,mv_1799_image_T_r0,mv_1799_evidence_T_r0
+1806,visual_family_a78000a5ff6306012360,0,transformation geometry,CORRECT,WRONG,C,\text{D},mv_1806_image_T_r0,mv_1806_evidence_T_r0
+1811,stage12xs_family_36075aa5e978a03a7931,0,solid geometry,WRONG,WRONG,\text{E},\text{E},mv_1811_image_T_r0,mv_1811_evidence_T_r0
+1814,visual_family_2c674047a16dab9c7804,0,statistics,CORRECT,WRONG,3,4,mv_1814_image_T_r0,mv_1814_evidence_T_r0
+1816,visual_family_36c321ad538f860b4e28,0,metric geometry - length,CORRECT,CORRECT,4,4,mv_1816_image_T_r0,mv_1816_evidence_T_r0
+1821,visual_family_3c98b2624d1e35016ae3,0,algebra,CORRECT,CORRECT,42,42,mv_1821_image_T_r0,mv_1821_evidence_T_r0
+1824,visual_family_2ced184d847746598759,0,solid geometry,WRONG,CORRECT,1,6,mv_1824_image_T_r0,mv_1824_evidence_T_r0
+1828,visual_family_4f6ceab7942f9dece7e2,0,metric geometry - length,WRONG,CORRECT,13,7,mv_1828_image_T_r0,mv_1828_evidence_T_r0
+1829,visual_family_19e639b064bdb018bbf3,0,algebra,CORRECT,CORRECT,9,9,mv_1829_image_T_r0,mv_1829_evidence_T_r0
+1833,visual_family_75d5c2fc7a17169c47ed,0,solid geometry,WRONG,CORRECT,28,27,mv_1833_image_T_r0,mv_1833_evidence_T_r0
+1835,visual_family_b18a5e6b50af3073f63a,0,algebra,CORRECT,CORRECT,110,110,mv_1835_image_T_r0,mv_1835_evidence_T_r0
+1840,stage12xs_family_ed79f5b36813bda0de3b,0,metric geometry - length,CORRECT,CORRECT,D,D,mv_1840_image_T_r0,mv_1840_evidence_T_r0
+1841,visual_family_9e645831962e43f534af,0,combinatorics,CORRECT,CORRECT,D,D,mv_1841_image_T_r0,mv_1841_evidence_T_r0
+1848,visual_family_33afd662cef42c907d9b,0,algebra,CORRECT,CORRECT,6,6,mv_1848_image_T_r0,mv_1848_evidence_T_r0
+1859,visual_family_b6ac68827c32efbd6250,0,combinatorial geometry,CORRECT,CORRECT,E,\text{E},mv_1859_image_T_r0,mv_1859_evidence_T_r0
+1863,visual_family_9b5173ba93decd311f89,0,analytic geometry,WRONG,CORRECT,C,D,mv_1863_image_T_r0,mv_1863_evidence_T_r0
+1864,visual_family_d9521266ec778d833335,0,transformation geometry,CORRECT,CORRECT,3,3,mv_1864_image_T_r0,mv_1864_evidence_T_r0
+1868,visual_family_8c9eda5bb5b3cc9e59a1,0,metric geometry - length,WRONG,CORRECT,2,6,mv_1868_image_T_r0,mv_1868_evidence_T_r0
+1871,visual_family_51f8abfe29ee9821b572,0,transformation geometry,CORRECT,CORRECT,\text{C},\text{C},mv_1871_image_T_r0,mv_1871_evidence_T_r0
+1876,visual_family_1421ff611c93756cbc67,0,topology,WRONG,CORRECT,E,\text{A},mv_1876_image_T_r0,mv_1876_evidence_T_r0
+1877,visual_family_d8d1713dc58165124916,0,solid geometry,WRONG,WRONG,450,900,mv_1877_image_T_r0,mv_1877_evidence_T_r0
+1880,visual_family_cdc8d01a6ab341278ee6,0,metric geometry - length,CORRECT,CORRECT,12,12,mv_1880_image_T_r0,mv_1880_evidence_T_r0
+1886,visual_family_13b4088f2f9a285e2212,0,graph theory,CORRECT,CORRECT,64,64,mv_1886_image_T_r0,mv_1886_evidence_T_r0
+1890,stage12xs_family_c0e9d5d20a8ef5f97521,0,transformation geometry,CORRECT,CORRECT,D,D,mv_1890_image_T_r0,mv_1890_evidence_T_r0
+1895,visual_family_5932cb6e58ef979208d6,0,combinatorics,WRONG,CORRECT,90,12,mv_1895_image_T_r0,mv_1895_evidence_T_r0
+1896,visual_family_9ce04d52aafc9d73c0ce,0,combinatorics,CORRECT,WRONG,3,24,mv_1896_image_T_r0,mv_1896_evidence_T_r0
+1901,visual_family_a56b54e1c5933a83f79b,0,graph theory,WRONG,CORRECT,3,9,mv_1901_image_T_r0,mv_1901_evidence_T_r0
+1902,visual_family_489ca219174f91b48313,0,solid geometry,WRONG,WRONG,17,13,mv_1902_image_T_r0,mv_1902_evidence_T_r0
+1909,visual_family_8e614d39a1f1279958da,0,metric geometry - area,WRONG,CORRECT,50,25,mv_1909_image_T_r0,mv_1909_evidence_T_r0
+1910,visual_family_a64332fe1df1790cb79d,0,algebra,CORRECT,CORRECT,A,\text{A},mv_1910_image_T_r0,mv_1910_evidence_T_r0
+1911,visual_family_dc4bc886825c446e6ae0,0,arithmetic,CORRECT,CORRECT,0,0,mv_1911_image_T_r0,mv_1911_evidence_T_r0
+1917,stage12xs_family_bc5203e2e6c6610f3694,0,solid geometry,CORRECT,CORRECT,B,B,mv_1917_image_T_r0,mv_1917_evidence_T_r0
+1927,stage12xs_family_ef584fc156a2acdd0966,0,metric geometry - length,CORRECT,CORRECT,6,6,mv_1927_image_T_r0,mv_1927_evidence_T_r0
+1932,visual_family_01a0123885ebec5b37b5,0,combinatorics,WRONG,CORRECT,6,16,mv_1932_image_T_r0,mv_1932_evidence_T_r0
+1933,visual_family_c8c817e80216ce409c63,0,metric geometry - area,WRONG,CORRECT,12 - 2\pi,8,mv_1933_image_T_r0,mv_1933_evidence_T_r0
+1936,stage12xs_family_71935f5f6842b9c25951,0,algebra,WRONG,CORRECT,2,38,mv_1936_image_T_r0,mv_1936_evidence_T_r0
+1938,visual_family_15593b579ff02710d8e2,0,metric geometry - angle,WRONG,CORRECT,D,B,mv_1938_image_T_r0,mv_1938_evidence_T_r0
+1942,stage12xs_family_abf26e095f1f473e61a8,0,metric geometry - length,CORRECT,CORRECT,\text{C. } \frac{10 \pi R}{3},\text{C. } \frac{10 \pi R}{3},mv_1942_image_T_r0,mv_1942_evidence_T_r0
+1948,visual_family_03b0bd366e8184f8d871,0,algebra,CORRECT,CORRECT,158,158,mv_1948_image_T_r0,mv_1948_evidence_T_r0
+1951,visual_family_3510a92fc7dd04f69b1a,0,metric geometry - angle,WRONG,WRONG,B,\text{B},mv_1951_image_T_r0,mv_1951_evidence_T_r0
+1952,visual_family_6ed701cfedb16ebd91b2,0,metric geometry - length,CORRECT,CORRECT,D,D,mv_1952_image_T_r0,mv_1952_evidence_T_r0
+1955,visual_family_b53a7292b38e011dbe6e,0,metric geometry - angle,WRONG,CORRECT,A,72^\circ,mv_1955_image_T_r0,mv_1955_evidence_T_r0
+1962,stage12xs_family_e2a5c5abbf6d00d88c74,0,combinatorics,CORRECT,CORRECT,5,5,mv_1962_image_T_r0,mv_1962_evidence_T_r0
+1964,visual_family_ed823ec32c5d4e9ca9dd,0,metric geometry - area,WRONG,CORRECT,\frac{81}{4},18,mv_1964_image_T_r0,mv_1964_evidence_T_r0
+1965,visual_family_d7c7673ba8ca7b0f04b1,0,metric geometry - length,CORRECT,CORRECT,E,\sqrt{3}:1,mv_1965_image_T_r0,mv_1965_evidence_T_r0
+1966,stage12xs_family_e053812962c31929db07,0,arithmetic,CORRECT,CORRECT,9,9,mv_1966_image_T_r0,mv_1966_evidence_T_r0
+1970,visual_family_ad1f3889d0032e7c2791,0,algebra,CORRECT,CORRECT,3,3,mv_1970_image_T_r0,mv_1970_evidence_T_r0
+1972,visual_family_0a95adbf8581859ae0cc,0,combinatorics,WRONG,CORRECT,6,5,mv_1972_image_T_r0,mv_1972_evidence_T_r0
+1978,visual_family_46635b56d3c7f0b7bb26,0,metric geometry - area,WRONG,CORRECT,10,20,mv_1978_image_T_r0,mv_1978_evidence_T_r0
+1985,visual_family_78e370b587b145920213,0,algebra,CORRECT,CORRECT,4,4,mv_1985_image_T_r0,mv_1985_evidence_T_r0
+1986,visual_family_52176dd6cf9154bf8026,0,metric geometry - area,WRONG,CORRECT,D,500 \text{ cm}^2,mv_1986_image_T_r0,mv_1986_evidence_T_r0
+1990,visual_family_a7be8e1fe282a37cd666,0,combinatorics,CORRECT,CORRECT,84,84,mv_1990_image_T_r0,mv_1990_evidence_T_r0
+1991,visual_family_8e9b669109df89620b94,0,metric geometry - length,CORRECT,CORRECT,B,B. \ 26 \text{ km},mv_1991_image_T_r0,mv_1991_evidence_T_r0
+1996,visual_family_3d1e557b540ac045b3b3,0,metric geometry - length,WRONG,CORRECT,68,52,mv_1996_image_T_r0,mv_1996_evidence_T_r0
+2000,visual_family_81a83544cf93c245178c,0,arithmetic,CORRECT,CORRECT,950,950,mv_2000_image_T_r0,mv_2000_evidence_T_r0
+2002,visual_family_6c94e35ccc352d4e9ef0,0,metric geometry - area,CORRECT,CORRECT,256,256,mv_2002_image_T_r0,mv_2002_evidence_T_r0
+2006,visual_family_6f6a4e56098cfd9af29e,0,algebra,WRONG,CORRECT,55,132,mv_2006_image_T_r0,mv_2006_evidence_T_r0
+2007,visual_family_f1cfa5ebb149e8099d56,0,metric geometry - length,WRONG,CORRECT,432,216,mv_2007_image_T_r0,mv_2007_evidence_T_r0
+2009,visual_family_f37f3f2b0dc57a86dee4,0,metric geometry - angle,CORRECT,CORRECT,276,276,mv_2009_image_T_r0,mv_2009_evidence_T_r0
+2012,visual_family_4b9a7f50c0bb198c6f54,0,metric geometry - area,WRONG,CORRECT,84,121,mv_2012_image_T_r0,mv_2012_evidence_T_r0
+2019,visual_family_023e33504ab909cf87a6,0,metric geometry - angle,CORRECT,CORRECT,94,94,mv_2019_image_T_r0,mv_2019_evidence_T_r0
+2020,stage12xs_family_417a4208d6fab0c565c5,0,logic,WRONG,CORRECT,377,295,mv_2020_image_T_r0,mv_2020_evidence_T_r0
+2021,visual_family_1bea20e1df19b1201397,0,solid geometry,CORRECT,CORRECT,400,400,mv_2021_image_T_r0,mv_2021_evidence_T_r0
+2025,visual_family_b2b2f104d32c638903e1,0,graph theory,CORRECT,CORRECT,3,3,mv_2025_image_T_r0,mv_2025_evidence_T_r0
+2035,visual_family_c7c1b4da9b9f745dff12,0,metric geometry - length,CORRECT,CORRECT,26,26,mv_2035_image_T_r0,mv_2035_evidence_T_r0
+2036,visual_family_97b3e84b5db5f23c51da,0,solid geometry,WRONG,CORRECT,216,288,mv_2036_image_T_r0,mv_2036_evidence_T_r0
+2042,visual_family_d8ec3903c81cc4f2c290,0,solid geometry,WRONG,WRONG,1728,216,mv_2042_image_T_r0,mv_2042_evidence_T_r0
+2043,visual_family_0dfcebf485c29dd65394,0,metric geometry - length,CORRECT,CORRECT,193,193,mv_2043_image_T_r0,mv_2043_evidence_T_r0
+2045,visual_family_5997fffe609051d65f99,0,metric geometry - length,WRONG,CORRECT,18480,462,mv_2045_image_T_r0,mv_2045_evidence_T_r0
+2047,visual_family_adde7bf0e33b11361d40,0,algebra,CORRECT,CORRECT,142,142,mv_2047_image_T_r0,mv_2047_evidence_T_r0
+2053,visual_family_e5baabbb54bcea599793,0,metric geometry - area,CORRECT,WRONG,135,12,mv_2053_image_T_r0,mv_2053_evidence_T_r0
+2056,visual_family_88100ba34db736c9adec,0,transformation geometry,WRONG,WRONG,36,80,mv_2056_image_T_r0,mv_2056_evidence_T_r0
+2059,visual_family_bef7b4d1c3d67bc9afe7,0,algebra,CORRECT,CORRECT,200,200,mv_2059_image_T_r0,mv_2059_evidence_T_r0
+2060,visual_family_28e7234668777f9ed7a6,0,transformation geometry,WRONG,CORRECT,18034,185,mv_2060_image_T_r0,mv_2060_evidence_T_r0
+2062,visual_family_8efb3a60255de6db1c77,0,metric geometry - length,CORRECT,CORRECT,154,154,mv_2062_image_T_r0,mv_2062_evidence_T_r0
+2063,visual_family_e0ccc43c9b15159c7ad9,0,metric geometry - area,CORRECT,CORRECT,148,148,mv_2063_image_T_r0,mv_2063_evidence_T_r0
+2064,visual_family_a0119e19d7f710c15872,0,metric geometry - area,WRONG,WRONG,203,203,mv_2064_image_T_r0,mv_2064_evidence_T_r0
+2066,visual_family_6b32c01a019bd349ff3c,0,metric geometry - area,WRONG,CORRECT,17,408,mv_2066_image_T_r0,mv_2066_evidence_T_r0
+2067,visual_family_374224fbb80782ef115a,0,metric geometry - area,CORRECT,WRONG,89,44,mv_2067_image_T_r0,mv_2067_evidence_T_r0
+2068,visual_family_9bbf7a2c2940b4c95ea4,0,analytic geometry,UNSCORABLE,WRONG,,281,mv_2068_image_T_r0,mv_2068_evidence_T_r0
+2075,visual_family_b4106e79a7db2401426a,0,metric geometry - length,CORRECT,CORRECT,32,32,mv_2075_image_T_r0,mv_2075_evidence_T_r0
+2078,visual_family_d58cabc8303548b6ec23,0,solid geometry,CORRECT,CORRECT,89,89,mv_2078_image_T_r0,mv_2078_evidence_T_r0
+2080,visual_family_4e49800fbc3cefb76b1b,0,transformation geometry,CORRECT,CORRECT,429,429,mv_2080_image_T_r0,mv_2080_evidence_T_r0
+2084,visual_family_8032b67b62f573e47ebc,0,metric geometry - area,CORRECT,WRONG,720,405,mv_2084_image_T_r0,mv_2084_evidence_T_r0
+2096,visual_family_b72653265c6bad2943d9,0,metric geometry - area,WRONG,CORRECT,121,109,mv_2096_image_T_r0,mv_2096_evidence_T_r0
+2111,visual_family_f5095cd644fbe157a3eb,0,combinatorics,CORRECT,CORRECT,B,B,mv_2111_image_T_r0,mv_2111_evidence_T_r0
+2116,visual_family_ef13ebc3a57a1b51c17b,0,metric geometry - area,WRONG,CORRECT,C,D,mv_2116_image_T_r0,mv_2116_evidence_T_r0
+2122,visual_family_589f5ed0ac1c85dfee59,0,solid geometry,WRONG,WRONG,4,4,mv_2122_image_T_r0,mv_2122_evidence_T_r0
+2128,visual_family_8f96a045c9a91a2d1923,0,metric geometry - area,CORRECT,CORRECT,E,E,mv_2128_image_T_r0,mv_2128_evidence_T_r0
+2134,visual_family_daab3aa68185b677bd3c,0,solid geometry,CORRECT,CORRECT,C,C,mv_2134_image_T_r0,mv_2134_evidence_T_r0
+2136,visual_family_907bdcbc11fea6b08668,0,metric geometry - angle,CORRECT,CORRECT,\frac{\pi}{7},B,mv_2136_image_T_r0,mv_2136_evidence_T_r0
+2146,visual_family_2570ce03b300309d1f8d,0,transformation geometry,WRONG,WRONG,C,C,mv_2146_image_T_r0,mv_2146_evidence_T_r0
+2150,visual_family_81b187544ef8734d6c36,0,combinatorial geometry,WRONG,CORRECT,5,6,mv_2150_image_T_r0,mv_2150_evidence_T_r0
+2151,visual_family_ec2f62c81490e1293397,0,metric geometry - area,CORRECT,CORRECT,\text{C},\text{C},mv_2151_image_T_r0,mv_2151_evidence_T_r0
+2169,visual_family_e2135c76ca7863e51154,0,algebra,CORRECT,CORRECT,761,761,mv_2169_image_T_r0,mv_2169_evidence_T_r0
+2174,visual_family_a41b6fde8b2182b733b4,0,analytic geometry,WRONG,CORRECT,\text{D},\frac{2}{3},mv_2174_image_T_r0,mv_2174_evidence_T_r0
+2176,visual_family_396b8e65a84afe48d62b,0,metric geometry - area,CORRECT,CORRECT,B,\frac{32}{5},mv_2176_image_T_r0,mv_2176_evidence_T_r0
+2181,visual_family_c060be6d9bf1df2389eb,0,combinatorial geometry,CORRECT,CORRECT,\text{A},A,mv_2181_image_T_r0,mv_2181_evidence_T_r0
+2182,visual_family_93989d0f14e7ec638a3c,0,metric geometry - angle,CORRECT,CORRECT,130,130,mv_2182_image_T_r0,mv_2182_evidence_T_r0
+2184,visual_family_8e4e975f902448d84ed0,0,metric geometry - area,WRONG,WRONG,B,B,mv_2184_image_T_r0,mv_2184_evidence_T_r0
+2187,visual_family_2d2c33c52e3df492704c,0,graph theory,WRONG,WRONG,10,12,mv_2187_image_T_r0,mv_2187_evidence_T_r0
+2197,visual_family_2bbb0ed9e59348786521,0,metric geometry - length,CORRECT,CORRECT,26,26,mv_2197_image_T_r0,mv_2197_evidence_T_r0
+2202,visual_family_9c11478199c6330a2002,0,algebra,WRONG,CORRECT,27,22,mv_2202_image_T_r0,mv_2202_evidence_T_r0
+2206,visual_family_153ebeeacf6b8a97825b,0,solid geometry,CORRECT,CORRECT,10,B,mv_2206_image_T_r0,mv_2206_evidence_T_r0
+2212,visual_family_05c8bd5d4dcdb18b690e,0,metric geometry - area,CORRECT,CORRECT,78,78,mv_2212_image_T_r0,mv_2212_evidence_T_r0
+2213,visual_family_88cf986449b61aeba90a,0,combinatorics,CORRECT,CORRECT,12,12,mv_2213_image_T_r0,mv_2213_evidence_T_r0
+2220,visual_family_230ad27c6e6e27669363,0,solid geometry,CORRECT,CORRECT,E,E,mv_2220_image_T_r0,mv_2220_evidence_T_r0
+2222,visual_family_edee29f882543b956620,0,transformation geometry,WRONG,CORRECT,3,2,mv_2222_image_T_r0,mv_2222_evidence_T_r0
+2233,visual_family_bcac371b54f59945a14a,0,metric geometry - area,CORRECT,CORRECT,6,6,mv_2233_image_T_r0,mv_2233_evidence_T_r0
+2236,visual_family_740c59b88403e9ba9187,0,transformation geometry,UNSCORABLE,WRONG,,93,mv_2236_image_T_r0,mv_2236_evidence_T_r0
+2237,visual_family_7e62ce15499878ca883e,0,metric geometry - area,WRONG,CORRECT,13,67,mv_2237_image_T_r0,mv_2237_evidence_T_r0
+2239,visual_family_e0f1d28eabdbaab64916,0,algebra,WRONG,WRONG,46,379,mv_2239_image_T_r0,mv_2239_evidence_T_r0
+2240,visual_family_ec3fdcd8136188e3b476,0,metric geometry - area,WRONG,WRONG,24,15,mv_2240_image_T_r0,mv_2240_evidence_T_r0
+2242,visual_family_49fdfc988e29f9ff8c71,0,metric geometry - area,WRONG,WRONG,60,128,mv_2242_image_T_r0,mv_2242_evidence_T_r0
+2244,visual_family_8698df0ec492e5026b61,0,combinatorics,WRONG,CORRECT,1040,540,mv_2244_image_T_r0,mv_2244_evidence_T_r0
+2255,visual_family_899b9a314067a23557b5,0,metric geometry - area,WRONG,WRONG,B,\text{B},mv_2255_image_T_r0,mv_2255_evidence_T_r0
+2258,visual_family_ea215720034a4c3073d7,0,metric geometry - area,CORRECT,CORRECT,\text{C},\text{C},mv_2258_image_T_r0,mv_2258_evidence_T_r0
+2259,visual_family_2f5b70c621fdcb0de0dc,0,metric geometry - length,CORRECT,CORRECT,A,\text{A},mv_2259_image_T_r0,mv_2259_evidence_T_r0
+2260,visual_family_50181e9eff2dc4277148,0,metric geometry - angle,WRONG,CORRECT,\text{C},B,mv_2260_image_T_r0,mv_2260_evidence_T_r0
+2262,visual_family_891b18b759447efa6e51,0,metric geometry - angle,WRONG,CORRECT,\text{A},E,mv_2262_image_T_r0,mv_2262_evidence_T_r0
+2263,visual_family_2fec73f20596429e9b57,0,metric geometry - angle,WRONG,CORRECT,E,\text{A},mv_2263_image_T_r0,mv_2263_evidence_T_r0
+2268,visual_family_aeec2fcd27fcd1065100,0,metric geometry - length,CORRECT,CORRECT,A,A,mv_2268_image_T_r0,mv_2268_evidence_T_r0
+2271,visual_family_1f3b8e69941641383b83,0,metric geometry - area,CORRECT,CORRECT,E,E,mv_2271_image_T_r0,mv_2271_evidence_T_r0
+2272,visual_family_1134c0a7d44fdae1afd7,0,metric geometry - angle,CORRECT,CORRECT,E,E,mv_2272_image_T_r0,mv_2272_evidence_T_r0
+2273,visual_family_238f12f53f02e14ae4ee,0,metric geometry - length,CORRECT,CORRECT,D,D,mv_2273_image_T_r0,mv_2273_evidence_T_r0
+2274,visual_family_f11a7d64cc0201a4ba1e,0,metric geometry - length,CORRECT,CORRECT,C,\text{C},mv_2274_image_T_r0,mv_2274_evidence_T_r0
+2275,visual_family_2bc805107667db072da4,0,metric geometry - length,CORRECT,CORRECT,\text{A},\text{A},mv_2275_image_T_r0,mv_2275_evidence_T_r0
+2276,visual_family_131127203c89e8219dbd,0,metric geometry - angle,CORRECT,CORRECT,D,D,mv_2276_image_T_r0,mv_2276_evidence_T_r0
+2280,visual_family_27bb55ca7d1e8404f09f,0,metric geometry - length,CORRECT,CORRECT,D,D,mv_2280_image_T_r0,mv_2280_evidence_T_r0
+2283,visual_family_bfad68fe2ab8ee5e430d,0,metric geometry - angle,CORRECT,CORRECT,\text{E},E,mv_2283_image_T_r0,mv_2283_evidence_T_r0
+2289,visual_family_b830921ffa705bdb1983,0,metric geometry - area,CORRECT,CORRECT,D,D,mv_2289_image_T_r0,mv_2289_evidence_T_r0
+2294,visual_family_967ae5f964cddff3dcd4,0,metric geometry - angle,CORRECT,CORRECT,\text{C},\text{C. } 40^\circ,mv_2294_image_T_r0,mv_2294_evidence_T_r0
+2299,visual_family_84b564f96061f242d232,0,metric geometry - angle,WRONG,WRONG,8,8,mv_2299_image_T_r0,mv_2299_evidence_T_r0
+2302,visual_family_594686bcfe8a1c52aa5c,0,transformation geometry,CORRECT,CORRECT,A,A,mv_2302_image_T_r0,mv_2302_evidence_T_r0
+2314,visual_family_74bb05d20f937f744cbf,0,metric geometry - area,CORRECT,CORRECT,C,C,mv_2314_image_T_r0,mv_2314_evidence_T_r0
+2317,visual_family_2a3d4a80aa7481df2d65,0,metric geometry - angle,CORRECT,CORRECT,B,B,mv_2317_image_T_r0,mv_2317_evidence_T_r0
+2320,visual_family_bc3f8c15936c27ffae4c,0,logic,CORRECT,CORRECT,3,3,mv_2320_image_T_r0,mv_2320_evidence_T_r0
+2339,visual_family_ab7e67e9480cb9aecd20,0,metric geometry - length,CORRECT,CORRECT,30,30,mv_2339_image_T_r0,mv_2339_evidence_T_r0
+2341,visual_family_27d73d98c36f3dc0af6a,0,solid geometry,CORRECT,CORRECT,D,D,mv_2341_image_T_r0,mv_2341_evidence_T_r0
+2343,visual_family_0d2625cc8c9515a19bd1,0,metric geometry - length,CORRECT,CORRECT,A,A,mv_2343_image_T_r0,mv_2343_evidence_T_r0
+2344,visual_family_3b5aa0daf8ef42ee7df6,0,combinatorics,WRONG,WRONG,\text{C},\frac{4}{7},mv_2344_image_T_r0,mv_2344_evidence_T_r0
+2351,visual_family_9551dc186746041a3390,0,metric geometry - area,CORRECT,CORRECT,B,B,mv_2351_image_T_r0,mv_2351_evidence_T_r0
+2353,visual_family_a3d501a5be543bd449aa,0,metric geometry - length,CORRECT,CORRECT,D,D,mv_2353_image_T_r0,mv_2353_evidence_T_r0
+2354,visual_family_680f612e343a47d47b7c,0,algebra,WRONG,CORRECT,\text{A},B,mv_2354_image_T_r0,mv_2354_evidence_T_r0
+2360,visual_family_ba977edd7884f62cd595,0,algebra,CORRECT,CORRECT,C,C,mv_2360_image_T_r0,mv_2360_evidence_T_r0
+2363,visual_family_4da692391701da107842,0,metric geometry - area,WRONG,CORRECT,\text{A},\text{B},mv_2363_image_T_r0,mv_2363_evidence_T_r0
+2368,visual_family_50f33355a7ee09448ecd,0,metric geometry - length,CORRECT,CORRECT,C,\text{C},mv_2368_image_T_r0,mv_2368_evidence_T_r0
+2369,visual_family_1ee4e10c0c7e1bd5ff9c,0,metric geometry - angle,CORRECT,CORRECT,B,B,mv_2369_image_T_r0,mv_2369_evidence_T_r0
+2370,visual_family_d0a8a882c042eea09d56,0,metric geometry - area,CORRECT,CORRECT,392,392,mv_2370_image_T_r0,mv_2370_evidence_T_r0
+2373,visual_family_aabe8732aabad9a7ec7c,0,metric geometry - length,CORRECT,CORRECT,13,13,mv_2373_image_T_r0,mv_2373_evidence_T_r0
+2374,visual_family_92128c7fc22f3f685e99,0,statistics,WRONG,CORRECT,A,C,mv_2374_image_T_r0,mv_2374_evidence_T_r0
+2384,visual_family_02176ff993f4b2809f28,0,metric geometry - area,WRONG,CORRECT,4,2,mv_2384_image_T_r0,mv_2384_evidence_T_r0
+2385,stage12xs_family_c65ce5fb87db343916f2,0,algebra,UNSCORABLE,CORRECT,,"\text{D. } (44, 35)",mv_2385_image_T_r0,mv_2385_evidence_T_r0
+2389,visual_family_c81b352b270b2e498256,0,algebra,CORRECT,CORRECT,\text{A},A,mv_2389_image_T_r0,mv_2389_evidence_T_r0
+2390,visual_family_22492061879a16b90698,0,metric geometry - area,CORRECT,WRONG,E,294,mv_2390_image_T_r0,mv_2390_evidence_T_r0
+2415,visual_family_291e5716005fd9d1d216,0,solid geometry,CORRECT,CORRECT,C,C,mv_2415_image_T_r0,mv_2415_evidence_T_r0
+2428,visual_family_3d93ec274ab8ebaa470a,0,metric geometry - length,CORRECT,CORRECT,80,80,mv_2428_image_T_r0,mv_2428_evidence_T_r0
+2432,visual_family_b553e6af4fb183a84375,0,solid geometry,WRONG,WRONG,\text{B},B,mv_2432_image_T_r0,mv_2432_evidence_T_r0
+2437,visual_family_c8510e576de1a92052f8,0,metric geometry - area,WRONG,CORRECT,\text{C},B,mv_2437_image_T_r0,mv_2437_evidence_T_r0
+2441,visual_family_ad1e075215267a284972,0,analytic geometry,CORRECT,CORRECT,\text{C},\text{C},mv_2441_image_T_r0,mv_2441_evidence_T_r0
+2442,visual_family_069170cf54b2e58a1057,0,metric geometry - length,CORRECT,CORRECT,27,27,mv_2442_image_T_r0,mv_2442_evidence_T_r0
+2448,visual_family_80d1f44e05395f8b79fe,0,analytic geometry,WRONG,CORRECT,4,6,mv_2448_image_T_r0,mv_2448_evidence_T_r0
+2453,visual_family_3cb81c72e3c44a9c6a2f,0,combinatorial geometry,CORRECT,CORRECT,2,2,mv_2453_image_T_r0,mv_2453_evidence_T_r0
+2454,stage12xs_family_31149d3f0dbbaf155135,0,analytic geometry,CORRECT,CORRECT,B,B,mv_2454_image_T_r0,mv_2454_evidence_T_r0
+2456,visual_family_c0d427f8b87540119883,0,analytic geometry,CORRECT,CORRECT,B,B,mv_2456_image_T_r0,mv_2456_evidence_T_r0
+2463,visual_family_1b13011c30bd00eb0c56,0,solid geometry,CORRECT,CORRECT,A,A,mv_2463_image_T_r0,mv_2463_evidence_T_r0
+2468,visual_family_a1fb4e703a9ef1fa4936,0,metric geometry - angle,CORRECT,CORRECT,50,50,mv_2468_image_T_r0,mv_2468_evidence_T_r0
+2471,visual_family_af03a51e581f58ba7780,0,metric geometry - length,CORRECT,CORRECT,10,10,mv_2471_image_T_r0,mv_2471_evidence_T_r0
+2472,visual_family_1ab6078431739cd9988f,0,metric geometry - area,CORRECT,WRONG,22,36,mv_2472_image_T_r0,mv_2472_evidence_T_r0
+2473,visual_family_33e14c27247dae6ca2ac,0,descriptive geometry,WRONG,CORRECT,\text{A},E,mv_2473_image_T_r0,mv_2473_evidence_T_r0
+2489,visual_family_9a1cfcffdce419d6f29a,0,combinatorics,WRONG,UNSCORABLE,2,,mv_2489_image_T_r0,mv_2489_evidence_T_r0
+2491,visual_family_dc7d6256d124bcc9244d,0,metric geometry - length,CORRECT,CORRECT,13 + 4\sqrt{2},C,mv_2491_image_T_r0,mv_2491_evidence_T_r0
+2492,visual_family_bebcee2abff6b6f2e04a,0,combinatorial geometry,CORRECT,WRONG,7,5,mv_2492_image_T_r0,mv_2492_evidence_T_r0
+2496,visual_family_94f136bbfce57e5c6f1c,0,metric geometry - length,CORRECT,CORRECT,81,81,mv_2496_image_T_r0,mv_2496_evidence_T_r0
+2501,visual_family_dafff407d7450f62b0dd,0,metric geometry - angle,CORRECT,CORRECT,\text{A},\text{A},mv_2501_image_T_r0,mv_2501_evidence_T_r0
+2505,visual_family_9060ce5653093cd9bff4,0,statistics,CORRECT,CORRECT,C,\text{C. } \frac{3}{4},mv_2505_image_T_r0,mv_2505_evidence_T_r0
+2506,visual_family_6e71e71a06ff0270c038,0,algebra,CORRECT,CORRECT,36,36,mv_2506_image_T_r0,mv_2506_evidence_T_r0
+2507,visual_family_ecb80fffef1947a59eb3,0,solid geometry,CORRECT,CORRECT,E,E,mv_2507_image_T_r0,mv_2507_evidence_T_r0
+2510,visual_family_ff150bc51704cbc2fb2f,0,graph theory,WRONG,CORRECT,5,6,mv_2510_image_T_r0,mv_2510_evidence_T_r0
+2511,visual_family_056cc3e4b91ffa46435b,0,statistics,CORRECT,CORRECT,D,D,mv_2511_image_T_r0,mv_2511_evidence_T_r0
+2513,visual_family_479f8ec909fe2e84ad23,0,statistics,CORRECT,CORRECT,2.5,2.5,mv_2513_image_T_r0,mv_2513_evidence_T_r0
+2514,visual_family_2d98306af4dba363ad49,0,solid geometry,WRONG,WRONG,3,3,mv_2514_image_T_r0,mv_2514_evidence_T_r0
+2515,visual_family_81e3115919b4a97b3a2d,0,metric geometry - area,CORRECT,CORRECT,B,B,mv_2515_image_T_r0,mv_2515_evidence_T_r0
+2517,visual_family_c3114e3f771d5f691721,0,solid geometry,WRONG,CORRECT,14,20,mv_2517_image_T_r0,mv_2517_evidence_T_r0
+2520,visual_family_4366b9ea549261637af2,0,metric geometry - length,WRONG,WRONG,C,D,mv_2520_image_T_r0,mv_2520_evidence_T_r0
+2521,visual_family_9ecd60ff3bca4fecb399,0,algebra,WRONG,WRONG,1,8,mv_2521_image_T_r0,mv_2521_evidence_T_r0
+2531,visual_family_d9eb1c864cfaa8b6deef,0,statistics,WRONG,WRONG,2,2.4,mv_2531_image_T_r0,mv_2531_evidence_T_r0
+2532,visual_family_6cf5896600cbb072644f,0,solid geometry,CORRECT,CORRECT,14,14,mv_2532_image_T_r0,mv_2532_evidence_T_r0
+2533,visual_family_4d939723aee58df1d4cc,0,solid geometry,CORRECT,CORRECT,33,33,mv_2533_image_T_r0,mv_2533_evidence_T_r0
+2538,visual_family_d41faf2b02624edbcdc0,0,algebra,CORRECT,CORRECT,A,\text{A},mv_2538_image_T_r0,mv_2538_evidence_T_r0
+2542,visual_family_39938bd5341cf9783604,0,statistics,WRONG,CORRECT,A,B,mv_2542_image_T_r0,mv_2542_evidence_T_r0
+2547,visual_family_c2d735ed61274b73ed20,0,solid geometry,CORRECT,WRONG,C,E,mv_2547_image_T_r0,mv_2547_evidence_T_r0
+2549,visual_family_3921a7d7066d4666f3e7,0,statistics,WRONG,CORRECT,D,C,mv_2549_image_T_r0,mv_2549_evidence_T_r0
+2550,visual_family_a025f0314b164d72f92e,0,algebra,CORRECT,CORRECT,1,1,mv_2550_image_T_r0,mv_2550_evidence_T_r0
+2554,visual_family_c344fdf40e328b7856fd,0,algebra,CORRECT,CORRECT,1,1,mv_2554_image_T_r0,mv_2554_evidence_T_r0
+2555,visual_family_083deea4f628f1db6806,0,statistics,CORRECT,CORRECT,160,160,mv_2555_image_T_r0,mv_2555_evidence_T_r0
+2556,visual_family_213f6505c6c2a611fa8a,0,metric geometry - area,WRONG,CORRECT,16,20,mv_2556_image_T_r0,mv_2556_evidence_T_r0
+2561,visual_family_5ee36f40051aec9076cd,0,statistics,WRONG,CORRECT,D,B,mv_2561_image_T_r0,mv_2561_evidence_T_r0
+2565,visual_family_4dfbe272201d319815b0,0,statistics,WRONG,CORRECT,E,B,mv_2565_image_T_r0,mv_2565_evidence_T_r0
+2566,visual_family_00c08d89fea3949876a5,0,statistics,WRONG,CORRECT,70-75,70,mv_2566_image_T_r0,mv_2566_evidence_T_r0
+2567,visual_family_df91d97b8518e7a95c11,0,metric geometry - area,CORRECT,CORRECT,36,36,mv_2567_image_T_r0,mv_2567_evidence_T_r0
+2569,visual_family_2d6c50388f532bd1bbe5,0,metric geometry - area,CORRECT,CORRECT,320,320,mv_2569_image_T_r0,mv_2569_evidence_T_r0
+2571,visual_family_e001dad6f306c7ddb4c0,0,metric geometry - angle,CORRECT,CORRECT,B,50^\circ,mv_2571_image_T_r0,mv_2571_evidence_T_r0
+2572,visual_family_2d087552bf9d679fa4a8,0,combinatorial geometry,WRONG,CORRECT,B,\text{A},mv_2572_image_T_r0,mv_2572_evidence_T_r0
+2577,visual_family_5dbb51ba631f2c785bc3,0,metric geometry - length,CORRECT,CORRECT,36,36,mv_2577_image_T_r0,mv_2577_evidence_T_r0
+2578,visual_family_b1ac3a14adbfd6d9c4c4,0,metric geometry - area,CORRECT,CORRECT,32,32,mv_2578_image_T_r0,mv_2578_evidence_T_r0
+2579,visual_family_4235d033441def62c1ea,0,algebra,WRONG,CORRECT,C,D,mv_2579_image_T_r0,mv_2579_evidence_T_r0
+2580,visual_family_ed946f65d2c785d90e82,0,metric geometry - angle,WRONG,WRONG,\text{C},C,mv_2580_image_T_r0,mv_2580_evidence_T_r0
+2582,visual_family_8fc750f6d387270884c5,0,statistics,CORRECT,CORRECT,4,4,mv_2582_image_T_r0,mv_2582_evidence_T_r0
+2584,visual_family_a1dc2a3800abc8019d31,0,metric geometry - length,CORRECT,CORRECT,\dfrac{36}{5},\dfrac{36}{5},mv_2584_image_T_r0,mv_2584_evidence_T_r0
+2586,visual_family_cfb05fff77b9b26d027b,0,combinatorics,CORRECT,CORRECT,29,29,mv_2586_image_T_r0,mv_2586_evidence_T_r0
+2588,visual_family_d3911d52eb8352031164,0,statistics,CORRECT,CORRECT,C,C,mv_2588_image_T_r0,mv_2588_evidence_T_r0
+2592,visual_family_f6142d191a2f19d20f07,0,metric geometry - angle,CORRECT,CORRECT,D,D,mv_2592_image_T_r0,mv_2592_evidence_T_r0
+2596,visual_family_dda67706bcbb5a57d839,0,metric geometry - area,WRONG,WRONG,D,D,mv_2596_image_T_r0,mv_2596_evidence_T_r0
+2597,visual_family_d82d37806d0ad0c523d9,0,combinatorial geometry,WRONG,WRONG,6,4,mv_2597_image_T_r0,mv_2597_evidence_T_r0
+2598,visual_family_893cb5b1a02d4dcada2c,0,combinatorial geometry,WRONG,CORRECT,12,6,mv_2598_image_T_r0,mv_2598_evidence_T_r0
+2602,visual_family_a24e43b7765e445a86b1,0,algebra,CORRECT,CORRECT,C,C,mv_2602_image_T_r0,mv_2602_evidence_T_r0
+2604,visual_family_6dd6d77794056ba92bc5,0,statistics,CORRECT,CORRECT,15,** Alberto has biked **15 more miles** than Bjorn after four hours,mv_2604_image_T_r0,mv_2604_evidence_T_r0
+2605,visual_family_a81824dad073f33ca3e4,0,solid geometry,CORRECT,CORRECT,A,A,mv_2605_image_T_r0,mv_2605_evidence_T_r0
+2606,visual_family_b028e7b30ae662957565,0,algebra,CORRECT,CORRECT,1150,1150,mv_2606_image_T_r0,mv_2606_evidence_T_r0
+2610,visual_family_9d45a4710a9abc4e87ca,0,metric geometry - angle,CORRECT,CORRECT,30,30,mv_2610_image_T_r0,mv_2610_evidence_T_r0
+2612,visual_family_b6316aa9a0bfcfd8f2f3,0,algebra,CORRECT,CORRECT,6,6,mv_2612_image_T_r0,mv_2612_evidence_T_r0
+2614,visual_family_a80043e41f8701eb0ef1,0,metric geometry - area,WRONG,CORRECT,5,7,mv_2614_image_T_r0,mv_2614_evidence_T_r0
+2615,visual_family_332d88d62030ed158213,0,solid geometry,CORRECT,CORRECT,41,41,mv_2615_image_T_r0,mv_2615_evidence_T_r0
+2618,visual_family_a3a9fda5dd843199756f,0,metric geometry - angle,CORRECT,CORRECT,C,\text{C},mv_2618_image_T_r0,mv_2618_evidence_T_r0
+2620,visual_family_1483c82372b98e6864d5,0,combinatorial geometry,WRONG,CORRECT,D,\text{E},mv_2620_image_T_r0,mv_2620_evidence_T_r0
+2623,visual_family_9a2d94742295a879f4da,0,metric geometry - angle,CORRECT,CORRECT,D,80^\circ,mv_2623_image_T_r0,mv_2623_evidence_T_r0
+2635,visual_family_a58f29ebb8372ff25e94,0,statistics,CORRECT,CORRECT,24,24,mv_2635_image_T_r0,mv_2635_evidence_T_r0
+2638,visual_family_afd0df92f8c4c962f5d0,0,algebra,CORRECT,CORRECT,13,13,mv_2638_image_T_r0,mv_2638_evidence_T_r0
+2640,visual_family_6c6ece85b5d6ea8c5b19,0,metric geometry - area,CORRECT,CORRECT,E,E,mv_2640_image_T_r0,mv_2640_evidence_T_r0
+2641,visual_family_687224ed4bc816385815,0,metric geometry - area,CORRECT,CORRECT,D,3,mv_2641_image_T_r0,mv_2641_evidence_T_r0
+2644,visual_family_70c766cb85e3b1d3d9c6,0,metric geometry - area,CORRECT,CORRECT,30,30,mv_2644_image_T_r0,mv_2644_evidence_T_r0
+2645,visual_family_6ea5120a0117cd339ece,0,metric geometry - area,CORRECT,CORRECT,A,\text{A},mv_2645_image_T_r0,mv_2645_evidence_T_r0
+2648,visual_family_3a3a99897cabe3d52773,0,solid geometry,WRONG,CORRECT,2,6,mv_2648_image_T_r0,mv_2648_evidence_T_r0
+2650,visual_family_00150bc11aeeaa3cdbdc,0,graph theory,WRONG,CORRECT,5,6,mv_2650_image_T_r0,mv_2650_evidence_T_r0
+2651,visual_family_396019fec61a590de204,0,metric geometry - length,CORRECT,CORRECT,10,10,mv_2651_image_T_r0,mv_2651_evidence_T_r0
+2652,visual_family_8acd25a355a2abe94f52,0,metric geometry - area,CORRECT,CORRECT,C,C,mv_2652_image_T_r0,mv_2652_evidence_T_r0
+2656,visual_family_cf3b763a62724306dca2,0,combinatorial geometry,WRONG,CORRECT,D,C,mv_2656_image_T_r0,mv_2656_evidence_T_r0
+2657,visual_family_fc6f7f13445453748878,0,combinatorial geometry,CORRECT,CORRECT,11,11,mv_2657_image_T_r0,mv_2657_evidence_T_r0
+2660,visual_family_a4167766b94bc710c11a,0,metric geometry - length,CORRECT,CORRECT,\frac{38}{5},\dfrac{38}{5},mv_2660_image_T_r0,mv_2660_evidence_T_r0
+2662,visual_family_61b1dbc91985561c5af9,0,combinatorial geometry,WRONG,CORRECT,2,4,mv_2662_image_T_r0,mv_2662_evidence_T_r0
+2664,visual_family_141dc5ae59a81abaaeeb,0,metric geometry - length,CORRECT,CORRECT,9,9,mv_2664_image_T_r0,mv_2664_evidence_T_r0
+2665,visual_family_0e8b7a7f79b3098b0162,0,analytic geometry,CORRECT,CORRECT,E,\text{E},mv_2665_image_T_r0,mv_2665_evidence_T_r0
+2674,visual_family_48edac0718a29c1157a2,0,combinatorics,CORRECT,CORRECT,B,B,mv_2674_image_T_r0,mv_2674_evidence_T_r0
+2677,visual_family_50825d7e9707bb6cb23e,0,algebra,CORRECT,CORRECT,14,14,mv_2677_image_T_r0,mv_2677_evidence_T_r0
+2685,visual_family_4409c919f040e01300d8,0,combinatorics,CORRECT,CORRECT,B,\frac{35}{72},mv_2685_image_T_r0,mv_2685_evidence_T_r0
+2686,visual_family_3581b125128cab6e3253,0,metric geometry - area,CORRECT,CORRECT,5,5,mv_2686_image_T_r0,mv_2686_evidence_T_r0
+2690,visual_family_8ba89f83a19745038de3,0,solid geometry,CORRECT,CORRECT,D,D,mv_2690_image_T_r0,mv_2690_evidence_T_r0
+2691,visual_family_e2a424edff99af60a8d9,0,metric geometry - length,WRONG,CORRECT,\text{C},E,mv_2691_image_T_r0,mv_2691_evidence_T_r0
+2693,visual_family_a080bd4f0f513eece3ba,0,solid geometry,WRONG,CORRECT,192,C,mv_2693_image_T_r0,mv_2693_evidence_T_r0
+2695,visual_family_3c7f572560e6d2f14680,0,metric geometry - area,CORRECT,CORRECT,\text{A},\text{A},mv_2695_image_T_r0,mv_2695_evidence_T_r0
+2696,visual_family_6bacb4f243d3b09e9baa,0,statistics,CORRECT,CORRECT,6,6,mv_2696_image_T_r0,mv_2696_evidence_T_r0
+2698,visual_family_acfb105825f39d45a772,0,metric geometry - area,CORRECT,CORRECT,4.5,\frac{9}{2},mv_2698_image_T_r0,mv_2698_evidence_T_r0
+2701,stage12xs_family_f3404574a7c17262cceb,0,combinatorics,CORRECT,CORRECT,D,D,mv_2701_image_T_r0,mv_2701_evidence_T_r0
+2702,visual_family_2c0fbbaee715645fd421,0,algebra,WRONG,CORRECT,113,64,mv_2702_image_T_r0,mv_2702_evidence_T_r0
+2705,visual_family_66d714cbcd03fde392ae,0,statistics,CORRECT,CORRECT,70,70,mv_2705_image_T_r0,mv_2705_evidence_T_r0
+2711,visual_family_9ca7b8be590113b8f064,0,combinatorial geometry,CORRECT,CORRECT,C,25,mv_2711_image_T_r0,mv_2711_evidence_T_r0
+2713,visual_family_75ab3e0a8f99144f9c44,0,statistics,CORRECT,CORRECT,6,6,mv_2713_image_T_r0,mv_2713_evidence_T_r0
+2714,visual_family_027ffe049491405f2a03,0,metric geometry - area,CORRECT,CORRECT,20,20,mv_2714_image_T_r0,mv_2714_evidence_T_r0
+2716,visual_family_cc9cf5d8f89bae4aff9b,0,metric geometry - area,CORRECT,WRONG,750,450,mv_2716_image_T_r0,mv_2716_evidence_T_r0
+2725,visual_family_fa014137b3ea9af6a90c,0,combinatorial geometry,WRONG,CORRECT,\frac{5}{12},C,mv_2725_image_T_r0,mv_2725_evidence_T_r0
+2726,visual_family_00f3ca2ec864017e7032,0,metric geometry - length,WRONG,CORRECT,240\pi,A. \ 238\pi,mv_2726_image_T_r0,mv_2726_evidence_T_r0
+2731,visual_family_d58144b2c72e6dbb321d,0,metric geometry - length,CORRECT,CORRECT,B,B,mv_2731_image_T_r0,mv_2731_evidence_T_r0
+2732,visual_family_b549a5b406eaace4dd10,0,metric geometry - area,WRONG,CORRECT,B,D. \frac{7}{16},mv_2732_image_T_r0,mv_2732_evidence_T_r0
+2734,visual_family_4bc5b5c0c74badffcc7a,0,algebra,CORRECT,CORRECT,31,31,mv_2734_image_T_r0,mv_2734_evidence_T_r0
+2736,visual_family_01b1ae255c781cfee556,0,metric geometry - area,CORRECT,CORRECT,12,\text{C},mv_2736_image_T_r0,mv_2736_evidence_T_r0
+2738,visual_family_44ab142b5171cd63db89,0,statistics,CORRECT,CORRECT,4,4,mv_2738_image_T_r0,mv_2738_evidence_T_r0
+2741,visual_family_6dba77308243555a9aa2,0,statistics,CORRECT,CORRECT,120,120,mv_2741_image_T_r0,mv_2741_evidence_T_r0
+2742,visual_family_c3b4f551e7459e8f9377,0,combinatorics,WRONG,CORRECT,12,24,mv_2742_image_T_r0,mv_2742_evidence_T_r0
+2746,visual_family_5e27752e101ec179e101,0,metric geometry - area,CORRECT,CORRECT,B. \quad 4\sqrt{3} - \frac{4\pi}{3},4\sqrt{3} - \frac{4\pi}{3},mv_2746_image_T_r0,mv_2746_evidence_T_r0
+2747,visual_family_de02e71bb5c2bc3fd975,0,combinatorial geometry,WRONG,CORRECT,14,13,mv_2747_image_T_r0,mv_2747_evidence_T_r0
+2748,visual_family_514070b1acaf47d0e38e,0,statistics,CORRECT,CORRECT,4.36,4.36,mv_2748_image_T_r0,mv_2748_evidence_T_r0
+2755,visual_family_bd64e1346049830018c7,0,metric geometry - area,CORRECT,CORRECT,150,150,mv_2755_image_T_r0,mv_2755_evidence_T_r0
+2759,visual_family_1aa219431528a059b7f0,0,statistics,CORRECT,CORRECT,B,B,mv_2759_image_T_r0,mv_2759_evidence_T_r0
+2760,visual_family_5fff864d27239fa252f7,0,solid geometry,WRONG,CORRECT,D,A,mv_2760_image_T_r0,mv_2760_evidence_T_r0
+2762,visual_family_a0d9819c456947674a4e,0,algebra,CORRECT,CORRECT,37,37,mv_2762_image_T_r0,mv_2762_evidence_T_r0
+2764,visual_family_df979f8f4738e382b5e7,0,statistics,CORRECT,CORRECT,24,24,mv_2764_image_T_r0,mv_2764_evidence_T_r0
+2765,visual_family_f11ca4a63fad285451b6,0,statistics,WRONG,CORRECT,E,D,mv_2765_image_T_r0,mv_2765_evidence_T_r0
+2766,visual_family_40771a76e8746afe558b,0,algebra,WRONG,CORRECT,3,5,mv_2766_image_T_r0,mv_2766_evidence_T_r0
+2768,visual_family_a3d951e968e6ca5ee3af,0,combinatorics,WRONG,CORRECT,35,28,mv_2768_image_T_r0,mv_2768_evidence_T_r0
+2769,visual_family_82f54bb9c58655340638,0,arithmetic,CORRECT,CORRECT,E,E,mv_2769_image_T_r0,mv_2769_evidence_T_r0
+2770,visual_family_4e016e8932eedbdd78d0,0,metric geometry - area,WRONG,CORRECT,\text{B},\frac{6}{25},mv_2770_image_T_r0,mv_2770_evidence_T_r0
+2771,visual_family_0a6b81782b5c6d042362,0,metric geometry - length,CORRECT,CORRECT,651,651,mv_2771_image_T_r0,mv_2771_evidence_T_r0
+2772,visual_family_7b2e7211fb4f4d8352c9,0,combinatorial geometry,WRONG,CORRECT,8,10,mv_2772_image_T_r0,mv_2772_evidence_T_r0
+2777,visual_family_5a48eed290f62c935538,0,statistics,WRONG,CORRECT,3,4,mv_2777_image_T_r0,mv_2777_evidence_T_r0
+2778,visual_family_a2541e84e912f4f5dd32,0,algebra,CORRECT,CORRECT,8,8,mv_2778_image_T_r0,mv_2778_evidence_T_r0
+2781,visual_family_2668b2960fc61e79a96f,0,solid geometry,WRONG,CORRECT,392,192,mv_2781_image_T_r0,mv_2781_evidence_T_r0
+2783,visual_family_0ee95e1b4aa2f4842c62,0,algebra,WRONG,WRONG,2,2,mv_2783_image_T_r0,mv_2783_evidence_T_r0
+2784,visual_family_4d51741118d90fac5f47,0,combinatorics,WRONG,CORRECT,660,9,mv_2784_image_T_r0,mv_2784_evidence_T_r0
+2789,visual_family_7929065522441d4053cb,0,algebra,CORRECT,CORRECT,C,"\text{C. } 133~\text{Ps}, 134~\text{Qs}, 133~\text{Rs}",mv_2789_image_T_r0,mv_2789_evidence_T_r0
+2792,visual_family_48be9979594810ed8c4e,0,combinatorial geometry,CORRECT,CORRECT,C,\frac{1}{64},mv_2792_image_T_r0,mv_2792_evidence_T_r0
+2793,visual_family_93de0089bfe55e8e2af2,0,metric geometry - length,CORRECT,CORRECT,\dfrac{73}{5},\frac{73}{5},mv_2793_image_T_r0,mv_2793_evidence_T_r0
+2794,visual_family_23adf0dede5322e64b42,0,metric geometry - length,WRONG,WRONG,2\pi,3\pi,mv_2794_image_T_r0,mv_2794_evidence_T_r0
+2795,visual_family_323faa6557b960f1c45a,0,metric geometry - area,CORRECT,CORRECT,5\sqrt{3},5\sqrt{3},mv_2795_image_T_r0,mv_2795_evidence_T_r0
+2804,visual_family_322ac9c5f39fcb8a5cf2,0,statistics,CORRECT,CORRECT,\frac{90}{23},\dfrac{90}{23},mv_2804_image_T_r0,mv_2804_evidence_T_r0
+2807,visual_family_4f4532d3e566afc790a3,0,metric geometry - area,WRONG,CORRECT,4\pi - 3\sqrt{3},6\sqrt{3} + 4\pi,mv_2807_image_T_r0,mv_2807_evidence_T_r0
+2808,visual_family_e0c7bfa5b8e4ae0cecfc,0,combinatorial geometry,WRONG,CORRECT,8,6,mv_2808_image_T_r0,mv_2808_evidence_T_r0
+2815,visual_family_8e5fabc4550b9c8521b1,0,metric geometry - area,CORRECT,CORRECT,\frac{3\sqrt{6}}{2},\frac{3\sqrt{6}}{2},mv_2815_image_T_r0,mv_2815_evidence_T_r0
+2820,visual_family_47c04d7995ba767c5024,0,graph theory,WRONG,WRONG,19,77,mv_2820_image_T_r0,mv_2820_evidence_T_r0
+2823,visual_family_bfaa492bc1eb6c25c1e6,0,metric geometry - length,WRONG,CORRECT,100^\circ,170,mv_2823_image_T_r0,mv_2823_evidence_T_r0
+2829,visual_family_ef0b489c33b4d90ab51c,0,algebra,WRONG,WRONG,1188,1188,mv_2829_image_T_r0,mv_2829_evidence_T_r0
+2830,visual_family_c6637ffab46701f1f145,0,metric geometry - area,CORRECT,CORRECT,\dfrac{36}{13},\dfrac{36}{13},mv_2830_image_T_r0,mv_2830_evidence_T_r0
+2831,visual_family_a3f0ac6f4436d7e6757a,0,metric geometry - area,WRONG,CORRECT,4,7,mv_2831_image_T_r0,mv_2831_evidence_T_r0
+2832,visual_family_db5989a78dd31d0ccfe3,0,metric geometry - area,CORRECT,CORRECT,12,12,mv_2832_image_T_r0,mv_2832_evidence_T_r0
+2833,visual_family_99dbbc4aad5da980a3b5,0,algebra,WRONG,CORRECT,\frac{22}{15},\frac{121}{180},mv_2833_image_T_r0,mv_2833_evidence_T_r0
+2834,visual_family_c60e2531069d760043cb,0,metric geometry - length,CORRECT,CORRECT,24.2,\dfrac{121}{5},mv_2834_image_T_r0,mv_2834_evidence_T_r0
+2843,visual_family_64373b8be1b419b256e9,0,metric geometry - area,CORRECT,CORRECT,100,100,mv_2843_image_T_r0,mv_2843_evidence_T_r0
+2848,visual_family_95f180e417e425f00e97,0,combinatorics,WRONG,CORRECT,12,54,mv_2848_image_T_r0,mv_2848_evidence_T_r0
+2850,visual_family_ada4f0b8bc65ecbaf7ad,0,solid geometry,CORRECT,CORRECT,\frac{\sqrt{130}}{13},\dfrac{\sqrt{130}}{13},mv_2850_image_T_r0,mv_2850_evidence_T_r0
+2851,visual_family_d0541665ae524cf19488,0,combinatorics,WRONG,CORRECT,40,1144,mv_2851_image_T_r0,mv_2851_evidence_T_r0
+2852,visual_family_65829150613b3df4ef23,0,logic,CORRECT,CORRECT,79,79,mv_2852_image_T_r0,mv_2852_evidence_T_r0
+2854,visual_family_a91612704c1770a3bd00,0,graph theory,CORRECT,CORRECT,9,9,mv_2854_image_T_r0,mv_2854_evidence_T_r0
+2855,visual_family_f22be6c15a5358aff79e,0,metric geometry - area,CORRECT,CORRECT,262.5,262.5,mv_2855_image_T_r0,mv_2855_evidence_T_r0
+2859,visual_family_84961ee29c5440775f2f,0,combinatorial geometry,CORRECT,WRONG,60,58,mv_2859_image_T_r0,mv_2859_evidence_T_r0
+2860,visual_family_ed16d272044ed81f103f,0,metric geometry - area,CORRECT,CORRECT,200,200,mv_2860_image_T_r0,mv_2860_evidence_T_r0
+2862,visual_family_a7452d4e5f24e5a9623b,0,metric geometry - area,WRONG,CORRECT,48,15,mv_2862_image_T_r0,mv_2862_evidence_T_r0
+2863,visual_family_1d10cfa4a998611c2364,0,metric geometry - area,WRONG,WRONG,12,20,mv_2863_image_T_r0,mv_2863_evidence_T_r0
+2868,visual_family_edaf31d91128ba1f3c33,0,metric geometry - length,CORRECT,CORRECT,14,14,mv_2868_image_T_r0,mv_2868_evidence_T_r0
+2869,visual_family_37d03b4246ba25e6f2a5,0,combinatorics,WRONG,WRONG,4747,20,mv_2869_image_T_r0,mv_2869_evidence_T_r0
+2874,visual_family_25f2044c9fa1f3e56e58,0,combinatorial geometry,WRONG,CORRECT,441,297,mv_2874_image_T_r0,mv_2874_evidence_T_r0
+2876,visual_family_bc805497f86694cef2e1,0,transformation geometry,WRONG,CORRECT,20,\frac{55}{2},mv_2876_image_T_r0,mv_2876_evidence_T_r0
+2880,visual_family_bffb5fb92a47fe78c6f4,0,combinatorics,CORRECT,CORRECT,167,167,mv_2880_image_T_r0,mv_2880_evidence_T_r0
+2884,visual_family_8835f492a7c86f65d900,0,metric geometry - angle,CORRECT,CORRECT,36,36,mv_2884_image_T_r0,mv_2884_evidence_T_r0
+2885,visual_family_156843f220228bbd7035,0,metric geometry - area,CORRECT,CORRECT,\frac{4}{25},\frac{4}{25},mv_2885_image_T_r0,mv_2885_evidence_T_r0
+2888,visual_family_5ca78d60306335e9cdf1,0,metric geometry - angle,WRONG,CORRECT,10,40,mv_2888_image_T_r0,mv_2888_evidence_T_r0
+2890,visual_family_670a7f467e5e6917dac5,0,metric geometry - length,WRONG,CORRECT,10,5\sqrt{5},mv_2890_image_T_r0,mv_2890_evidence_T_r0
+2892,visual_family_36be8183ad9f1ed708b2,0,metric geometry - length,CORRECT,CORRECT,50,50,mv_2892_image_T_r0,mv_2892_evidence_T_r0
+2894,visual_family_1dedb99499538a04ae76,0,metric geometry - angle,CORRECT,CORRECT,\frac{4}{5},\frac{4}{5},mv_2894_image_T_r0,mv_2894_evidence_T_r0
+2895,visual_family_6fa893bfb00e234afe9b,0,metric geometry - angle,WRONG,CORRECT,110,70,mv_2895_image_T_r0,mv_2895_evidence_T_r0
+2898,visual_family_46b360d48f83a57338dd,0,metric geometry - angle,WRONG,CORRECT,160,120,mv_2898_image_T_r0,mv_2898_evidence_T_r0
+2901,visual_family_69be0182f4d8fa9f9091,0,metric geometry - length,CORRECT,CORRECT,24 + 4\pi,24 + 4\pi,mv_2901_image_T_r0,mv_2901_evidence_T_r0
+2905,visual_family_4f9e0a632e4b59c1bf53,0,metric geometry - angle,CORRECT,CORRECT,30,30,mv_2905_image_T_r0,mv_2905_evidence_T_r0
+2907,visual_family_58bdcfb2c72536d27542,0,metric geometry - area,CORRECT,CORRECT,62.8,62.8,mv_2907_image_T_r0,mv_2907_evidence_T_r0
+2908,visual_family_6f4ddc5420f60ad526b4,0,metric geometry - length,CORRECT,WRONG,80,110,mv_2908_image_T_r0,mv_2908_evidence_T_r0
+2911,visual_family_3ed23197a0865b6d7eae,0,metric geometry - area,CORRECT,CORRECT,384,384,mv_2911_image_T_r0,mv_2911_evidence_T_r0
+2915,visual_family_db3ce696964d3f1a8027,0,metric geometry - angle,CORRECT,CORRECT,-\frac{24}{25},-\frac{24}{25},mv_2915_image_T_r0,mv_2915_evidence_T_r0
+2916,visual_family_d8a1082b68a287d591a9,0,metric geometry - length,WRONG,CORRECT,6\sqrt{2},6,mv_2916_image_T_r0,mv_2916_evidence_T_r0
+2919,visual_family_6db3a80d114584ffdeec,0,combinatorial geometry,WRONG,CORRECT,\dfrac{81}{125},\dfrac{69}{125},mv_2919_image_T_r0,mv_2919_evidence_T_r0
+2921,visual_family_08c6f6cb289f84a3beef,0,metric geometry - length,WRONG,CORRECT,2 + 4\sqrt{2},4 + \sqrt{2},mv_2921_image_T_r0,mv_2921_evidence_T_r0
+2924,visual_family_86d082c140779e5c1e65,0,metric geometry - area,WRONG,CORRECT,8,4\sqrt{2},mv_2924_image_T_r0,mv_2924_evidence_T_r0
+2925,visual_family_f0e3bd92f157f9b73ede,0,metric geometry - area,WRONG,WRONG,45,45,mv_2925_image_T_r0,mv_2925_evidence_T_r0
+2927,visual_family_f946ec75008dd601f8ae,0,analytic geometry,CORRECT,CORRECT,10,10,mv_2927_image_T_r0,mv_2927_evidence_T_r0
+2930,visual_family_481f137adf300bf00a60,0,metric geometry - angle,WRONG,CORRECT,76,90,mv_2930_image_T_r0,mv_2930_evidence_T_r0
+2943,visual_family_47e03bf0b0b8b738bee4,0,metric geometry - length,CORRECT,CORRECT,8\pi,8\pi,mv_2943_image_T_r0,mv_2943_evidence_T_r0
+2945,visual_family_43bfac185bca9cb81649,0,metric geometry - area,CORRECT,CORRECT,68,68,mv_2945_image_T_r0,mv_2945_evidence_T_r0
+2953,visual_family_a91b21e23dd3b8cef04e,0,metric geometry - area,WRONG,CORRECT,\frac{1}{9},\frac{3}{16},mv_2953_image_T_r0,mv_2953_evidence_T_r0
+2961,visual_family_9fbba4a59829746fbbcf,0,metric geometry - area,CORRECT,CORRECT,15,15,mv_2961_image_T_r0,mv_2961_evidence_T_r0
+2963,visual_family_9467a0de94b769ceb394,0,metric geometry - area,CORRECT,CORRECT,45,45,mv_2963_image_T_r0,mv_2963_evidence_T_r0
+2965,visual_family_d9a643e38a0fa85414f4,0,solid geometry,CORRECT,CORRECT,96\pi + 120,96\pi + 120,mv_2965_image_T_r0,mv_2965_evidence_T_r0
+2967,visual_family_271940834e91c81f0fd2,0,metric geometry - angle,CORRECT,CORRECT,72,72,mv_2967_image_T_r0,mv_2967_evidence_T_r0
+2969,visual_family_27e928d476f169e6f5f8,0,metric geometry - area,CORRECT,CORRECT,\frac{5}{16},\frac{5}{16},mv_2969_image_T_r0,mv_2969_evidence_T_r0
+2970,visual_family_f80e1544cf66f68de4a9,0,metric geometry - area,CORRECT,WRONG,24,25,mv_2970_image_T_r0,mv_2970_evidence_T_r0
+2972,visual_family_7b8b6e396edf18942c93,0,metric geometry - angle,CORRECT,CORRECT,45,45,mv_2972_image_T_r0,mv_2972_evidence_T_r0
+2977,visual_family_33d1b80a149c66dd3e9b,0,metric geometry - length,CORRECT,CORRECT,\sqrt{22},\sqrt{22},mv_2977_image_T_r0,mv_2977_evidence_T_r0
+2981,visual_family_a2e73e1357abae0a546c,0,solid geometry,CORRECT,CORRECT,45,45,mv_2981_image_T_r0,mv_2981_evidence_T_r0
+2985,visual_family_9d393029065a5135a8a3,0,metric geometry - angle,CORRECT,CORRECT,55,55,mv_2985_image_T_r0,mv_2985_evidence_T_r0
+2986,visual_family_19be02658462d50f2d59,0,metric geometry - length,CORRECT,CORRECT,3,3,mv_2986_image_T_r0,mv_2986_evidence_T_r0
+2989,visual_family_c311b90801db015bb509,0,metric geometry - angle,CORRECT,CORRECT,\frac{360}{7},\frac{360}{7},mv_2989_image_T_r0,mv_2989_evidence_T_r0
+2990,visual_family_8c19996aa890257d05d9,0,metric geometry - area,CORRECT,CORRECT,24,24,mv_2990_image_T_r0,mv_2990_evidence_T_r0
+2992,stage12xs_family_f94e28f9332f715c59cb,0,metric geometry - area,WRONG,CORRECT,576\pi,900\pi,mv_2992_image_T_r0,mv_2992_evidence_T_r0
+2994,visual_family_fdb99f39ebd2bfb4bc25,0,transformation geometry,CORRECT,CORRECT,180,180,mv_2994_image_T_r0,mv_2994_evidence_T_r0
+2995,visual_family_34caab2a41caf97a5cbb,0,solid geometry,CORRECT,CORRECT,120,120,mv_2995_image_T_r0,mv_2995_evidence_T_r0
+2997,visual_family_3b05cf67849835e31dfb,0,metric geometry - area,WRONG,WRONG,24,18,mv_2997_image_T_r0,mv_2997_evidence_T_r0
+2998,visual_family_685090b2f8ece990836c,0,metric geometry - area,CORRECT,CORRECT,\dfrac{11}{7},\dfrac{11}{7},mv_2998_image_T_r0,mv_2998_evidence_T_r0
+3000,visual_family_a176eeb31e601c3877c8,0,metric geometry - area,CORRECT,CORRECT,8\pi - 16,8\pi - 16,mv_3000_image_T_r0,mv_3000_evidence_T_r0
+3001,visual_family_a20c25627ed7bbb6d2b9,0,metric geometry - area,WRONG,CORRECT,\frac{5}{3}\pi,\pi,mv_3001_image_T_r0,mv_3001_evidence_T_r0
+3002,visual_family_3ba982075eba89702c16,0,metric geometry - length,WRONG,CORRECT,1.44,4,mv_3002_image_T_r0,mv_3002_evidence_T_r0
+3003,visual_family_7a24738c1004bcc250f2,0,metric geometry - area,CORRECT,CORRECT,3\sqrt{3},3\sqrt{3},mv_3003_image_T_r0,mv_3003_evidence_T_r0
+3016,visual_family_dee71b933e851f008038,0,metric geometry - area,CORRECT,CORRECT,1.3,1.3,mv_3016_image_T_r0,mv_3016_evidence_T_r0
+3018,visual_family_6056f04f13913c8a012b,0,metric geometry - angle,CORRECT,CORRECT,81,81,mv_3018_image_T_r0,mv_3018_evidence_T_r0
+3020,visual_family_1901019c858e2d999fa9,0,analytic geometry,CORRECT,CORRECT,54,54,mv_3020_image_T_r0,mv_3020_evidence_T_r0
+3022,visual_family_64502fbae8e0adcfd4a3,0,metric geometry - angle,WRONG,CORRECT,70,15,mv_3022_image_T_r0,mv_3022_evidence_T_r0
+3025,visual_family_69ceb78f3b78535dd8d5,0,metric geometry - area,WRONG,CORRECT,15,\frac{40}{3},mv_3025_image_T_r0,mv_3025_evidence_T_r0
+3026,visual_family_586540138f7cd7fd118a,0,analytic geometry,CORRECT,CORRECT,24,24,mv_3026_image_T_r0,mv_3026_evidence_T_r0
+3029,visual_family_9c09df9a4a57abedd4bf,0,metric geometry - angle,CORRECT,CORRECT,30,30,mv_3029_image_T_r0,mv_3029_evidence_T_r0
+3030,visual_family_b74b7e3fcb623d805dac,0,metric geometry - length,CORRECT,CORRECT,18,18,mv_3030_image_T_r0,mv_3030_evidence_T_r0
+3034,visual_family_0c6dbdad91c6e340cc1b,0,metric geometry - angle,CORRECT,CORRECT,70,70^\circ,mv_3034_image_T_r0,mv_3034_evidence_T_r0
+3035,visual_family_923af4835de7a46ff706,0,metric geometry - angle,CORRECT,CORRECT,140,140,mv_3035_image_T_r0,mv_3035_evidence_T_r0
+3037,visual_family_bd4d4fc8c94a454ae07e,0,metric geometry - area,CORRECT,CORRECT,54,54,mv_3037_image_T_r0,mv_3037_evidence_T_r0
+3039,visual_family_508d030c81626ebe8bd8,0,solid geometry,CORRECT,CORRECT,5,5,mv_3039_image_T_r0,mv_3039_evidence_T_r0
+5,visual_family_ef2d127de37b942baad0,1,arithmetic,CORRECT,CORRECT,** The number to write in the last daisy is **61**,61,mv_5_image_T_r1,mv_5_evidence_T_r1
+7,visual_family_7902699be42c8a8e46fb,1,counting,CORRECT,CORRECT,6,6,mv_7_image_T_r1,mv_7_evidence_T_r1
+10,visual_family_4a44dc15364204a80fe8,1,arithmetic,CORRECT,WRONG,10,13,mv_10_image_T_r1,mv_10_evidence_T_r1
+29,visual_family_35135aaa6cc23891b40c,1,counting,WRONG,CORRECT,5,10,mv_29_image_T_r1,mv_29_evidence_T_r1
+30,visual_family_624b60c58c9d8bfb6ff1,1,metric geometry - area,CORRECT,CORRECT,** The middle animal is the tiger,Tiger,mv_30_image_T_r1,mv_30_evidence_T_r1
+35,visual_family_9f14025af0065b30e47e,1,descriptive geometry,WRONG,CORRECT,4,3,mv_35_image_T_r1,mv_35_evidence_T_r1
+52,visual_family_41cfc0d1f2d127b04555,1,graph theory,WRONG,WRONG,E,E,mv_52_image_T_r1,mv_52_evidence_T_r1
+57,visual_family_c837649cce43f2729138,1,arithmetic,CORRECT,CORRECT,10,10,mv_57_image_T_r1,mv_57_evidence_T_r1
+62,visual_family_81b8a03f97e8787c53fe,1,counting,WRONG,CORRECT,5,10,mv_62_image_T_r1,mv_62_evidence_T_r1
+83,visual_family_bbb965ab0c80d6538cf2,1,combinatorial geometry,CORRECT,CORRECT,B,B,mv_83_image_T_r1,mv_83_evidence_T_r1
+92,visual_family_8241649609f88ccd2a0a,1,combinatorics,CORRECT,CORRECT,6,6,mv_92_image_T_r1,mv_92_evidence_T_r1
+104,visual_family_5ef6fdf32513aa7cd11f,1,solid geometry,WRONG,CORRECT,4,2,mv_104_image_T_r1,mv_104_evidence_T_r1
+109,visual_family_0fd42b3f73c448b34940,1,arithmetic,WRONG,CORRECT,7,30,mv_109_image_T_r1,mv_109_evidence_T_r1
+111,visual_family_f6e0a1e2ac41945a9aa7,1,logic,CORRECT,CORRECT,2,2,mv_111_image_T_r1,mv_111_evidence_T_r1
+117,visual_family_2ac878b0e2180616993b,1,logic,WRONG,CORRECT,A,C,mv_117_image_T_r1,mv_117_evidence_T_r1
+159,stage12xs_family_23ac74f78457156d00c6,1,algebra,CORRECT,CORRECT,3,3,mv_159_image_T_r1,mv_159_evidence_T_r1
+164,visual_family_3f9807cb9ae9fb6c3094,1,algebra,CORRECT,CORRECT,A,A,mv_164_image_T_r1,mv_164_evidence_T_r1
+165,visual_family_bc52dd634277c4a34a2d,1,metric geometry - length,CORRECT,CORRECT,60,60,mv_165_image_T_r1,mv_165_evidence_T_r1
+195,visual_family_1dfacb2ea5a03e0a9159,1,solid geometry,CORRECT,CORRECT,3,3,mv_195_image_T_r1,mv_195_evidence_T_r1
+200,visual_family_27badc983df1780b60c2,1,metric geometry - length,WRONG,CORRECT,10,13,mv_200_image_T_r1,mv_200_evidence_T_r1
+210,visual_family_d29d53701d3c859e29e1,1,combinatorics,CORRECT,CORRECT,20,20,mv_210_image_T_r1,mv_210_evidence_T_r1
+221,visual_family_67e9c3acebb154a282f3,1,analytic geometry,WRONG,CORRECT,C,A,mv_221_image_T_r1,mv_221_evidence_T_r1
+234,stage12xs_family_322ee8dec2ea5476f4b3,1,algebra,CORRECT,CORRECT,1,1,mv_234_image_T_r1,mv_234_evidence_T_r1
+245,visual_family_011af72a910ac4acf367,1,statistics,CORRECT,CORRECT,13,13,mv_245_image_T_r1,mv_245_evidence_T_r1
+252,visual_family_d6e5a20b30f87216b2c7,1,arithmetic,CORRECT,WRONG,E,\text{C},mv_252_image_T_r1,mv_252_evidence_T_r1
+255,visual_family_9556b82499cc0aaf86ae,1,metric geometry - length,CORRECT,CORRECT,5,5,mv_255_image_T_r1,mv_255_evidence_T_r1
+274,visual_family_718127812c05853f0bec,1,metric geometry - area,CORRECT,CORRECT,C,C,mv_274_image_T_r1,mv_274_evidence_T_r1
+275,visual_family_3a1dfb05d7257530e634,1,transformation geometry,WRONG,WRONG,4,4,mv_275_image_T_r1,mv_275_evidence_T_r1
+279,visual_family_efd96aedf377e20afd95,1,analytic geometry,WRONG,CORRECT,D,\text{A},mv_279_image_T_r1,mv_279_evidence_T_r1
+289,visual_family_af180e4359fc6179dc95,1,combinatorics,WRONG,WRONG,B,E,mv_289_image_T_r1,mv_289_evidence_T_r1
+292,visual_family_6db6eb4af1e18ab81d38,1,transformation geometry,WRONG,WRONG,E,C,mv_292_image_T_r1,mv_292_evidence_T_r1
+318,visual_family_aae02129362d611717b6,1,algebra,CORRECT,CORRECT,2,2,mv_318_image_T_r1,mv_318_evidence_T_r1
+338,visual_family_5d8f6cce532a7aeb5719,1,metric geometry - length,CORRECT,CORRECT,D,D,mv_338_image_T_r1,mv_338_evidence_T_r1
+349,visual_family_72ba187b05e705de2dce,1,algebra,CORRECT,CORRECT,28,28,mv_349_image_T_r1,mv_349_evidence_T_r1
+361,visual_family_73daa9289ddd08a53ba8,1,logic,CORRECT,CORRECT,D,D,mv_361_image_T_r1,mv_361_evidence_T_r1
+369,visual_family_5f193b350c8aba4883de,1,metric geometry - length,WRONG,CORRECT,B,D,mv_369_image_T_r1,mv_369_evidence_T_r1
+372,visual_family_62f77e7d6197863ac98d,1,graph theory,CORRECT,CORRECT,4,4,mv_372_image_T_r1,mv_372_evidence_T_r1
+378,visual_family_21ef779311a43f0e067d,1,algebra,WRONG,CORRECT,C,E,mv_378_image_T_r1,mv_378_evidence_T_r1
+381,visual_family_392a52e4f77c40bf3321,1,solid geometry,WRONG,WRONG,\text{A},\text{C},mv_381_image_T_r1,mv_381_evidence_T_r1
+389,visual_family_b98880883fd8d975260f,1,metric geometry - area,WRONG,CORRECT,12,16,mv_389_image_T_r1,mv_389_evidence_T_r1
+391,visual_family_a934c244755c66aebb0d,1,solid geometry,WRONG,WRONG,D,B,mv_391_image_T_r1,mv_391_evidence_T_r1
+397,visual_family_1d2028ddcd746a7ee87d,1,metric geometry - length,CORRECT,CORRECT,3,3,mv_397_image_T_r1,mv_397_evidence_T_r1
+399,visual_family_0f78540965a86402578f,1,arithmetic,WRONG,CORRECT,135,110,mv_399_image_T_r1,mv_399_evidence_T_r1
+401,visual_family_dcaadad1cfce437735b8,1,combinatorial geometry,CORRECT,CORRECT,18,18,mv_401_image_T_r1,mv_401_evidence_T_r1
+407,visual_family_a5abb1500bdeaef41e2e,1,arithmetic,CORRECT,CORRECT,3,3,mv_407_image_T_r1,mv_407_evidence_T_r1
+414,visual_family_8111eb1556229541d7d2,1,algebra,CORRECT,CORRECT,E,E,mv_414_image_T_r1,mv_414_evidence_T_r1
+430,visual_family_fed88b40aba63cac05ea,1,graph theory,CORRECT,CORRECT,90,90,mv_430_image_T_r1,mv_430_evidence_T_r1
+455,visual_family_f626051bc94422f26f4b,1,combinatorics,CORRECT,CORRECT,6,6,mv_455_image_T_r1,mv_455_evidence_T_r1
+459,visual_family_42f0bec3310ddd8a55e8,1,counting,WRONG,CORRECT,10,6,mv_459_image_T_r1,mv_459_evidence_T_r1
+471,visual_family_064c3e311ef63912b0cc,1,transformation geometry,CORRECT,WRONG,2,4,mv_471_image_T_r1,mv_471_evidence_T_r1
+485,visual_family_5844a72aee9269a68da2,1,solid geometry,WRONG,CORRECT,36,56,mv_485_image_T_r1,mv_485_evidence_T_r1
+487,visual_family_9b19f9ab816598a0809e,1,algebra,CORRECT,CORRECT,61,61,mv_487_image_T_r1,mv_487_evidence_T_r1
+489,visual_family_e4be97ce765e6cfcd703,1,arithmetic,CORRECT,CORRECT,6,6,mv_489_image_T_r1,mv_489_evidence_T_r1
+496,visual_family_35bbce4007c5cd57a4c6,1,algebra,WRONG,CORRECT,1,4,mv_496_image_T_r1,mv_496_evidence_T_r1
+504,visual_family_ba689abd93c9c6a7d08b,1,counting,WRONG,WRONG,14,8,mv_504_image_T_r1,mv_504_evidence_T_r1
+517,visual_family_5088c1bc42f5cc6a32cd,1,arithmetic,CORRECT,CORRECT,D,D,mv_517_image_T_r1,mv_517_evidence_T_r1
+522,visual_family_a9346b0068335c634304,1,graph theory,CORRECT,CORRECT,3,3,mv_522_image_T_r1,mv_522_evidence_T_r1
+526,visual_family_f7c2599681e9284ce1c4,1,graph theory,WRONG,CORRECT,12,21,mv_526_image_T_r1,mv_526_evidence_T_r1
+527,visual_family_e1bb74a7794720edf493,1,algebra,CORRECT,CORRECT,8,8,mv_527_image_T_r1,mv_527_evidence_T_r1
+531,visual_family_891d46993a36d7839224,1,algebra,CORRECT,CORRECT,6,6,mv_531_image_T_r1,mv_531_evidence_T_r1
+540,visual_family_84f01dd97c687fb28a29,1,combinatorial geometry,WRONG,CORRECT,11,15,mv_540_image_T_r1,mv_540_evidence_T_r1
+556,visual_family_9d6aa3d89c0171b9c2cc,1,logic,CORRECT,CORRECT,4,4,mv_556_image_T_r1,mv_556_evidence_T_r1
+586,stage12xs_family_3b0c9fb336a68bd8f097,1,algebra,WRONG,CORRECT,18,21,mv_586_image_T_r1,mv_586_evidence_T_r1
+597,visual_family_fcf1e4bf9cc9c1083647,1,arithmetic,CORRECT,CORRECT,B,B,mv_597_image_T_r1,mv_597_evidence_T_r1
+599,visual_family_182dc6b90f1c9cd913c3,1,logic,CORRECT,CORRECT,\text{E},E,mv_599_image_T_r1,mv_599_evidence_T_r1
+604,visual_family_3b86df3ff95ad2fd7210,1,descriptive geometry,WRONG,WRONG,D,B,mv_604_image_T_r1,mv_604_evidence_T_r1
+615,visual_family_3de8392541ace28284ac,1,algebra,CORRECT,CORRECT,6,6,mv_615_image_T_r1,mv_615_evidence_T_r1
+619,visual_family_86a3f9b13a5b652f93cb,1,metric geometry - length,WRONG,WRONG,C,77,mv_619_image_T_r1,mv_619_evidence_T_r1
+624,visual_family_1b3c33580f2e2094cbde,1,descriptive geometry,WRONG,WRONG,16,4,mv_624_image_T_r1,mv_624_evidence_T_r1
+631,visual_family_7b81eb727ed48055fa55,1,combinatorial geometry,UNSCORABLE,WRONG,,5,mv_631_image_T_r1,mv_631_evidence_T_r1
+641,visual_family_455ae2dfc77dd77562c0,1,topology,WRONG,WRONG,5,3,mv_641_image_T_r1,mv_641_evidence_T_r1
+659,visual_family_5c17cac5569c1ab72a3f,1,algebra,CORRECT,CORRECT,A,A,mv_659_image_T_r1,mv_659_evidence_T_r1
+661,stage12xs_family_865b75e1bbddb3c24fad,1,logic,CORRECT,CORRECT,C,C,mv_661_image_T_r1,mv_661_evidence_T_r1
+662,visual_family_81f27f8a7d8766c72c03,1,transformation geometry,UNSCORABLE,WRONG,,D,mv_662_image_T_r1,mv_662_evidence_T_r1
+668,visual_family_6f81082badfd007354ac,1,arithmetic,CORRECT,CORRECT,3,3,mv_668_image_T_r1,mv_668_evidence_T_r1
+681,stage12xs_family_d2e0853f4e13efe69823,1,transformation geometry,CORRECT,CORRECT,\text{C},\text{C},mv_681_image_T_r1,mv_681_evidence_T_r1
+682,stage12xs_family_1eb883233ee0078c8b77,1,combinatorial geometry,WRONG,CORRECT,B,E,mv_682_image_T_r1,mv_682_evidence_T_r1
+688,visual_family_1c63ed9164d61acfd1f4,1,algebra,CORRECT,CORRECT,\text{A},\text{A},mv_688_image_T_r1,mv_688_evidence_T_r1
+703,visual_family_769e881d85fc5d27cb4c,1,algebra,CORRECT,WRONG,22,16 + 3\sqrt{3},mv_703_image_T_r1,mv_703_evidence_T_r1
+715,visual_family_35c71bd7eaf4607047bb,1,algebra,WRONG,CORRECT,9,6,mv_715_image_T_r1,mv_715_evidence_T_r1
+733,visual_family_367461e6dd07bdb57342,1,metric geometry - length,CORRECT,CORRECT,160,160,mv_733_image_T_r1,mv_733_evidence_T_r1
+734,stage12xs_family_77290499dda508cc04df,1,descriptive geometry,WRONG,CORRECT,C,\text{E},mv_734_image_T_r1,mv_734_evidence_T_r1
+737,visual_family_bc8db39f614342b78a67,1,algebra,CORRECT,CORRECT,B,B,mv_737_image_T_r1,mv_737_evidence_T_r1
+740,visual_family_234666d765f4c0a26cf4,1,graph theory,WRONG,CORRECT,0,6,mv_740_image_T_r1,mv_740_evidence_T_r1
+755,visual_family_86ab8cbe5869bd1f9c70,1,algebra,CORRECT,CORRECT,5,5,mv_755_image_T_r1,mv_755_evidence_T_r1
+764,visual_family_aaee0ce51abf0849e68b,1,combinatorics,CORRECT,CORRECT,9,9,mv_764_image_T_r1,mv_764_evidence_T_r1
+772,visual_family_9168e847861429230da3,1,arithmetic,CORRECT,CORRECT,14,14,mv_772_image_T_r1,mv_772_evidence_T_r1
+776,visual_family_3daebbc6dfd81355f1cc,1,metric geometry - area,CORRECT,CORRECT,65,65,mv_776_image_T_r1,mv_776_evidence_T_r1
+781,visual_family_28955b1fb53203e2ff24,1,arithmetic,WRONG,CORRECT,25,30,mv_781_image_T_r1,mv_781_evidence_T_r1
+808,visual_family_d72a11d264e746464ed4,1,descriptive geometry,WRONG,CORRECT,C,B,mv_808_image_T_r1,mv_808_evidence_T_r1
+809,visual_family_0b06d2ffebd5c025cf44,1,combinatorial geometry,CORRECT,CORRECT,D,D,mv_809_image_T_r1,mv_809_evidence_T_r1
+817,stage12xs_family_02b77c45c29921553643,1,solid geometry,WRONG,CORRECT,6,7,mv_817_image_T_r1,mv_817_evidence_T_r1
+828,visual_family_43d244581aa23a744de9,1,combinatorial geometry,WRONG,WRONG,8,6,mv_828_image_T_r1,mv_828_evidence_T_r1
+833,visual_family_130790feced08212eed7,1,counting,WRONG,WRONG,5,4,mv_833_image_T_r1,mv_833_evidence_T_r1
+841,visual_family_7125e777a6b199fc4e8c,1,graph theory,CORRECT,CORRECT,2,2,mv_841_image_T_r1,mv_841_evidence_T_r1
+843,visual_family_55e8ab098d48f8be5578,1,algebra,CORRECT,CORRECT,D,D,mv_843_image_T_r1,mv_843_evidence_T_r1
+847,visual_family_19e68d9fe08f7c4ac189,1,combinatorial geometry,CORRECT,CORRECT,12,12,mv_847_image_T_r1,mv_847_evidence_T_r1
+849,stage12xs_family_0903ea3cf627297970d3,1,graph theory,WRONG,CORRECT,\text{A},C,mv_849_image_T_r1,mv_849_evidence_T_r1
+865,visual_family_8b6cd7c429e83373dbd4,1,metric geometry - length,WRONG,WRONG,D,\text{A},mv_865_image_T_r1,mv_865_evidence_T_r1
+871,visual_family_062f50753b9095ee2eff,1,arithmetic,CORRECT,CORRECT,3,3,mv_871_image_T_r1,mv_871_evidence_T_r1
+877,visual_family_30e26cef13a6dbbf0e30,1,combinatorics,CORRECT,CORRECT,6,6,mv_877_image_T_r1,mv_877_evidence_T_r1
+878,stage12xs_family_9fd461c251c026fd1a9c,1,counting,WRONG,CORRECT,6,13,mv_878_image_T_r1,mv_878_evidence_T_r1
+895,visual_family_c49b60838c5c6ddf3480,1,algebra,CORRECT,CORRECT,0,0,mv_895_image_T_r1,mv_895_evidence_T_r1
+935,visual_family_b064bdba191139689139,1,solid geometry,WRONG,CORRECT,3,4,mv_935_image_T_r1,mv_935_evidence_T_r1
+937,visual_family_ffd560d182369b08a8b3,1,graph theory,WRONG,WRONG,B,\text{B},mv_937_image_T_r1,mv_937_evidence_T_r1
+949,visual_family_3033cf66fa728da7a294,1,algebra,CORRECT,CORRECT,4,4,mv_949_image_T_r1,mv_949_evidence_T_r1
+962,visual_family_084917af148384c1e839,1,combinatorial geometry,WRONG,CORRECT,C,B,mv_962_image_T_r1,mv_962_evidence_T_r1
+968,visual_family_d6420a4ee44bc345c7bf,1,solid geometry,WRONG,CORRECT,24,60,mv_968_image_T_r1,mv_968_evidence_T_r1
+969,visual_family_16b30490a644117a249c,1,solid geometry,CORRECT,CORRECT,D,1,mv_969_image_T_r1,mv_969_evidence_T_r1
+975,visual_family_0aa598c735f77296910c,1,descriptive geometry,WRONG,CORRECT,14,19,mv_975_image_T_r1,mv_975_evidence_T_r1
+986,stage12xs_family_5616951257a5ca7c540e,1,combinatorial geometry,WRONG,CORRECT,B,C,mv_986_image_T_r1,mv_986_evidence_T_r1
+991,visual_family_25b7c81e770034aeda70,1,algebra,CORRECT,WRONG,3,2,mv_991_image_T_r1,mv_991_evidence_T_r1
+1005,visual_family_7f861bcee185de001377,1,combinatorial geometry,CORRECT,CORRECT,2,2,mv_1005_image_T_r1,mv_1005_evidence_T_r1
+1006,visual_family_478c4ffb1cbcea37956a,1,combinatorial geometry,CORRECT,CORRECT,B,B,mv_1006_image_T_r1,mv_1006_evidence_T_r1
+1009,visual_family_6ad4a6b1e5ea5569795e,1,transformation geometry,WRONG,WRONG,A,B,mv_1009_image_T_r1,mv_1009_evidence_T_r1
+1010,stage12xs_family_361973a4e9519673495c,1,logic,CORRECT,CORRECT,2,2,mv_1010_image_T_r1,mv_1010_evidence_T_r1
+1022,visual_family_f00f2e7bca65e9f8409f,1,metric geometry - area,WRONG,CORRECT,A,D,mv_1022_image_T_r1,mv_1022_evidence_T_r1
+1040,visual_family_bc36cf3b9981226c5b01,1,solid geometry,CORRECT,CORRECT,36,36,mv_1040_image_T_r1,mv_1040_evidence_T_r1
+1047,stage12xs_family_77fe255923f6ad65c4ac,1,combinatorial geometry,CORRECT,CORRECT,C,C,mv_1047_image_T_r1,mv_1047_evidence_T_r1
+1056,visual_family_e8c5e943ad4fd9d115c2,1,algebra,WRONG,CORRECT,113,92,mv_1056_image_T_r1,mv_1056_evidence_T_r1
+1069,stage12xs_family_0399eb790c0fa43f6182,1,algebra,WRONG,CORRECT,5,6,mv_1069_image_T_r1,mv_1069_evidence_T_r1
+1075,stage12xs_family_5bbdbcf3361cbb224f13,1,logic,WRONG,CORRECT,B,\text{A},mv_1075_image_T_r1,mv_1075_evidence_T_r1
+1084,visual_family_9fbb55aa1ca6da90db1c,1,combinatorial geometry,WRONG,WRONG,6,6,mv_1084_image_T_r1,mv_1084_evidence_T_r1
+1105,visual_family_47c5fbf51c636da0b483,1,counting,WRONG,CORRECT,8,4,mv_1105_image_T_r1,mv_1105_evidence_T_r1
+1121,visual_family_3958de59a1ae60b4330e,1,descriptive geometry,WRONG,WRONG,A,\text{A},mv_1121_image_T_r1,mv_1121_evidence_T_r1
+1124,visual_family_736e537f0f664a3d8208,1,combinatorial geometry,WRONG,CORRECT,\frac{1}{2},1,mv_1124_image_T_r1,mv_1124_evidence_T_r1
+1155,visual_family_37b1267a4ff4e12dddfe,1,metric geometry - length,WRONG,CORRECT,C,D,mv_1155_image_T_r1,mv_1155_evidence_T_r1
+1156,visual_family_3aa82834b765ea042146,1,solid geometry,WRONG,CORRECT,40,39,mv_1156_image_T_r1,mv_1156_evidence_T_r1
+1168,visual_family_68ac846d8dc1c75da907,1,metric geometry - area,CORRECT,CORRECT,B,\text{B},mv_1168_image_T_r1,mv_1168_evidence_T_r1
+1170,visual_family_19d0b0d4077454bdec0d,1,solid geometry,WRONG,CORRECT,E,C,mv_1170_image_T_r1,mv_1170_evidence_T_r1
+1185,visual_family_b7ecc2898ee9ca799ed9,1,transformation geometry,WRONG,CORRECT,4,5,mv_1185_image_T_r1,mv_1185_evidence_T_r1
+1196,visual_family_369b906a75d372193bbe,1,metric geometry - angle,WRONG,CORRECT,C,E,mv_1196_image_T_r1,mv_1196_evidence_T_r1
+1245,visual_family_42dc45a59236a5afe617,1,algebra,CORRECT,CORRECT,12,12,mv_1245_image_T_r1,mv_1245_evidence_T_r1
+1247,visual_family_92f3c34650437f1ddf6b,1,logic,CORRECT,CORRECT,7,7,mv_1247_image_T_r1,mv_1247_evidence_T_r1
+1248,visual_family_da2c575e48ee7651b9e9,1,metric geometry - length,WRONG,CORRECT,8.4,18,mv_1248_image_T_r1,mv_1248_evidence_T_r1
+1250,stage12xs_family_a7bc4003a517e25826f2,1,combinatorics,CORRECT,CORRECT,6,6,mv_1250_image_T_r1,mv_1250_evidence_T_r1
+1266,visual_family_f7d7736a8f77a4940642,1,metric geometry - area,CORRECT,WRONG,64,68,mv_1266_image_T_r1,mv_1266_evidence_T_r1
+1269,visual_family_6028e2a87c5080933ca4,1,metric geometry - area,CORRECT,CORRECT,18,18,mv_1269_image_T_r1,mv_1269_evidence_T_r1
+1304,visual_family_8ecb5bcd8cd84cc3ffc6,1,metric geometry - length,WRONG,WRONG,C,C,mv_1304_image_T_r1,mv_1304_evidence_T_r1
+1319,visual_family_560229669058290cfa53,1,solid geometry,WRONG,WRONG,D,D,mv_1319_image_T_r1,mv_1319_evidence_T_r1
+1328,visual_family_040fe555cb4f5459547e,1,solid geometry,WRONG,UNSCORABLE,4,,mv_1328_image_T_r1,mv_1328_evidence_T_r1
+1345,visual_family_8d30c678193105253b54,1,transformation geometry,WRONG,CORRECT,D,\text{C},mv_1345_image_T_r1,mv_1345_evidence_T_r1
+1346,visual_family_5631e5efadc1db19f6b2,1,metric geometry - length,WRONG,WRONG,18,18,mv_1346_image_T_r1,mv_1346_evidence_T_r1
+1349,visual_family_6f42ae6ab479ee169805,1,logic,CORRECT,CORRECT,5,5,mv_1349_image_T_r1,mv_1349_evidence_T_r1
+1352,visual_family_9d551151d715267077b3,1,solid geometry,WRONG,WRONG,300,300,mv_1352_image_T_r1,mv_1352_evidence_T_r1
+1356,visual_family_85e63bcfdcfcf1a63cce,1,metric geometry - area,CORRECT,CORRECT,6,6,mv_1356_image_T_r1,mv_1356_evidence_T_r1
+1365,visual_family_67d1514f9bb64c1adcec,1,algebra,CORRECT,CORRECT,5,5,mv_1365_image_T_r1,mv_1365_evidence_T_r1
+1375,visual_family_d818f221cbcb7016316f,1,metric geometry - length,WRONG,CORRECT,E,A,mv_1375_image_T_r1,mv_1375_evidence_T_r1
+1383,visual_family_6495da527bb644b403ca,1,graph theory,WRONG,CORRECT,1,9,mv_1383_image_T_r1,mv_1383_evidence_T_r1
+1390,stage12xs_family_9868f3b054c82eec85ae,1,combinatorial geometry,CORRECT,CORRECT,C,C,mv_1390_image_T_r1,mv_1390_evidence_T_r1
+1392,visual_family_01b23136ea7f9f8b9e72,1,algebra,CORRECT,CORRECT,D,D,mv_1392_image_T_r1,mv_1392_evidence_T_r1
+1394,stage12xs_family_40bc688800075841aa9f,1,metric geometry - length,CORRECT,CORRECT,D,D,mv_1394_image_T_r1,mv_1394_evidence_T_r1
+1402,stage12xs_family_8683273305d8e0cbb716,1,graph theory,WRONG,CORRECT,6,12,mv_1402_image_T_r1,mv_1402_evidence_T_r1
+1440,visual_family_a4ff3ad278c7b0575a8e,1,metric geometry - area,CORRECT,CORRECT,1:1,1,mv_1440_image_T_r1,mv_1440_evidence_T_r1
+1450,visual_family_dd932afbc5cfa22b7923,1,combinatorics,CORRECT,CORRECT,1536,1536,mv_1450_image_T_r1,mv_1450_evidence_T_r1
+1457,visual_family_63fd44eec460feb25809,1,logic,WRONG,WRONG,3,4,mv_1457_image_T_r1,mv_1457_evidence_T_r1
+1463,visual_family_e6538a5ea68642542b0f,1,metric geometry - length,CORRECT,CORRECT,E,\frac{\sqrt{3}}{3},mv_1463_image_T_r1,mv_1463_evidence_T_r1
+1475,visual_family_d3fb4415d5c03cf65449,1,logic,WRONG,CORRECT,2,3,mv_1475_image_T_r1,mv_1475_evidence_T_r1
+1513,visual_family_b695396d3070a538dafa,1,algebra,CORRECT,CORRECT,42,42,mv_1513_image_T_r1,mv_1513_evidence_T_r1
+1527,visual_family_46ff18131a6daf2839e2,1,metric geometry - angle,WRONG,WRONG,12,12,mv_1527_image_T_r1,mv_1527_evidence_T_r1
+1537,visual_family_6a27eece1c1658b237ae,1,graph theory,WRONG,CORRECT,10,12,mv_1537_image_T_r1,mv_1537_evidence_T_r1
+1540,stage12xs_family_cf4be4b402ea613fc26c,1,algebra,CORRECT,CORRECT,E,E,mv_1540_image_T_r1,mv_1540_evidence_T_r1
+1583,stage12xs_family_97568a50501628bcd9d2,1,metric geometry - area,CORRECT,CORRECT,D,D,mv_1583_image_T_r1,mv_1583_evidence_T_r1
+1588,visual_family_d24eac45e69be063cc00,1,combinatorics,WRONG,CORRECT,7,4,mv_1588_image_T_r1,mv_1588_evidence_T_r1
+1592,visual_family_8cca04ee02b8915f60a6,1,metric geometry - angle,WRONG,CORRECT,42,51,mv_1592_image_T_r1,mv_1592_evidence_T_r1
+1594,stage12xs_family_102e9eb2f484f08d2e70,1,solid geometry,WRONG,WRONG,\text{A},A,mv_1594_image_T_r1,mv_1594_evidence_T_r1
+1604,stage12xs_family_c04c5d3c16f69fa3b456,1,combinatorial geometry,WRONG,CORRECT,A,B,mv_1604_image_T_r1,mv_1604_evidence_T_r1
+1625,stage12xs_family_0348af0f173ba37f1235,1,metric geometry - length,WRONG,CORRECT,E,\text{D},mv_1625_image_T_r1,mv_1625_evidence_T_r1
+1629,visual_family_d4a66133ca14d9c93ec5,1,metric geometry - area,WRONG,CORRECT,200 - 50\pi,100,mv_1629_image_T_r1,mv_1629_evidence_T_r1
+1633,visual_family_41baf55616a693d1be27,1,solid geometry,CORRECT,CORRECT,105,105,mv_1633_image_T_r1,mv_1633_evidence_T_r1
+1655,stage12xs_family_c310546d05f25e21d4f6,1,metric geometry - angle,CORRECT,WRONG,A,17^\circ,mv_1655_image_T_r1,mv_1655_evidence_T_r1
+1677,visual_family_3b3e8459061b066c6635,1,metric geometry - length,CORRECT,CORRECT,A,A,mv_1677_image_T_r1,mv_1677_evidence_T_r1
+1679,visual_family_b93e56aec7724213a91e,1,metric geometry - area,CORRECT,CORRECT,A,\text{A},mv_1679_image_T_r1,mv_1679_evidence_T_r1
+1682,visual_family_39fb5bd005525dbf0482,1,statistics,CORRECT,CORRECT,1,1,mv_1682_image_T_r1,mv_1682_evidence_T_r1
+1698,visual_family_2fe98face8187bcd9a09,1,metric geometry - area,WRONG,CORRECT,72,48,mv_1698_image_T_r1,mv_1698_evidence_T_r1
+1720,visual_family_c96aa733b75e278342e3,1,combinatorics,WRONG,WRONG,72,24,mv_1720_image_T_r1,mv_1720_evidence_T_r1
+1726,visual_family_2f11192801e83bf30f01,1,descriptive geometry,WRONG,CORRECT,432,540,mv_1726_image_T_r1,mv_1726_evidence_T_r1
+1736,visual_family_96a1a93e19030f5f9378,1,algebra,CORRECT,CORRECT,16,16,mv_1736_image_T_r1,mv_1736_evidence_T_r1
+1754,visual_family_a6d4096b24cd4ad24ea6,1,logic,CORRECT,CORRECT,B,B,mv_1754_image_T_r1,mv_1754_evidence_T_r1
+1765,stage12xs_family_97047d4eb8ae861f9084,1,metric geometry - length,CORRECT,CORRECT,C,\text{C. } 6 \text{ cm},mv_1765_image_T_r1,mv_1765_evidence_T_r1
+1769,visual_family_eb861137efa007794537,1,algebra,CORRECT,CORRECT,20,20,mv_1769_image_T_r1,mv_1769_evidence_T_r1
+1772,visual_family_717500ab9857a9da8711,1,arithmetic,WRONG,CORRECT,74,222,mv_1772_image_T_r1,mv_1772_evidence_T_r1
+1782,visual_family_72b31cf00f8ab3967588,1,combinatorial geometry,WRONG,CORRECT,10,20,mv_1782_image_T_r1,mv_1782_evidence_T_r1
+1828,visual_family_4f6ceab7942f9dece7e2,1,metric geometry - length,CORRECT,CORRECT,7,7,mv_1828_image_T_r1,mv_1828_evidence_T_r1
+1829,visual_family_19e639b064bdb018bbf3,1,algebra,CORRECT,CORRECT,9,9,mv_1829_image_T_r1,mv_1829_evidence_T_r1
+1833,visual_family_75d5c2fc7a17169c47ed,1,solid geometry,WRONG,CORRECT,26,27,mv_1833_image_T_r1,mv_1833_evidence_T_r1
+1840,stage12xs_family_ed79f5b36813bda0de3b,1,metric geometry - length,CORRECT,CORRECT,D,D,mv_1840_image_T_r1,mv_1840_evidence_T_r1
+1848,visual_family_33afd662cef42c907d9b,1,algebra,CORRECT,CORRECT,6,6,mv_1848_image_T_r1,mv_1848_evidence_T_r1
+1863,visual_family_9b5173ba93decd311f89,1,analytic geometry,WRONG,CORRECT,\text{C},D,mv_1863_image_T_r1,mv_1863_evidence_T_r1
+1864,visual_family_d9521266ec778d833335,1,transformation geometry,CORRECT,CORRECT,3,3,mv_1864_image_T_r1,mv_1864_evidence_T_r1
+1895,visual_family_5932cb6e58ef979208d6,1,combinatorics,WRONG,CORRECT,90,12,mv_1895_image_T_r1,mv_1895_evidence_T_r1
+1932,visual_family_01a0123885ebec5b37b5,1,combinatorics,WRONG,CORRECT,8,16,mv_1932_image_T_r1,mv_1932_evidence_T_r1
+1948,visual_family_03b0bd366e8184f8d871,1,algebra,CORRECT,CORRECT,158,158,mv_1948_image_T_r1,mv_1948_evidence_T_r1
+1952,visual_family_6ed701cfedb16ebd91b2,1,metric geometry - length,CORRECT,CORRECT,D,D,mv_1952_image_T_r1,mv_1952_evidence_T_r1
+1955,visual_family_b53a7292b38e011dbe6e,1,metric geometry - angle,WRONG,CORRECT,A,72^\circ,mv_1955_image_T_r1,mv_1955_evidence_T_r1
+1970,visual_family_ad1f3889d0032e7c2791,1,algebra,CORRECT,CORRECT,3,3,mv_1970_image_T_r1,mv_1970_evidence_T_r1
+1978,visual_family_46635b56d3c7f0b7bb26,1,metric geometry - area,CORRECT,CORRECT,20,20,mv_1978_image_T_r1,mv_1978_evidence_T_r1
+1990,visual_family_a7be8e1fe282a37cd666,1,combinatorics,CORRECT,CORRECT,84,84,mv_1990_image_T_r1,mv_1990_evidence_T_r1
+2000,visual_family_81a83544cf93c245178c,1,arithmetic,CORRECT,CORRECT,950,950,mv_2000_image_T_r1,mv_2000_evidence_T_r1
+2019,visual_family_023e33504ab909cf87a6,1,metric geometry - angle,CORRECT,CORRECT,94,94,mv_2019_image_T_r1,mv_2019_evidence_T_r1
+2020,stage12xs_family_417a4208d6fab0c565c5,1,logic,WRONG,CORRECT,324,295,mv_2020_image_T_r1,mv_2020_evidence_T_r1
+2025,visual_family_b2b2f104d32c638903e1,1,graph theory,WRONG,CORRECT,4,3 figures can be drawn with one continuous line without drawing a segment twice.**,mv_2025_image_T_r1,mv_2025_evidence_T_r1
+2036,visual_family_97b3e84b5db5f23c51da,1,solid geometry,CORRECT,CORRECT,288,288,mv_2036_image_T_r1,mv_2036_evidence_T_r1
+2059,visual_family_bef7b4d1c3d67bc9afe7,1,algebra,CORRECT,CORRECT,200,200,mv_2059_image_T_r1,mv_2059_evidence_T_r1
+2063,visual_family_e0ccc43c9b15159c7ad9,1,metric geometry - area,CORRECT,CORRECT,148,148,mv_2063_image_T_r1,mv_2063_evidence_T_r1
+2078,visual_family_d58cabc8303548b6ec23,1,solid geometry,CORRECT,CORRECT,89,89,mv_2078_image_T_r1,mv_2078_evidence_T_r1
+2096,visual_family_b72653265c6bad2943d9,1,metric geometry - area,WRONG,CORRECT,121,109,mv_2096_image_T_r1,mv_2096_evidence_T_r1
+2128,visual_family_8f96a045c9a91a2d1923,1,metric geometry - area,CORRECT,CORRECT,E,\text{E. } \frac{7}{6}\pi - \frac{\sqrt{3}}{2},mv_2128_image_T_r1,mv_2128_evidence_T_r1
+2136,visual_family_907bdcbc11fea6b08668,1,metric geometry - angle,WRONG,CORRECT,D,B,mv_2136_image_T_r1,mv_2136_evidence_T_r1
+2146,visual_family_2570ce03b300309d1f8d,1,transformation geometry,WRONG,WRONG,C. \frac{3}{2},C,mv_2146_image_T_r1,mv_2146_evidence_T_r1
+2150,visual_family_81b187544ef8734d6c36,1,combinatorial geometry,WRONG,CORRECT,4,6,mv_2150_image_T_r1,mv_2150_evidence_T_r1
+2151,visual_family_ec2f62c81490e1293397,1,metric geometry - area,CORRECT,CORRECT,\text{C},\text{C},mv_2151_image_T_r1,mv_2151_evidence_T_r1
+2181,visual_family_c060be6d9bf1df2389eb,1,combinatorial geometry,CORRECT,CORRECT,A,\frac{\sqrt{2} - 1}{2},mv_2181_image_T_r1,mv_2181_evidence_T_r1
+2184,visual_family_8e4e975f902448d84ed0,1,metric geometry - area,WRONG,WRONG,B,B. \ 2\pi + 4\sqrt{3},mv_2184_image_T_r1,mv_2184_evidence_T_r1
+2202,visual_family_9c11478199c6330a2002,1,algebra,WRONG,CORRECT,27,22,mv_2202_image_T_r1,mv_2202_evidence_T_r1
+2206,visual_family_153ebeeacf6b8a97825b,1,solid geometry,CORRECT,CORRECT,B,B,mv_2206_image_T_r1,mv_2206_evidence_T_r1
+2236,visual_family_740c59b88403e9ba9187,1,transformation geometry,UNSCORABLE,UNSCORABLE,,,mv_2236_image_T_r1,mv_2236_evidence_T_r1
+2240,visual_family_ec3fdcd8136188e3b476,1,metric geometry - area,WRONG,WRONG,15,5,mv_2240_image_T_r1,mv_2240_evidence_T_r1
+2260,visual_family_50181e9eff2dc4277148,1,metric geometry - angle,WRONG,CORRECT,E,B,mv_2260_image_T_r1,mv_2260_evidence_T_r1
+2271,visual_family_1f3b8e69941641383b83,1,metric geometry - area,CORRECT,CORRECT,E,E,mv_2271_image_T_r1,mv_2271_evidence_T_r1
+2272,visual_family_1134c0a7d44fdae1afd7,1,metric geometry - angle,CORRECT,CORRECT,E,E,mv_2272_image_T_r1,mv_2272_evidence_T_r1
+2273,visual_family_238f12f53f02e14ae4ee,1,metric geometry - length,CORRECT,CORRECT,D,D,mv_2273_image_T_r1,mv_2273_evidence_T_r1
+2275,visual_family_2bc805107667db072da4,1,metric geometry - length,WRONG,CORRECT,\text{D},\text{A},mv_2275_image_T_r1,mv_2275_evidence_T_r1
+2283,visual_family_bfad68fe2ab8ee5e430d,1,metric geometry - angle,CORRECT,CORRECT,E,E,mv_2283_image_T_r1,mv_2283_evidence_T_r1
+2320,visual_family_bc3f8c15936c27ffae4c,1,logic,CORRECT,CORRECT,3,3,mv_2320_image_T_r1,mv_2320_evidence_T_r1
+2339,visual_family_ab7e67e9480cb9aecd20,1,metric geometry - length,CORRECT,CORRECT,30,30,mv_2339_image_T_r1,mv_2339_evidence_T_r1
+2351,visual_family_9551dc186746041a3390,1,metric geometry - area,CORRECT,CORRECT,B,B,mv_2351_image_T_r1,mv_2351_evidence_T_r1
+2368,visual_family_50f33355a7ee09448ecd,1,metric geometry - length,CORRECT,CORRECT,C,C,mv_2368_image_T_r1,mv_2368_evidence_T_r1
+2370,visual_family_d0a8a882c042eea09d56,1,metric geometry - area,CORRECT,CORRECT,392,392,mv_2370_image_T_r1,mv_2370_evidence_T_r1
+2384,visual_family_02176ff993f4b2809f28,1,metric geometry - area,WRONG,CORRECT,4,2,mv_2384_image_T_r1,mv_2384_evidence_T_r1
+2389,visual_family_c81b352b270b2e498256,1,algebra,CORRECT,CORRECT,1,\text{A},mv_2389_image_T_r1,mv_2389_evidence_T_r1
+2390,visual_family_22492061879a16b90698,1,metric geometry - area,CORRECT,WRONG,300,B,mv_2390_image_T_r1,mv_2390_evidence_T_r1
+2428,visual_family_3d93ec274ab8ebaa470a,1,metric geometry - length,CORRECT,CORRECT,80,80,mv_2428_image_T_r1,mv_2428_evidence_T_r1
+2442,visual_family_069170cf54b2e58a1057,1,metric geometry - length,CORRECT,CORRECT,27,27,mv_2442_image_T_r1,mv_2442_evidence_T_r1
+2448,visual_family_80d1f44e05395f8b79fe,1,analytic geometry,WRONG,CORRECT,4,6,mv_2448_image_T_r1,mv_2448_evidence_T_r1
+2454,stage12xs_family_31149d3f0dbbaf155135,1,analytic geometry,CORRECT,CORRECT,B,B,mv_2454_image_T_r1,mv_2454_evidence_T_r1
+2463,visual_family_1b13011c30bd00eb0c56,1,solid geometry,CORRECT,CORRECT,\frac{1}{12},A,mv_2463_image_T_r1,mv_2463_evidence_T_r1
+2496,visual_family_94f136bbfce57e5c6f1c,1,metric geometry - length,CORRECT,CORRECT,81,81,mv_2496_image_T_r1,mv_2496_evidence_T_r1
+2501,visual_family_dafff407d7450f62b0dd,1,metric geometry - angle,CORRECT,CORRECT,\text{A},\text{A},mv_2501_image_T_r1,mv_2501_evidence_T_r1
+2506,visual_family_6e71e71a06ff0270c038,1,algebra,CORRECT,CORRECT,36,36,mv_2506_image_T_r1,mv_2506_evidence_T_r1
+2510,visual_family_ff150bc51704cbc2fb2f,1,graph theory,CORRECT,CORRECT,6,6,mv_2510_image_T_r1,mv_2510_evidence_T_r1
+2511,visual_family_056cc3e4b91ffa46435b,1,statistics,CORRECT,CORRECT,D,D,mv_2511_image_T_r1,mv_2511_evidence_T_r1
+2531,visual_family_d9eb1c864cfaa8b6deef,1,statistics,WRONG,WRONG,1.5,2.4,mv_2531_image_T_r1,mv_2531_evidence_T_r1
+2532,visual_family_6cf5896600cbb072644f,1,solid geometry,CORRECT,CORRECT,14,14,mv_2532_image_T_r1,mv_2532_evidence_T_r1
+2538,visual_family_d41faf2b02624edbcdc0,1,algebra,CORRECT,CORRECT,A,\text{A},mv_2538_image_T_r1,mv_2538_evidence_T_r1
+2550,visual_family_a025f0314b164d72f92e,1,algebra,CORRECT,CORRECT,1,1,mv_2550_image_T_r1,mv_2550_evidence_T_r1
+2561,visual_family_5ee36f40051aec9076cd,1,statistics,WRONG,CORRECT,D,B,mv_2561_image_T_r1,mv_2561_evidence_T_r1
+2566,visual_family_00c08d89fea3949876a5,1,statistics,WRONG,CORRECT,70-75,70,mv_2566_image_T_r1,mv_2566_evidence_T_r1
+2567,visual_family_df91d97b8518e7a95c11,1,metric geometry - area,WRONG,CORRECT,43,36,mv_2567_image_T_r1,mv_2567_evidence_T_r1
+2569,visual_family_2d6c50388f532bd1bbe5,1,metric geometry - area,CORRECT,CORRECT,320,320,mv_2569_image_T_r1,mv_2569_evidence_T_r1
+2584,visual_family_a1dc2a3800abc8019d31,1,metric geometry - length,CORRECT,CORRECT,\dfrac{36}{5},\frac{36}{5},mv_2584_image_T_r1,mv_2584_evidence_T_r1
+2592,visual_family_f6142d191a2f19d20f07,1,metric geometry - angle,CORRECT,CORRECT,D,D,mv_2592_image_T_r1,mv_2592_evidence_T_r1
+2602,visual_family_a24e43b7765e445a86b1,1,algebra,CORRECT,CORRECT,\text{C},C,mv_2602_image_T_r1,mv_2602_evidence_T_r1
+2604,visual_family_6dd6d77794056ba92bc5,1,statistics,CORRECT,CORRECT,15,15,mv_2604_image_T_r1,mv_2604_evidence_T_r1
+2606,visual_family_b028e7b30ae662957565,1,algebra,CORRECT,CORRECT,1150,1150,mv_2606_image_T_r1,mv_2606_evidence_T_r1
+2612,visual_family_b6316aa9a0bfcfd8f2f3,1,algebra,CORRECT,UNSCORABLE,6,,mv_2612_image_T_r1,mv_2612_evidence_T_r1
+2615,visual_family_332d88d62030ed158213,1,solid geometry,CORRECT,CORRECT,41,41,mv_2615_image_T_r1,mv_2615_evidence_T_r1
+2641,visual_family_687224ed4bc816385815,1,metric geometry - area,CORRECT,CORRECT,D,D,mv_2641_image_T_r1,mv_2641_evidence_T_r1
+2644,visual_family_70c766cb85e3b1d3d9c6,1,metric geometry - area,CORRECT,CORRECT,30,30,mv_2644_image_T_r1,mv_2644_evidence_T_r1
+2651,visual_family_396019fec61a590de204,1,metric geometry - length,CORRECT,CORRECT,10,10,mv_2651_image_T_r1,mv_2651_evidence_T_r1
+2657,visual_family_fc6f7f13445453748878,1,combinatorial geometry,CORRECT,CORRECT,11,11,mv_2657_image_T_r1,mv_2657_evidence_T_r1
+2662,visual_family_61b1dbc91985561c5af9,1,combinatorial geometry,WRONG,CORRECT,3,4,mv_2662_image_T_r1,mv_2662_evidence_T_r1
+2665,visual_family_0e8b7a7f79b3098b0162,1,analytic geometry,CORRECT,CORRECT,E,E,mv_2665_image_T_r1,mv_2665_evidence_T_r1
+2677,visual_family_50825d7e9707bb6cb23e,1,algebra,CORRECT,CORRECT,14,14,mv_2677_image_T_r1,mv_2677_evidence_T_r1
+2690,visual_family_8ba89f83a19745038de3,1,solid geometry,CORRECT,CORRECT,D,D,mv_2690_image_T_r1,mv_2690_evidence_T_r1
+2731,visual_family_d58144b2c72e6dbb321d,1,metric geometry - length,CORRECT,CORRECT,B,B,mv_2731_image_T_r1,mv_2731_evidence_T_r1
+2746,visual_family_5e27752e101ec179e101,1,metric geometry - area,CORRECT,CORRECT,B,B,mv_2746_image_T_r1,mv_2746_evidence_T_r1
+2755,visual_family_bd64e1346049830018c7,1,metric geometry - area,CORRECT,CORRECT,150,150,mv_2755_image_T_r1,mv_2755_evidence_T_r1
+2762,visual_family_a0d9819c456947674a4e,1,algebra,CORRECT,CORRECT,37,37,mv_2762_image_T_r1,mv_2762_evidence_T_r1
+2768,visual_family_a3d951e968e6ca5ee3af,1,combinatorics,WRONG,CORRECT,69,28,mv_2768_image_T_r1,mv_2768_evidence_T_r1
+2772,visual_family_7b2e7211fb4f4d8352c9,1,combinatorial geometry,WRONG,CORRECT,8,10,mv_2772_image_T_r1,mv_2772_evidence_T_r1
+2777,visual_family_5a48eed290f62c935538,1,statistics,WRONG,CORRECT,3,4,mv_2777_image_T_r1,mv_2777_evidence_T_r1
+2784,visual_family_4d51741118d90fac5f47,1,combinatorics,WRONG,CORRECT,660,9,mv_2784_image_T_r1,mv_2784_evidence_T_r1
+2789,visual_family_7929065522441d4053cb,1,algebra,CORRECT,CORRECT,C,C,mv_2789_image_T_r1,mv_2789_evidence_T_r1
+2792,visual_family_48be9979594810ed8c4e,1,combinatorial geometry,CORRECT,WRONG,\text{C},D,mv_2792_image_T_r1,mv_2792_evidence_T_r1
+2808,visual_family_e0c7bfa5b8e4ae0cecfc,1,combinatorial geometry,WRONG,CORRECT,8,6,mv_2808_image_T_r1,mv_2808_evidence_T_r1
+2815,visual_family_8e5fabc4550b9c8521b1,1,metric geometry - area,CORRECT,CORRECT,\dfrac{3\sqrt{6}}{2},\frac{3\sqrt{6}}{2},mv_2815_image_T_r1,mv_2815_evidence_T_r1
+2830,visual_family_c6637ffab46701f1f145,1,metric geometry - area,CORRECT,CORRECT,\frac{36}{13},\frac{36}{13},mv_2830_image_T_r1,mv_2830_evidence_T_r1
+2834,visual_family_c60e2531069d760043cb,1,metric geometry - length,CORRECT,CORRECT,24.2,\dfrac{121}{5},mv_2834_image_T_r1,mv_2834_evidence_T_r1
+2851,visual_family_d0541665ae524cf19488,1,combinatorics,WRONG,CORRECT,187,1144,mv_2851_image_T_r1,mv_2851_evidence_T_r1
+2860,visual_family_ed16d272044ed81f103f,1,metric geometry - area,CORRECT,CORRECT,200,200,mv_2860_image_T_r1,mv_2860_evidence_T_r1
+2874,visual_family_25f2044c9fa1f3e56e58,1,combinatorial geometry,WRONG,WRONG,225,351,mv_2874_image_T_r1,mv_2874_evidence_T_r1
+2888,visual_family_5ca78d60306335e9cdf1,1,metric geometry - angle,CORRECT,CORRECT,40,40,mv_2888_image_T_r1,mv_2888_evidence_T_r1
+2894,visual_family_1dedb99499538a04ae76,1,metric geometry - angle,CORRECT,CORRECT,\frac{4}{5},\frac{4}{5},mv_2894_image_T_r1,mv_2894_evidence_T_r1
+2898,visual_family_46b360d48f83a57338dd,1,metric geometry - angle,WRONG,CORRECT,160,120,mv_2898_image_T_r1,mv_2898_evidence_T_r1
+2907,visual_family_58bdcfb2c72536d27542,1,metric geometry - area,CORRECT,CORRECT,62.8,62.8,mv_2907_image_T_r1,mv_2907_evidence_T_r1
+2908,visual_family_6f4ddc5420f60ad526b4,1,metric geometry - length,CORRECT,CORRECT,80,80,mv_2908_image_T_r1,mv_2908_evidence_T_r1
+2916,visual_family_d8a1082b68a287d591a9,1,metric geometry - length,UNSCORABLE,CORRECT,,6,mv_2916_image_T_r1,mv_2916_evidence_T_r1
+2953,visual_family_a91b21e23dd3b8cef04e,1,metric geometry - area,WRONG,CORRECT,\frac{1}{3},\dfrac{3}{16},mv_2953_image_T_r1,mv_2953_evidence_T_r1
+2967,visual_family_271940834e91c81f0fd2,1,metric geometry - angle,CORRECT,CORRECT,72,72,mv_2967_image_T_r1,mv_2967_evidence_T_r1
+2970,visual_family_f80e1544cf66f68de4a9,1,metric geometry - area,CORRECT,CORRECT,24,24,mv_2970_image_T_r1,mv_2970_evidence_T_r1
+2972,visual_family_7b8b6e396edf18942c93,1,metric geometry - angle,CORRECT,CORRECT,45,45,mv_2972_image_T_r1,mv_2972_evidence_T_r1
+2977,visual_family_33d1b80a149c66dd3e9b,1,metric geometry - length,CORRECT,CORRECT,\sqrt{22},\sqrt{22},mv_2977_image_T_r1,mv_2977_evidence_T_r1
+2990,visual_family_8c19996aa890257d05d9,1,metric geometry - area,CORRECT,CORRECT,24,24,mv_2990_image_T_r1,mv_2990_evidence_T_r1
+2997,visual_family_3b05cf67849835e31dfb,1,metric geometry - area,WRONG,WRONG,24,18,mv_2997_image_T_r1,mv_2997_evidence_T_r1
+3020,visual_family_1901019c858e2d999fa9,1,analytic geometry,CORRECT,CORRECT,54,54,mv_3020_image_T_r1,mv_3020_evidence_T_r1
+3022,visual_family_64502fbae8e0adcfd4a3,1,metric geometry - angle,CORRECT,CORRECT,15,15^\circ,mv_3022_image_T_r1,mv_3022_evidence_T_r1
+3030,visual_family_b74b7e3fcb623d805dac,1,metric geometry - length,WRONG,CORRECT,6\sqrt{2},18,mv_3030_image_T_r1,mv_3030_evidence_T_r1
+3037,visual_family_bd4d4fc8c94a454ae07e,1,metric geometry - area,CORRECT,CORRECT,54,54,mv_3037_image_T_r1,mv_3037_evidence_T_r1
+3039,visual_family_508d030c81626ebe8bd8,1,solid geometry,CORRECT,CORRECT,5,5,mv_3039_image_T_r1,mv_3039_evidence_T_r1
+5,visual_family_ef2d127de37b942baad0,2,arithmetic,CORRECT,CORRECT,61,61,mv_5_image_T_r2,mv_5_evidence_T_r2
+7,visual_family_7902699be42c8a8e46fb,2,counting,WRONG,CORRECT,5,6,mv_7_image_T_r2,mv_7_evidence_T_r2
+10,visual_family_4a44dc15364204a80fe8,2,arithmetic,CORRECT,CORRECT,10,10,mv_10_image_T_r2,mv_10_evidence_T_r2
+29,visual_family_35135aaa6cc23891b40c,2,counting,WRONG,CORRECT,9,10,mv_29_image_T_r2,mv_29_evidence_T_r2
+30,visual_family_624b60c58c9d8bfb6ff1,2,metric geometry - area,CORRECT,CORRECT,** The middle animal is the tiger (labeled 2),Tiger,mv_30_image_T_r2,mv_30_evidence_T_r2
+35,visual_family_9f14025af0065b30e47e,2,descriptive geometry,WRONG,CORRECT,4,3,mv_35_image_T_r2,mv_35_evidence_T_r2
+52,visual_family_41cfc0d1f2d127b04555,2,graph theory,WRONG,WRONG,B,D,mv_52_image_T_r2,mv_52_evidence_T_r2
+57,visual_family_c837649cce43f2729138,2,arithmetic,WRONG,CORRECT,16,10,mv_57_image_T_r2,mv_57_evidence_T_r2
+62,visual_family_81b8a03f97e8787c53fe,2,counting,WRONG,CORRECT,8,10,mv_62_image_T_r2,mv_62_evidence_T_r2
+83,visual_family_bbb965ab0c80d6538cf2,2,combinatorial geometry,CORRECT,CORRECT,B,B,mv_83_image_T_r2,mv_83_evidence_T_r2
+92,visual_family_8241649609f88ccd2a0a,2,combinatorics,CORRECT,CORRECT,6,6,mv_92_image_T_r2,mv_92_evidence_T_r2
+104,visual_family_5ef6fdf32513aa7cd11f,2,solid geometry,WRONG,CORRECT,3,2,mv_104_image_T_r2,mv_104_evidence_T_r2
+109,visual_family_0fd42b3f73c448b34940,2,arithmetic,CORRECT,CORRECT,30,30,mv_109_image_T_r2,mv_109_evidence_T_r2
+111,visual_family_f6e0a1e2ac41945a9aa7,2,logic,CORRECT,CORRECT,2,2,mv_111_image_T_r2,mv_111_evidence_T_r2
+117,visual_family_2ac878b0e2180616993b,2,logic,CORRECT,CORRECT,C,\text{C},mv_117_image_T_r2,mv_117_evidence_T_r2
+159,stage12xs_family_23ac74f78457156d00c6,2,algebra,CORRECT,CORRECT,3,3,mv_159_image_T_r2,mv_159_evidence_T_r2
+164,visual_family_3f9807cb9ae9fb6c3094,2,algebra,CORRECT,CORRECT,A,A,mv_164_image_T_r2,mv_164_evidence_T_r2
+165,visual_family_bc52dd634277c4a34a2d,2,metric geometry - length,CORRECT,CORRECT,60,60,mv_165_image_T_r2,mv_165_evidence_T_r2
+195,visual_family_1dfacb2ea5a03e0a9159,2,solid geometry,WRONG,WRONG,1,1,mv_195_image_T_r2,mv_195_evidence_T_r2
+200,visual_family_27badc983df1780b60c2,2,metric geometry - length,WRONG,CORRECT,12,13,mv_200_image_T_r2,mv_200_evidence_T_r2
+210,visual_family_d29d53701d3c859e29e1,2,combinatorics,CORRECT,CORRECT,20,20,mv_210_image_T_r2,mv_210_evidence_T_r2
+221,visual_family_67e9c3acebb154a282f3,2,analytic geometry,CORRECT,CORRECT,A,A,mv_221_image_T_r2,mv_221_evidence_T_r2
+234,stage12xs_family_322ee8dec2ea5476f4b3,2,algebra,WRONG,CORRECT,2,1,mv_234_image_T_r2,mv_234_evidence_T_r2
+245,visual_family_011af72a910ac4acf367,2,statistics,WRONG,CORRECT,12.5,13,mv_245_image_T_r2,mv_245_evidence_T_r2
+252,visual_family_d6e5a20b30f87216b2c7,2,arithmetic,WRONG,WRONG,C,\text{C},mv_252_image_T_r2,mv_252_evidence_T_r2
+255,visual_family_9556b82499cc0aaf86ae,2,metric geometry - length,CORRECT,CORRECT,5,5,mv_255_image_T_r2,mv_255_evidence_T_r2
+274,visual_family_718127812c05853f0bec,2,metric geometry - area,CORRECT,CORRECT,C,C,mv_274_image_T_r2,mv_274_evidence_T_r2
+275,visual_family_3a1dfb05d7257530e634,2,transformation geometry,WRONG,WRONG,4,16,mv_275_image_T_r2,mv_275_evidence_T_r2
+279,visual_family_efd96aedf377e20afd95,2,analytic geometry,WRONG,CORRECT,D,\text{A},mv_279_image_T_r2,mv_279_evidence_T_r2
+289,visual_family_af180e4359fc6179dc95,2,combinatorics,WRONG,WRONG,B,\text{B},mv_289_image_T_r2,mv_289_evidence_T_r2
+292,visual_family_6db6eb4af1e18ab81d38,2,transformation geometry,WRONG,WRONG,E,62.5,mv_292_image_T_r2,mv_292_evidence_T_r2
+318,visual_family_aae02129362d611717b6,2,algebra,CORRECT,CORRECT,2,2,mv_318_image_T_r2,mv_318_evidence_T_r2
+338,visual_family_5d8f6cce532a7aeb5719,2,metric geometry - length,CORRECT,WRONG,D,11,mv_338_image_T_r2,mv_338_evidence_T_r2
+349,visual_family_72ba187b05e705de2dce,2,algebra,CORRECT,CORRECT,28,28,mv_349_image_T_r2,mv_349_evidence_T_r2
+361,visual_family_73daa9289ddd08a53ba8,2,logic,WRONG,CORRECT,B,D,mv_361_image_T_r2,mv_361_evidence_T_r2
+369,visual_family_5f193b350c8aba4883de,2,metric geometry - length,WRONG,CORRECT,B,D,mv_369_image_T_r2,mv_369_evidence_T_r2
+372,visual_family_62f77e7d6197863ac98d,2,graph theory,CORRECT,CORRECT,4,4,mv_372_image_T_r2,mv_372_evidence_T_r2
+378,visual_family_21ef779311a43f0e067d,2,algebra,WRONG,CORRECT,A,E,mv_378_image_T_r2,mv_378_evidence_T_r2
+381,visual_family_392a52e4f77c40bf3321,2,solid geometry,WRONG,WRONG,A,\text{A},mv_381_image_T_r2,mv_381_evidence_T_r2
+389,visual_family_b98880883fd8d975260f,2,metric geometry - area,WRONG,CORRECT,12,16,mv_389_image_T_r2,mv_389_evidence_T_r2
+391,visual_family_a934c244755c66aebb0d,2,solid geometry,WRONG,WRONG,D,B,mv_391_image_T_r2,mv_391_evidence_T_r2
+397,visual_family_1d2028ddcd746a7ee87d,2,metric geometry - length,CORRECT,CORRECT,3,3,mv_397_image_T_r2,mv_397_evidence_T_r2
+399,visual_family_0f78540965a86402578f,2,arithmetic,WRONG,CORRECT,102,110,mv_399_image_T_r2,mv_399_evidence_T_r2
+401,visual_family_dcaadad1cfce437735b8,2,combinatorial geometry,WRONG,CORRECT,16,18,mv_401_image_T_r2,mv_401_evidence_T_r2
+407,visual_family_a5abb1500bdeaef41e2e,2,arithmetic,WRONG,CORRECT,4,3,mv_407_image_T_r2,mv_407_evidence_T_r2
+414,visual_family_8111eb1556229541d7d2,2,algebra,CORRECT,CORRECT,E,E,mv_414_image_T_r2,mv_414_evidence_T_r2
+430,visual_family_fed88b40aba63cac05ea,2,graph theory,WRONG,CORRECT,70,90,mv_430_image_T_r2,mv_430_evidence_T_r2
+455,visual_family_f626051bc94422f26f4b,2,combinatorics,CORRECT,CORRECT,6,6,mv_455_image_T_r2,mv_455_evidence_T_r2
+459,visual_family_42f0bec3310ddd8a55e8,2,counting,WRONG,CORRECT,2,6,mv_459_image_T_r2,mv_459_evidence_T_r2
+471,visual_family_064c3e311ef63912b0cc,2,transformation geometry,CORRECT,WRONG,2,3,mv_471_image_T_r2,mv_471_evidence_T_r2
+485,visual_family_5844a72aee9269a68da2,2,solid geometry,WRONG,CORRECT,48,56,mv_485_image_T_r2,mv_485_evidence_T_r2
+487,visual_family_9b19f9ab816598a0809e,2,algebra,CORRECT,CORRECT,61,61,mv_487_image_T_r2,mv_487_evidence_T_r2
+489,visual_family_e4be97ce765e6cfcd703,2,arithmetic,CORRECT,CORRECT,6,6,mv_489_image_T_r2,mv_489_evidence_T_r2
+496,visual_family_35bbce4007c5cd57a4c6,2,algebra,WRONG,CORRECT,3,4,mv_496_image_T_r2,mv_496_evidence_T_r2
+504,visual_family_ba689abd93c9c6a7d08b,2,counting,WRONG,WRONG,14,8,mv_504_image_T_r2,mv_504_evidence_T_r2
+517,visual_family_5088c1bc42f5cc6a32cd,2,arithmetic,CORRECT,CORRECT,** D. 90,D,mv_517_image_T_r2,mv_517_evidence_T_r2
+522,visual_family_a9346b0068335c634304,2,graph theory,CORRECT,CORRECT,3,3,mv_522_image_T_r2,mv_522_evidence_T_r2
+526,visual_family_f7c2599681e9284ce1c4,2,graph theory,WRONG,CORRECT,11,21,mv_526_image_T_r2,mv_526_evidence_T_r2
+527,visual_family_e1bb74a7794720edf493,2,algebra,CORRECT,CORRECT,8,8,mv_527_image_T_r2,mv_527_evidence_T_r2
+531,visual_family_891d46993a36d7839224,2,algebra,CORRECT,CORRECT,6,6,mv_531_image_T_r2,mv_531_evidence_T_r2
+540,visual_family_84f01dd97c687fb28a29,2,combinatorial geometry,WRONG,CORRECT,24,15,mv_540_image_T_r2,mv_540_evidence_T_r2
+556,visual_family_9d6aa3d89c0171b9c2cc,2,logic,CORRECT,CORRECT,4,4,mv_556_image_T_r2,mv_556_evidence_T_r2
+586,stage12xs_family_3b0c9fb336a68bd8f097,2,algebra,WRONG,CORRECT,9,21,mv_586_image_T_r2,mv_586_evidence_T_r2
+597,visual_family_fcf1e4bf9cc9c1083647,2,arithmetic,CORRECT,CORRECT,B,B,mv_597_image_T_r2,mv_597_evidence_T_r2
+599,visual_family_182dc6b90f1c9cd913c3,2,logic,WRONG,CORRECT,D,E,mv_599_image_T_r2,mv_599_evidence_T_r2
+604,visual_family_3b86df3ff95ad2fd7210,2,descriptive geometry,CORRECT,WRONG,A,B,mv_604_image_T_r2,mv_604_evidence_T_r2
+615,visual_family_3de8392541ace28284ac,2,algebra,CORRECT,CORRECT,6,6,mv_615_image_T_r2,mv_615_evidence_T_r2
+619,visual_family_86a3f9b13a5b652f93cb,2,metric geometry - length,WRONG,WRONG,B,C,mv_619_image_T_r2,mv_619_evidence_T_r2
+624,visual_family_1b3c33580f2e2094cbde,2,descriptive geometry,CORRECT,CORRECT,8,8,mv_624_image_T_r2,mv_624_evidence_T_r2
+631,visual_family_7b81eb727ed48055fa55,2,combinatorial geometry,CORRECT,WRONG,1,5,mv_631_image_T_r2,mv_631_evidence_T_r2
+641,visual_family_455ae2dfc77dd77562c0,2,topology,WRONG,WRONG,3,3,mv_641_image_T_r2,mv_641_evidence_T_r2
+659,visual_family_5c17cac5569c1ab72a3f,2,algebra,WRONG,CORRECT,B,A,mv_659_image_T_r2,mv_659_evidence_T_r2
+661,stage12xs_family_865b75e1bbddb3c24fad,2,logic,CORRECT,CORRECT,C,C,mv_661_image_T_r2,mv_661_evidence_T_r2
+662,visual_family_81f27f8a7d8766c72c03,2,transformation geometry,UNSCORABLE,CORRECT,,**B**,mv_662_image_T_r2,mv_662_evidence_T_r2
+668,visual_family_6f81082badfd007354ac,2,arithmetic,CORRECT,CORRECT,3,3,mv_668_image_T_r2,mv_668_evidence_T_r2
+681,stage12xs_family_d2e0853f4e13efe69823,2,transformation geometry,CORRECT,CORRECT,\text{C},C,mv_681_image_T_r2,mv_681_evidence_T_r2
+682,stage12xs_family_1eb883233ee0078c8b77,2,combinatorial geometry,WRONG,CORRECT,B,E,mv_682_image_T_r2,mv_682_evidence_T_r2
+688,visual_family_1c63ed9164d61acfd1f4,2,algebra,CORRECT,CORRECT,A,\text{A},mv_688_image_T_r2,mv_688_evidence_T_r2
+703,visual_family_769e881d85fc5d27cb4c,2,algebra,CORRECT,CORRECT,22,22,mv_703_image_T_r2,mv_703_evidence_T_r2
+715,visual_family_35c71bd7eaf4607047bb,2,algebra,WRONG,CORRECT,5,6,mv_715_image_T_r2,mv_715_evidence_T_r2
+733,visual_family_367461e6dd07bdb57342,2,metric geometry - length,CORRECT,CORRECT,160,160,mv_733_image_T_r2,mv_733_evidence_T_r2
+734,stage12xs_family_77290499dda508cc04df,2,descriptive geometry,CORRECT,CORRECT,E,E,mv_734_image_T_r2,mv_734_evidence_T_r2
+737,visual_family_bc8db39f614342b78a67,2,algebra,WRONG,CORRECT,D,B,mv_737_image_T_r2,mv_737_evidence_T_r2
+740,visual_family_234666d765f4c0a26cf4,2,graph theory,WRONG,CORRECT,0,6,mv_740_image_T_r2,mv_740_evidence_T_r2
+755,visual_family_86ab8cbe5869bd1f9c70,2,algebra,CORRECT,WRONG,5,2,mv_755_image_T_r2,mv_755_evidence_T_r2
+764,visual_family_aaee0ce51abf0849e68b,2,combinatorics,CORRECT,CORRECT,9,9,mv_764_image_T_r2,mv_764_evidence_T_r2
+772,visual_family_9168e847861429230da3,2,arithmetic,CORRECT,CORRECT,14,14,mv_772_image_T_r2,mv_772_evidence_T_r2
+776,visual_family_3daebbc6dfd81355f1cc,2,metric geometry - area,CORRECT,CORRECT,65,65,mv_776_image_T_r2,mv_776_evidence_T_r2
+781,visual_family_28955b1fb53203e2ff24,2,arithmetic,WRONG,CORRECT,25,30,mv_781_image_T_r2,mv_781_evidence_T_r2
+808,visual_family_d72a11d264e746464ed4,2,descriptive geometry,WRONG,CORRECT,\text{A},B,mv_808_image_T_r2,mv_808_evidence_T_r2
+809,visual_family_0b06d2ffebd5c025cf44,2,combinatorial geometry,CORRECT,CORRECT,D,D,mv_809_image_T_r2,mv_809_evidence_T_r2
+817,stage12xs_family_02b77c45c29921553643,2,solid geometry,WRONG,CORRECT,6,7,mv_817_image_T_r2,mv_817_evidence_T_r2
+828,visual_family_43d244581aa23a744de9,2,combinatorial geometry,WRONG,WRONG,8,4,mv_828_image_T_r2,mv_828_evidence_T_r2
+833,visual_family_130790feced08212eed7,2,counting,CORRECT,WRONG,3,5,mv_833_image_T_r2,mv_833_evidence_T_r2
+841,visual_family_7125e777a6b199fc4e8c,2,graph theory,CORRECT,CORRECT,2,2,mv_841_image_T_r2,mv_841_evidence_T_r2
+843,visual_family_55e8ab098d48f8be5578,2,algebra,CORRECT,CORRECT,D,D,mv_843_image_T_r2,mv_843_evidence_T_r2
+847,visual_family_19e68d9fe08f7c4ac189,2,combinatorial geometry,CORRECT,CORRECT,12,12,mv_847_image_T_r2,mv_847_evidence_T_r2
+849,stage12xs_family_0903ea3cf627297970d3,2,graph theory,WRONG,CORRECT,B,C,mv_849_image_T_r2,mv_849_evidence_T_r2
+865,visual_family_8b6cd7c429e83373dbd4,2,metric geometry - length,WRONG,WRONG,A,A,mv_865_image_T_r2,mv_865_evidence_T_r2
+871,visual_family_062f50753b9095ee2eff,2,arithmetic,CORRECT,CORRECT,3,3,mv_871_image_T_r2,mv_871_evidence_T_r2
+877,visual_family_30e26cef13a6dbbf0e30,2,combinatorics,CORRECT,CORRECT,6,6,mv_877_image_T_r2,mv_877_evidence_T_r2
+878,stage12xs_family_9fd461c251c026fd1a9c,2,counting,WRONG,CORRECT,16,13,mv_878_image_T_r2,mv_878_evidence_T_r2
+895,visual_family_c49b60838c5c6ddf3480,2,algebra,CORRECT,CORRECT,0,0,mv_895_image_T_r2,mv_895_evidence_T_r2
+935,visual_family_b064bdba191139689139,2,solid geometry,WRONG,CORRECT,3,4,mv_935_image_T_r2,mv_935_evidence_T_r2
+937,visual_family_ffd560d182369b08a8b3,2,graph theory,WRONG,WRONG,A,B,mv_937_image_T_r2,mv_937_evidence_T_r2
+949,visual_family_3033cf66fa728da7a294,2,algebra,CORRECT,CORRECT,4,4,mv_949_image_T_r2,mv_949_evidence_T_r2
+962,visual_family_084917af148384c1e839,2,combinatorial geometry,WRONG,CORRECT,A,B,mv_962_image_T_r2,mv_962_evidence_T_r2
+968,visual_family_d6420a4ee44bc345c7bf,2,solid geometry,WRONG,CORRECT,32,60,mv_968_image_T_r2,mv_968_evidence_T_r2
+969,visual_family_16b30490a644117a249c,2,solid geometry,CORRECT,CORRECT,D,D,mv_969_image_T_r2,mv_969_evidence_T_r2
+975,visual_family_0aa598c735f77296910c,2,descriptive geometry,WRONG,CORRECT,10,19,mv_975_image_T_r2,mv_975_evidence_T_r2
+986,stage12xs_family_5616951257a5ca7c540e,2,combinatorial geometry,WRONG,WRONG,B,D. \ 440 \text{ cm},mv_986_image_T_r2,mv_986_evidence_T_r2
+991,visual_family_25b7c81e770034aeda70,2,algebra,CORRECT,CORRECT,3,3,mv_991_image_T_r2,mv_991_evidence_T_r2
+1005,visual_family_7f861bcee185de001377,2,combinatorial geometry,WRONG,CORRECT,1,2,mv_1005_image_T_r2,mv_1005_evidence_T_r2
+1006,visual_family_478c4ffb1cbcea37956a,2,combinatorial geometry,CORRECT,CORRECT,B. 45^\circ,B,mv_1006_image_T_r2,mv_1006_evidence_T_r2
+1009,visual_family_6ad4a6b1e5ea5569795e,2,transformation geometry,WRONG,WRONG,B,120^\circ,mv_1009_image_T_r2,mv_1009_evidence_T_r2
+1010,stage12xs_family_361973a4e9519673495c,2,logic,CORRECT,CORRECT,2,2,mv_1010_image_T_r2,mv_1010_evidence_T_r2
+1022,visual_family_f00f2e7bca65e9f8409f,2,metric geometry - area,WRONG,CORRECT,A,D,mv_1022_image_T_r2,mv_1022_evidence_T_r2
+1040,visual_family_bc36cf3b9981226c5b01,2,solid geometry,CORRECT,CORRECT,36,36,mv_1040_image_T_r2,mv_1040_evidence_T_r2
+1047,stage12xs_family_77fe255923f6ad65c4ac,2,combinatorial geometry,CORRECT,CORRECT,C,C,mv_1047_image_T_r2,mv_1047_evidence_T_r2
+1056,visual_family_e8c5e943ad4fd9d115c2,2,algebra,WRONG,CORRECT,111,92,mv_1056_image_T_r2,mv_1056_evidence_T_r2
+1069,stage12xs_family_0399eb790c0fa43f6182,2,algebra,CORRECT,CORRECT,6,6,mv_1069_image_T_r2,mv_1069_evidence_T_r2
+1075,stage12xs_family_5bbdbcf3361cbb224f13,2,logic,WRONG,CORRECT,B,\text{A},mv_1075_image_T_r2,mv_1075_evidence_T_r2
+1084,visual_family_9fbb55aa1ca6da90db1c,2,combinatorial geometry,WRONG,WRONG,6,6,mv_1084_image_T_r2,mv_1084_evidence_T_r2
+1105,visual_family_47c5fbf51c636da0b483,2,counting,WRONG,CORRECT,7,4,mv_1105_image_T_r2,mv_1105_evidence_T_r2
+1121,visual_family_3958de59a1ae60b4330e,2,descriptive geometry,WRONG,WRONG,A,A,mv_1121_image_T_r2,mv_1121_evidence_T_r2
+1124,visual_family_736e537f0f664a3d8208,2,combinatorial geometry,WRONG,WRONG,\frac{3}{4},\dfrac{5}{4},mv_1124_image_T_r2,mv_1124_evidence_T_r2
+1155,visual_family_37b1267a4ff4e12dddfe,2,metric geometry - length,WRONG,CORRECT,C,D,mv_1155_image_T_r2,mv_1155_evidence_T_r2
+1156,visual_family_3aa82834b765ea042146,2,solid geometry,WRONG,CORRECT,27,39,mv_1156_image_T_r2,mv_1156_evidence_T_r2
+1168,visual_family_68ac846d8dc1c75da907,2,metric geometry - area,CORRECT,CORRECT,B,B,mv_1168_image_T_r2,mv_1168_evidence_T_r2
+1170,visual_family_19d0b0d4077454bdec0d,2,solid geometry,WRONG,CORRECT,E,C,mv_1170_image_T_r2,mv_1170_evidence_T_r2
+1185,visual_family_b7ecc2898ee9ca799ed9,2,transformation geometry,WRONG,CORRECT,4,5,mv_1185_image_T_r2,mv_1185_evidence_T_r2
+1196,visual_family_369b906a75d372193bbe,2,metric geometry - angle,WRONG,CORRECT,D,E,mv_1196_image_T_r2,mv_1196_evidence_T_r2
+1245,visual_family_42dc45a59236a5afe617,2,algebra,CORRECT,CORRECT,12,12,mv_1245_image_T_r2,mv_1245_evidence_T_r2
+1247,visual_family_92f3c34650437f1ddf6b,2,logic,CORRECT,CORRECT,7,7,mv_1247_image_T_r2,mv_1247_evidence_T_r2
+1248,visual_family_da2c575e48ee7651b9e9,2,metric geometry - length,WRONG,CORRECT,11,18,mv_1248_image_T_r2,mv_1248_evidence_T_r2
+1250,stage12xs_family_a7bc4003a517e25826f2,2,combinatorics,CORRECT,CORRECT,6,6,mv_1250_image_T_r2,mv_1250_evidence_T_r2
+1266,visual_family_f7d7736a8f77a4940642,2,metric geometry - area,CORRECT,CORRECT,64,64,mv_1266_image_T_r2,mv_1266_evidence_T_r2
+1269,visual_family_6028e2a87c5080933ca4,2,metric geometry - area,CORRECT,CORRECT,18,18,mv_1269_image_T_r2,mv_1269_evidence_T_r2
+1304,visual_family_8ecb5bcd8cd84cc3ffc6,2,metric geometry - length,WRONG,WRONG,\text{C},C,mv_1304_image_T_r2,mv_1304_evidence_T_r2
+1319,visual_family_560229669058290cfa53,2,solid geometry,WRONG,WRONG,C,E,mv_1319_image_T_r2,mv_1319_evidence_T_r2
+1328,visual_family_040fe555cb4f5459547e,2,solid geometry,CORRECT,CORRECT,6,6,mv_1328_image_T_r2,mv_1328_evidence_T_r2
+1345,visual_family_8d30c678193105253b54,2,transformation geometry,CORRECT,CORRECT,C,\text{C},mv_1345_image_T_r2,mv_1345_evidence_T_r2
+1346,visual_family_5631e5efadc1db19f6b2,2,metric geometry - length,WRONG,CORRECT,24,12,mv_1346_image_T_r2,mv_1346_evidence_T_r2
+1349,visual_family_6f42ae6ab479ee169805,2,logic,CORRECT,CORRECT,5,5,mv_1349_image_T_r2,mv_1349_evidence_T_r2
+1352,visual_family_9d551151d715267077b3,2,solid geometry,WRONG,WRONG,300,300,mv_1352_image_T_r2,mv_1352_evidence_T_r2
+1356,visual_family_85e63bcfdcfcf1a63cce,2,metric geometry - area,CORRECT,CORRECT,6,6,mv_1356_image_T_r2,mv_1356_evidence_T_r2
+1365,visual_family_67d1514f9bb64c1adcec,2,algebra,CORRECT,CORRECT,5,5,mv_1365_image_T_r2,mv_1365_evidence_T_r2
+1375,visual_family_d818f221cbcb7016316f,2,metric geometry - length,CORRECT,CORRECT,A,A,mv_1375_image_T_r2,mv_1375_evidence_T_r2
+1383,visual_family_6495da527bb644b403ca,2,graph theory,WRONG,CORRECT,1,9,mv_1383_image_T_r2,mv_1383_evidence_T_r2
+1390,stage12xs_family_9868f3b054c82eec85ae,2,combinatorial geometry,CORRECT,CORRECT,C,\text{C. } 2 + 2\sqrt{2},mv_1390_image_T_r2,mv_1390_evidence_T_r2
+1392,visual_family_01b23136ea7f9f8b9e72,2,algebra,WRONG,CORRECT,C,D,mv_1392_image_T_r2,mv_1392_evidence_T_r2
+1394,stage12xs_family_40bc688800075841aa9f,2,metric geometry - length,CORRECT,CORRECT,D,D,mv_1394_image_T_r2,mv_1394_evidence_T_r2
+1402,stage12xs_family_8683273305d8e0cbb716,2,graph theory,WRONG,CORRECT,6,12,mv_1402_image_T_r2,mv_1402_evidence_T_r2
+1440,visual_family_a4ff3ad278c7b0575a8e,2,metric geometry - area,CORRECT,CORRECT,1,1,mv_1440_image_T_r2,mv_1440_evidence_T_r2
+1450,visual_family_dd932afbc5cfa22b7923,2,combinatorics,CORRECT,CORRECT,1536,1536,mv_1450_image_T_r2,mv_1450_evidence_T_r2
+1457,visual_family_63fd44eec460feb25809,2,logic,WRONG,WRONG,3,4,mv_1457_image_T_r2,mv_1457_evidence_T_r2
+1463,visual_family_e6538a5ea68642542b0f,2,metric geometry - length,CORRECT,CORRECT,E,E,mv_1463_image_T_r2,mv_1463_evidence_T_r2
+1475,visual_family_d3fb4415d5c03cf65449,2,logic,WRONG,WRONG,2,2,mv_1475_image_T_r2,mv_1475_evidence_T_r2
+1513,visual_family_b695396d3070a538dafa,2,algebra,CORRECT,CORRECT,42,42,mv_1513_image_T_r2,mv_1513_evidence_T_r2
+1527,visual_family_46ff18131a6daf2839e2,2,metric geometry - angle,WRONG,WRONG,48,12,mv_1527_image_T_r2,mv_1527_evidence_T_r2
+1537,visual_family_6a27eece1c1658b237ae,2,graph theory,WRONG,CORRECT,6,12,mv_1537_image_T_r2,mv_1537_evidence_T_r2
+1540,stage12xs_family_cf4be4b402ea613fc26c,2,algebra,CORRECT,WRONG,\text{E},A,mv_1540_image_T_r2,mv_1540_evidence_T_r2
+1583,stage12xs_family_97568a50501628bcd9d2,2,metric geometry - area,CORRECT,CORRECT,D,D,mv_1583_image_T_r2,mv_1583_evidence_T_r2
+1588,visual_family_d24eac45e69be063cc00,2,combinatorics,WRONG,CORRECT,7,4,mv_1588_image_T_r2,mv_1588_evidence_T_r2
+1592,visual_family_8cca04ee02b8915f60a6,2,metric geometry - angle,WRONG,CORRECT,65,51,mv_1592_image_T_r2,mv_1592_evidence_T_r2
+1594,stage12xs_family_102e9eb2f484f08d2e70,2,solid geometry,WRONG,CORRECT,C,B,mv_1594_image_T_r2,mv_1594_evidence_T_r2
+1604,stage12xs_family_c04c5d3c16f69fa3b456,2,combinatorial geometry,CORRECT,CORRECT,B,B,mv_1604_image_T_r2,mv_1604_evidence_T_r2
+1625,stage12xs_family_0348af0f173ba37f1235,2,metric geometry - length,WRONG,CORRECT,\text{C},\text{D},mv_1625_image_T_r2,mv_1625_evidence_T_r2
+1629,visual_family_d4a66133ca14d9c93ec5,2,metric geometry - area,WRONG,CORRECT,200 - 50\pi,100,mv_1629_image_T_r2,mv_1629_evidence_T_r2
+1633,visual_family_41baf55616a693d1be27,2,solid geometry,CORRECT,CORRECT,105,105,mv_1633_image_T_r2,mv_1633_evidence_T_r2
+1655,stage12xs_family_c310546d05f25e21d4f6,2,metric geometry - angle,CORRECT,CORRECT,A,\text{A. } 11^\circ,mv_1655_image_T_r2,mv_1655_evidence_T_r2
+1677,visual_family_3b3e8459061b066c6635,2,metric geometry - length,CORRECT,CORRECT,A,A,mv_1677_image_T_r2,mv_1677_evidence_T_r2
+1679,visual_family_b93e56aec7724213a91e,2,metric geometry - area,CORRECT,CORRECT,A,\text{A},mv_1679_image_T_r2,mv_1679_evidence_T_r2
+1682,visual_family_39fb5bd005525dbf0482,2,statistics,CORRECT,CORRECT,1,1,mv_1682_image_T_r2,mv_1682_evidence_T_r2
+1698,visual_family_2fe98face8187bcd9a09,2,metric geometry - area,WRONG,CORRECT,72,48,mv_1698_image_T_r2,mv_1698_evidence_T_r2
+1720,visual_family_c96aa733b75e278342e3,2,combinatorics,CORRECT,WRONG,70,140,mv_1720_image_T_r2,mv_1720_evidence_T_r2
+1726,visual_family_2f11192801e83bf30f01,2,descriptive geometry,WRONG,CORRECT,486,540,mv_1726_image_T_r2,mv_1726_evidence_T_r2
+1736,visual_family_96a1a93e19030f5f9378,2,algebra,CORRECT,CORRECT,16,16,mv_1736_image_T_r2,mv_1736_evidence_T_r2
+1754,visual_family_a6d4096b24cd4ad24ea6,2,logic,CORRECT,CORRECT,\text{B},B,mv_1754_image_T_r2,mv_1754_evidence_T_r2
+1765,stage12xs_family_97047d4eb8ae861f9084,2,metric geometry - length,CORRECT,CORRECT,C,6,mv_1765_image_T_r2,mv_1765_evidence_T_r2
+1769,visual_family_eb861137efa007794537,2,algebra,CORRECT,CORRECT,20,20,mv_1769_image_T_r2,mv_1769_evidence_T_r2
+1772,visual_family_717500ab9857a9da8711,2,arithmetic,WRONG,CORRECT,74,222,mv_1772_image_T_r2,mv_1772_evidence_T_r2
+1782,visual_family_72b31cf00f8ab3967588,2,combinatorial geometry,CORRECT,CORRECT,20,20,mv_1782_image_T_r2,mv_1782_evidence_T_r2
+1828,visual_family_4f6ceab7942f9dece7e2,2,metric geometry - length,CORRECT,CORRECT,7,7,mv_1828_image_T_r2,mv_1828_evidence_T_r2
+1829,visual_family_19e639b064bdb018bbf3,2,algebra,CORRECT,CORRECT,9,9,mv_1829_image_T_r2,mv_1829_evidence_T_r2
+1833,visual_family_75d5c2fc7a17169c47ed,2,solid geometry,WRONG,CORRECT,21,27,mv_1833_image_T_r2,mv_1833_evidence_T_r2
+1840,stage12xs_family_ed79f5b36813bda0de3b,2,metric geometry - length,CORRECT,CORRECT,D,D,mv_1840_image_T_r2,mv_1840_evidence_T_r2
+1848,visual_family_33afd662cef42c907d9b,2,algebra,CORRECT,CORRECT,6,6,mv_1848_image_T_r2,mv_1848_evidence_T_r2
+1863,visual_family_9b5173ba93decd311f89,2,analytic geometry,WRONG,CORRECT,\text{C},D,mv_1863_image_T_r2,mv_1863_evidence_T_r2
+1864,visual_family_d9521266ec778d833335,2,transformation geometry,CORRECT,CORRECT,3,3,mv_1864_image_T_r2,mv_1864_evidence_T_r2
+1895,visual_family_5932cb6e58ef979208d6,2,combinatorics,WRONG,CORRECT,90,12,mv_1895_image_T_r2,mv_1895_evidence_T_r2
+1932,visual_family_01a0123885ebec5b37b5,2,combinatorics,WRONG,CORRECT,12,16,mv_1932_image_T_r2,mv_1932_evidence_T_r2
+1948,visual_family_03b0bd366e8184f8d871,2,algebra,CORRECT,CORRECT,158,158,mv_1948_image_T_r2,mv_1948_evidence_T_r2
+1952,visual_family_6ed701cfedb16ebd91b2,2,metric geometry - length,CORRECT,CORRECT,D,D,mv_1952_image_T_r2,mv_1952_evidence_T_r2
+1955,visual_family_b53a7292b38e011dbe6e,2,metric geometry - angle,CORRECT,WRONG,B,\text{C},mv_1955_image_T_r2,mv_1955_evidence_T_r2
+1970,visual_family_ad1f3889d0032e7c2791,2,algebra,CORRECT,CORRECT,3,3,mv_1970_image_T_r2,mv_1970_evidence_T_r2
+1978,visual_family_46635b56d3c7f0b7bb26,2,metric geometry - area,CORRECT,CORRECT,20,20,mv_1978_image_T_r2,mv_1978_evidence_T_r2
+1990,visual_family_a7be8e1fe282a37cd666,2,combinatorics,CORRECT,CORRECT,84,84,mv_1990_image_T_r2,mv_1990_evidence_T_r2
+2000,visual_family_81a83544cf93c245178c,2,arithmetic,CORRECT,CORRECT,950,950,mv_2000_image_T_r2,mv_2000_evidence_T_r2
+2019,visual_family_023e33504ab909cf87a6,2,metric geometry - angle,CORRECT,CORRECT,94,94,mv_2019_image_T_r2,mv_2019_evidence_T_r2
+2020,stage12xs_family_417a4208d6fab0c565c5,2,logic,UNSCORABLE,CORRECT,,295,mv_2020_image_T_r2,mv_2020_evidence_T_r2
+2025,visual_family_b2b2f104d32c638903e1,2,graph theory,WRONG,CORRECT,4,3,mv_2025_image_T_r2,mv_2025_evidence_T_r2
+2036,visual_family_97b3e84b5db5f23c51da,2,solid geometry,WRONG,WRONG,144,360,mv_2036_image_T_r2,mv_2036_evidence_T_r2
+2059,visual_family_bef7b4d1c3d67bc9afe7,2,algebra,CORRECT,CORRECT,200,200,mv_2059_image_T_r2,mv_2059_evidence_T_r2
+2063,visual_family_e0ccc43c9b15159c7ad9,2,metric geometry - area,CORRECT,CORRECT,148,148,mv_2063_image_T_r2,mv_2063_evidence_T_r2
+2078,visual_family_d58cabc8303548b6ec23,2,solid geometry,CORRECT,CORRECT,89,89,mv_2078_image_T_r2,mv_2078_evidence_T_r2
+2096,visual_family_b72653265c6bad2943d9,2,metric geometry - area,WRONG,CORRECT,121,109,mv_2096_image_T_r2,mv_2096_evidence_T_r2
+2128,visual_family_8f96a045c9a91a2d1923,2,metric geometry - area,CORRECT,CORRECT,E. \frac{7}{6}\pi - \frac{\sqrt{3}}{2},\text{E. } \frac{7}{6}\pi - \frac{\sqrt{3}}{2},mv_2128_image_T_r2,mv_2128_evidence_T_r2
+2136,visual_family_907bdcbc11fea6b08668,2,metric geometry - angle,CORRECT,CORRECT,B,B,mv_2136_image_T_r2,mv_2136_evidence_T_r2
+2146,visual_family_2570ce03b300309d1f8d,2,transformation geometry,WRONG,WRONG,\text{C},C,mv_2146_image_T_r2,mv_2146_evidence_T_r2
+2150,visual_family_81b187544ef8734d6c36,2,combinatorial geometry,WRONG,CORRECT,4,6,mv_2150_image_T_r2,mv_2150_evidence_T_r2
+2151,visual_family_ec2f62c81490e1293397,2,metric geometry - area,WRONG,CORRECT,D,"\text{C. II, by } 4\pi",mv_2151_image_T_r2,mv_2151_evidence_T_r2
+2181,visual_family_c060be6d9bf1df2389eb,2,combinatorial geometry,CORRECT,CORRECT,\frac{\sqrt{2} - 1}{2},A,mv_2181_image_T_r2,mv_2181_evidence_T_r2
+2184,visual_family_8e4e975f902448d84ed0,2,metric geometry - area,WRONG,WRONG,D,B. \ 2\pi + 4\sqrt{3},mv_2184_image_T_r2,mv_2184_evidence_T_r2
+2202,visual_family_9c11478199c6330a2002,2,algebra,CORRECT,WRONG,22,27,mv_2202_image_T_r2,mv_2202_evidence_T_r2
+2206,visual_family_153ebeeacf6b8a97825b,2,solid geometry,CORRECT,CORRECT,B,10,mv_2206_image_T_r2,mv_2206_evidence_T_r2
+2236,visual_family_740c59b88403e9ba9187,2,transformation geometry,UNSCORABLE,UNSCORABLE,,,mv_2236_image_T_r2,mv_2236_evidence_T_r2
+2240,visual_family_ec3fdcd8136188e3b476,2,metric geometry - area,WRONG,UNSCORABLE,19,,mv_2240_image_T_r2,mv_2240_evidence_T_r2
+2260,visual_family_50181e9eff2dc4277148,2,metric geometry - angle,WRONG,CORRECT,E,\text{B},mv_2260_image_T_r2,mv_2260_evidence_T_r2
+2271,visual_family_1f3b8e69941641383b83,2,metric geometry - area,CORRECT,CORRECT,E,E,mv_2271_image_T_r2,mv_2271_evidence_T_r2
+2272,visual_family_1134c0a7d44fdae1afd7,2,metric geometry - angle,CORRECT,CORRECT,E,E,mv_2272_image_T_r2,mv_2272_evidence_T_r2
+2273,visual_family_238f12f53f02e14ae4ee,2,metric geometry - length,CORRECT,CORRECT,D,D,mv_2273_image_T_r2,mv_2273_evidence_T_r2
+2275,visual_family_2bc805107667db072da4,2,metric geometry - length,WRONG,CORRECT,D,A,mv_2275_image_T_r2,mv_2275_evidence_T_r2
+2283,visual_family_bfad68fe2ab8ee5e430d,2,metric geometry - angle,CORRECT,CORRECT,E,E,mv_2283_image_T_r2,mv_2283_evidence_T_r2
+2320,visual_family_bc3f8c15936c27ffae4c,2,logic,CORRECT,CORRECT,3,3,mv_2320_image_T_r2,mv_2320_evidence_T_r2
+2339,visual_family_ab7e67e9480cb9aecd20,2,metric geometry - length,CORRECT,CORRECT,30,30,mv_2339_image_T_r2,mv_2339_evidence_T_r2
+2351,visual_family_9551dc186746041a3390,2,metric geometry - area,CORRECT,CORRECT,12,B,mv_2351_image_T_r2,mv_2351_evidence_T_r2
+2368,visual_family_50f33355a7ee09448ecd,2,metric geometry - length,CORRECT,CORRECT,C,\text{C},mv_2368_image_T_r2,mv_2368_evidence_T_r2
+2370,visual_family_d0a8a882c042eea09d56,2,metric geometry - area,CORRECT,CORRECT,392,392,mv_2370_image_T_r2,mv_2370_evidence_T_r2
+2384,visual_family_02176ff993f4b2809f28,2,metric geometry - area,WRONG,CORRECT,4,2,mv_2384_image_T_r2,mv_2384_evidence_T_r2
+2389,visual_family_c81b352b270b2e498256,2,algebra,CORRECT,CORRECT,A,A,mv_2389_image_T_r2,mv_2389_evidence_T_r2
+2390,visual_family_22492061879a16b90698,2,metric geometry - area,CORRECT,CORRECT,E,300,mv_2390_image_T_r2,mv_2390_evidence_T_r2
+2428,visual_family_3d93ec274ab8ebaa470a,2,metric geometry - length,CORRECT,CORRECT,80,80,mv_2428_image_T_r2,mv_2428_evidence_T_r2
+2442,visual_family_069170cf54b2e58a1057,2,metric geometry - length,CORRECT,CORRECT,27,27,mv_2442_image_T_r2,mv_2442_evidence_T_r2
+2448,visual_family_80d1f44e05395f8b79fe,2,analytic geometry,WRONG,CORRECT,4,6,mv_2448_image_T_r2,mv_2448_evidence_T_r2
+2454,stage12xs_family_31149d3f0dbbaf155135,2,analytic geometry,CORRECT,CORRECT,B,B,mv_2454_image_T_r2,mv_2454_evidence_T_r2
+2463,visual_family_1b13011c30bd00eb0c56,2,solid geometry,WRONG,CORRECT,\frac{1}{9},A,mv_2463_image_T_r2,mv_2463_evidence_T_r2
+2496,visual_family_94f136bbfce57e5c6f1c,2,metric geometry - length,CORRECT,CORRECT,81,81,mv_2496_image_T_r2,mv_2496_evidence_T_r2
+2501,visual_family_dafff407d7450f62b0dd,2,metric geometry - angle,CORRECT,CORRECT,\text{A},\text{A},mv_2501_image_T_r2,mv_2501_evidence_T_r2
+2506,visual_family_6e71e71a06ff0270c038,2,algebra,CORRECT,CORRECT,36,36,mv_2506_image_T_r2,mv_2506_evidence_T_r2
+2510,visual_family_ff150bc51704cbc2fb2f,2,graph theory,CORRECT,CORRECT,6,6,mv_2510_image_T_r2,mv_2510_evidence_T_r2
+2511,visual_family_056cc3e4b91ffa46435b,2,statistics,CORRECT,CORRECT,D,D,mv_2511_image_T_r2,mv_2511_evidence_T_r2
+2531,visual_family_d9eb1c864cfaa8b6deef,2,statistics,WRONG,WRONG,1.5,2.4,mv_2531_image_T_r2,mv_2531_evidence_T_r2
+2532,visual_family_6cf5896600cbb072644f,2,solid geometry,CORRECT,CORRECT,14,14,mv_2532_image_T_r2,mv_2532_evidence_T_r2
+2538,visual_family_d41faf2b02624edbcdc0,2,algebra,CORRECT,CORRECT,A,\text{A},mv_2538_image_T_r2,mv_2538_evidence_T_r2
+2550,visual_family_a025f0314b164d72f92e,2,algebra,CORRECT,CORRECT,1,1,mv_2550_image_T_r2,mv_2550_evidence_T_r2
+2561,visual_family_5ee36f40051aec9076cd,2,statistics,WRONG,CORRECT,\text{C},B,mv_2561_image_T_r2,mv_2561_evidence_T_r2
+2566,visual_family_00c08d89fea3949876a5,2,statistics,WRONG,CORRECT,70-75,70,mv_2566_image_T_r2,mv_2566_evidence_T_r2
+2567,visual_family_df91d97b8518e7a95c11,2,metric geometry - area,WRONG,CORRECT,29,36,mv_2567_image_T_r2,mv_2567_evidence_T_r2
+2569,visual_family_2d6c50388f532bd1bbe5,2,metric geometry - area,CORRECT,CORRECT,320,320,mv_2569_image_T_r2,mv_2569_evidence_T_r2
+2584,visual_family_a1dc2a3800abc8019d31,2,metric geometry - length,CORRECT,CORRECT,\dfrac{36}{5},\frac{36}{5},mv_2584_image_T_r2,mv_2584_evidence_T_r2
+2592,visual_family_f6142d191a2f19d20f07,2,metric geometry - angle,WRONG,CORRECT,A,D,mv_2592_image_T_r2,mv_2592_evidence_T_r2
+2602,visual_family_a24e43b7765e445a86b1,2,algebra,CORRECT,CORRECT,C,C,mv_2602_image_T_r2,mv_2602_evidence_T_r2
+2604,visual_family_6dd6d77794056ba92bc5,2,statistics,CORRECT,CORRECT,15,** Alberto has biked **15 more miles** than Bjorn after four hours,mv_2604_image_T_r2,mv_2604_evidence_T_r2
+2606,visual_family_b028e7b30ae662957565,2,algebra,CORRECT,CORRECT,1150,1150,mv_2606_image_T_r2,mv_2606_evidence_T_r2
+2612,visual_family_b6316aa9a0bfcfd8f2f3,2,algebra,CORRECT,CORRECT,6,6,mv_2612_image_T_r2,mv_2612_evidence_T_r2
+2615,visual_family_332d88d62030ed158213,2,solid geometry,CORRECT,CORRECT,41,41,mv_2615_image_T_r2,mv_2615_evidence_T_r2
+2641,visual_family_687224ed4bc816385815,2,metric geometry - area,CORRECT,CORRECT,3,D,mv_2641_image_T_r2,mv_2641_evidence_T_r2
+2644,visual_family_70c766cb85e3b1d3d9c6,2,metric geometry - area,CORRECT,CORRECT,30,30,mv_2644_image_T_r2,mv_2644_evidence_T_r2
+2651,visual_family_396019fec61a590de204,2,metric geometry - length,CORRECT,CORRECT,10,10,mv_2651_image_T_r2,mv_2651_evidence_T_r2
+2657,visual_family_fc6f7f13445453748878,2,combinatorial geometry,CORRECT,CORRECT,11,11,mv_2657_image_T_r2,mv_2657_evidence_T_r2
+2662,visual_family_61b1dbc91985561c5af9,2,combinatorial geometry,WRONG,CORRECT,2,4,mv_2662_image_T_r2,mv_2662_evidence_T_r2
+2665,visual_family_0e8b7a7f79b3098b0162,2,analytic geometry,CORRECT,CORRECT,E,E,mv_2665_image_T_r2,mv_2665_evidence_T_r2
+2677,visual_family_50825d7e9707bb6cb23e,2,algebra,CORRECT,CORRECT,14,14,mv_2677_image_T_r2,mv_2677_evidence_T_r2
+2690,visual_family_8ba89f83a19745038de3,2,solid geometry,CORRECT,CORRECT,D,D,mv_2690_image_T_r2,mv_2690_evidence_T_r2
+2731,visual_family_d58144b2c72e6dbb321d,2,metric geometry - length,CORRECT,CORRECT,\frac{\pi}{10},B,mv_2731_image_T_r2,mv_2731_evidence_T_r2
+2746,visual_family_5e27752e101ec179e101,2,metric geometry - area,CORRECT,CORRECT,B,B. \ 4\sqrt{3} - \frac{4\pi}{3},mv_2746_image_T_r2,mv_2746_evidence_T_r2
+2755,visual_family_bd64e1346049830018c7,2,metric geometry - area,CORRECT,CORRECT,150,150,mv_2755_image_T_r2,mv_2755_evidence_T_r2
+2762,visual_family_a0d9819c456947674a4e,2,algebra,CORRECT,CORRECT,37,37,mv_2762_image_T_r2,mv_2762_evidence_T_r2
+2768,visual_family_a3d951e968e6ca5ee3af,2,combinatorics,WRONG,CORRECT,14,28,mv_2768_image_T_r2,mv_2768_evidence_T_r2
+2772,visual_family_7b2e7211fb4f4d8352c9,2,combinatorial geometry,WRONG,CORRECT,8,10,mv_2772_image_T_r2,mv_2772_evidence_T_r2
+2777,visual_family_5a48eed290f62c935538,2,statistics,WRONG,CORRECT,2,4,mv_2777_image_T_r2,mv_2777_evidence_T_r2
+2784,visual_family_4d51741118d90fac5f47,2,combinatorics,WRONG,CORRECT,660,9,mv_2784_image_T_r2,mv_2784_evidence_T_r2
+2789,visual_family_7929065522441d4053cb,2,algebra,CORRECT,CORRECT,C,\text{C},mv_2789_image_T_r2,mv_2789_evidence_T_r2
+2792,visual_family_48be9979594810ed8c4e,2,combinatorial geometry,CORRECT,WRONG,C,\frac{1}{16},mv_2792_image_T_r2,mv_2792_evidence_T_r2
+2808,visual_family_e0c7bfa5b8e4ae0cecfc,2,combinatorial geometry,WRONG,CORRECT,7,6,mv_2808_image_T_r2,mv_2808_evidence_T_r2
+2815,visual_family_8e5fabc4550b9c8521b1,2,metric geometry - area,CORRECT,CORRECT,\dfrac{3\sqrt{6}}{2},\frac{3\sqrt{6}}{2},mv_2815_image_T_r2,mv_2815_evidence_T_r2
+2830,visual_family_c6637ffab46701f1f145,2,metric geometry - area,CORRECT,CORRECT,\frac{36}{13},\frac{36}{13},mv_2830_image_T_r2,mv_2830_evidence_T_r2
+2834,visual_family_c60e2531069d760043cb,2,metric geometry - length,CORRECT,CORRECT,\frac{121}{5},24.2,mv_2834_image_T_r2,mv_2834_evidence_T_r2
+2851,visual_family_d0541665ae524cf19488,2,combinatorics,WRONG,CORRECT,92,1144,mv_2851_image_T_r2,mv_2851_evidence_T_r2
+2860,visual_family_ed16d272044ed81f103f,2,metric geometry - area,CORRECT,CORRECT,200,200,mv_2860_image_T_r2,mv_2860_evidence_T_r2
+2874,visual_family_25f2044c9fa1f3e56e58,2,combinatorial geometry,CORRECT,CORRECT,297,297,mv_2874_image_T_r2,mv_2874_evidence_T_r2
+2888,visual_family_5ca78d60306335e9cdf1,2,metric geometry - angle,WRONG,CORRECT,10,40,mv_2888_image_T_r2,mv_2888_evidence_T_r2
+2894,visual_family_1dedb99499538a04ae76,2,metric geometry - angle,CORRECT,CORRECT,\frac{4}{5},\dfrac{4}{5},mv_2894_image_T_r2,mv_2894_evidence_T_r2
+2898,visual_family_46b360d48f83a57338dd,2,metric geometry - angle,CORRECT,CORRECT,120,120,mv_2898_image_T_r2,mv_2898_evidence_T_r2
+2907,visual_family_58bdcfb2c72536d27542,2,metric geometry - area,CORRECT,CORRECT,62.8,62.8,mv_2907_image_T_r2,mv_2907_evidence_T_r2
+2908,visual_family_6f4ddc5420f60ad526b4,2,metric geometry - length,CORRECT,WRONG,80,110,mv_2908_image_T_r2,mv_2908_evidence_T_r2
+2916,visual_family_d8a1082b68a287d591a9,2,metric geometry - length,UNSCORABLE,CORRECT,,6,mv_2916_image_T_r2,mv_2916_evidence_T_r2
+2953,visual_family_a91b21e23dd3b8cef04e,2,metric geometry - area,WRONG,CORRECT,\frac{4}{9},\frac{3}{16},mv_2953_image_T_r2,mv_2953_evidence_T_r2
+2967,visual_family_271940834e91c81f0fd2,2,metric geometry - angle,CORRECT,CORRECT,72,72,mv_2967_image_T_r2,mv_2967_evidence_T_r2
+2970,visual_family_f80e1544cf66f68de4a9,2,metric geometry - area,CORRECT,WRONG,24,25,mv_2970_image_T_r2,mv_2970_evidence_T_r2
+2972,visual_family_7b8b6e396edf18942c93,2,metric geometry - angle,CORRECT,CORRECT,45,45,mv_2972_image_T_r2,mv_2972_evidence_T_r2
+2977,visual_family_33d1b80a149c66dd3e9b,2,metric geometry - length,CORRECT,CORRECT,\sqrt{22},\sqrt{22},mv_2977_image_T_r2,mv_2977_evidence_T_r2
+2990,visual_family_8c19996aa890257d05d9,2,metric geometry - area,CORRECT,CORRECT,24,24,mv_2990_image_T_r2,mv_2990_evidence_T_r2
+2997,visual_family_3b05cf67849835e31dfb,2,metric geometry - area,WRONG,WRONG,24,6,mv_2997_image_T_r2,mv_2997_evidence_T_r2
+3020,visual_family_1901019c858e2d999fa9,2,analytic geometry,CORRECT,CORRECT,54,54,mv_3020_image_T_r2,mv_3020_evidence_T_r2
+3022,visual_family_64502fbae8e0adcfd4a3,2,metric geometry - angle,CORRECT,CORRECT,15,15,mv_3022_image_T_r2,mv_3022_evidence_T_r2
+3030,visual_family_b74b7e3fcb623d805dac,2,metric geometry - length,CORRECT,CORRECT,18,18,mv_3030_image_T_r2,mv_3030_evidence_T_r2
+3037,visual_family_bd4d4fc8c94a454ae07e,2,metric geometry - area,CORRECT,CORRECT,54,54,mv_3037_image_T_r2,mv_3037_evidence_T_r2
+3039,visual_family_508d030c81626ebe8bd8,2,solid geometry,CORRECT,CORRECT,5,5,mv_3039_image_T_r2,mv_3039_evidence_T_r2

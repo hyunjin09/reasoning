@@ -1,0 +1,97 @@
+dataset,scope,status,flag,n,flagged,fraction,flagged_first_quarter,interpretation
+MATH-Vision,image_present,CORRECT,image_unavailable_statement,1917,288,0.15023474178403756,239,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MATH-Vision,image_present,CORRECT,description_or_text_reference,1917,292,0.15232133541992696,154,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MATH-Vision,image_present,CORRECT,assumption_language,1917,1188,0.6197183098591549,813,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MATH-Vision,image_present,CORRECT,template_language,1917,475,0.2477829942618675,226,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MATH-Vision,image_present,WRONG,image_unavailable_statement,1097,379,0.3454876937101185,325,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MATH-Vision,image_present,WRONG,description_or_text_reference,1097,318,0.28988149498632637,205,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MATH-Vision,image_present,WRONG,assumption_language,1097,957,0.8723792160437557,735,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MATH-Vision,image_present,WRONG,template_language,1097,603,0.5496809480401094,334,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MATH-Vision,image_present,UNSCORABLE,image_unavailable_statement,26,10,0.38461538461538464,10,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MATH-Vision,image_present,UNSCORABLE,description_or_text_reference,26,13,0.5,7,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MATH-Vision,image_present,UNSCORABLE,assumption_language,26,23,0.8846153846153846,18,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MATH-Vision,image_present,UNSCORABLE,template_language,26,13,0.5,11,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,image_present,CORRECT,image_unavailable_statement,2971,119,0.04005385392123864,76,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,image_present,CORRECT,description_or_text_reference,2971,184,0.06193200942443622,118,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,image_present,CORRECT,assumption_language,2971,1034,0.34803096600471223,506,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,image_present,CORRECT,template_language,2971,269,0.09054190508246382,85,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,image_present,WRONG,image_unavailable_statement,969,88,0.09081527347781218,55,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,image_present,WRONG,description_or_text_reference,969,97,0.1001031991744066,67,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,image_present,WRONG,assumption_language,969,547,0.564499484004128,324,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,image_present,WRONG,template_language,969,231,0.23839009287925697,75,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,image_present,UNSCORABLE,image_unavailable_statement,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,image_present,UNSCORABLE,description_or_text_reference,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,image_present,UNSCORABLE,assumption_language,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,image_present,UNSCORABLE,template_language,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Dominant,CORRECT,image_unavailable_statement,654,25,0.0382262996941896,15,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Dominant,CORRECT,description_or_text_reference,654,31,0.047400611620795105,13,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Dominant,CORRECT,assumption_language,654,223,0.3409785932721712,111,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Dominant,CORRECT,template_language,654,31,0.047400611620795105,10,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Dominant,WRONG,image_unavailable_statement,134,10,0.07462686567164178,7,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Dominant,WRONG,description_or_text_reference,134,19,0.1417910447761194,15,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Dominant,WRONG,assumption_language,134,80,0.5970149253731343,44,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Dominant,WRONG,template_language,134,25,0.1865671641791045,7,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Dominant,UNSCORABLE,image_unavailable_statement,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Dominant,UNSCORABLE,description_or_text_reference,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Dominant,UNSCORABLE,assumption_language,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Dominant,UNSCORABLE,template_language,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Lite,CORRECT,image_unavailable_statement,607,22,0.036243822075782535,17,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Lite,CORRECT,description_or_text_reference,607,35,0.057660626029654036,21,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Lite,CORRECT,assumption_language,607,203,0.3344316309719934,92,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Lite,CORRECT,template_language,607,52,0.085667215815486,10,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Lite,WRONG,image_unavailable_statement,181,14,0.07734806629834254,11,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Lite,WRONG,description_or_text_reference,181,16,0.08839779005524862,11,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Lite,WRONG,assumption_language,181,106,0.585635359116022,65,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Lite,WRONG,template_language,181,43,0.23756906077348067,16,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Lite,UNSCORABLE,image_unavailable_statement,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Lite,UNSCORABLE,description_or_text_reference,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Lite,UNSCORABLE,assumption_language,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Lite,UNSCORABLE,template_language,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Only,CORRECT,image_unavailable_statement,551,21,0.038112522686025406,16,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Only,CORRECT,description_or_text_reference,551,22,0.039927404718693285,12,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Only,CORRECT,assumption_language,551,249,0.4519056261343013,148,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Only,CORRECT,template_language,551,104,0.18874773139745918,58,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Only,WRONG,image_unavailable_statement,237,24,0.10126582278481013,10,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Only,WRONG,description_or_text_reference,237,16,0.06751054852320675,11,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Only,WRONG,assumption_language,237,180,0.759493670886076,101,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Only,WRONG,template_language,237,146,0.6160337552742616,110,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Only,UNSCORABLE,image_unavailable_statement,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Only,UNSCORABLE,description_or_text_reference,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Only,UNSCORABLE,assumption_language,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Text Only,UNSCORABLE,template_language,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Intensive,CORRECT,image_unavailable_statement,578,30,0.05190311418685121,20,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Intensive,CORRECT,description_or_text_reference,578,46,0.07958477508650519,33,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Intensive,CORRECT,assumption_language,578,216,0.3737024221453287,122,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Intensive,CORRECT,template_language,578,86,0.14878892733564014,30,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Intensive,WRONG,image_unavailable_statement,210,18,0.08571428571428572,11,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Intensive,WRONG,description_or_text_reference,210,20,0.09523809523809523,16,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Intensive,WRONG,assumption_language,210,117,0.5571428571428572,70,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Intensive,WRONG,template_language,210,59,0.28095238095238095,21,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Intensive,UNSCORABLE,image_unavailable_statement,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Intensive,UNSCORABLE,description_or_text_reference,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Intensive,UNSCORABLE,assumption_language,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Intensive,UNSCORABLE,template_language,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Dominant,CORRECT,image_unavailable_statement,569,18,0.03163444639718805,11,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Dominant,CORRECT,description_or_text_reference,569,39,0.06854130052724078,23,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Dominant,CORRECT,assumption_language,569,209,0.36731107205623903,96,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Dominant,CORRECT,template_language,569,56,0.0984182776801406,19,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Dominant,WRONG,image_unavailable_statement,219,19,0.0867579908675799,13,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Dominant,WRONG,description_or_text_reference,219,20,0.091324200913242,14,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Dominant,WRONG,assumption_language,219,122,0.5570776255707762,74,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Dominant,WRONG,template_language,219,59,0.2694063926940639,16,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Dominant,UNSCORABLE,image_unavailable_statement,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Dominant,UNSCORABLE,description_or_text_reference,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Dominant,UNSCORABLE,assumption_language,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Dominant,UNSCORABLE,template_language,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Only,CORRECT,image_unavailable_statement,563,24,0.04262877442273535,13,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Only,CORRECT,description_or_text_reference,563,33,0.0586145648312611,28,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Only,CORRECT,assumption_language,563,183,0.325044404973357,85,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Only,CORRECT,template_language,563,44,0.07815275310834814,16,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Only,WRONG,image_unavailable_statement,225,27,0.12,13,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Only,WRONG,description_or_text_reference,225,22,0.09777777777777778,11,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Only,WRONG,assumption_language,225,122,0.5422222222222223,71,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Only,WRONG,template_language,225,45,0.2,15,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Only,UNSCORABLE,image_unavailable_statement,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Only,UNSCORABLE,description_or_text_reference,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Only,UNSCORABLE,assumption_language,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.
+MathVerse,Vision Only,UNSCORABLE,template_language,0,0,,0,Literal lexical candidate; not proof of image neglect. Text Only legitimately lacks an image.

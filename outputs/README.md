@@ -5,6 +5,11 @@ output-local Stage14D-0 phase memory. Raw generations, source images, tensor
 captures, binary tables, figures, run receipts and frozen operational manifests
 are artifact data and remain outside Git.
 
+An explicit exception is the [Thinking math failure result bundle](thinking_math_failure_audit/v1/shared/README.md):
+reviewed CSV/JSON tables, small sharded per-case records/source metadata,
+selected human-readable casebook traces and a vector figure are published for
+cross-server analysis. Bulk caches and duplicate inventories remain local.
+
 Links in these historical reports may point to excluded artifacts. This is
 intentional; a clone is not a complete experiment archive. The self-contained
 research history under `reports/` preserves report text and source hashes.

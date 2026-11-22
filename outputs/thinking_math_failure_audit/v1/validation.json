@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "raws_hash_verified": 13568,
+  "source_hashes_unchanged": {
+    "outputs/stage14b/scoring/scored_outputs.jsonl": "bb71b28c5286e0a3500cd56363667b843dc3565d534395fee13dbb166b0675d0",
+    "outputs/stage14b/scoring/confirmatory_scored_outputs.jsonl": "e6d4520a0f9ed5b51942a3414b6e8d5235438214f8f1874c98bf5c6acf12366f",
+    "outputs/stage14b/manifests/main_tasks.jsonl": "224d61cdc5eb6e276f828a905e4b9885afb74c30cdaa3bf858b82828977b96a3",
+    "outputs/stage14b/manifests/confirmatory_tasks.jsonl": "7804d14b438d05d883425042e505eb192a160dc91c00c4c2454b9df9debd4e19",
+    "outputs/stage14a/v1/stage14a_mathvision_e_star_annotations.json": "28bd44bf9fde2683db2c11bd001b450e15c9fb78b6c7476134274a644ee4e987",
+    "outputs/stage14d0_answer_evidence_supplement_v1/family_evidence_status.csv": "ce587456e2b95a5e8f8af8dabd471dbd624c763aaa61d2f0137927798a5a68d9"
+  },
+  "main_native_thinking_expected": 7768,
+  "main_wrong_expected": 2303,
+  "score_changes": 0,
+  "new_generations": 0,
+  "gpu_hours": 0
+}

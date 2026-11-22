@@ -1,0 +1,158 @@
+[
+  {
+    "subject": "Functions",
+    "checks_pass_only": false,
+    "left": "Text Dominant",
+    "right": "Vision Only",
+    "n": 159,
+    "counts": {
+      "WRONG__WRONG": 23,
+      "WRONG__CORRECT": 9,
+      "CORRECT__CORRECT": 101,
+      "CORRECT__WRONG": 26
+    }
+  },
+  {
+    "subject": "Functions",
+    "checks_pass_only": false,
+    "left": "Text Only",
+    "right": "Vision Only",
+    "n": 159,
+    "counts": {
+      "WRONG__WRONG": 28,
+      "CORRECT__CORRECT": 78,
+      "WRONG__CORRECT": 32,
+      "CORRECT__WRONG": 21
+    }
+  },
+  {
+    "subject": "Functions",
+    "checks_pass_only": true,
+    "left": "Text Dominant",
+    "right": "Vision Only",
+    "n": 65,
+    "counts": {
+      "CORRECT__CORRECT": 46,
+      "WRONG__WRONG": 2,
+      "CORRECT__WRONG": 15,
+      "WRONG__CORRECT": 2
+    }
+  },
+  {
+    "subject": "Functions",
+    "checks_pass_only": true,
+    "left": "Text Only",
+    "right": "Vision Only",
+    "n": 65,
+    "counts": {
+      "CORRECT__CORRECT": 44,
+      "WRONG__CORRECT": 4,
+      "WRONG__WRONG": 2,
+      "CORRECT__WRONG": 15
+    }
+  },
+  {
+    "subject": "Plane Geometry",
+    "checks_pass_only": false,
+    "left": "Text Dominant",
+    "right": "Vision Only",
+    "n": 510,
+    "counts": {
+      "CORRECT__CORRECT": 359,
+      "CORRECT__WRONG": 79,
+      "WRONG__CORRECT": 20,
+      "WRONG__WRONG": 52
+    }
+  },
+  {
+    "subject": "Plane Geometry",
+    "checks_pass_only": false,
+    "left": "Text Only",
+    "right": "Vision Only",
+    "n": 510,
+    "counts": {
+      "CORRECT__CORRECT": 308,
+      "CORRECT__WRONG": 65,
+      "WRONG__CORRECT": 71,
+      "WRONG__WRONG": 66
+    }
+  },
+  {
+    "subject": "Plane Geometry",
+    "checks_pass_only": true,
+    "left": "Text Dominant",
+    "right": "Vision Only",
+    "n": 222,
+    "counts": {
+      "CORRECT__CORRECT": 182,
+      "CORRECT__WRONG": 33,
+      "WRONG__CORRECT": 1,
+      "WRONG__WRONG": 6
+    }
+  },
+  {
+    "subject": "Plane Geometry",
+    "checks_pass_only": true,
+    "left": "Text Only",
+    "right": "Vision Only",
+    "n": 222,
+    "counts": {
+      "CORRECT__CORRECT": 180,
+      "CORRECT__WRONG": 35,
+      "WRONG__CORRECT": 3,
+      "WRONG__WRONG": 4
+    }
+  },
+  {
+    "subject": "Solid Geometry",
+    "checks_pass_only": false,
+    "left": "Text Dominant",
+    "right": "Vision Only",
+    "n": 119,
+    "counts": {
+      "CORRECT__CORRECT": 68,
+      "CORRECT__WRONG": 21,
+      "WRONG__CORRECT": 6,
+      "WRONG__WRONG": 24
+    }
+  },
+  {
+    "subject": "Solid Geometry",
+    "checks_pass_only": false,
+    "left": "Text Only",
+    "right": "Vision Only",
+    "n": 119,
+    "counts": {
+      "CORRECT__CORRECT": 61,
+      "WRONG__CORRECT": 13,
+      "CORRECT__WRONG": 18,
+      "WRONG__WRONG": 27
+    }
+  },
+  {
+    "subject": "Solid Geometry",
+    "checks_pass_only": true,
+    "left": "Text Dominant",
+    "right": "Vision Only",
+    "n": 63,
+    "counts": {
+      "CORRECT__CORRECT": 48,
+      "CORRECT__WRONG": 9,
+      "WRONG__CORRECT": 1,
+      "WRONG__WRONG": 5
+    }
+  },
+  {
+    "subject": "Solid Geometry",
+    "checks_pass_only": true,
+    "left": "Text Only",
+    "right": "Vision Only",
+    "n": 63,
+    "counts": {
+      "CORRECT__CORRECT": 48,
+      "CORRECT__WRONG": 8,
+      "WRONG__WRONG": 6,
+      "WRONG__CORRECT": 1
+    }
+  }
+]

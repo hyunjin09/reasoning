@@ -18,6 +18,12 @@ reports are a reference archive: consult them only when the current task needs
 their methods, evidence, limitations or provenance. Do not load the entire
 report archive into a new agent session by default.
 
+For the Thinking-only MATH-Vision/MathVerse failure analysis, use the
+[report and casebook](reports/thinking_math_failure_audit/index.md) and
+[portable result bundle](outputs/thinking_math_failure_audit/v1/shared/README.md).
+The bundle contains the per-case outcomes and compact analysis results needed
+on another server; bulk raw generations and original images require the archive.
+
 Before doing work, also read the server-local access/agent instructions and
 the current [workflow state](workspace/workflow_state.md). For research
 execution, read the active approved plan and its relevant phase memory; for
@@ -38,8 +44,10 @@ credentials and temporary files are ignored. Historical PIQD source code remains
 for provenance; the outdated standalone specification bundle is excluded.
 `.gitignore` uses a root allowlist, recursive Markdown inclusion under `reports/`,
 and exact output-document paths under `outputs/`. Per-case Markdown reviews and
-model-response comparisons are shared alongside summaries. Figures, binary
-tables and raw machine-readable generation artifacts remain outside Git, so
+model-response comparisons are shared alongside summaries. Binary figure/table
+exports and bulk raw machine-readable generations remain outside Git; the
+portable Thinking audit bundle explicitly includes compact derived tables and
+an SVG figure. Consequently,
 some report links still require the separately transferred artifact archive.
 Scientific records retain exact bytes through `.gitattributes`; do not reformat
 sealed files. Server-specific filename exclusions apply inside `reports/` too.

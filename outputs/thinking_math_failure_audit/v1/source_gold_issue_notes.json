@@ -1,0 +1,88 @@
+[
+  {
+    "item_id": "90",
+    "classification": "existing_review_key_conflict",
+    "existing_review_note": "All variants retain central AOB50° and ask inscribed ACB, with C on the major AB arc in the images. TO native choices resolve the25°/155° branch. The source gold C=100° conflicts with this geometry: the implied native option is B=25°. Preserve gold unchanged and record the source-gold discrepancy separately; literal cross-version gold consistency is still PASS.",
+    "source": "outputs/stage14a/v1/stage14a_mathverse788_family_manifest.json",
+    "score_change": false
+  },
+  {
+    "item_id": "91",
+    "classification": "existing_review_key_conflict",
+    "existing_review_note": "TO gives diameterAB, BAC30° and equal arcsAD/CD; native options select DAC30° over the alternate arc-midpoint branch. VD/VO preserve the diameter/center picture, move30° to BAC and retain arc equality. Source gold B=45° conflicts with these supplied30° premises; preserve it and flag separately. TL/VI incidence/diameter omissions remain visible.",
+    "source": "outputs/stage14a/v1/stage14a_mathverse788_family_manifest.json",
+    "score_change": false
+  },
+  {
+    "item_id": "144",
+    "classification": "existing_review_key_conflict",
+    "existing_review_note": "All image versions retain straight trajectory,net height.8 and distances6/4. TO omits explicit straight-line premise (physical trajectory could curve). Source gold D conflicts with drawn linear geometry and option B; preserve key and record separately.",
+    "source": "outputs/stage14a/v1/stage14a_mathverse788_family_manifest.json",
+    "score_change": false
+  },
+  {
+    "item_id": "145",
+    "classification": "existing_review_key_conflict",
+    "existing_review_note": "TO native choices resolve circle branch: BOC140 rather than20. VD/VO reverse the stated ABO40/ACO30 bindings to B30/C40. Sum coincidence does not certify source identity. Native gold B70 also conflicts with source geometry; recorded separately.",
+    "source": "outputs/stage14a/v1/stage14a_mathverse788_family_manifest.json",
+    "score_change": false
+  },
+  {
+    "item_id": "622",
+    "classification": "existing_review_key_conflict",
+    "existing_review_note": "Formula and y4 suffice for meaning question. TD/TO supplied(30,4)not exact formula intersection; preserve discrepancy. Native choose-all gold C omits also valid F; blank B/E remain. No source repair.",
+    "source": "outputs/stage14a/v1/stage14a_mathverse788_family_manifest.json",
+    "score_change": false
+  },
+  {
+    "item_id": "629",
+    "classification": "existing_review_key_conflict",
+    "existing_review_note": "Graph and TO indicate initial360liters. Native gold literally Bugs Bunny is unrelated source-answer defect; literal gold consistency across versions still PASS.",
+    "source": "outputs/stage14a/v1/stage14a_mathverse788_family_manifest.json",
+    "score_change": false
+  },
+  {
+    "item_id": "681",
+    "classification": "existing_review_unit_conflict",
+    "existing_review_note": "TO omits triangular divider ACD. Native prompt refers to unavailable previous rounded answer; source gold m2 conflicts cm lengths. Geometric calculation still possible without previous part.",
+    "source": "outputs/stage14a/v1/stage14a_mathverse788_family_manifest.json",
+    "score_change": false
+  },
+  {
+    "item_id": "709",
+    "classification": "existing_review_unit_conflict",
+    "existing_review_note": "Square pyramid height6 base10; apex-foot center conventional but not stated TO. Source gold units m2 conflict cm; preserve.",
+    "source": "outputs/stage14a/v1/stage14a_mathverse788_family_manifest.json",
+    "score_change": false
+  },
+  {
+    "item_id": "720",
+    "classification": "existing_review_key_conflict",
+    "existing_review_note": "Explicit volumes5760/90 fully determine requested ratio; native gold100 does not match that ratio, retained as source-gold defect. Literal cross-variant gold agrees.",
+    "source": "outputs/stage14a/v1/stage14a_mathverse788_family_manifest.json",
+    "score_change": false
+  },
+  {
+    "item_id": "727",
+    "classification": "existing_review_unit_conflict",
+    "existing_review_note": "Prism square base13 and height10 consistent; gold cm2 is wrong dimension for volume, preserved.",
+    "source": "outputs/stage14a/v1/stage14a_mathverse788_family_manifest.json",
+    "score_change": false
+  },
+  {
+    "item_id": "728",
+    "classification": "existing_review_key_conflict",
+    "existing_review_note": "Cube12cm clear across variants; native gold144cm3 conflicts cube volume, retained. Literal gold consistency holds.",
+    "source": "outputs/stage14a/v1/stage14a_mathverse788_family_manifest.json",
+    "score_change": false
+  },
+  {
+    "item_id": "2925",
+    "dataset": "MATH-Vision",
+    "classification": "new_source_gold_candidate_for_human_review",
+    "existing_gold": "45^2",
+    "native_answer": "45",
+    "score_change": false,
+    "evidence": "Original task specifies right angle at A, adjacent lengths 15 and 24, and three side midpoints. The saved response derives 45; the frozen grader compares to literal 45^2. This is a source/gold inconsistency candidate, not automatically a model reasoning error."
+  }
+]

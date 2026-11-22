@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": {
+    "all_thinking_records": 13568,
+    "complete_primary_failure_inventory": 2329,
+    "subject_partition_correct": true,
+    "six_versions_nested_in_788_families": true,
+    "evidence_transitions_correct": true,
+    "884_claims_have_present_processed_image_receipts": true,
+    "exact_casebook_excerpts_and_complete_raw_exports": 14,
+    "original_input_tables_and_manifests_unchanged": true,
+    "historical_R_F_evidence_denominators_preserved": true
+  },
+  "new_model_calls": 0,
+  "new_gpu_hours": 0
+}

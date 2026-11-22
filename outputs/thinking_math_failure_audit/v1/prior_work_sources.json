@@ -1,0 +1,19 @@
+{
+  "access_date": "2026-11-22",
+  "sources": [
+    {
+      "title": "Math Blind: Failures in Diagram Understanding Undermine Reasoning in MLLMs",
+      "url": "https://vi-ocean.github.io/projects/MATHEMETRIC/",
+      "role": "External motivation, not evidence about our model outputs"
+    },
+    {
+      "title": "Official MATHEMETRIC benchmark repository",
+      "url": "https://github.com/Vi-Ocean/MATHEMETRIC_Benchmark"
+    },
+    {
+      "title": "Paper identifier",
+      "url": "https://arxiv.org/abs/2503.20745",
+      "note": "Project-page and repository contents verified; PDF fetch exceeded web-tool limit."
+    }
+  ]
+}
